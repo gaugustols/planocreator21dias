@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T17:38:29.873Z",
+  "checkedAt": "2026-11-11T19:01:16.176Z",
   "referenced": 182,
   "present": 181,
   "missing": 0,
@@ -23,7 +23,7 @@
       "kind": "asset",
       "status": 404,
       "contentType": "text/html; charset=utf-8",
-      "reason": "Verified HTTP error or SPA HTML fallback"
+      "reason": "SPA fallback: HTML returned instead of the requested asset"
     }
   ]
 }

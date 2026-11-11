@@ -1,0 +1,121 @@
+{
+  "sequence": 24,
+  "id": "024_camera_question",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "camera",
+  "phase": "",
+  "kind": "question",
+  "title": "Você prefere gravar com ou sem aparecer?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "volto",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "😄\nMostro o rosto\nFalar para a câmera não me assusta (muito)"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "mani_voce",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🤲\nSó mãos e voz\nMostro o produto e conto, mas o rosto não"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "senza_volto",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "📦\nPrefiro não aparecer\nSó produto, textos e música"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 200\n?"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 6,
+    "maxIndex": 6,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "corso"
+      ],
+      "tempo": [
+        "1ora"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "phases": {
+      "brief-crema": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424053509
+  },
+  "textSha256": "e685c91c04940519d9f1de1babcc2dbfdb60301848bd91915bfbeb493a93f068"
+}

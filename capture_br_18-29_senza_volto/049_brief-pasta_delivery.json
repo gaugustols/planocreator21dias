@@ -1,0 +1,123 @@
+{
+  "sequence": 49,
+  "id": "049_brief-pasta_delivery",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-pasta",
+  "phase": "delivery",
+  "kind": "brief",
+  "title": "Aprovado pela Lata Cheia!",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continuar"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 890\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 11,
+    "maxIndex": 11,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "corso"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "senza_volto"
+      ],
+      "categorie": [
+        "cucina",
+        "moda"
+      ]
+    },
+    "wallet": {
+      "total": 890,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Biscoitos · Lata Cheia",
+          "amount": 390
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424053509
+  },
+  "textSha256": "3a3b779f3bb07d7917d52e245dd245760d6949624ea2d46aa7f4d0fd1eb4ba86"
+}

@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { analyzeJavaScript } from './lib/assets.mjs';
+import { profiles } from './lib/profiles.mjs';
 
 const root = path.resolve('site');
 const port = Number(process.env.PORT || 4173);
@@ -15,9 +16,11 @@ async function serve(request, response) {
   const url = new URL(request.url, 'http://127.0.0.1');
   if (url.pathname === '/__recovery/status') {
     response.setHeader('Content-Type', 'application/json');
-    response.end(JSON.stringify({ root, port, originalIntegrations, backendRecovered: false })); return;
+    response.end(JSON.stringify({ root, port, pid:process.pid, originalIntegrations, backendRecovered: false, locales:{it:'/',br:'/br/'} })); return;
   }
-  if (url.pathname.startsWith('/api/')) {
+  if (url.pathname === '/br') { response.writeHead(308,{Location:'/br/'+url.search}); response.end(); return; }
+  const profile = url.pathname.startsWith('/br/') ? profiles.br : profiles.it;
+  if (url.pathname.startsWith(profile.basePath+'api/')) {
     response.writeHead(503, { 'Content-Type': 'application/json' });
     response.end(JSON.stringify({ error: 'Backend not included in the recovered public files', endpoint: url.pathname })); return;
   }
@@ -31,7 +34,7 @@ async function serve(request, response) {
   let fallback = false;
   if (!info?.isFile()) {
     if (path.extname(pathname)) { response.writeHead(404); response.end('Asset not found'); return; }
-    file = path.join(root, 'index.html'); fallback = true;
+    file = path.join(root, profile.basePath.slice(1), 'index.html'); fallback = true;
   }
   let buffer = await readFile(file);
   if (!originalIntegrations && /[/\\]assets[/\\]index-[^/\\]+\.js$/.test(file)) {
@@ -46,7 +49,7 @@ async function serve(request, response) {
     buffer = cache.get(file);
     response.setHeader('X-Recovery-Integrations', 'pixels-disabled-for-local-preview');
   }
-  if (fallback) buffer = Buffer.from(buffer.toString('utf8').replace('<head>', '<head><base href="/">'));
+  if (fallback && !/<base\b/i.test(buffer.toString('utf8'))) buffer = Buffer.from(buffer.toString('utf8').replace('<head>', `<head><base href="${profile.basePath}">`));
   response.setHeader('Content-Type', contentTypes[path.extname(file).toLowerCase()] || 'application/octet-stream');
   response.setHeader('Content-Length', buffer.length);
   if (fallback) response.setHeader('X-Recovery-SPA-Fallback', 'index.html');

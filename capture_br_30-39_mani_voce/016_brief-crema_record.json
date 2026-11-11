@@ -1,0 +1,92 @@
+{
+  "sequence": 16,
+  "id": "016_brief-crema_record",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-crema",
+  "phase": "record",
+  "kind": "brief",
+  "title": "Luz, câmera, ação: toque no botão vermelho",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "record",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Gravar"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "niente"
+      ],
+      "tempo": [
+        "moka"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "record"
+    },
+    "confetti": 0,
+    "startedAt": 1794424165985
+  },
+  "textSha256": "a4123d7695a8bf8211b428bac39561fd52ef37888a585233cb192997a03a11d8"
+}

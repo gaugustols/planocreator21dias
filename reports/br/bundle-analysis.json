@@ -1,0 +1,146 @@
+[
+  {
+    "file": "recovered/br/assets/BriefScreen-Ca-IHevk.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  },
+  {
+    "file": "recovered/br/assets/confetti-DgEV_XmA.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  },
+  {
+    "file": "recovered/br/assets/confetti.module-CIeKi3E8.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  },
+  {
+    "file": "recovered/br/assets/index-CsqgZ4_P.js",
+    "endpoints": [
+      "/api/lead/checkout",
+      "/api/lead/nome",
+      "/api/lead/optin",
+      "/api/lead",
+      "/api/q"
+    ],
+    "externalUrls": [
+      "https://cdn.utmify.com.br/scripts/utms/latest.js",
+      "https://cdn.utmify.com.br/scripts/pixel/pixel.js",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://pay.hotmart.com/K108118162G?checkoutMode=10",
+      "https://trilha-ugc.pages.dev",
+      "http://www.w3.org/2000/svg",
+      "http://www.w3.org/1998/Math/MathML",
+      "http://www.w3.org/XML/1998/namespace",
+      "http://www.w3.org/1999/xlink",
+      "https://react.dev/errors/"
+    ],
+    "routes": [
+      "/arrependimento/"
+    ],
+    "templates": [
+      "`${it.dir}/${at(e)}.webp`",
+      "`${se}emoji/${e}.webp`"
+    ],
+    "evidence": [
+      {
+        "term": "/api/lead/checkout",
+        "characterOffset": 326070,
+        "snippet": "JSON.stringify({id:t.id,text:e})),Jn(t))}function er(e){let t=Yn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Gn()&&kt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Jn(t))}function tr(){if(!w.emailGate)return;let e=Yn();e?.sent&&Gn()&&kt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function nr(e){if(!w.emailGate)return e;let t=Yn();if(!t||!In(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}catch{return e}}var rr=!1,ir=!1,ar=[],or,sr=!1,cr=[],lr=30;function ur(){if(rr||!w.metaPixelId)return;rr=!0;let e=function(...t){e.callMethod?e.callMethod(...t):e.queue.push(t)};window._fbq||(window._fbq=e),e.push=e,e.loaded=!0,e.version=`2.0`,e.queue=[],window.fbq=e;let t=document.createElement(`script`);t.async=!0,t.src=`https://connect.facebook.net/en_US/fbevents.js`,document.head.appendChild(t),e(`consent`,`revoke`),e(`set`,`autoConfig`,!"
+      },
+      {
+        "term": "/api/lead/nome",
+        "characterOffset": 325946,
+        "snippet": "file:Xn(e.answers),u:wt()}))),Jn(n),n}function $n(e){let t=Yn();t&&!t.optin&&(t.optin=!0,t.sent&&Gn()&&kt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Jn(t))}function er(e){let t=Yn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Gn()&&kt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Jn(t))}function tr(){if(!w.emailGate)return;let e=Yn();e?.sent&&Gn()&&kt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function nr(e){if(!w.emailGate)return e;let t=Yn();if(!t||!In(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}catch{return e}}var rr=!1,ir=!1,ar=[],or,sr=!1,cr=[],lr=30;function ur(){if(rr||!w.metaPixelId)return;rr=!0;let e=function(...t){e.callMethod?e.callMethod(...t):e.queue.push(t)};window._fbq||(window._fbq=e),e.push=e,e.loaded=!0,e.version=`2.0`,e.queue=[],window.fbq=e;let t=document.createElement(`script`);t.async=!0,t.sr"
+      },
+      {
+        "term": "/api/lead/optin",
+        "characterOffset": 325813,
+        "snippet": ".email,optin:!1};return!n.sent&&Gn()&&(n.sent=!0,kt(`/api/lead`,JSON.stringify({id:n.id,s:Zn(),email:n.email,optin:!1,v:`d084ed1`,profile:Xn(e.answers),u:wt()}))),Jn(n),n}function $n(e){let t=Yn();t&&!t.optin&&(t.optin=!0,t.sent&&Gn()&&kt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Jn(t))}function er(e){let t=Yn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Gn()&&kt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Jn(t))}function tr(){if(!w.emailGate)return;let e=Yn();e?.sent&&Gn()&&kt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function nr(e){if(!w.emailGate)return e;let t=Yn();if(!t||!In(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}catch{return e}}var rr=!1,ir=!1,ar=[],or,sr=!1,cr=[],lr=30;function ur(){if(rr||!w.metaPixelId)return;rr=!0;let e=function(...t){e.callMethod?e.callMethod(...t):e.queue.push(t)};window._fbq"
+      },
+      {
+        "term": "/api/lead",
+        "characterOffset": 325626,
+        "snippet": "orie=n),t}function Zn(){let e=Re(`session`,Ve.metrics)?.sid;return typeof e==`string`&&/^[a-z0-9]{16,40}$/.test(e)?e:``}function Qn(e){let t=Yn(),n=t&&t.email===e.email?t:{id:Kn(),email:e.email,optin:!1};return!n.sent&&Gn()&&(n.sent=!0,kt(`/api/lead`,JSON.stringify({id:n.id,s:Zn(),email:n.email,optin:!1,v:`d084ed1`,profile:Xn(e.answers),u:wt()}))),Jn(n),n}function $n(e){let t=Yn();t&&!t.optin&&(t.optin=!0,t.sent&&Gn()&&kt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Jn(t))}function er(e){let t=Yn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Gn()&&kt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Jn(t))}function tr(){if(!w.emailGate)return;let e=Yn();e?.sent&&Gn()&&kt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function nr(e){if(!w.emailGate)return e;let t=Yn();if(!t||!In(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}ca"
+      },
+      {
+        "term": "/api/q",
+        "characterOffset": 300404,
+        "snippet": "`)===`oferta`}catch{return!1}})();function mt(){Be(`session`,Ve.funnel);let e=`/`;try{let t=new URL(window.location.href);t.searchParams.delete(`ver`),t.searchParams.delete(`scaduta`),e=`/`+t.search}catch{}window.location.assign(e)}var ht=`/api/q`,gt=1200,_t=40,vt=36e5,yt,bt=[],xt;function St(){try{if(window.localStorage.getItem(`ugc-m-off`)===`1`)return!1;if(window.localStorage.getItem(`ugc-m-force`)===`1`)return!0}catch{}return!navigator.webdriver&&!/^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname)}function Ct(){let e=new Uint8Array(12);return crypto.getRandomValues(e),Array.from(e,e=>e.toString(16).padStart(2,`0`)).join(``)}function wt(){let e={...Re(`session`,Ve.utm)??{}};try{new URLSearchParams(window.location.search).forEach((t,n)=>{/^utm_/.test(n)&&t&&(e[n]=t)})}catch{}let t=(t,n)=>(e[t]??``).slice(0,n);return{src:t(`utm_source`,60),camp:t(`utm_campaign`,160),a"
+      },
+      {
+        "term": "hotmart",
+        "characterOffset": 221003,
+        "snippet": "company:{name:`GLE DIGITAL LTDA`,vat:`58.857.150/0001-04`,taxIdLabel:`CNPJ`,address:`Avenida Mafra, 453, Quadra 211, Lote 16, Setor 02, Piçarras, Guaratuba-PR, CEP 83280-000, Brasil`,email:`supporto@piano-ugc.com`},checkoutUrl:`https://pay.hotmart.com/K108118162G?checkoutMode=10`,funnel:{offers:[`3yxg2jx6`,`z752258y`,`9mz7egf0`],steps:[{id:`kit`,label:`Kit Propostas`,productId:`8772483`},{id:`marche`,label:`Lista das 60 marcas`,productId:`8772494`}]},downsell:{enabled:!0,offerCode:`z752258y`,base:24.9},promo:{enabled:!0,offerCode:`9mz7egf0`,base:19.9,hours:48,layout:`first`},price:29.9,anchorPrice:97,vatIncluded:!0,guaranteeDays:30,paymentMethods:[`visa`,`mastercard`,`pix`,`boleto`,`applepay`],testimonials:[],metricsCountries:[`BR`],withdrawalUrl:`/arrependimento/`,backfillFrom:0},strings:{close:`Fechar`,closeAndReject:`Fechar e recusar os cookies opcionais`,minutes:`Minutos`,s"
+      },
+      {
+        "term": "pay.hotmart",
+        "characterOffset": 220999,
+        "snippet": "as`,company:{name:`GLE DIGITAL LTDA`,vat:`58.857.150/0001-04`,taxIdLabel:`CNPJ`,address:`Avenida Mafra, 453, Quadra 211, Lote 16, Setor 02, Piçarras, Guaratuba-PR, CEP 83280-000, Brasil`,email:`supporto@piano-ugc.com`},checkoutUrl:`https://pay.hotmart.com/K108118162G?checkoutMode=10`,funnel:{offers:[`3yxg2jx6`,`z752258y`,`9mz7egf0`],steps:[{id:`kit`,label:`Kit Propostas`,productId:`8772483`},{id:`marche`,label:`Lista das 60 marcas`,productId:`8772494`}]},downsell:{enabled:!0,offerCode:`z752258y`,base:24.9},promo:{enabled:!0,offerCode:`9mz7egf0`,base:19.9,hours:48,layout:`first`},price:29.9,anchorPrice:97,vatIncluded:!0,guaranteeDays:30,paymentMethods:[`visa`,`mastercard`,`pix`,`boleto`,`applepay`],testimonials:[],metricsCountries:[`BR`],withdrawalUrl:`/arrependimento/`,backfillFrom:0},strings:{close:`Fechar`,closeAndReject:`Fechar e recusar os cookies opcionais`,minutes:`Minuto"
+      },
+      {
+        "term": "ugc-m-off",
+        "characterOffset": 300496,
+        "snippet": "new URL(window.location.href);t.searchParams.delete(`ver`),t.searchParams.delete(`scaduta`),e=`/`+t.search}catch{}window.location.assign(e)}var ht=`/api/q`,gt=1200,_t=40,vt=36e5,yt,bt=[],xt;function St(){try{if(window.localStorage.getItem(`ugc-m-off`)===`1`)return!1;if(window.localStorage.getItem(`ugc-m-force`)===`1`)return!0}catch{}return!navigator.webdriver&&!/^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname)}function Ct(){let e=new Uint8Array(12);return crypto.getRandomValues(e),Array.from(e,e=>e.toString(16).padStart(2,`0`)).join(``)}function wt(){let e={...Re(`session`,Ve.utm)??{}};try{new URLSearchParams(window.location.search).forEach((t,n)=>{/^utm_/.test(n)&&t&&(e[n]=t)})}catch{}let t=(t,n)=>(e[t]??``).slice(0,n);return{src:t(`utm_source`,60),camp:t(`utm_campaign`,160),adset:t(`utm_medium`,160),ad:t(`utm_content`,160),place:t(`utm_term`,60)}}function Tt(){let e"
+      },
+      {
+        "term": "localhost",
+        "characterOffset": 300623,
+        "snippet": "on.assign(e)}var ht=`/api/q`,gt=1200,_t=40,vt=36e5,yt,bt=[],xt;function St(){try{if(window.localStorage.getItem(`ugc-m-off`)===`1`)return!1;if(window.localStorage.getItem(`ugc-m-force`)===`1`)return!0}catch{}return!navigator.webdriver&&!/^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname)}function Ct(){let e=new Uint8Array(12);return crypto.getRandomValues(e),Array.from(e,e=>e.toString(16).padStart(2,`0`)).join(``)}function wt(){let e={...Re(`session`,Ve.utm)??{}};try{new URLSearchParams(window.location.search).forEach((t,n)=>{/^utm_/.test(n)&&t&&(e[n]=t)})}catch{}let t=(t,n)=>(e[t]??``).slice(0,n);return{src:t(`utm_source`,60),camp:t(`utm_campaign`,160),adset:t(`utm_medium`,160),ad:t(`utm_content`,160),place:t(`utm_term`,60)}}function Tt(){let e=navigator.userAgent,t=/iPhone|iPad|iPod/.test(e)||/Macintosh/.test(e)&&navigator.maxTouchPoints>1?`ios`:/Android/.test(e)?`and"
+      }
+    ],
+    "requestFunctions": [
+      {
+        "name": "tr",
+        "start": 326003,
+        "source": "function tr(){if(!w.emailGate)return;let e=Yn();e?.sent&&Gn()&&kt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}"
+      },
+      {
+        "name": "er",
+        "start": 325871,
+        "source": "function er(e){let t=Yn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Gn()&&kt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Jn(t))}"
+      },
+      {
+        "name": "$n",
+        "start": 325744,
+        "source": "function $n(e){let t=Yn();t&&!t.optin&&(t.optin=!0,t.sent&&Gn()&&kt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Jn(t))}"
+      },
+      {
+        "name": "Qn",
+        "start": 325506,
+        "source": "function Qn(e){let t=Yn(),n=t&&t.email===e.email?t:{id:Kn(),email:e.email,optin:!1};return!n.sent&&Gn()&&(n.sent=!0,kt(`/api/lead`,JSON.stringify({id:n.id,s:Zn(),email:n.email,optin:!1,v:`d084ed1`,profile:Xn(e.answers),u:wt()}))),Jn(n),n}"
+      },
+      {
+        "name": "kt",
+        "start": 302212,
+        "source": "function kt(e,t){try{if(navigator.sendBeacon?.(e,t))return}catch{}try{fetch(e,{method:`POST`,body:t,keepalive:!0,credentials:`omit`}).catch(()=>void 0)}catch{}}"
+      },
+      {
+        "name": "n",
+        "start": 842,
+        "source": "function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}"
+      }
+    ]
+  },
+  {
+    "file": "recovered/br/assets/ResultScreen-CbSB5OWy.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  }
+]

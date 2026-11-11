@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-11T17:43:40.025Z",
+  "checkedAt": "2026-11-11T19:03:16.987Z",
   "originalFilesVerified": 182,
   "routes": [
     {
       "route": "/",
       "status": 200,
       "fallback": null,
-      "characters": 1064,
+      "characters": 1117,
       "reloadResumeAndBack": true
     },
     {
@@ -19,7 +19,7 @@
       "route": "/paywall/",
       "status": 200,
       "fallback": "index.html",
-      "characters": 1064
+      "characters": 1117
     },
     {
       "route": "/recesso/",

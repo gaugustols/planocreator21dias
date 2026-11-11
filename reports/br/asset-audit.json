@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-11T18:58:59.581Z",
+  "referenced": 182,
+  "present": 181,
+  "missing": 0,
+  "absentOnOrigin": 1,
+  "dynamicExpressions": [
+    {
+      "file": "assets/index-CsqgZ4_P.js",
+      "expression": "`${it.dir}/${at(e)}.webp`"
+    },
+    {
+      "file": "assets/index-CsqgZ4_P.js",
+      "expression": "`${se}emoji/${e}.webp`"
+    }
+  ],
+  "missingFiles": [],
+  "originUnavailableFiles": [
+    {
+      "url": "https://trilha-ugc.pages.dev/assets/video_final.mp4",
+      "source": "https://trilha-ugc.pages.dev/assets/index-CsqgZ4_P.js",
+      "reference": "video_final.mp4",
+      "kind": "asset",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "reason": "Verified HTTP error or SPA HTML fallback"
+    }
+  ]
+}

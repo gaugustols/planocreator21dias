@@ -1,0 +1,568 @@
+{
+  "sequence": 62,
+  "id": "062_risultato_result",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "risultato",
+  "phase": "",
+  "kind": "result",
+  "title": "Recuperacao, seu plano para começar a vender vídeos para marcas",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 1,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 2,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "→"
+    },
+    {
+      "index": 3,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "HOJE\n\n✓ 3 briefings de teste concluídos"
+    },
+    {
+      "index": 4,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "EM 21 DIAS\n\nmetas da trilha"
+    },
+    {
+      "index": 5,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "PORTFÓLIO\n\na montar"
+    },
+    {
+      "index": 6,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "PORTFÓLIO\n\n5 vídeos"
+    },
+    {
+      "index": 7,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "TABELA DE PREÇOS\n\na fazer"
+    },
+    {
+      "index": 8,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "TABELA DE PREÇOS\n\npronta"
+    },
+    {
+      "index": 9,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "CANDIDATURAS ENVIADAS\n\n0"
+    },
+    {
+      "index": 10,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "CANDIDATURAS ENVIADAS\n\n15"
+    },
+    {
+      "index": 11,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "NÍVEL\n\nIniciante"
+    },
+    {
+      "index": 12,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "NÍVEL\n\nPronta para briefings de verdade"
+    },
+    {
+      "index": 13,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Não. No UGC, a marca paga pelo vídeo, não pelo seu público: quem publica é ela, nos canais e nos anúncios dela. Você precisa de um portfólio com alguns vídeos de teste, e na trilha a gente mostra como montar o seu do zero."
+    },
+    {
+      "index": 14,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Não. Tem formatos só com mãos, só com voz ou de unboxing, e muitas marcas usam exatamente assim. A trilha tem um módulo inteiro só de vídeos sem rosto."
+    },
+    {
+      "index": 15,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Na trilha, você aprende a montar propostas de R$ 200 a R$ 500 por vídeo, conforme o briefing e os direitos de uso. Nessa faixa, 2 vídeos vendidos no mês representam R$ 400 a R$ 1.000; 4, de R$ 800 a R$ 2.000; 8, de R$ 1.600 a R$ 4.000. O caminho é aprender a criar vídeos que a marca pode usar e apresentar esse serviço com uma proposta clara."
+    },
+    {
+      "index": 16,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Para começar, dá para receber como pessoa física, no seu CPF. Se quem paga é uma empresa, ela normalmente desconta 11% de INSS (é o RPA); se é uma pessoa ou uma plataforma de fora do Brasil, você mesma recolhe pelo carnê-leão. Em 2026, o imposto de renda mensal é zero para rendimentos de até R$ 5.000 por mês (Lei 15.270/2025). Existe o MEI de “editor(a) de vídeo independente”, mas não está claro se ele cobre gravar e aparecer no vídeo. Na trilha está tudo explicado em palavras simples; para o seu caso, confirme com um contador."
+    },
+    {
+      "index": 17,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Pergunta justíssima, ainda mais hoje em dia. Veja o que a gente nunca vai fazer: pedir dinheiro para você trabalhar, pedir código, senha ou documento, colocar você em grupo de WhatsApp ou de Telegram. A Trilha UGC é um conteúdo educativo, com pagamento único e garantia de reembolso. E plataforma séria não cobra para você entrar nem para liberar cachê: no máximo, fica com uma taxa do cachê. Quem cobra para “liberar” tarefa ou pagamento está aplicando golpe."
+    },
+    {
+      "index": 18,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Não. A trilha é toda em português, e os vídeos você grava em português, para marcas que vendem no Brasil. As principais plataformas que atendem creators brasileiras também são em português."
+    },
+    {
+      "index": 19,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Em 21 dias, você segue a sequência para gravar os primeiros vídeos, montar o portfólio, definir preços e enviar propostas. As tarefas foram pensadas para 15 a 60 minutos por dia. Só consegue no fim de semana? A trilha mostra como gravar vários vídeos numa sessão."
+    },
+    {
+      "index": 20,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Assim que o pagamento é confirmado, chega um e-mail da Hotmart com o acesso à sua área de membros: no Pix e no cartão, em geral em poucos minutos. Lá estão a Trilha, os modelos e os bônus, tudo digital: você abre no celular, no tablet ou no computador. Nada de frete e nada de mensalidade."
+    },
+    {
+      "index": 21,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Consegue começar pelo básico: onde apoiar o celular, como usar a luz da janela e que app gratuito abrir para editar. Você segue o roteiro e a sequência de gravação, mesmo que nunca tenha montado um portfólio."
+    },
+    {
+      "index": 22,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Você leva o que precisa preparar antes de se apresentar: roteiros para gravar, uma sequência para montar o portfólio, uma tabela para definir o preço e mensagens para abordar as marcas. É esse passo a passo que você compra. Depois, usa o portfólio e as mensagens para se cadastrar e enviar propostas nas plataformas ou diretamente às marcas."
+    },
+    {
+      "index": 23,
+      "tag": "BUTTON",
+      "testid": "top-cta",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos"
+    },
+    {
+      "index": 24,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos para marcas"
+    },
+    {
+      "index": 25,
+      "tag": "BUTTON",
+      "testid": "primary-2",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos para marcas"
+    },
+    {
+      "index": 26,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos para marcas"
+    },
+    {
+      "index": 27,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos para marcas"
+    },
+    {
+      "index": 28,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos para marcas"
+    },
+    {
+      "index": 29,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Precisa ter muitos seguidores?"
+    },
+    {
+      "index": 30,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Preciso mesmo mostrar o rosto?"
+    },
+    {
+      "index": 31,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quanto dá para ganhar de verdade?"
+    },
+    {
+      "index": 32,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Preciso abrir MEI? E os impostos?"
+    },
+    {
+      "index": 33,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Isso é golpe?"
+    },
+    {
+      "index": 34,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Preciso saber inglês?"
+    },
+    {
+      "index": 35,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quanto tempo leva?"
+    },
+    {
+      "index": 36,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Como eu recebo o conteúdo?"
+    },
+    {
+      "index": 37,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Não me dou bem com tecnologia: consigo mesmo assim?"
+    },
+    {
+      "index": 38,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Por que pagar, se o cadastro nas plataformas é de graça?"
+    },
+    {
+      "index": 39,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos para marcas"
+    },
+    {
+      "index": 40,
+      "tag": "A",
+      "testid": "withdrawal",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Desistir da compra"
+    },
+    {
+      "index": 41,
+      "tag": "BUTTON",
+      "testid": "restart",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Refazer o quiz do zero"
+    },
+    {
+      "index": 42,
+      "tag": "A",
+      "testid": "sticky-checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero vender vídeos para marcas"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 18,
+    "maxIndex": 18,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "benessere",
+        "tech"
+      ],
+      "primo-video": [
+        "weekend"
+      ],
+      "analisi.mid": [
+        "si"
+      ],
+      "sconto.reveal": [
+        "pulsante"
+      ]
+    },
+    "wallet": {
+      "total": 890,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Biscoitos · Lata Cheia",
+          "amount": 390
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 2,
+    "startedAt": 1794424291704
+  },
+  "textSha256": "a116d89f633019aa47be90cefbb743f41c20a3b77a05a448ffb5c130edf87a41"
+}

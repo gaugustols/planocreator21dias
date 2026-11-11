@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-11-11T19:12:23.666Z",
+  "originalFilesVerified": 364,
+  "mountedFilesVerified": 182,
+  "bareBrRedirect": "/br/?utm_source=route-check",
+  "routeChecks": [
+    {
+      "route": "/?ab=landing1:b",
+      "status": 200,
+      "lang": "it",
+      "visibleImages": 4,
+      "fallback": null
+    },
+    {
+      "route": "/br/?ab=landing1:b",
+      "status": 200,
+      "lang": "pt-BR",
+      "visibleImages": 4,
+      "fallback": null
+    },
+    {
+      "route": "/br/0/0",
+      "status": 200,
+      "lang": "pt-BR",
+      "visibleImages": 4,
+      "fallback": "index.html"
+    },
+    {
+      "route": "/br/paywall/",
+      "status": 200,
+      "lang": "pt-BR",
+      "visibleImages": 4,
+      "fallback": "index.html"
+    },
+    {
+      "route": "/br/arrependimento/",
+      "status": 200,
+      "lang": "pt-BR",
+      "visibleImages": 0,
+      "fallback": null
+    },
+    {
+      "route": "/br/?ver=oferta",
+      "status": 200,
+      "lang": "pt-BR",
+      "visibleImages": 0,
+      "fallback": null
+    }
+  ],
+  "layoutChecks": [
+    {
+      "viewport": 320,
+      "document": 320,
+      "body": 320
+    },
+    {
+      "viewport": 360,
+      "document": 360,
+      "body": 360
+    },
+    {
+      "viewport": 390,
+      "document": 390,
+      "body": 390
+    },
+    {
+      "viewport": 430,
+      "document": 430,
+      "body": 430
+    }
+  ],
+  "storageIsolation": true,
+  "errors": [],
+  "externalRequests": [],
+  "crossLocaleRequests": []
+}

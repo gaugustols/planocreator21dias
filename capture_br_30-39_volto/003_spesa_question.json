@@ -1,0 +1,125 @@
+{
+  "sequence": 3,
+  "id": "003_spesa_question",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "spesa",
+  "phase": "",
+  "kind": "question",
+  "title": "Se os seus vídeos virassem renda, qual seria a primeira conquista?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "natale",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🎁\nOs presentes de Natal"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "vacanza",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🏖️\nUma viagem"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "corso",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🎓\nUm curso ou um hobby"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "parte",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🏦\nGuardar um dinheiro"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "niente",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🤷‍♀️\nNada em especial"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 2,
+    "maxIndex": 2,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794424165556
+  },
+  "textSha256": "f3d27d0b3c48ecf4d7056a278cc73efe592cda8453603e55b35a4fcd314a25ff"
+}

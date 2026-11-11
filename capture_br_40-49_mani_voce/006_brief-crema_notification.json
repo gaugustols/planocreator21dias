@@ -1,0 +1,90 @@
+{
+  "sequence": 6,
+  "id": "006_brief-crema_notification",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-crema",
+  "phase": "notification",
+  "kind": "brief",
+  "title": "",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "🧴\nBRIEFING UGC\nagora\nA Caracolê te mandou um briefing\nCachê proposto: R$ 200 · Vídeo de 15 segundos do finalizador."
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "corso"
+      ],
+      "tempo": [
+        "weekend"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794424291609
+  },
+  "textSha256": "12d46fdedf12aad016db493f84c07d06100e418971c4862c8559dfeb901642d6"
+}

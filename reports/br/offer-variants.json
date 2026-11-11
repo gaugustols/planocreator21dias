@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-11T19:09:39.553Z",
+  "cases": [
+    {
+      "name": "main-checkout-links",
+      "hrefs": [
+        "https://pay.hotmart.com/K108118162G?checkoutMode=10",
+        "https://pay.hotmart.com/K108118162G?checkoutMode=10",
+        "https://pay.hotmart.com/K108118162G?checkoutMode=10",
+        "https://pay.hotmart.com/K108118162G?checkoutMode=10"
+      ],
+      "expectedProductPath": "/K108118162G",
+      "checkoutClicked": false
+    },
+    {
+      "name": "return-from-checkout",
+      "simulatedLocalSession": true,
+      "text": "✋\nEspera! A gente não quer que o preço te impeça.\n\nSó para você, agora: a Trilha UGC por R$ 24,90 em vez de R$ 29,90.\n\nR$ 29,90\nR$ 24,90\nsem mensalidade\n\nSim, quero por R$ 24,90\nNão, obrigada",
+      "href": "https://pay.hotmart.com/K108118162G?off=z752258y&checkoutMode=10",
+      "checkoutClicked": false
+    },
+    {
+      "name": "downsell-shown-once",
+      "passed": true
+    },
+    {
+      "name": "expired-email-promo",
+      "simulatedLocalQuery": true,
+      "text": "⌛\nO preço de R$ 19,90 valia até hoje às 15h09."
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "purchasesSubmitted": 0
+}

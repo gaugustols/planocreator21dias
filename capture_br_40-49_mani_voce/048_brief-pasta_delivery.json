@@ -1,0 +1,118 @@
+{
+  "sequence": 48,
+  "id": "048_brief-pasta_delivery",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-pasta",
+  "phase": "delivery",
+  "kind": "brief",
+  "title": "Aprovado pela Lata Cheia!",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "🍪"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 500\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 11,
+    "maxIndex": 11,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "corso"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "bellezza",
+        "tech"
+      ]
+    },
+    "wallet": {
+      "total": 500,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424291609
+  },
+  "textSha256": "ac7661076ed0bb65d02cc1099b124318c4267f7d5066d0ac508e6ba7dba29e3d"
+}

@@ -12,7 +12,16 @@
     "crawl": "node crawl.mjs",
     "verify": "node verify_local.mjs",
     "verify:offers": "node verify_offers.mjs",
-    "build": "node prepare_deploy.mjs"
+    "build": "node prepare_deploy.mjs",
+    "recon:br": "node reconnaissance.mjs --locale=br",
+    "mirror:br": "node mirror.mjs --locale=br",
+    "inspect:br": "node inspect_bundle.mjs --locale=br",
+    "audit:br": "node audit_assets.mjs --locale=br",
+    "mount:br": "node mount_br.mjs",
+    "crawl:br": "node crawl.mjs --locale=br",
+    "verify:locales": "node verify_locales.mjs",
+    "verify:offers:br": "node verify_offers.mjs --locale=br",
+    "summarize:br": "node summarize_br.mjs"
   },
   "repository": {
     "type": "git",

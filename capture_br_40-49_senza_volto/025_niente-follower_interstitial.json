@@ -1,0 +1,103 @@
+{
+  "sequence": 25,
+  "id": "025_niente-follower_interstitial",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "niente-follower",
+  "phase": "",
+  "kind": "interstitial",
+  "title": "Não precisa de seguidores. Nem de mostrar o rosto.",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero criar vídeos para marcas"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 200\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 7,
+    "maxIndex": 7,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "parte"
+      ],
+      "tempo": [
+        "moka"
+      ],
+      "camera": [
+        "senza_volto"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "phases": {
+      "brief-crema": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424291420
+  },
+  "textSha256": "db413208fa6f98ac1cd9326b4080d5eb1e91490d56eef356539260b23e1900b8"
+}

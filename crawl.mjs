@@ -1,15 +1,21 @@
-import { chromium } from 'playwright';
+import { chromium, webkit, devices } from 'playwright';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { getProfile } from './lib/profiles.mjs';
 
-const base = process.env.CRAWL_URL || 'http://127.0.0.1:4173/';
+const profile = getProfile();
+const engine = process.argv.find(a=>a.startsWith('--browser='))?.split('=')[1] || 'chromium';
+if (!['chromium','webkit'].includes(engine)) throw new Error(`Unsupported browser: ${engine}`);
+const base = process.env.CRAWL_URL || `http://127.0.0.1:4173${profile.basePath}`;
+const stateKey = profile.storagePrefix + 'funnel-v1';
+const reportFile = `${profile.reportDir}/crawl-summary${engine==='chromium'?'':'-'+engine}.json`;
 if (!['localhost','127.0.0.1'].includes(new URL(base).hostname)) throw new Error('The crawler only runs on the local mirror.');
-const { config, content } = JSON.parse(await readFile('reports/recovered-data.json', 'utf8'));
+const { config, content } = JSON.parse(await readFile(`${profile.reportDir}/recovered-data.json`, 'utf8'));
 const ages = content.landing.firstQuestion.options.map(o => o.id);
 const cameras = content.steps.find(s => s.id === 'camera').options.map(o => o.id);
 const allBranches = ages.flatMap((age, a) => cameras.map((camera, c) => ({ index: a * cameras.length + c, name: `${age.replace('+','plus')}_${camera}`, age, camera, landing: ['a','b','c'][(a+c)%3], result: ['a','b'][(a+c)%2] })));
 const branches = process.argv.includes('--pilot') ? allBranches.slice(0, 1) : allBranches;
-const browser = await chromium.launch({ headless: true });
+const browser = await ({chromium,webkit}[engine]).launch({ headless: true });
 
 // Read candidate controls in the page and tag them before clicking. The
 // fallback cascades through the app pattern, grids, semantic controls and
@@ -39,12 +45,15 @@ async function candidates(page) {
 }
 
 async function run(branch) {
-  const dir = `capture_${branch.name}`;
+  const dir = `${profile.capturePrefix}${engine==='chromium'?'':engine+'_'}${branch.name}`;
   await mkdir(dir, { recursive:true });
   const previous = process.argv.includes('--resume') ? await readFile(`${dir}/summary.json`, 'utf8').then(JSON.parse).catch(()=>null) : null;
   if (previous?.success) { console.log(`${branch.name}: reusing verified complete capture`); return previous; }
   const previousSteps = previous ? await readFile(`${dir}/steps.json`, 'utf8').then(JSON.parse).catch(()=>[]) : [];
-  const context = await browser.newContext({ viewport:{width:390,height:844}, reducedMotion:'reduce' });
+  const mobile = profile.id === 'br';
+  const viewport = mobile ? [{width:360,height:800},{width:390,height:844},{width:430,height:932}][branch.index%3] : {width:390,height:844};
+  const device = devices[engine==='webkit'?'iPhone 13':'Pixel 7'];
+  const context = await browser.newContext({ viewport, reducedMotion:'reduce', ...(mobile?{isMobile:true,hasTouch:true,userAgent:device.userAgent}: {}) });
   const page = await context.newPage();
   const errors = [], requests = [], blocked = [], captures = [], actions = [], choices = {};
   if (previousSteps.length) { captures.push(...previousSteps); Object.assign(choices, previous.choices); }
@@ -53,6 +62,7 @@ async function run(branch) {
   await context.route('**/*', route => {
     const url = new URL(route.request().url());
     if (['http:','https:'].includes(url.protocol) && url.origin !== new URL(base).origin) { blocked.push({ method:route.request().method(), url:url.href }); return route.abort('blockedbyclient'); }
+    if (profile.id === 'br' && ['http:','https:'].includes(url.protocol) && !url.pathname.startsWith(profile.basePath)) { blocked.push({url:url.href,reason:'Brazilian request escaped /br/'}); return route.abort('blockedbyclient'); }
     return route.continue();
   });
   page.on('request', r => requests.push({ method:r.method(), type:r.resourceType(), url:r.url() }));
@@ -61,22 +71,23 @@ async function run(branch) {
   page.on('response', r => { if (r.status() >= 400) errors.push({ type:'http', status:r.status(), url:r.url() }); });
   let success = false, failure = null, lastSignature = '', idleSince = Date.now();
   try {
-    await context.addInitScript(({landing,result,resumeState}) => {
-      sessionStorage.setItem('ugc-ab-v1', JSON.stringify({landing1:landing+'!', result1:result+'!'}));
-      if (resumeState) sessionStorage.setItem('ugc-funnel-v1', JSON.stringify(resumeState));
-      localStorage.setItem('ugc-muted-v1', 'true');
-      localStorage.setItem('ugc-m-off', '1');
-    }, { ...branch, resumeState:previousSteps.at(-1)?.state });
+    await context.addInitScript(({landing,result,resumeState,storagePrefix}) => {
+      sessionStorage.setItem(storagePrefix+'ab-v1', JSON.stringify({landing1:landing+'!', result1:result+'!'}));
+      if (resumeState) sessionStorage.setItem(storagePrefix+'funnel-v1', JSON.stringify(resumeState));
+      localStorage.setItem(storagePrefix+'muted-v1', 'true');
+      localStorage.setItem(storagePrefix+'m-off', '1');
+    }, { ...branch, resumeState:previousSteps.at(-1)?.state, storagePrefix:profile.storagePrefix });
     await page.goto(base, { waitUntil:'networkidle', timeout:30000 });
     for (let iteration = 0; iteration < 180; iteration++) {
       await page.waitForTimeout(600);
-      const state = await page.evaluate(() => JSON.parse(sessionStorage.getItem('ugc-funnel-v1') || 'null'));
+      const state = await page.evaluate(key => JSON.parse(sessionStorage.getItem(key) || 'null'), stateKey);
       const section = page.locator('main [data-step]').first();
       const step = await section.getAttribute('data-step');
       const phase = await section.getAttribute('data-phase') || '';
       const kind = await section.getAttribute('data-kind') || (step === 'landing' ? 'landing' : '');
       const options = await candidates(page);
       const signature = JSON.stringify([step,phase,state?.stepIndex,options.map(o=>[o.testid,o.option,o.correct,o.checked,o.disabled,o.order]), await page.locator('[data-stage]').evaluateAll(es=>es.map(e=>e.getAttribute('data-stage')))]);
+      if (signature === lastSignature && Date.now()-idleSince>18000) throw new Error(`No progress at ${step}:${phase}; controls: ${JSON.stringify(options)}`);
       if (signature !== lastSignature) {
         idleSince = Date.now(); lastSignature = signature;
         const sequence = String(captures.length+1).padStart(3,'0'), id = `${sequence}_${step}_${phase || kind}`.replace(/[^a-z0-9_-]/gi,'_');
@@ -85,7 +96,7 @@ async function run(branch) {
         await writeFile(`${dir}/${id}.html`, await page.content());
         await writeFile(`${dir}/${id}.txt`, text);
         await writeFile(`${dir}/${id}.json`, JSON.stringify(data,null,2));
-        await page.screenshot({ path:`${dir}/${id}.png`, fullPage:true });
+        await page.screenshot({ path:`${dir}/${id}.png`, fullPage:true, timeout:30000 });
         captures.push(data);
         console.log(`${branch.name}: ${captures.length} ${step}${phase?':'+phase:''}`);
       }
@@ -95,17 +106,12 @@ async function run(branch) {
         if (!candidate || candidate.disabled) return false;
         const current = page.locator('main [data-step]').first();
         if (await current.getAttribute('data-step') !== step || (await current.getAttribute('data-phase') || '') !== phase) return false;
-        let target = page.locator(`[data-crawl-i="${candidate.index}"]`);
-        if (candidate.testid) {
-          target = page.getByTestId(candidate.testid).filter({ visible:true });
-          if (candidate.option) target = target.and(page.locator(`[data-option-id="${candidate.option}"]`));
-          else if (candidate.order) target = target.and(page.locator(`[data-order="${candidate.order}"]`));
-          else if (candidate.testid === 'task-option') target = target.filter({ hasText:candidate.text });
-          target = target.first();
-        }
+        const target = page.locator(`[data-crawl-i="${candidate.index}"]`);
         // Timed screens can replace their DOM while a screenshot is written.
-        // Reacquire the semantic control and retry the next loop if it vanished.
-        try { await target.click({timeout:1500}); }
+        // Re-tag on the next loop if the captured control was replaced. Do not
+        // reconstruct a text selector: innerText inserts line breaks between
+        // inline spans that are absent from the DOM text used by selectors.
+        try { if (mobile) await target.tap({timeout:1500}); else await target.click({timeout:1500}); }
         catch (error) { if (/Timeout|detached|not attached/.test(error.message)) return false; throw error; }
         actions.push({ step, phase, target:candidate });
         return true;
@@ -161,14 +167,14 @@ async function run(branch) {
     }
     if (!success) throw new Error('The action limit was reached before the offer.');
     await page.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=innerHeight){scrollTo(0,y);await new Promise(r=>setTimeout(r,40));}scrollTo(0,0)});
-    await page.screenshot({path:`${dir}/offer-full.png`,fullPage:true});
-    await writeFile(`${dir}/final-state.json`, JSON.stringify(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('ugc-funnel-v1'))),null,2));
+    await page.screenshot({path:`${dir}/offer-full.png`,fullPage:true,timeout:30000});
+    await writeFile(`${dir}/final-state.json`, JSON.stringify(await page.evaluate(key=>JSON.parse(sessionStorage.getItem(key)),stateKey),null,2));
   } catch(error) {
     failure=error.stack; console.error(`${branch.name}: FAILED ${error.message}`);
-    await page.screenshot({path:`${dir}/failure.png`,fullPage:true}).catch(()=>{});
+    await page.screenshot({path:`${dir}/failure.png`,fullPage:true,timeout:30000}).catch(()=>{});
     await writeFile(`${dir}/failure.html`,await page.content()).catch(()=>{});
   } finally { await context.close(); }
-  const summary={branch,success:success&&!errors.length&&!blocked.length,funnelReachedOffer:success,failure,captures:captures.length,steps:[...new Set(captures.map(c=>c.step))],phases:[...new Set(captures.filter(c=>c.phase).map(c=>`${c.step}:${c.phase}`))],choices,errors,blocked,requests,actions};
+  const summary={branch,locale:profile.id,browser:engine,viewport,touch:mobile,success:success&&!errors.length&&!blocked.length,funnelReachedOffer:success,failure,captures:captures.length,steps:[...new Set(captures.map(c=>c.step))],phases:[...new Set(captures.filter(c=>c.phase).map(c=>`${c.step}:${c.phase}`))],choices,errors,blocked,requests,actions};
   await writeFile(`${dir}/summary.json`,JSON.stringify(summary,null,2));
   await writeFile(`${dir}/steps.json`,JSON.stringify(captures,null,2));
   return summary;
@@ -180,7 +186,7 @@ try {
 } finally { await browser.close(); }
 const coverage={};
 for(const result of results) for(const[key,values]of Object.entries(result.choices)) coverage[key]=[...new Set([...(coverage[key]||[]),...values])];
-const report={checkedAt:new Date().toISOString(),base,branches:results.length,passed:results.filter(r=>r.success).length,captures:results.reduce((n,r)=>n+r.captures,0),coverage,results};
-await writeFile('reports/crawl-summary.json',JSON.stringify(report,null,2));
+const report={checkedAt:new Date().toISOString(),base,locale:profile.id,browser:engine,branches:results.length,passed:results.filter(r=>r.success).length,captures:results.reduce((n,r)=>n+r.captures,0),coverage,results};
+await writeFile(reportFile,JSON.stringify(report,null,2));
 console.log(JSON.stringify({branches:report.branches,passed:report.passed,captures:report.captures,coverage},null,2));
 if(report.passed!==report.branches)process.exitCode=1;

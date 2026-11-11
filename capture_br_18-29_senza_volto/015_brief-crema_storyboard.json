@@ -1,0 +1,136 @@
+{
+  "sequence": 15,
+  "id": "015_brief-crema_storyboard",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-crema",
+  "phase": "storyboard",
+  "kind": "brief",
+  "title": "Coloque as cenas em ordem",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "scene-placed",
+      "option": null,
+      "order": "3",
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "3\n✨\nAplico, amasso e os cachos se formam"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "scene-placed",
+      "option": null,
+      "order": "2",
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "2\n🧴\nAbro o pote e mostro de perto"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "scene-placed",
+      "option": null,
+      "order": "1",
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "1\n☀️\nCabelo armado no calor, em close"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "scene-placed",
+      "option": null,
+      "order": "4",
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "4\n👍\nA minha dica final"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continuar"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "corso"
+      ],
+      "tempo": [
+        "1ora"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "storyboard"
+    },
+    "confetti": 0,
+    "startedAt": 1794424053509
+  },
+  "textSha256": "f946d0f5cbc37e18457da7e160a8c2a274c5cc0659671fac5bc102f59da44c9f"
+}

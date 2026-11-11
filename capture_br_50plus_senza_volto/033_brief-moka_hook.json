@@ -1,0 +1,154 @@
+{
+  "sequence": 33,
+  "id": "033_brief-moka_hook",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-moka",
+  "phase": "hook",
+  "kind": "brief",
+  "title": "Que gancho você usa para o café?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "☕"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 200\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "true",
+      "checked": null,
+      "disabled": true,
+      "text": "✓\nClose no café pingando do coador, depois a voz: “Enquanto o café passa, três minutos só pra mim.”"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "B\n“Então, a minha relação com o café começou há muitos anos, na casa da minha avó…”"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "✕\nO pacote parado em cima da mesa por 5 segundos, em silêncio, e só depois eu começo a falar."
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continuar"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 9,
+    "maxIndex": 9,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "senza_volto"
+      ],
+      "categorie": [
+        "moda",
+        "famiglia"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "hook"
+    },
+    "confetti": 1,
+    "startedAt": 1794424435018
+  },
+  "textSha256": "a969485e013297b686e3b5753aadd45bec0e1752d7ed4976159fc6bbbc988ae3"
+}

@@ -1,16 +1,21 @@
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
-import { ORIGIN, discover, fileForUrl, textExtension } from './lib/assets.mjs';
+import { discover, fileForUrl, textExtension } from './lib/assets.mjs';
+import { getProfile } from './lib/profiles.mjs';
 
-await mkdir('site', { recursive: true });
-await mkdir('reports', { recursive: true });
-const previous = await readFile('reports/mirror-manifest.json', 'utf8').then(JSON.parse).catch(() => ({ files: [], unavailable: [] }));
+const profile = getProfile();
+const ORIGIN = profile.origin;
+const report = file => path.join(profile.reportDir, file);
+
+await mkdir(profile.sourceRoot, { recursive: true });
+await mkdir(profile.reportDir, { recursive: true });
+const previous = await readFile(report('mirror-manifest.json'), 'utf8').then(JSON.parse).catch(() => ({ files: [], unavailable: [] }));
 const records = new Map(previous.files.map(r => [r.url, r]));
 const unavailable = new Map(previous.unavailable.map(r => [r.url, r]));
 const queue = [ORIGIN, new URL('robots.txt', ORIGIN).href, new URL('sitemap.xml', ORIGIN).href];
 try {
-  const network = JSON.parse(await readFile('reports/reconnaissance.json', 'utf8'));
+  const network = JSON.parse(await readFile(report('reconnaissance.json'), 'utf8'));
   for (const r of network.requests) if (r.method === 'GET' && new URL(r.url).origin === new URL(ORIGIN).origin && !/^\/api\//.test(new URL(r.url).pathname)) { const u = new URL(r.url); u.search = ''; queue.push(u.href); }
 } catch {}
 const seen = new Set();
@@ -19,7 +24,7 @@ while (queue.length) {
   const batch = [...new Set(queue.splice(0, 8))].filter(url => !seen.has(url));
   batch.forEach(url => seen.add(url));
   await Promise.all(batch.map(async url => {
-    const file = fileForUrl(url);
+    const file = fileForUrl(url, profile.sourceRoot);
     let buffer;
     if (!process.argv.includes('--refresh') && await access(file).then(() => true).catch(() => false)) {
       buffer = await readFile(file); reused++;
@@ -44,10 +49,10 @@ while (queue.length) {
       records.set(url, { url, file: path.relative('.', file).split(path.sep).join('/'), bytes: buffer.length, contentType: type, sha256: createHash('sha256').update(buffer).digest('hex') });
       unavailable.delete(url);
     }
-    if (textExtension.test(file)) queue.push(...discover(buffer.toString('utf8'), url).refs.map(r => r.url));
+    if (textExtension.test(file)) queue.push(...discover(buffer.toString('utf8'), url, profile).refs.map(r => r.url));
   }));
   if (batch.length) console.log(`Processed ${seen.size}: ${downloaded} downloaded, ${reused} reused, ${unavailable.size} unavailable; ${queue.length} queued`);
 }
 const result = { origin: ORIGIN, updatedAt: new Date().toISOString(), files: [...records.values()], unavailable: [...unavailable.values()] };
-await writeFile('reports/mirror-manifest.json', JSON.stringify(result, null, 2));
+await writeFile(report('mirror-manifest.json'), JSON.stringify(result, null, 2));
 console.log(JSON.stringify({ downloaded, reused, files: records.size, unavailable: unavailable.size }));

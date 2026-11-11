@@ -1,0 +1,156 @@
+{
+  "sequence": 58,
+  "id": "058_nome_name",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "nome",
+  "phase": "",
+  "kind": "name",
+  "title": "Como você se chama?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "LABEL",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Nome"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "Continuar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "name-skip",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Prefiro não dizer"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 890\n?"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 16,
+    "maxIndex": 16,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "cucina",
+        "moda"
+      ],
+      "primo-video": [
+        "weekend"
+      ],
+      "analisi.mid": [
+        "si"
+      ]
+    },
+    "wallet": {
+      "total": 890,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Biscoitos · Lata Cheia",
+          "amount": 390
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424435183
+  },
+  "textSha256": "0fa87e7c7c27155d016c6c455376a1cf0fbe9593a18a1e9a754ef2ad6d9e8fba"
+}

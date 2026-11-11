@@ -1,0 +1,89 @@
+{
+  "sequence": 5,
+  "id": "005_cos-e-ugc_interstitial",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "cos-e-ugc",
+  "phase": "",
+  "kind": "interstitial",
+  "title": "O vídeo sai do seu celular. Quem compra é a marca.",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quero conhecer esse trabalho"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 4,
+    "maxIndex": 4,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "moka"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794423904122
+  },
+  "textSha256": "6c11afd580b7c88e8e77bd58c4953665214f67cc917421df7546cf9be6e0b050"
+}

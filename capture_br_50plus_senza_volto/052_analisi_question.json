@@ -1,0 +1,128 @@
+{
+  "sequence": 52,
+  "id": "052_analisi_question",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "analisi",
+  "phase": "question",
+  "kind": "analysis",
+  "title": "Estamos montando o seu plano para começar a vender vídeos",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "no",
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Não, obrigada"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "si",
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Sim, quero o passo a passo"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 890\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 13,
+    "maxIndex": 13,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "senza_volto"
+      ],
+      "categorie": [
+        "moda",
+        "famiglia"
+      ],
+      "primo-video": [
+        "non-ancora"
+      ]
+    },
+    "wallet": {
+      "total": 890,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Biscoitos · Lata Cheia",
+          "amount": 390
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424435018
+  },
+  "textSha256": "7015ab8385fa57964f9816aab6f5322bb5df802d96c6e281e4ce61c3e0c6a22f"
+}

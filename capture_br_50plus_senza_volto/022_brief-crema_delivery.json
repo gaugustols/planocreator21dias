@@ -1,0 +1,92 @@
+{
+  "sequence": 22,
+  "id": "022_brief-crema_delivery",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-crema",
+  "phase": "delivery",
+  "kind": "brief",
+  "title": "Vídeo aprovado pela Caracolê!",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "🧴"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "weekend"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "delivery"
+    },
+    "confetti": 0,
+    "startedAt": 1794424435018
+  },
+  "textSha256": "6a952b389a359b0c2525ce744e0ae2b2f862128fbb7b95c1ad47e5ccd420a4fa"
+}

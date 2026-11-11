@@ -1,0 +1,868 @@
+{
+  "branch": {
+    "index": 0,
+    "name": "18-29_volto",
+    "age": "18-29",
+    "camera": "volto",
+    "landing": "a",
+    "result": "a"
+  },
+  "locale": "br",
+  "browser": "chromium",
+  "viewport": {
+    "width": 360,
+    "height": 800
+  },
+  "touch": true,
+  "success": true,
+  "funnelReachedOffer": true,
+  "failure": null,
+  "captures": 62,
+  "steps": [
+    "landing",
+    "obiettivo",
+    "spesa",
+    "tempo",
+    "cos-e-ugc",
+    "brief-crema",
+    "camera",
+    "niente-follower",
+    "categorie",
+    "brief-moka",
+    "regola-d-oro",
+    "brief-pasta",
+    "primo-video",
+    "analisi",
+    "email",
+    "optin",
+    "nome",
+    "sconto",
+    "risultato"
+  ],
+  "phases": [
+    "brief-crema:notification",
+    "brief-crema:brief",
+    "brief-crema:hook",
+    "brief-crema:storyboard",
+    "brief-crema:record",
+    "brief-crema:closing",
+    "brief-crema:delivery",
+    "brief-moka:notification",
+    "brief-moka:brief",
+    "brief-moka:hook",
+    "brief-moka:record",
+    "brief-moka:delivery",
+    "brief-pasta:notification",
+    "brief-pasta:brief",
+    "brief-pasta:hook",
+    "brief-pasta:record",
+    "brief-pasta:delivery",
+    "analisi:loading",
+    "analisi:question",
+    "sconto:cover",
+    "sconto:revealed"
+  ],
+  "choices": {
+    "eta": [
+      "18-29"
+    ],
+    "obiettivo": [
+      "arrotondare"
+    ],
+    "spesa": [
+      "natale"
+    ],
+    "tempo": [
+      "moka"
+    ],
+    "camera": [
+      "volto"
+    ],
+    "categorie": [
+      "bellezza",
+      "casa"
+    ],
+    "primo-video": [
+      "oggi"
+    ],
+    "analisi:midQuestion": [
+      "si"
+    ]
+  },
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "http://127.0.0.1:4173/br/"
+    },
+    {
+      "method": "GET",
+      "type": "font",
+      "url": "http://127.0.0.1:4173/br/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/br/assets/index-CsqgZ4_P.js"
+    },
+    {
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "http://127.0.0.1:4173/br/assets/index-DRbyHCeb.css"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/br/assets/BriefScreen-Ca-IHevk.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/br/assets/confetti-DgEV_XmA.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/br/assets/ResultScreen-CbSB5OWy.js"
+    }
+  ],
+  "actions": [
+    {
+      "step": "landing",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "18-29",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "🙋‍♀️\n18–29"
+      }
+    },
+    {
+      "step": "obiettivo",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "arrotondare",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "💰\nTer um dinheiro meu\nMais folga no mês, sem largar o emprego"
+      }
+    },
+    {
+      "step": "spesa",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "natale",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "🎁\nOs presentes de Natal"
+      }
+    },
+    {
+      "step": "tempo",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "moka",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "☕\nO tempo de um cafezinho\n10 a 15 minutos por dia"
+      }
+    },
+    {
+      "step": "cos-e-ugc",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Quero conhecer esse trabalho"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "notification",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "🧴\nBRIEFING UGC\nagora\nA Caracolê te mandou um briefing\nCachê proposto: R$ 200 · Vídeo de 15 segundos do finalizador."
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "brief",
+      "target": {
+        "index": 7,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Aceito o briefing"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "hook",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "false",
+        "checked": null,
+        "disabled": false,
+        "text": "A\n“Oi, gente! Então, hoje eu vou falar de um creme que me mandaram…”"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "hook",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "true",
+        "checked": null,
+        "disabled": false,
+        "text": "B\nFinalizador já na mão: “Se o seu cacho também vira frizz em cinco minutos de calor, olha isso.”"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "hook",
+      "target": {
+        "index": 7,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "storyboard",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "scene",
+        "option": null,
+        "order": "1",
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "☀️\nCabelo armado no calor, em close"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "storyboard",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "scene",
+        "option": null,
+        "order": "2",
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "🧴\nAbro o pote e mostro de perto"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "storyboard",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "scene",
+        "option": null,
+        "order": "3",
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "✨\nAplico, amasso e os cachos se formam"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "storyboard",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "scene",
+        "option": null,
+        "order": "4",
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "👍\nA minha dica final"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "record",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "record",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Gravar"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "record",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "closing",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "false",
+        "checked": null,
+        "disabled": false,
+        "text": "A\n“Link na bio, beijo!”"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "closing",
+      "target": {
+        "index": 2,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "true",
+        "checked": null,
+        "disabled": false,
+        "text": "C\n“Agora eu não saio de casa sem ele. Se o seu cabelo é como o meu, testa.”"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "closing",
+      "target": {
+        "index": 7,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-crema",
+      "phase": "delivery",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "camera",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "volto",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "😄\nMostro o rosto\nFalar para a câmera não me assusta (muito)"
+      }
+    },
+    {
+      "step": "niente-follower",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Quero criar vídeos para marcas"
+      }
+    },
+    {
+      "step": "categorie",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "bellezza",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "🧴\nBeleza e skincare"
+      }
+    },
+    {
+      "step": "categorie",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "casa",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "🧼\nCasa e limpeza"
+      }
+    },
+    {
+      "step": "categorie",
+      "phase": "",
+      "target": {
+        "index": 11,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "notification",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "☕\nBRIEFING UGC\nagora\nNovo briefing da Pingô\nCachê proposto: R$ 300 · Vídeo de 30 segundos, com voz em off."
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "brief",
+      "target": {
+        "index": 7,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Aceito o briefing"
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "hook",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "false",
+        "checked": null,
+        "disabled": false,
+        "text": "B\n“Então, a minha relação com o café começou há muitos anos, na casa da minha avó…”"
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "hook",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "true",
+        "checked": null,
+        "disabled": false,
+        "text": "A\nClose no café pingando do coador, depois a voz: “Enquanto o café passa, três minutos só pra mim.”"
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "hook",
+      "target": {
+        "index": 7,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "record",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "record",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Gravar"
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "record",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-moka",
+      "phase": "delivery",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "regola-d-oro",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Entendi, próximo briefing"
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "notification",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "🍪\nBRIEFING UGC\nagora\nBriefing da Lata Cheia: unboxing sem rosto\nCachê proposto: R$ 390 · Vídeo de 30 segundos, só mãos, com uso em anúncios por 3 meses."
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "brief",
+      "target": {
+        "index": 7,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Aceito o briefing"
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "hook",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "false",
+        "checked": null,
+        "disabled": false,
+        "text": "A\n“UNBOXING BISCOITO ARTESANAL PREMIUM DE ALTÍSSIMA QUALIDADE”"
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "hook",
+      "target": {
+        "index": 2,
+        "tag": "BUTTON",
+        "testid": "task-option",
+        "option": null,
+        "order": null,
+        "correct": "true",
+        "checked": null,
+        "disabled": false,
+        "text": "C\n“Biscoito ou bolacha? Abre comigo, depois a gente discute.”"
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "hook",
+      "target": {
+        "index": 7,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "record",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "record",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Gravar"
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "record",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "brief-pasta",
+      "phase": "delivery",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "primo-video",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "oggi",
+        "order": null,
+        "correct": null,
+        "checked": "false",
+        "disabled": false,
+        "text": "🎬\nHoje mesmo, com um produto que tenho em casa"
+      }
+    },
+    {
+      "step": "analisi",
+      "phase": "question",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "option",
+        "option": "si",
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Sim, quero o passo a passo"
+      }
+    },
+    {
+      "step": "email",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Quero ver meu próximo passo"
+      }
+    },
+    {
+      "step": "optin",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Sim, quero receber!"
+      }
+    },
+    {
+      "step": "nome",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    },
+    {
+      "step": "sconto",
+      "phase": "cover",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "scratch-reveal",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Revelar o desconto"
+      }
+    },
+    {
+      "step": "sconto",
+      "phase": "revealed",
+      "target": {
+        "index": 3,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continuar"
+      }
+    }
+  ]
+}

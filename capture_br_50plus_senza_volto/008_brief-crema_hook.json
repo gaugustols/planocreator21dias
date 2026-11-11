@@ -1,0 +1,114 @@
+{
+  "sequence": 8,
+  "id": "008_brief-crema_hook",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-crema",
+  "phase": "hook",
+  "kind": "brief",
+  "title": "Escolha o gancho: os 3 primeiros segundos",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": false,
+      "text": "A\n“Oi, gente! Então, hoje eu vou falar de um creme que me mandaram…”"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "true",
+      "checked": null,
+      "disabled": false,
+      "text": "B\nFinalizador já na mão: “Se o seu cacho também vira frizz em cinco minutos de calor, olha isso.”"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": false,
+      "text": "C\n“O finalizador mais revolucionário de todos os tempos: resultado garantido em 24 horas!”"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "weekend"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "hook"
+    },
+    "confetti": 0,
+    "startedAt": 1794424435018
+  },
+  "textSha256": "7c220ada1c31712f8d21702cfcbccd0f9134c7628afaebfff168cff97233fc6a"
+}

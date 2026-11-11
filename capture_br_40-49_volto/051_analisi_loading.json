@@ -1,0 +1,106 @@
+{
+  "sequence": 51,
+  "id": "051_analisi_loading",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "analisi",
+  "phase": "loading",
+  "kind": "analysis",
+  "title": "Estamos montando o seu plano para começar a vender vídeos",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 890\n?"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 13,
+    "maxIndex": 13,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "benessere",
+        "tech"
+      ],
+      "primo-video": [
+        "weekend"
+      ]
+    },
+    "wallet": {
+      "total": 890,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Biscoitos · Lata Cheia",
+          "amount": 390
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424291704
+  },
+  "textSha256": "9f982322121105432ba66b19be225fce8175b5fc1a2396098f06e842892bb103"
+}

@@ -1,0 +1,93 @@
+{
+  "sequence": 1,
+  "id": "001_landing_landing",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "landing",
+  "phase": "",
+  "kind": "landing",
+  "title": "E se o seu celular virasse uma fonte de renda?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "18-29",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🙋‍♀️\n18–29"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "30-39",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "💁‍♀️\n30–39"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "40-49",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "👩‍💼\n40–49"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "50+",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "👩‍🎨\n50+"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    },
+    {
+      "index": 5,
+      "tag": "A",
+      "testid": "withdrawal",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Desistir da compra"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 0,
+    "maxIndex": 0,
+    "answers": {},
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794424291704
+  },
+  "textSha256": "15b22a182c9f507ef1f53efefdfdeb2c61526b2d9a54158aab7d3a33fc344deb"
+}

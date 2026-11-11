@@ -1,5 +1,6 @@
-import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readFile, writeFile, access } from 'node:fs/promises';
 
+if (await access('recovered/br/index.html').then(()=>true).catch(()=>false)) await import('./mount_br.mjs');
 await mkdir('dist',{recursive:true});
 await cp('site','dist',{recursive:true});
 const original=await readFile('site/index.html','utf8');

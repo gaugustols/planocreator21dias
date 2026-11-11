@@ -1,0 +1,118 @@
+{
+  "sequence": 46,
+  "id": "046_brief-pasta_record",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-pasta",
+  "phase": "record",
+  "kind": "brief",
+  "title": "Grave o unboxing (só mãos): toque no botão vermelho",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "Gravar"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 500\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 11,
+    "maxIndex": 11,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "cucina",
+        "moda"
+      ]
+    },
+    "wallet": {
+      "total": 500,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "record"
+    },
+    "confetti": 1,
+    "startedAt": 1794424435183
+  },
+  "textSha256": "e68459979f9d765e614b9937107efb1a1effaa96caf4f461cfd9332f69689758"
+}

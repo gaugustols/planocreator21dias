@@ -1,5 +1,7 @@
 # Piano UGC 21 Giorni — recuperação da oferta
 
+O projeto também contém a versão brasileira **Trilha UGC 21 Dias** em **`/br/`**. A italiana permanece em **`/`**. Consulte [README-BR.md](README-BR.md) para a recuperação brasileira, os scripts com `--locale=br`, a separação de dados no navegador e as validações entre idiomas. A documentação abaixo descreve a recuperação italiana.
+
 Cópia dos arquivos públicos de **https://piano-ugc.pages.dev/** recuperada em **11/11/2026**. O domínio canônico declarado no HTML é `https://piano-ugc.com/`. O remoto Git desta pasta é `https://github.com/gaugustols/planocreator21dias.git`.
 
 ## Estado da recuperação

@@ -1,8 +1,11 @@
 import { chromium } from 'playwright';
 import { mkdir, writeFile } from 'node:fs/promises';
+import { getProfile } from './lib/profiles.mjs';
 
-const origin = process.argv[2] || 'https://piano-ugc.pages.dev/';
-await mkdir('reports', { recursive: true });
+const profile = getProfile();
+const origin = process.argv.find(a => /^https?:\/\//.test(a)) || profile.origin;
+const reportDir = profile.reportDir;
+await mkdir(reportDir, { recursive: true });
 const browser = await chromium.launch({ headless: true });
 const requests = [], responses = [], errors = [], pages = [];
 try {
@@ -19,21 +22,21 @@ try {
     await page.waitForTimeout(1000);
     const data = { name, url: page.url(), title: await page.title(), text: await page.locator('body').innerText(), links: await page.locator('a').evaluateAll(es => es.map(e => ({ text: e.innerText, href: e.href }))) };
     pages.push(data);
-    await writeFile(`reports/live-${name}.html`, await page.content());
-    await writeFile(`reports/live-${name}.txt`, data.text);
-    await page.screenshot({ path: `reports/live-${name}.png`, fullPage: true });
+    await writeFile(`${reportDir}/live-${name}.html`, await page.content());
+    await writeFile(`${reportDir}/live-${name}.txt`, data.text);
+    await page.screenshot({ path: `${reportDir}/live-${name}.png`, fullPage: true });
     if (name === 'landing') {
       for (const [label, hash] of [['privacy', '#privacy'], ['terms', '#termini']]) {
         await page.locator(`a[href="${hash}"]`).click();
         const dialog = page.getByRole('dialog');
         await dialog.waitFor();
-        await writeFile(`reports/live-${label}.txt`, await dialog.innerText());
-        await page.getByRole('button', { name: 'Chiudi', exact: true }).click();
+        await writeFile(`${reportDir}/live-${label}.txt`, await dialog.innerText());
+        await page.getByRole('button', { name: profile.closeLabel, exact: true }).click();
       }
     }
     await context.close();
   }
 } finally { await browser.close(); }
 const domains = Object.entries(Object.groupBy(requests, r => new URL(r.url).hostname)).map(([domain, entries]) => ({ domain, requests: entries.length, types: [...new Set(entries.map(e => e.type))] }));
-await writeFile('reports/reconnaissance.json', JSON.stringify({ origin, capturedAt: new Date().toISOString(), domains, requests, responses, errors, pages }, null, 2));
+await writeFile(`${reportDir}/reconnaissance.json`, JSON.stringify({ origin, capturedAt: new Date().toISOString(), domains, requests, responses, errors, pages }, null, 2));
 console.log(JSON.stringify({ domains, errors, pages: pages.map(p => ({ name: p.name, title: p.title, characters: p.text.length })) }, null, 2));

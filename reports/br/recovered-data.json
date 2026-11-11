@@ -1,0 +1,1660 @@
+{
+  "config": {
+    "brandName": "Trilha UGC",
+    "productName": "Trilha UGC 21 Dias",
+    "checkoutUrl": "https://pay.hotmart.com/K108118162G?checkoutMode=10",
+    "price": 29.9,
+    "vatIncluded": true,
+    "anchorPrice": 97,
+    "showAnchor": true,
+    "showBonusValues": true,
+    "urgencyBar": {
+      "enabled": true
+    },
+    "countdown": {
+      "enabled": true,
+      "mode": "endOfDay",
+      "minutes": 10,
+      "deadlineISO": ""
+    },
+    "guaranteeDays": 30,
+    "paymentMethods": [
+      "visa",
+      "mastercard",
+      "pix",
+      "boleto",
+      "applepay"
+    ],
+    "funnel": {
+      "offers": [
+        "3yxg2jx6",
+        "z752258y",
+        "9mz7egf0"
+      ],
+      "steps": [
+        {
+          "id": "kit",
+          "label": "Kit Propostas",
+          "productId": "8772483"
+        },
+        {
+          "id": "marche",
+          "label": "Lista das 60 marcas",
+          "productId": "8772494"
+        }
+      ]
+    },
+    "testimonials": [],
+    "metaPixelId": "",
+    "utmify": {
+      "pixelId": "6ad3d977f9f1c8c2e0347272",
+      "utmsScript": true,
+      "metaPixelIds": [
+        "2346168272822517"
+      ]
+    },
+    "company": {
+      "name": "GLE DIGITAL LTDA",
+      "vat": "58.857.150/0001-04",
+      "taxIdLabel": "CNPJ",
+      "address": "Avenida Mafra, 453, Quadra 211, Lote 16, Setor 02, Piçarras, Guaratuba-PR, CEP 83280-000, Brasil",
+      "email": "supporto@piano-ugc.com"
+    },
+    "sound": true,
+    "emojiStyle": "native",
+    "metricsCountries": [
+      "BR"
+    ],
+    "withdrawalUrl": "/arrependimento/",
+    "analysisSeconds": 6,
+    "maxConfetti": 2,
+    "stickyCta": true,
+    "consentDays": 180,
+    "cookieConsent": false,
+    "emailGate": true,
+    "scratch": {
+      "enabled": true
+    },
+    "downsell": {
+      "enabled": true,
+      "offerCode": "z752258y",
+      "base": 24.9
+    },
+    "promo": {
+      "enabled": true,
+      "offerCode": "9mz7egf0",
+      "base": 19.9,
+      "hours": 48,
+      "layout": "first"
+    },
+    "confirmInPlan": {
+      "enabled": true,
+      "waitSeconds": 120
+    },
+    "confirmByEmail": false,
+    "backfillFrom": 0,
+    "experiments": {
+      "landing1": {
+        "title": "Landing: fotos × texto",
+        "variants": {
+          "a": "Atual",
+          "b": "Fotos das idades",
+          "c": "Headline de perfil"
+        },
+        "weights": {
+          "a": 1,
+          "b": 1,
+          "c": 1
+        },
+        "metric": "start",
+        "running": true
+      },
+      "result1": {
+        "title": "Resultado: preço logo × atual",
+        "variants": {
+          "a": "Atual",
+          "b": "Preço logo após o «Hoje → Em 21 dias»"
+        },
+        "weights": {
+          "a": 1,
+          "b": 1
+        },
+        "metric": "checkout",
+        "running": true
+      }
+    }
+  },
+  "content": {
+    "locale": "pt-BR",
+    "currency": "BRL",
+    "chapters": [
+      {
+        "id": 1,
+        "label": "Perfil"
+      },
+      {
+        "id": 2,
+        "label": "Na prática"
+      },
+      {
+        "id": 3,
+        "label": "Estilo"
+      },
+      {
+        "id": 4,
+        "label": "Trilha"
+      }
+    ],
+    "landing": {
+      "badge": "Quiz grátis · 4 minutos",
+      "headline": "Seu celular pode render **de R$ 800 a R$ 4.000 por mês**",
+      "subheadline": "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.",
+      "firstQuestion": {
+        "kind": "question",
+        "id": "eta",
+        "chapter": 1,
+        "title": "Escolha a sua idade e comece",
+        "layout": "grid",
+        "options": [
+          {
+            "id": "18-29",
+            "label": "18–29",
+            "emoji": "woman_raising_hand"
+          },
+          {
+            "id": "30-39",
+            "label": "30–39",
+            "emoji": "woman_tipping_hand"
+          },
+          {
+            "id": "40-49",
+            "label": "40–49",
+            "emoji": "woman_office_worker"
+          },
+          {
+            "id": "50+",
+            "label": "50+",
+            "emoji": "woman_artist"
+          }
+        ],
+        "reaction": {
+          "18-29": "O celular você já usa. Agora, descubra como transformar seus vídeos em um serviço para marcas.",
+          "30-39": "Dá para começar com a rotina que você já tem: um produto de casa e o celular na mão.",
+          "40-49": "A sua experiência também cabe nesse mercado. Você pode começar sem virar influenciadora.",
+          "50+": "Começar uma nova fonte de renda também pode ser para você. Vamos encontrar o seu jeito de gravar."
+        }
+      },
+      "trustLine": "Sem app para baixar e sem número de celular.",
+      "disclaimer": "Quiz gratuito para maiores de 18 anos. Contém uma simulação: as marcas são fictícias e os cachês mostrados não são dinheiro de verdade, mas exemplos de orçamento de R$ 200 a R$ 500 por vídeo. Os cenários mensais dependem de vender os vídeos pelos preços apresentados e são valores brutos, antes de taxas e impostos. No fim, apresentamos a Trilha UGC 21 Dias, um conteúdo educativo pago ({price}, pagamento único): você não tem nenhuma obrigação de comprar. Não é oferta de emprego e nenhum ganho é garantido.",
+      "variants": {
+        "b": {
+          "footerNote": "Fotos geradas por inteligência artificial: não mostram pessoas reais."
+        },
+        "c": {
+          "headline": "E se o seu celular virasse **uma fonte de renda?**",
+          "subheadline": "Descubra como oferecer vídeos de R$ 200 a R$ 500 para marcas."
+        }
+      }
+    },
+    "steps": [
+      {
+        "kind": "question",
+        "id": "obiettivo",
+        "chapter": 1,
+        "title": "O que mudaria na sua vida com **um dinheiro a mais todo mês?**",
+        "subtitle": "Pense no que você gostaria de fazer por você.",
+        "options": [
+          {
+            "id": "arrotondare",
+            "label": "Ter um dinheiro meu",
+            "hint": "Mais folga no mês, sem largar o emprego",
+            "emoji": "money_bag"
+          },
+          {
+            "id": "mio",
+            "label": "Construir algo só meu",
+            "hint": "Escolher meus horários e crescer no meu ritmo",
+            "emoji": "seedling"
+          },
+          {
+            "id": "creativa",
+            "label": "Ganhar com o que gosto",
+            "hint": "Transformar meus vídeos em um serviço",
+            "emoji": "artist_palette"
+          },
+          {
+            "id": "prodotti",
+            "label": "Trabalhar com produtos que conheço",
+            "hint": "Mostrar achados e oferecer vídeos para marcas",
+            "emoji": "gift"
+          }
+        ],
+        "reaction": {
+          "arrotondare": "Ter um dinheiro seu faz diferença. Vamos começar pelo serviço que você pode aprender a oferecer.",
+          "mio": "Um projeto seu, começando com o celular que já tem. Vamos colocar o primeiro passo na sua frente.",
+          "creativa": "A criatividade pode sair do hobby e entrar na sua proposta para uma marca.",
+          "prodotti": "Você já conhece o produto. Agora, descubra como mostrar isso em um vídeo que uma marca pode comprar."
+        }
+      },
+      {
+        "kind": "question",
+        "id": "spesa",
+        "chapter": 1,
+        "title": "Se os seus vídeos virassem renda, **qual seria a primeira conquista?**",
+        "subtitle": "Vale uma conquista grande ou aquela compra que você vem adiando.",
+        "options": [
+          {
+            "id": "natale",
+            "label": "Os presentes de Natal",
+            "emoji": "gift"
+          },
+          {
+            "id": "vacanza",
+            "label": "Uma viagem",
+            "emoji": "beach_with_umbrella"
+          },
+          {
+            "id": "corso",
+            "label": "Um curso ou um hobby",
+            "emoji": "graduation_cap"
+          },
+          {
+            "id": "parte",
+            "label": "Guardar um dinheiro",
+            "emoji": "bank"
+          },
+          {
+            "id": "niente",
+            "label": "Nada em especial",
+            "emoji": "woman_shrugging"
+          }
+        ],
+        "reaction": {
+          "natale": "Já imaginou escolher os presentes com um dinheiro que você mesma fez? Vamos começar pelo primeiro vídeo.",
+          "vacanza": "Tirar essa viagem do papel pode começar por algo menor: um produto de casa e o seu primeiro vídeo.",
+          "corso": "Ter um dinheiro para investir em você. Esse pode ser o motivo para começar.",
+          "parte": "Guardar um pouco e ter mais escolhas. Vamos começar pelo serviço que você pode oferecer.",
+          "niente": "Então comece descobrindo o que você pode criar com o celular que já tem."
+        }
+      },
+      {
+        "kind": "question",
+        "id": "tempo",
+        "chapter": 1,
+        "title": "Onde essa nova atividade **cabe no seu dia?**",
+        "subtitle": "Escolha um tempo que você consiga reservar para começar.",
+        "options": [
+          {
+            "id": "moka",
+            "label": "O tempo de um cafezinho",
+            "hint": "10 a 15 minutos por dia",
+            "emoji": "hot_beverage"
+          },
+          {
+            "id": "30min",
+            "label": "Meia hora por dia",
+            "hint": "No almoço ou à noite",
+            "emoji": "stopwatch"
+          },
+          {
+            "id": "1ora",
+            "label": "Uma hora por dia",
+            "hint": "Quando a casa finalmente fica em silêncio",
+            "emoji": "crescent_moon"
+          },
+          {
+            "id": "weekend",
+            "label": "Só no fim de semana",
+            "hint": "Umas horinhas entre sábado e domingo",
+            "emoji": "spiral_calendar"
+          }
+        ],
+        "reaction": {
+          "moka": "Dá para começar aos poucos: hoje um roteiro, depois a gravação. A trilha mostra a ordem.",
+          "30min": "Meia hora para aprender, gravar ou mandar propostas. Um passo concreto por dia.",
+          "1ora": "Uma hora por dia para tirar os vídeos da ideia e começar a mostrar o seu trabalho.",
+          "weekend": "Você pode separar um período para gravar vários vídeos e deixar as propostas para outro."
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "cos-e-ugc",
+        "chapter": 1,
+        "eyebrow": "O que as marcas compram",
+        "title": "O vídeo sai do seu celular. **Quem compra é a marca.**",
+        "body": [
+          "Sabe aquele vídeo mostrando um creme, preparando um café ou abrindo uma compra? Esse conteúdo pode ser um serviço. É o chamado UGC: você grava para a marca usar nos perfis e nos anúncios dela. Ela compra o vídeo; você não precisa ter uma audiência.",
+          "Você recebe as instruções, combina o preço e grava com o celular. Conheça agora **três projetos, com orçamentos de R$ 200 a R$ 500 por vídeo**, e veja o que faz uma marca aprovar o conteúdo."
+        ],
+        "visual": "rates",
+        "stat": {
+          "value": "R$ 300",
+          "label": "por um vídeo no projeto de café que você vai conhecer",
+          "source": ""
+        },
+        "cta": "Quero conhecer esse trabalho"
+      },
+      {
+        "kind": "brief",
+        "id": "brief-crema",
+        "chapter": 2,
+        "index": 1,
+        "brand": {
+          "name": "Caracolê",
+          "product": "Creme finalizador para cachos · 300 g",
+          "emoji": "lotion_bottle",
+          "tagline": "Cuidado para cachos",
+          "accent": "#c2577a"
+        },
+        "notification": {
+          "app": "Briefing UGC",
+          "title": "A Caracolê te mandou um briefing",
+          "body": "Cachê proposto: R$ 200 · Vídeo de 15 segundos do finalizador."
+        },
+        "briefCard": {
+          "title": "Vídeo “frizz no calor”",
+          "format": "Vertical 9:16 · 15 segundos",
+          "deliverables": [
+            "1 vídeo com o finalizador na mão nos 3 primeiros segundos",
+            "Luz natural, sem filtro de beleza",
+            "Tom espontâneo, como uma dica de amiga",
+            "Vídeo original sem música: a marca coloca depois"
+          ],
+          "fee": 200,
+          "deadline": "Em até 5 dias",
+          "accept": "Aceito o briefing"
+        },
+        "hook": {
+          "title": "Escolha o gancho: **os 3 primeiros segundos**",
+          "subtitle": "Quem rola o feed decide num instante se para ou não. Qual abertura funciona melhor?",
+          "options": [
+            {
+              "id": "saluto",
+              "text": "“Oi, gente! Então, hoje eu vou falar de um creme que me mandaram…”",
+              "correct": false,
+              "feedback": "É o erro mais comum: o “oi, gente” come os 3 primeiros segundos, e o “me mandaram” já soa como propaganda. Comece pelo problema ou pelo produto."
+            },
+            {
+              "id": "problema",
+              "text": "Finalizador já na mão: “Se o seu cacho também vira frizz em cinco minutos de calor, olha isso.”",
+              "correct": true,
+              "feedback": "Isso: um problema que todo mundo reconhece, tom de amiga e o produto já aparecendo. Quem sofre com frizz para para ver."
+            },
+            {
+              "id": "spot",
+              "text": "“O finalizador mais revolucionário de todos os tempos: resultado garantido em 24 horas!”",
+              "correct": false,
+              "feedback": "Parece comercial de trinta anos atrás. O UGC funciona porque soa sincero, e prometer resultado “garantido” com um cosmético é um risco legal para a marca."
+            }
+          ]
+        },
+        "storyboard": {
+          "title": "Coloque as cenas em ordem",
+          "subtitle": "Toque nas 4 cenas na ordem em que você colocaria no vídeo.",
+          "scenes": [
+            {
+              "id": "aggancio",
+              "label": "Cabelo armado no calor, em close",
+              "emoji": "sun"
+            },
+            {
+              "id": "prodotto",
+              "label": "Abro o pote e mostro de perto",
+              "emoji": "lotion_bottle"
+            },
+            {
+              "id": "prova",
+              "label": "Aplico, amasso e os cachos se formam",
+              "emoji": "sparkles"
+            },
+            {
+              "id": "chiusura",
+              "label": "A minha dica final",
+              "emoji": "thumbs_up"
+            }
+          ],
+          "success": "Perfeito: gancho, produto, prova e fechamento. É a estrutura básica que quase toda marca espera."
+        },
+        "record": {
+          "title": "Luz, câmera, ação: toque no botão vermelho",
+          "tips": [
+            "Luz da janela na sua frente, nunca atrás",
+            "Celular na vertical e apoiado: nada tremido",
+            "Finalizador na mão nos 3 primeiros segundos",
+            "Fale como fala com uma amiga, não como na TV"
+          ],
+          "button": "Gravar",
+          "seconds": 4
+        },
+        "closing": {
+          "title": "Últimos 2 segundos: **como você fecha?**",
+          "subtitle": "É o final que decide se a marca aprova o vídeo.",
+          "options": [
+            {
+              "id": "link",
+              "text": "“Link na bio, beijo!”",
+              "correct": false,
+              "feedback": "Quem publica o vídeo é a marca, não você: quem assiste nunca vai ver a sua bio. O botão de comprar, a marca coloca no anúncio."
+            },
+            {
+              "id": "sconto",
+              "text": "“Corre que é só hoje: 50% de desconto!”",
+              "correct": false,
+              "feedback": "Nunca invente oferta: preço e promoção quem decide é a marca, não você. Feche com um conselho, não com uma ordem."
+            },
+            {
+              "id": "consiglio",
+              "text": "“Agora eu não saio de casa sem ele. Se o seu cabelo é como o meu, testa.”",
+              "correct": true,
+              "feedback": "Perfeito: um conselho pessoal e um convite simples, sem gritar. É assim que fecha um bom vídeo UGC."
+            }
+          ]
+        },
+        "delivery": {
+          "sending": "Enviando para a Caracolê…",
+          "approvedTitle": "Vídeo aprovado pela **Caracolê!**",
+          "brandMessage": "Oi! Aprovado: gancho certeiro e uma luz linda. Vamos usar nos stories da semana que vem. Valeu!",
+          "walletLabel": "Finalizador · Caracolê"
+        }
+      },
+      {
+        "kind": "question",
+        "id": "camera",
+        "chapter": 3,
+        "title": "Você prefere gravar **com ou sem aparecer?**",
+        "subtitle": "Escolha o jeito que deixa você mais à vontade.",
+        "options": [
+          {
+            "id": "volto",
+            "label": "Mostro o rosto",
+            "hint": "Falar para a câmera não me assusta (muito)",
+            "emoji": "grinning_face_with_smiling_eyes"
+          },
+          {
+            "id": "mani_voce",
+            "label": "Só mãos e voz",
+            "hint": "Mostro o produto e conto, mas o rosto não",
+            "emoji": "palms_up_together"
+          },
+          {
+            "id": "senza_volto",
+            "label": "Prefiro não aparecer",
+            "hint": "Só produto, textos e música",
+            "emoji": "package"
+          }
+        ],
+        "reaction": {
+          "volto": "Uma conversa olhando para a câmera pode ser o começo do seu portfólio.",
+          "mani_voce": "Você mostra como o produto funciona e conta com a sua voz, sem expor o rosto.",
+          "senza_volto": "Você pode começar com mãos, produto e texto na tela. É um formato que a trilha ensina."
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "niente-follower",
+        "chapter": 3,
+        "eyebrow": "A boa notícia",
+        "title": "Não precisa de seguidores. **Nem de mostrar o rosto.**",
+        "body": [
+          "As marcas não compram o seu público: compram o vídeo. Quem publica são elas, nos perfis delas e nos anúncios.",
+          "Se você prefere ficar longe da câmera, use as mãos, a voz ou só os detalhes do produto. Você pode montar o portfólio sem expor a sua vida."
+        ],
+        "visual": "faceless",
+        "bullets": [
+          {
+            "emoji": "megaphone",
+            "text": "Quem publica o vídeo é **a marca**, não você"
+          },
+          {
+            "emoji": "money_bag",
+            "text": "Você recebe pelo **vídeo entregue**, não pelos seguidores"
+          },
+          {
+            "emoji": "house",
+            "text": "O portfólio se faz com **o que você já tem em casa**"
+          }
+        ],
+        "cta": "Quero criar vídeos para marcas"
+      },
+      {
+        "kind": "question",
+        "id": "categorie",
+        "chapter": 3,
+        "title": "Que produtos da sua rotina **podem virar vídeos?**",
+        "subtitle": "Escolha pelo menos 2 categorias para os seus primeiros projetos.",
+        "multi": true,
+        "minSelect": 2,
+        "layout": "grid",
+        "cta": "Continuar",
+        "options": [
+          {
+            "id": "bellezza",
+            "label": "Beleza e skincare",
+            "emoji": "lotion_bottle"
+          },
+          {
+            "id": "casa",
+            "label": "Casa e limpeza",
+            "emoji": "soap"
+          },
+          {
+            "id": "cucina",
+            "label": "Cozinha e café",
+            "emoji": "cooking"
+          },
+          {
+            "id": "moda",
+            "label": "Moda e acessórios",
+            "emoji": "dress"
+          },
+          {
+            "id": "famiglia",
+            "label": "Crianças e família",
+            "emoji": "baby_bottle"
+          },
+          {
+            "id": "animali",
+            "label": "Pets",
+            "emoji": "dog_face"
+          },
+          {
+            "id": "benessere",
+            "label": "Esporte e bem-estar",
+            "emoji": "dumbbell"
+          },
+          {
+            "id": "tech",
+            "label": "Tecnologia e gadgets",
+            "emoji": "laptop"
+          }
+        ],
+        "reaction": {
+          "cucina": "Ótima escolha: de comida, todo brasileiro entende um pouco.",
+          "animali": "Pet prende a atenção na hora, e as marcas sabem disso.",
+          "tech": "Boa: quem vende tecnologia sempre precisa de vídeos de “como usar”."
+        }
+      },
+      {
+        "kind": "brief",
+        "id": "brief-moka",
+        "chapter": 3,
+        "index": 2,
+        "brand": {
+          "name": "Pingô",
+          "product": "Café torrado e moído “Despertar” · 500 g",
+          "emoji": "hot_beverage",
+          "tagline": "Café para passar no coador",
+          "accent": "#8a4b2a"
+        },
+        "notification": {
+          "app": "Briefing UGC",
+          "title": "Novo briefing da Pingô",
+          "body": "Cachê proposto: R$ 300 · Vídeo de 30 segundos, com voz em off."
+        },
+        "briefCard": {
+          "title": "Vídeo “o ritual do café passado”",
+          "format": "Vertical 9:16 · 30 segundos · voz em off",
+          "deliverables": [
+            "1 vídeo: água quente no coador, o café pingando, a xícara",
+            "Voz em off: o rosto não precisa aparecer",
+            "Pacote bem legível por pelo menos 2 segundos",
+            "Sem música: só os sons de verdade da cozinha"
+          ],
+          "fee": 300,
+          "deadline": "Em até 7 dias",
+          "accept": "Aceito o briefing"
+        },
+        "hook": {
+          "title": "Que gancho você usa **para o café**?",
+          "subtitle": "Dessa vez o áudio também conta. E o barulhinho do café passando todo mundo reconhece.",
+          "options": [
+            {
+              "id": "borbottio",
+              "text": "Close no café pingando do coador, depois a voz: “Enquanto o café passa, três minutos só pra mim.”",
+              "correct": true,
+              "feedback": "Perfeito: um som que todo brasileiro reconhece e uma emoção de verdade logo nos primeiros segundos. O pacote entra logo depois, quando quem assiste já foi fisgado."
+            },
+            {
+              "id": "nonna",
+              "text": "“Então, a minha relação com o café começou há muitos anos, na casa da minha avó…”",
+              "correct": false,
+              "feedback": "Fofo, mas lento: nos 3 primeiros segundos não acontece nada e o produto chega tarde. Uma história funciona quando começa pelo momento mais forte, não pelo começo."
+            },
+            {
+              "id": "fermo",
+              "text": "O pacote parado em cima da mesa por 5 segundos, em silêncio, e só depois eu começo a falar.",
+              "correct": false,
+              "feedback": "O produto aparece, mas 5 segundos parados no celular são uma eternidade. Precisa de movimento ou de som desde o primeiro instante."
+            }
+          ]
+        },
+        "record": {
+          "title": "Grave a cena do café: toque no botão vermelho",
+          "tips": [
+            "Celular perto do coador: o barulhinho tem que aparecer",
+            "Só aparecem as mãos e o fogão: tudo certo",
+            "Pacote em primeiro plano por pelo menos 2 segundos"
+          ],
+          "button": "Gravar",
+          "seconds": 4
+        },
+        "delivery": {
+          "sending": "Enviando para a Pingô…",
+          "approvedTitle": "Aprovado pela **Pingô!**",
+          "brandMessage": "Aquele barulhinho do café passando logo no começo conquistou a gente. Aprovado! Vamos postar nos nossos perfis nas próximas semanas.",
+          "walletLabel": "Café · Pingô"
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "regola-d-oro",
+        "chapter": 3,
+        "eyebrow": "O que ninguém te conta",
+        "title": "Na vida real, **quem paga é a marca. Nunca você.**",
+        "body": [
+          "Você já viu como um vídeo vira um serviço para uma marca. O próximo passo é levar isso para os seus próprios produtos: um portfólio para mostrar e uma mensagem para oferecer o seu trabalho. A trilha ensina os dois.",
+          "E tem uma regra que vale sempre. Plataforma séria não cobra para você entrar nem para liberar cachê: no máximo, fica com uma taxa do cachê. Pagaram R$ 10 para você curtir vídeos e depois pediram um “investimento” no Pix para liberar mais tarefas? **É o golpe da renda extra.** Se alguém pede dinheiro para te dar trabalho ou para desbloquear um pagamento, **é golpe**."
+        ],
+        "visual": "safety",
+        "bullets": [
+          {
+            "emoji": "prohibited",
+            "text": "Nada de Pix para “liberar tarefas” nem de grupo no WhatsApp ou no Telegram com falso recrutador"
+          },
+          {
+            "emoji": "check_mark_button",
+            "text": "Briefing por escrito e cachê combinado **antes** de gravar"
+          }
+        ],
+        "cta": "Entendi, próximo briefing"
+      },
+      {
+        "kind": "brief",
+        "id": "brief-pasta",
+        "chapter": 3,
+        "index": 3,
+        "brand": {
+          "name": "Lata Cheia",
+          "product": "Biscoitos amanteigados · lata de 400 g",
+          "emoji": "cookie",
+          "tagline": "Biscoitaria artesanal",
+          "accent": "#b06a12"
+        },
+        "notification": {
+          "app": "Briefing UGC",
+          "title": "Briefing da Lata Cheia: unboxing sem rosto",
+          "body": "Cachê proposto: R$ 390 · Vídeo de 30 segundos, só mãos, com uso em anúncios por 3 meses."
+        },
+        "briefCard": {
+          "title": "Unboxing “o café da tarde”",
+          "format": "Vertical 9:16 · 30 segundos · sem rosto",
+          "deliverables": [
+            "Só mãos: caixa, lata, biscoitos e o prato",
+            "Close na casquinha dourada dos biscoitos",
+            "Textos na tela no lugar da voz",
+            "Uso do vídeo em anúncios por 3 meses (incluído no cachê)"
+          ],
+          "fee": 390,
+          "deadline": "Em até 10 dias",
+          "accept": "Aceito o briefing"
+        },
+        "hook": {
+          "title": "Sem rosto, sem voz: **que texto abre o vídeo?**",
+          "subtitle": "No vídeo sem rosto, o primeiro texto faz todo o trabalho.",
+          "options": [
+            {
+              "id": "maiuscolo",
+              "text": "“UNBOXING BISCOITO ARTESANAL PREMIUM DE ALTÍSSIMA QUALIDADE”",
+              "correct": false,
+              "feedback": "Tudo em maiúsculas e adjetivo de catálogo: parece anúncio, e a pessoa passa direto. Melhor uma frase que dê curiosidade ou faça sorrir."
+            },
+            {
+              "id": "etichetta",
+              "text": "“Biscoitos amanteigados: sabor, peso e validade”",
+              "correct": false,
+              "feedback": "Está certo, mas é um rótulo, não um gancho: não dá nenhum motivo para parar. Informação técnica vai no meio do vídeo."
+            },
+            {
+              "id": "carbonara",
+              "text": "“Biscoito ou bolacha? Abre comigo, depois a gente discute.”",
+              "correct": true,
+              "feedback": "Na mosca: uma briga que todo brasileiro conhece, e o produto já é o protagonista. Quem para quer ver a lata aberta."
+            }
+          ]
+        },
+        "record": {
+          "title": "Grave o unboxing (só mãos): toque no botão vermelho",
+          "tips": [
+            "Filme de cima: só aparecem as mãos e o produto",
+            "Coloque os biscoitos no prato: o barulhinho também conta",
+            "Close num biscoito partindo ao meio"
+          ],
+          "button": "Gravar",
+          "seconds": 4
+        },
+        "delivery": {
+          "sending": "Enviando para a Lata Cheia…",
+          "approvedTitle": "Aprovado pela **Lata Cheia!**",
+          "brandMessage": "O “biscoito ou bolacha” fez o escritório inteiro discutir. Aprovado: vamos usar nos anúncios dos próximos 3 meses, como no briefing.",
+          "walletLabel": "Biscoitos · Lata Cheia"
+        }
+      },
+      {
+        "kind": "question",
+        "id": "primo-video",
+        "chapter": 4,
+        "title": "Quando você quer gravar o primeiro vídeo **do seu portfólio?**",
+        "subtitle": "Pode começar com um produto que já está na sua casa.",
+        "options": [
+          {
+            "id": "oggi",
+            "label": "Hoje mesmo, com um produto que tenho em casa",
+            "emoji": "clapper_board"
+          },
+          {
+            "id": "domani",
+            "label": "Amanhã",
+            "emoji": "sun"
+          },
+          {
+            "id": "weekend",
+            "label": "Neste fim de semana",
+            "emoji": "calendar"
+          },
+          {
+            "id": "non-ancora",
+            "label": "Ainda não me sinto pronta",
+            "emoji": "hugging_face"
+          }
+        ],
+        "reaction": {
+          "oggi": "Hoje você separa um produto e começa pelo primeiro roteiro. O próximo passo vai estar na sua frente.",
+          "domani": "Amanhã já pode ter algo diferente na rotina: o primeiro vídeo de um serviço que você quer oferecer.",
+          "weekend": "Ótimo: no fim de semana você grava vários vídeos de uma vez só.",
+          "non-ancora": "Comece com o básico. Você recebe o roteiro e aprende onde apoiar o celular e o que mostrar."
+        }
+      },
+      {
+        "kind": "analysis",
+        "id": "analisi",
+        "chapter": 4,
+        "title": "Estamos montando o seu **plano para começar a vender vídeos**",
+        "doneTitle": "Pronto: **veja como começar a oferecer seus vídeos**",
+        "lines": [
+          "Analisando as suas respostas",
+          "Separando os formatos que combinam com você",
+          "Conferindo os 3 vídeos e seus orçamentos",
+          "Calculando cenários de R$ 200 a R$ 500 por vídeo",
+          "Montando a sequência de vídeos, portfólio e propostas",
+          "A sua trilha de 21 dias está pronta"
+        ],
+        "midQuestion": {
+          "title": "Quer saber **o que gravar, quanto cobrar e para quem oferecer?**",
+          "layout": "buttons",
+          "options": [
+            {
+              "id": "si",
+              "label": "Sim, quero o passo a passo"
+            },
+            {
+              "id": "no",
+              "label": "Não, obrigada"
+            }
+          ]
+        },
+        "facts": [
+          {
+            "emoji": "locked",
+            "text": "Pagamento seguro pela Hotmart"
+          },
+          {
+            "emoji": "shield",
+            "text": "Garantia de {days} dias"
+          },
+          {
+            "emoji": "mobile_phone",
+            "text": "Em português, passo a passo, direto no celular"
+          }
+        ]
+      },
+      {
+        "kind": "email",
+        "id": "email",
+        "chapter": 4,
+        "title": "Seu próximo passo está pronto. **Onde você quer receber?**",
+        "subtitle": "Veja o seu resultado agora e receba a trilha por e-mail para voltar a ela quando for começar.",
+        "label": "O seu e-mail",
+        "placeholder": "nome@exemplo.com",
+        "cta": "Quero ver meu próximo passo",
+        "privacy": {
+          "text": "Usamos o seu e-mail para mandar a trilha e, se você abrir o pagamento sem concluir, um único lembrete. Você pode se opor quando quiser. Controladora: {company}",
+          "link": "Política de privacidade"
+        },
+        "invalid": "Confira o endereço: tem que ser algo como nome.sobrenome@gmail.com, sem espaços nem acentos (no Gmail, pelo menos 6 letras ou números antes do @).",
+        "suggest": "Você quis dizer {email}?"
+      },
+      {
+        "kind": "optin",
+        "id": "optin",
+        "chapter": 4,
+        "title": "Quer receber **as nossas dicas** para começar no UGC?",
+        "text": "As respostas para as dúvidas de quem começa do zero e as nossas ofertas, por e-mail.",
+        "yes": "Sim, quero receber!",
+        "no": "Não, obrigada",
+        "note": "A gente pede uma confirmação por e-mail, e você pode cancelar quando quiser.",
+        "noteSingle": "Você pode cancelar quando quiser, com um clique no fim de cada e-mail.",
+        "privacyLink": "Política de privacidade",
+        "preview": [
+          {
+            "emoji": "thinking_face",
+            "title": "Sem seguidores e sem rosto?",
+            "text": "Dá para começar assim: veja como."
+          },
+          {
+            "emoji": "stopwatch",
+            "title": "Pouco tempo?",
+            "text": "Comece com 15 minutos por dia."
+          },
+          {
+            "emoji": "package",
+            "title": "O que tem na Trilha UGC",
+            "text": "Módulos, modelos e bônus, um a um."
+          }
+        ]
+      },
+      {
+        "kind": "name",
+        "id": "nome",
+        "chapter": 4,
+        "eyebrow": "A sua trilha está pronta!",
+        "title": "Como você se chama?",
+        "label": "Nome",
+        "placeholder": "Ex.: Juliana",
+        "cta": "Continuar",
+        "skip": "Prefiro não dizer",
+        "invalid": "Escreva só o nome: letras, espaços ou apóstrofos, de 2 a 30 caracteres.",
+        "privacy": {
+          "text": "Opcional: só usamos para te chamar pelo nome, aqui e nos e-mails.",
+          "link": "Política de privacidade"
+        }
+      },
+      {
+        "kind": "scratch",
+        "id": "sconto",
+        "chapter": 4,
+        "title": "Raspe para descobrir o seu **desconto exclusivo!**",
+        "subtitle": "Veja a oferta para começar com os roteiros e as mensagens prontas.",
+        "badge": "Desconto na sua trilha personalizada",
+        "foil": "Raspe aqui",
+        "reveal": "Revelar o desconto",
+        "sheetTitle": "Parabéns!",
+        "sheetTitleName": "Parabéns, {nome}!",
+        "sheetText": "Você conseguiu um desconto de {percent}%",
+        "cta": "Continuar",
+        "note": "O desconto já entra automaticamente."
+      },
+      {
+        "kind": "result",
+        "id": "risultato",
+        "chapter": 4
+      }
+    ],
+    "wallet": {
+      "label": "Valor dos seus vídeos",
+      "tooltip": "Os briefings deste quiz são uma simulação: as marcas são fictícias, e os valores são exemplos de orçamento, não dinheiro recebido nem disponível para saque. Os projetos usam cachês de R$ 200 a R$ 500 por vídeo, conforme as entregas e os direitos de uso. Na vida real, o preço é combinado com a marca, pode haver taxas e impostos, e nenhum ganho é garantido."
+    },
+    "result": {
+      "title": "Seu plano para **começar a vender vídeos para marcas**",
+      "titleName": "{nome}, seu plano para **começar a vender vídeos para marcas**",
+      "profileLabel": "O seu perfil de creator",
+      "profileQuestionId": "camera",
+      "goalQuestionId": "obiettivo",
+      "profiles": {
+        "volto": {
+          "name": "Rosto de confiança",
+          "description": "O seu formato tem jeito de conversa: você aparece, mostra o produto e conta como usa. Pode começar com algo da sua casa e uma luz de janela. Esse vídeo entra no portfólio que você apresenta às marcas.",
+          "strengths": [
+            "Vídeos falando para a câmera",
+            "Tutoriais de “como usar”",
+            "Reações espontâneas"
+          ]
+        },
+        "mani_voce": {
+          "name": "Mãos que falam",
+          "description": "Mostre o produto de perto e conte com a sua voz, sem mostrar o rosto. Um café sendo preparado ou um creme sendo usado já rendem cenas para o seu portfólio. A marca consegue ver **como você apresenta o produto**.",
+          "strengths": [
+            "Demonstrações de perto",
+            "Voz em off",
+            "Tutoriais passo a passo"
+          ]
+        },
+        "senza_volto": {
+          "name": "Direção invisível",
+          "description": "Você trabalha os detalhes do produto, os textos na tela e os sons da cena. Pode começar abrindo uma embalagem ou mostrando como algo funciona. O vídeo apresenta o produto, e **a sua vida continua fora da câmera**.",
+          "strengths": [
+            "Unboxing",
+            "Textos na tela",
+            "Sons e ASMR"
+          ]
+        }
+      },
+      "planTitle": "Dos seus primeiros vídeos **às propostas para marcas**",
+      "plan": [
+        {
+          "week": "Semana 1",
+          "title": "Seus primeiros vídeos para apresentar às marcas",
+          "items": [
+            "Escolha 2 ou 3 nichos, começando pelas categorias que te inspiram",
+            "Grave 3 vídeos de teste com produtos que você já tem em casa",
+            "Abra um gancho pronto e adapte ao seu produto",
+            "Edite tudo no celular com um app gratuito"
+          ]
+        },
+        {
+          "week": "Semana 2",
+          "title": "Um portfólio com preço e proposta",
+          "items": [
+            "Junte os melhores vídeos num portfólio online, mesmo com zero seguidores",
+            "Monte a sua tabela de preços e a sua ficha de creator",
+            "Cadastre-se em 2 ou 3 plataformas que trabalham com creators no Brasil",
+            "Escreva uma bio que diga claramente o que você faz"
+          ]
+        },
+        {
+          "week": "Semana 3",
+          "title": "Suas propostas na frente das marcas",
+          "items": [
+            "Envie suas propostas para campanhas abertas nas plataformas",
+            "Escreva direto para as marcas com as mensagens prontas",
+            "Cuide de briefing, ajustes e direitos de uso",
+            "Deixe o cachê em dia com a Receita: pessoa física ou MEI"
+          ]
+        }
+      ],
+      "projection": {
+        "title": "O potencial dos seus vídeos",
+        "rows": [
+          {
+            "label": "1 vídeo por mês",
+            "range": "R$ 200–500"
+          },
+          {
+            "label": "2 vídeos por mês",
+            "range": "R$ 400–1.000"
+          },
+          {
+            "label": "4 vídeos por mês",
+            "range": "R$ 800–2.000"
+          },
+          {
+            "label": "8 vídeos por mês",
+            "range": "R$ 1.600–4.000"
+          }
+        ],
+        "note": "",
+        "highlight": {
+          "questionId": "tempo",
+          "rowByOption": {
+            "moka": 1,
+            "30min": 1,
+            "weekend": 1,
+            "1ora": 2
+          }
+        }
+      },
+      "simulationRecap": "**{count} vídeos aprovados. {total} em orçamentos.** Um creme, um café, uma lata de biscoitos: produtos comuns que viram conteúdo para marcas.",
+      "bridge": "Você viu **{total} em orçamentos** nos projetos que acabou de conhecer. Agora imagine aprender a oferecer esse serviço com os produtos da sua casa. Na Trilha UGC, você recebe os roteiros, as mensagens e a sequência para gravar, mostrar o seu trabalho e apresentar o seu preço.",
+      "cta": "Quero vender vídeos para marcas",
+      "personal": {
+        "timeQuestionId": "tempo",
+        "time": {
+          "moka": {
+            "chip": "15 min por dia",
+            "phrase": "com 15 minutos por dia"
+          },
+          "30min": {
+            "chip": "30 min por dia",
+            "phrase": "com meia hora por dia"
+          },
+          "1ora": {
+            "chip": "1 hora por dia",
+            "phrase": "com uma hora por dia"
+          },
+          "weekend": {
+            "chip": "Só no fim de semana",
+            "phrase": "mesmo só no fim de semana"
+          }
+        },
+        "format": {
+          "volto": "Mostra o rosto",
+          "mani_voce": "Mãos e voz",
+          "senza_volto": "Sem rosto"
+        }
+      },
+      "today": {
+        "subtitle": "Do primeiro vídeo às propostas para marcas, {tempo}.",
+        "subtitleNoTime": "Do primeiro vídeo às propostas para marcas.",
+        "levelLabel": "Nível",
+        "now": {
+          "title": "Hoje",
+          "badge": "{count} briefings de teste concluídos",
+          "rows": [
+            {
+              "label": "Portfólio",
+              "value": "a montar"
+            },
+            {
+              "label": "Tabela de preços",
+              "value": "a fazer"
+            },
+            {
+              "label": "Candidaturas enviadas",
+              "value": "0"
+            }
+          ],
+          "level": "Iniciante"
+        },
+        "goal": {
+          "title": "Em 21 dias",
+          "badge": "metas da trilha",
+          "rows": [
+            {
+              "label": "Portfólio",
+              "value": "5 vídeos"
+            },
+            {
+              "label": "Tabela de preços",
+              "value": "pronta"
+            },
+            {
+              "label": "Candidaturas enviadas",
+              "value": "15"
+            }
+          ],
+          "level": "Pronta para briefings de verdade"
+        }
+      },
+      "dates": {
+        "week": "{week} · {range}",
+        "finish": "Você termina a trilha {data}",
+        "startQuestionId": "primo-video",
+        "startLabel": "O seu primeiro vídeo",
+        "start": {
+          "oggi": "hoje",
+          "domani": "amanhã",
+          "weekend": "neste fim de semana",
+          "non-ancora": "quando se sentir pronta"
+        },
+        "startToday": [
+          "oggi"
+        ],
+        "goalQuestionId": "spesa",
+        "goals": {
+          "natale": {
+            "phrase": "a tempo dos presentes de Natal",
+            "by": "11-30",
+            "within": 60
+          }
+        }
+      }
+    },
+    "offer": {
+      "urgencyBar": "Oferta especial disponível hoje — {date}",
+      "topBar": {
+        "label": "A oferta termina em",
+        "cta": "Quero vender vídeos",
+        "ready": "A sua trilha está pronta"
+      },
+      "hero": {
+        "eyebrow": "Da sua rotina para as marcas",
+        "title": "Você já tem o celular. **Aprenda a cobrar de R$ 200 a R$ 500 por vídeo.**",
+        "subtitle": "Ter um dinheiro seu pode começar com o que já está na sua casa. Saiba o que gravar, para quais marcas oferecer e como apresentar o seu preço, com roteiros e mensagens prontos para adaptar.",
+        "bullets": [
+          "**Seu primeiro portfólio:** vídeos com produtos que você já tem",
+          "**Sem depender de seguidores:** você oferece o vídeo para a marca usar",
+          "**O que escrever:** mensagens prontas para abordar as marcas",
+          "**Um passo por dia:** 21 dias para gravar, montar o portfólio e enviar propostas"
+        ],
+        "cta": "Quero vender vídeos para marcas"
+      },
+      "problem": {
+        "title": "Você até quer começar. **Mas trava nessas perguntas?**",
+        "items": [
+          {
+            "emoji": "thinking_face",
+            "title": "O que eu gravo?",
+            "text": "Você olha os produtos de casa e não sabe por qual começar. A trilha traz ideias, ganchos e roteiros para tirar o primeiro vídeo do papel."
+          },
+          {
+            "emoji": "woman_shrugging",
+            "title": "E se ninguém me segue?",
+            "text": "O seu portfólio mostra o que você sabe criar. É esse conteúdo que você oferece para a marca publicar nos canais dela."
+          },
+          {
+            "emoji": "warning",
+            "title": "Como eu encontro marcas?",
+            "text": "Você recebe o caminho para procurar campanhas e se apresentar diretamente às marcas, além das orientações para reconhecer uma proposta séria."
+          },
+          {
+            "emoji": "receipt",
+            "title": "Quanto eu cobro?",
+            "text": "Vá para a conversa com uma tabela de referência e exemplos de proposta. Combine o vídeo, os ajustes e o uso em anúncios antes de gravar."
+          }
+        ]
+      },
+      "includes": {
+        "title": "O que você leva para **gravar, oferecer e negociar seus vídeos**",
+        "items": [
+          {
+            "emoji": "spiral_calendar",
+            "title": "A trilha de 21 dias",
+            "text": "Abra a tarefa do dia e faça o próximo movimento: escolher o produto, gravar, montar o portfólio ou enviar uma proposta. Sem ficar juntando dicas soltas."
+          },
+          {
+            "emoji": "framed_picture",
+            "title": "Portfólio sem seguidores",
+            "text": "Monte uma vitrine com 3 a 5 vídeos usando o que você tem em casa. Mostre o que sabe criar, mesmo que o seu perfil ainda tenha zero seguidores."
+          },
+          {
+            "emoji": "palms_up_together",
+            "title": "Formatos sem rosto",
+            "text": "Escolha quanto quer aparecer: só mãos, só voz, unboxing ou ASMR. Veja como apresentar o produto mantendo a sua vida fora da câmera."
+          },
+          {
+            "emoji": "clapper_board",
+            "title": "Ganchos e roteiros prontos",
+            "text": "Abra um roteiro de 15, 30 ou 60 segundos e adapte ao produto. Saiba o que dizer e mostrar antes de começar a gravar."
+          },
+          {
+            "emoji": "mobile_phone",
+            "title": "Gravar e editar no celular",
+            "text": "Use a luz da janela, apoie o celular e siga a sequência de gravação e edição. Aprenda com apps gratuitos, sem comprar câmera ou iluminação."
+          },
+          {
+            "emoji": "magnifying_glass",
+            "title": "Onde encontrar marcas",
+            "text": "Saiba onde procurar campanhas no Brasil e para quem mandar o portfólio. Com o caminho de cadastro e as mensagens para abordar as marcas."
+          },
+          {
+            "emoji": "receipt",
+            "title": "Preços, contratos e direitos de uso",
+            "text": "Apresente propostas de R$ 200 a R$ 500 por vídeo com o que está incluído: briefing, ajustes e direitos de uso. Adapte a tabela de exemplo à sua negociação."
+          },
+          {
+            "emoji": "balance_scale",
+            "title": "Impostos sem medo",
+            "text": "Pessoa física ou MEI, carnê-leão e nota fiscal: o que vale para quem está começando, em palavras simples."
+          }
+        ]
+      },
+      "bonuses": {
+        "title": "E mais: **5 bônus para colocar a mão na massa**",
+        "items": [
+          {
+            "emoji": "shield",
+            "title": "Guia anti-golpe para creators",
+            "text": "Reconheça os sinais de uma falsa proposta e saiba o que conferir antes de aceitar um trabalho ou passar qualquer informação.",
+            "value": "R$ 12"
+          },
+          {
+            "emoji": "love_letter",
+            "title": "Mensagens prontas para marcas",
+            "text": "Copie, adapte e envie: mensagens para apresentar o seu trabalho, retomar a conversa com quem não respondeu e responder a um briefing.",
+            "value": "R$ 17"
+          },
+          {
+            "emoji": "calendar",
+            "title": "30 ideias de vídeo para o portfólio",
+            "text": "Escolha uma ideia, adapte ao produto que tem em casa e grave mais um vídeo para apresentar no seu portfólio.",
+            "value": "R$ 15"
+          },
+          {
+            "emoji": "scissors",
+            "title": "Edição no celular, passo a passo",
+            "text": "Siga a sequência de cortes, textos e áudio num app gratuito. Veja como preparar o vídeo para mostrar à marca.",
+            "value": "R$ 19"
+          },
+          {
+            "emoji": "clipboard",
+            "title": "Checklist antes da entrega",
+            "text": "Confira os 12 pontos antes da entrega e corrija os detalhes que podem fazer a marca pedir ajustes.",
+            "value": "R$ 9"
+          }
+        ]
+      },
+      "forWho": {
+        "yesTitle": "É para você se…",
+        "yes": [
+          "Quer ter um dinheiro seu e construir uma renda sem largar o emprego",
+          "Tem um celular e alguns produtos em casa: para começar, é só isso",
+          "Não tem seguidores, ou não quer mostrar o rosto",
+          "Quer transformar o que sabe sobre produtos em um serviço para marcas",
+          "Quer saber o que fazer hoje e colocar em prática"
+        ],
+        "noTitle": "Não é para você se…",
+        "no": [
+          "Procura “dinheiro fácil” ou ganhar sem fazer nada: aqui precisa de dedicação",
+          "Quer salário fixo: UGC é trabalho por projeto, vídeo a vídeo",
+          "Não tem nem 15 minutos por dia durante 3 semanas",
+          "Espera que as marcas te achem sem você se apresentar"
+        ]
+      },
+      "howItWorks": {
+        "title": "Como funciona",
+        "steps": [
+          {
+            "title": "Garanta o seu acesso",
+            "text": "Pagamento único pela Hotmart, no Pix, no cartão ou nos outros meios disponíveis no checkout. Sem mensalidade."
+          },
+          {
+            "title": "Abra a sua área de membros",
+            "text": "Assim que o pagamento é confirmado, chega o acesso à Trilha, aos modelos e aos bônus. Abre até pelo celular."
+          },
+          {
+            "title": "Prepare os vídeos e ofereça às marcas",
+            "text": "Siga a sequência de 21 dias: grave os vídeos, monte o portfólio e use as mensagens para enviar as suas primeiras propostas."
+          }
+        ]
+      },
+      "price": {
+        "title": "Oferta de hoje",
+        "productName": "Trilha UGC 21 Dias",
+        "lines": [
+          "8 módulos: do primeiro vídeo à proposta para marcas",
+          "21 dias com o próximo passo na sua frente",
+          "Roteiros e mensagens para copiar e adaptar",
+          "Tabela de preços e 5 bônus inclusos",
+          "Acesso pelo celular, sem mensalidade"
+        ],
+        "anchorLabel": "Preço original",
+        "priceLabel": "Só hoje",
+        "saveLabel": "Você economiza",
+        "cta": "Quero vender vídeos para marcas",
+        "secure": "Pagamento protegido pela Hotmart",
+        "countdownLabel": "A oferta de hoje termina em",
+        "intro": "Comece pelo seu estilo: “{profilo}”",
+        "introName": "{nome}, comece pelo seu estilo: “{profilo}”",
+        "perDay": "ou seja, cerca de {perDay} por dia nos {days} dias da trilha",
+        "coupon": "Desconto de {percent}% aplicado"
+      },
+      "downsell": {
+        "title": "Espera! A gente não quer que o preço te impeça.",
+        "titleName": "Espera, {nome}! A gente não quer que o preço te impeça.",
+        "text": "Só para você, agora: a Trilha UGC por **{downsell}** em vez de {price}.",
+        "cta": "Sim, quero por {downsell}",
+        "no": "Não, obrigada"
+      },
+      "promoExpired": "O preço de {promo} valia até {quando}.",
+      "guarantee": {
+        "title": "Garantia incondicional de {days} dias",
+        "text": "Entre na área de membros, veja os roteiros e comece a usar a trilha. Se não fizer sentido para você, peça o reembolso total em até {days} dias depois da compra, pela sua área de compras da Hotmart ou por e-mail, sem precisar explicar o motivo."
+      },
+      "testimonialsTitle": "O que dizem as alunas da trilha",
+      "faq": [
+        {
+          "q": "Precisa ter muitos seguidores?",
+          "a": "Não. No UGC, a marca paga pelo vídeo, não pelo seu público: quem publica é ela, nos canais e nos anúncios dela. Você precisa de um portfólio com alguns vídeos de teste, e na trilha a gente mostra como montar o seu do zero."
+        },
+        {
+          "q": "Preciso mesmo mostrar o rosto?",
+          "a": "Não. Tem formatos só com mãos, só com voz ou de unboxing, e muitas marcas usam exatamente assim. A trilha tem um módulo inteiro só de vídeos sem rosto."
+        },
+        {
+          "q": "Quanto dá para ganhar de verdade?",
+          "a": "Na trilha, você aprende a montar propostas de R$ 200 a R$ 500 por vídeo, conforme o briefing e os direitos de uso. Nessa faixa, 2 vídeos vendidos no mês representam R$ 400 a R$ 1.000; 4, de R$ 800 a R$ 2.000; 8, de R$ 1.600 a R$ 4.000. O caminho é aprender a criar vídeos que a marca pode usar e apresentar esse serviço com uma proposta clara."
+        },
+        {
+          "q": "Preciso abrir MEI? E os impostos?",
+          "a": "Para começar, dá para receber como pessoa física, no seu CPF. Se quem paga é uma empresa, ela normalmente desconta 11% de INSS (é o RPA); se é uma pessoa ou uma plataforma de fora do Brasil, você mesma recolhe pelo carnê-leão. Em 2026, o imposto de renda mensal é zero para rendimentos de até R$ 5.000 por mês (Lei 15.270/2025). Existe o MEI de “editor(a) de vídeo independente”, mas não está claro se ele cobre gravar e aparecer no vídeo. Na trilha está tudo explicado em palavras simples; para o seu caso, confirme com um contador."
+        },
+        {
+          "q": "Isso é golpe?",
+          "a": "Pergunta justíssima, ainda mais hoje em dia. Veja o que a gente nunca vai fazer: pedir dinheiro para você trabalhar, pedir código, senha ou documento, colocar você em grupo de WhatsApp ou de Telegram. A Trilha UGC é um conteúdo educativo, com pagamento único e garantia de reembolso. E plataforma séria não cobra para você entrar nem para liberar cachê: no máximo, fica com uma taxa do cachê. Quem cobra para “liberar” tarefa ou pagamento está aplicando golpe."
+        },
+        {
+          "q": "Preciso saber inglês?",
+          "a": "Não. A trilha é toda em português, e os vídeos você grava em português, para marcas que vendem no Brasil. As principais plataformas que atendem creators brasileiras também são em português."
+        },
+        {
+          "q": "Quanto tempo leva?",
+          "a": "Em 21 dias, você segue a sequência para gravar os primeiros vídeos, montar o portfólio, definir preços e enviar propostas. As tarefas foram pensadas para 15 a 60 minutos por dia. Só consegue no fim de semana? A trilha mostra como gravar vários vídeos numa sessão."
+        },
+        {
+          "q": "Como eu recebo o conteúdo?",
+          "a": "Assim que o pagamento é confirmado, chega um e-mail da Hotmart com o acesso à sua área de membros: no Pix e no cartão, em geral em poucos minutos. Lá estão a Trilha, os modelos e os bônus, tudo digital: você abre no celular, no tablet ou no computador. Nada de frete e nada de mensalidade."
+        },
+        {
+          "q": "Não me dou bem com tecnologia: consigo mesmo assim?",
+          "a": "Consegue começar pelo básico: onde apoiar o celular, como usar a luz da janela e que app gratuito abrir para editar. Você segue o roteiro e a sequência de gravação, mesmo que nunca tenha montado um portfólio."
+        },
+        {
+          "q": "Por que pagar, se o cadastro nas plataformas é de graça?",
+          "a": "Você leva o que precisa preparar antes de se apresentar: roteiros para gravar, uma sequência para montar o portfólio, uma tabela para definir o preço e mensagens para abordar as marcas. É esse passo a passo que você compra. Depois, usa o portfólio e as mensagens para se cadastrar e enviar propostas nas plataformas ou diretamente às marcas."
+        }
+      ],
+      "finalCta": {
+        "title": "Você já tem o celular. **Comece a construir uma renda sua com ele.**",
+        "cta": "Quero vender vídeos para marcas"
+      }
+    },
+    "legal": {
+      "simulationDisclaimer": "Quiz gratuito para maiores de 18 anos; no fim, apresentamos um conteúdo educativo pago, com pagamento único, sem obrigação de compra. Simulação demonstrativa: as marcas Caracolê, Pingô e Lata Cheia são fictícias, e os cachês mostrados não são dinheiro de verdade. Ninguém vai te pagar pelas atividades desta página, e o cofrinho de teste não pode ser sacado nem convertido. Os valores são exemplos de orçamento de R$ 200 a R$ 500 por vídeo e cenários de faturamento bruto, antes de taxas e impostos. A faixa de R$ 800 a R$ 4.000 por mês ilustra a venda de 4 a 8 vídeos nesses preços, não resultados já obtidos nem ganhos garantidos.",
+      "earningsDisclaimer": "Aviso sobre ganhos: a Trilha UGC vende um conteúdo educativo; não oferece emprego e não paga você para fazer tarefas. Nenhum ganho é garantido. Os valores mostrados são exemplos de orçamento e cenários de faturamento bruto, antes de taxas e impostos, e não são resultados típicos: muita gente ganha pouco ou nada, outras ganham mais. Os resultados dependem da sua dedicação, do tempo que você investe e das escolhas das marcas e das plataformas, que podem mudar a qualquer momento. O cachê precisa ser declarado conforme a lei. Se você procura “dinheiro fácil”, esta trilha não é para você.",
+      "notAffiliated": "Este site não tem vínculo com Facebook, Instagram, Meta, TikTok ou Google, nem com as plataformas e as marcas citadas. As marcas pertencem aos seus titulares; as usadas na simulação são fictícias.",
+      "privacyTitle": "Política de privacidade",
+      "privacyBody": [
+        "Controladora dos dados: {company}, com sede em {address}, {taxIdLabel} {vat}, e-mail {email}. {brand} é uma marca da {company}. Como agente de tratamento de pequeno porte (microempresa; Resolução CD/ANPD nº 2/2022, art. 11), não indicamos encarregado: este e-mail é o nosso canal de comunicação para qualquer pedido ou assunto sobre os seus dados.",
+        "Quiz e simulação. Para usar o quiz, você não precisa criar conta nem deixar o seu número de celular, e o nome é opcional. O andamento do quiz e da simulação fica salvo no seu navegador (sessionStorage), para você poder continuar se a página recarregar.",
+        "{emailPolicy}",
+        "Estatísticas do quiz. Para entender quais etapas do quiz e da página da oferta precisam melhorar e quais anúncios trazem mais pessoas até o fim, registramos nos servidores do nosso provedor de hospedagem (Cloudflare) as telas que você vê e o tempo em cada uma, as respostas que você escolhe, as seções da página da oferta que você rola, os toques no botão que leva ao pagamento e, se você comprar, a chegada à página de confirmação do pedido e o pedido que a Hotmart nos informa (código, oferta, preço, status e meio de pagamento, por exemplo cartão, Pix ou boleto, e os parâmetros do anúncio), sem nome, e-mail ou outros dados de pagamento. Para ligar ao pedido da Trilha o produto adicional que você eventualmente comprar logo depois do pagamento, guardamos de cada pedido, por cerca de 2 dias, também um código gerado a partir do e-mail com uma chave secreta (hash), não o e-mail. Registramos ainda o tipo de aparelho, o sistema operacional, o app em que você abre o site (por exemplo Instagram ou Facebook), o país de onde você acessa e os parâmetros do anúncio de onde você veio. Esses dados ficam ligados só a um código aleatório válido para esta visita, que fica no seu navegador (sessionStorage) e some quando você fecha a aba: para essas estatísticas não usamos cookies e não guardamos o seu endereço IP. Não cruzamos esses dados com outras informações, a não ser quando você deixa o e-mail: aí o código da visita é salvo junto com ele (veja “E-mail”) e, se você comprar com o mesmo e-mail, ligado ao pedido. Só consultamos esses dados de forma agregada e não os enviamos para a Meta, para a Utmify nem para outras plataformas de anúncio. Base legal: legítimo interesse em melhorar o site e os nossos anúncios (LGPD, art. 7º, IX, e art. 10). Guarda: 13 meses. Você pode se opor a qualquer momento escrevendo para {email}.",
+        "Dados de navegação. O provedor de hospedagem Cloudflare, Inc. (Estados Unidos) registra dados técnicos como endereço IP, tipo de navegador e páginas acessadas, para garantir o funcionamento e a segurança do site. Base legal: legítimo interesse (LGPD, art. 7º, IX). Guarda: 30 dias.",
+        "{measurement}",
+        "Pixel da Meta (Meta Platforms, Inc.): nos diz quantas pessoas chegam pelos nossos anúncios e quantas abrem o checkout. A Meta também trata esses dados conforme a política dela, disponível em facebook.com/privacy/policy, e pode transferi-los para os Estados Unidos.",
+        "Utmify (Brasil), ferramenta de atribuição de campanhas: lê os parâmetros do anúncio de onde você vem, salva no localStorage do seu navegador os parâmetros UTM (por 7 dias) e um identificador de visitante com os identificadores do clique (até você apagar os dados do site), e usa o seu endereço IP (obtido pelo serviço ipify) e a localização aproximada que se deduz dele para atribuir a eventual compra ao anúncio certo.",
+        "Nem a Meta nem a Utmify recebem as suas respostas do quiz: os eventos automáticos do pixel estão desligados, e só enviamos eventos neutros, como “etapa do quiz vista” ou “abertura do checkout”.",
+        "Compras. O pagamento é feito no checkout da Hotmart, que trata os dados necessários (como nome, e-mail, CPF, celular e dados de pagamento) conforme a própria política e nos informa os que servem para entregar o produto, dar suporte e cumprir as obrigações fiscais. Base legal: execução de contrato e cumprimento de obrigação legal (LGPD, art. 7º, II e V). Guarda: pelo prazo exigido pela legislação fiscal.",
+        "Atendimento. Se você escrever para {email}, a mensagem chega pelo serviço de encaminhamento de e-mail da Cloudflare a uma caixa do Gmail (Google), onde a gente lê e responde. Usamos os seus dados só para responder e guardamos pelo tempo necessário para resolver o seu pedido. Não mandamos comunicações promocionais sem um consentimento específico e separado.",
+        "Compartilhamento e transferência internacional. Os dados podem ser tratados pelos nossos fornecedores técnicos (hospedagem e encaminhamento dos e-mails de atendimento na Cloudflare, Hotmart para os pagamentos, Resend para o envio dos e-mails, Google para a caixa de e-mail do atendimento, Meta e Utmify para a medição dos anúncios), que atuam como operadores ou, quando for o caso, como controladores dos próprios tratamentos. Cloudflare, Resend, Google e Meta tratam dados fora do Brasil, principalmente nos Estados Unidos: essa transferência internacional segue o art. 33 da LGPD e a Resolução CD/ANPD nº 19/2024, com cláusulas-padrão contratuais ou outra garantia prevista.",
+        "Os seus direitos. Você pode pedir a confirmação do tratamento, o acesso, a correção, a anonimização, o bloqueio ou a eliminação de dados desnecessários, a portabilidade, a informação sobre com quem compartilhamos os seus dados e a eliminação dos dados tratados com o seu consentimento, além de revogar o consentimento a qualquer momento (LGPD, art. 18), escrevendo para {email}. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (gov.br/anpd).",
+        "Última atualização: 20 de outubro de 2026."
+      ],
+      "privacyEmail": "E-mail. Se o quiz pedir o seu e-mail, usamos para mandar a trilha que você pediu, montada com as suas respostas (execução do serviço que você pediu, LGPD, art. 7º, V). Ele é necessário para seguir: sem ele, não conseguimos mandar a trilha. Junto com o e-mail, guardamos as respostas do quiz, os parâmetros do anúncio de onde você veio e o código aleatório da visita descrito em “Estatísticas do quiz”. O nome é opcional: se depois do e-mail você nos disser, guardamos junto com o e-mail e usamos só para te chamar pelo nome no site (no quiz, na trilha, na página da oferta, inclusive na segunda proposta de preço, e na página logo depois do pagamento) e nos e-mails que mandamos (consentimento, LGPD, art. 7º, I: você pode revogar quando quiser escrevendo para {email}); não passamos o nome para a Hotmart e apagamos junto com o e-mail, nos mesmos prazos. Se você abrir o pagamento mas não concluir o pedido, mandamos um único e-mail com o link para continuar, sem ofertas nem descontos (legítimo interesse em facilitar uma compra que você começou, LGPD, art. 7º, IX); o mesmo vale se você digitou o e-mail direto no checkout da Hotmart, que nos avisa quando o pedido não é concluído. Você pode se opor quando quiser, pelo link no e-mail ou escrevendo para {email}. Só se você escolher na tela própria, logo depois da tela do e-mail, tocando em “Sim, quero receber!”, também mandamos dicas e ofertas da {brand} (consentimento, LGPD, art. 7º, I, e art. 8º): escrevemos uma vez para pedir que você confirme a inscrição com um link, e você pode revogar o consentimento com um clique em qualquer e-mail. Para comprovar o consentimento, guardamos, para cada etapa (inscrição, confirmação, revogação), data e hora, o texto da tela em que você deu o consentimento, o endereço IP e o tipo de navegador. Quando você toca no botão para ir ao pagamento, passamos o seu e-mail para a Hotmart para preencher o checkout. Os e-mails saem pela Resend (Estados Unidos), nossa operadora, com as garantias de transferência internacional descritas abaixo. Os nossos e-mails não têm pixel de rastreamento; os botões passam pelo nosso site, que leva você à página certa. Guarda: se você não comprar e não confirmar a inscrição, apagamos o e-mail e os dados ligados a ele em até 30 dias; se comprar sem se inscrever, 30 dias depois da compra (os dados do pedido seguem “Compras”); com a inscrição confirmada, até você cancelar. Depois da revogação ou da oposição, guardamos só a prova do consentimento e o endereço na lista de exclusão, para não escrever mais para você.",
+      "privacyEmailSingle": "E-mail. Se o quiz pedir o seu e-mail, usamos para mandar a trilha que você pediu, montada com as suas respostas (execução do serviço que você pediu, LGPD, art. 7º, V). Ele é necessário para seguir: sem ele, não conseguimos mandar a trilha. Junto com o e-mail, guardamos as respostas do quiz, os parâmetros do anúncio de onde você veio e o código aleatório da visita descrito em “Estatísticas do quiz”. O nome é opcional: se depois do e-mail você nos disser, guardamos junto com o e-mail e usamos só para te chamar pelo nome no site (no quiz, na trilha, na página da oferta, inclusive na segunda proposta de preço, e na página logo depois do pagamento) e nos e-mails que mandamos (consentimento, LGPD, art. 7º, I: você pode revogar quando quiser escrevendo para {email}); não passamos o nome para a Hotmart e apagamos junto com o e-mail, nos mesmos prazos. Se você abrir o pagamento mas não concluir o pedido, mandamos um único e-mail com o link para continuar, sem ofertas nem descontos (legítimo interesse em facilitar uma compra que você começou, LGPD, art. 7º, IX); o mesmo vale se você digitou o e-mail direto no checkout da Hotmart, que nos avisa quando o pedido não é concluído. Você pode se opor quando quiser, pelo link no e-mail ou escrevendo para {email}. Só se você escolher na tela própria, logo depois da tela do e-mail, tocando em “Sim, quero receber!”, também mandamos dicas e ofertas da {brand} (consentimento, LGPD, art. 7º, I, e art. 8º): a inscrição começa na hora, sem outras etapas, e o primeiro desses e-mails pode chegar já uma hora depois. Você pode revogar o consentimento quando quiser, com um clique no fim de cada e-mail ou escrevendo para {email}. Para comprovar o consentimento, guardamos, para cada etapa (inscrição, revogação), data e hora, o texto da tela em que você deu o consentimento, o endereço IP e o tipo de navegador. Quando você toca no botão para ir ao pagamento, passamos o seu e-mail para a Hotmart para preencher o checkout. Os e-mails saem pela Resend (Estados Unidos), nossa operadora, com as garantias de transferência internacional descritas abaixo. Os nossos e-mails não têm pixel de rastreamento; os botões passam pelo nosso site, que leva você à página certa. Guarda: se você não se inscrever e não comprar, apagamos o e-mail e os dados ligados a ele em até 30 dias; se comprar sem se inscrever, 30 dias depois da compra (os dados do pedido seguem “Compras”); com a inscrição ativa, até você cancelar. Depois da revogação ou da oposição, guardamos só a prova do consentimento e o endereço na lista de exclusão, para não escrever mais para você.",
+      "privacyMeasurement": "Medição dos anúncios (só com o seu consentimento). Se você tocar em “Aceitar” no aviso de cookies, o site carrega as duas ferramentas descritas abaixo; antes da sua escolha, elas nem são carregadas. Base legal: consentimento (LGPD, art. 7º, I), que você pode revogar a qualquer momento pelo link “Preferências de cookies” no rodapé. Se você recusar ou revogar, apagamos do seu navegador os cookies da Meta e os dados salvos pela Utmify.",
+      "privacyMeasurementNoBanner": "Medição dos anúncios. Para saber quantas pessoas chegam pelos nossos anúncios e quantas abrem o checkout, o site carrega, assim que você abre a página, as duas ferramentas descritas abaixo. Base legal: legítimo interesse em medir os nossos anúncios (LGPD, art. 7º, IX, e art. 10). Você pode se opor a qualquer momento escrevendo para {email}; também pode apagar os cookies e os dados salvos pelo site nas configurações do seu navegador.",
+      "cookieTitle": "Política de cookies",
+      "cookieBody": [
+        "Esta Política de cookies explica quais ferramentas o site da {brand} usa e como você pode escolher.",
+        "Ferramentas técnicas (sempre ativas). Fazem o quiz funcionar e não dependem de consentimento: guardam as suas respostas durante a sessão, o e-mail que você deixa no quiz (para preencher o pagamento), o nome, se você disser (para te chamar pelo nome no site), e um código aleatório da visita, usado só para as estatísticas agregadas do quiz descritas na política de privacidade (sessionStorage), a sua escolha sobre cookies, a preferência de som e o contador da oferta (localStorage). Ficam no seu aparelho e não são usadas para traçar o seu perfil.",
+        "Marketing e medição (desligados até você aceitar). Antes do seu consentimento, essas ferramentas nem são carregadas. Se você tocar em “Aceitar”, o site carrega:",
+        "Pixel da Meta (Meta Platforms, Inc.): mede as visitas que chegam pelos anúncios e algumas ações no site, como a abertura do checkout. Usa os cookies _fbp e _fbc, que duram até 90 dias. A Meta pode transferir os dados para os Estados Unidos.",
+        "Utmify (Brasil), ferramenta de atribuição de campanhas: lê os parâmetros do anúncio de onde você vem, salva no localStorage do seu navegador os parâmetros UTM (por 7 dias) e um identificador de visitante com os identificadores do clique (até você apagar os dados do site), e usa o seu endereço IP (obtido pelo serviço ipify) e a localização aproximada que se deduz dele para atribuir a eventual compra ao anúncio certo.",
+        "As suas respostas do quiz nunca são enviadas para a Meta nem para a Utmify: os eventos automáticos do pixel estão desligados, e só registramos etapas neutras, como “etapa do quiz vista” ou “abertura do checkout”.",
+        "Como escolher. No aviso, você pode aceitar ou recusar com dois botões equivalentes; fechar o aviso no X é o mesmo que recusar. Você pode mudar de ideia quando quiser pelo link “Preferências de cookies” no rodapé: se recusar ou revogar o consentimento, apagamos do seu navegador os cookies da Meta e os dados salvos pela Utmify. Guardamos a sua escolha por 6 meses e depois perguntamos de novo.",
+        "Checkout. A página de pagamento é da Hotmart, que usa os próprios cookies conforme a própria política.",
+        "Controladora dos dados: {company}, {address}. Contato: {email}."
+      ],
+      "termsTitle": "Termos e condições de venda",
+      "termsBody": [
+        "Vendedora: {company}, {address}, {taxIdLabel} {vat}, e-mail {email}. {brand} é uma marca da {company}. Os pagamentos são processados pela Hotmart, plataforma que intermedeia a venda em nome da vendedora.",
+        "Produto: “{product}”, conteúdo digital formado por um guia em PDF, modelos e bônus indicados na página de vendas, com acesso pela área de membros da Hotmart no celular, no tablet ou no computador. Não é oferta de emprego, não inclui acesso a plataformas de terceiros e não garante ganhos.",
+        "Preço: {price}, pagamento único. Sem mensalidade e sem cobrança recorrente. Se você parcelar no cartão, os juros do parcelamento, quando houver, aparecem no checkout antes da confirmação. Produtos adicionais oferecidos no checkout são opcionais, vêm desmarcados e mostram o preço antes do pagamento.",
+        "Logo depois do pagamento, podemos oferecer até dois produtos adicionais opcionais: o segundo só se você recusar o primeiro. Cada um é cobrado à parte, pelo preço indicado, e só se você confirmar no botão. Cada produto adicional tem a sua própria garantia de {days} dias.",
+        "{secondChance}",
+        "Entrega: o acesso é enviado para o e-mail informado no checkout logo depois da confirmação do pagamento (no Pix e no cartão, em geral em poucos minutos; no boleto, depois da compensação, que pode levar até 3 dias úteis).",
+        "Garantia voluntária: você pode pedir o reembolso total em até {days} dias depois da compra, sem dizer o motivo, pela sua área de compras da Hotmart ou escrevendo para {email}. A garantia se soma aos direitos previstos em lei.",
+        "Direito de arrependimento: nas compras pela internet, você pode desistir em até 7 dias a contar da compra ou do recebimento do acesso, com a devolução imediata de tudo o que pagou, com correção (Código de Defesa do Consumidor, art. 49). A nossa garantia de {days} dias já cobre esse prazo.",
+        "Para desistir ou pedir o reembolso: entre na sua área de compras da Hotmart (consumer.hotmart.com) com o e-mail usado na compra, abra o pedido do produto que você quer reembolsar (“{product}” ou um produto adicional: cada um tem o seu pedido) e peça o reembolso; ou escreva para {email} informando o e-mail da compra. O link “Desistir da compra” no rodapé da página abre essas instruções, com o atalho para a área de compras. Confirmamos o recebimento do pedido de desistência na hora, e o estorno é feito pela Hotmart; no cartão, a administradora é avisada para não lançar a cobrança na fatura ou para estorná-la (Decreto 7.962/2013, art. 5º).",
+        "Garantia legal: além da garantia voluntária, valem os prazos para reclamar de problemas no produto previstos no Código de Defesa do Consumidor (art. 26).",
+        "Uso dos materiais: o conteúdo e os modelos são para uso pessoal. Não é permitido revender nem compartilhar.",
+        "Resultados: o conteúdo é educativo. Os resultados dependem de você e de terceiros (marcas e plataformas) e não são garantidos. As simulações do site são demonstrativas, e os valores mostrados não são dinheiro de verdade.",
+        "Atendimento e reclamações: escreva para {email}; respondemos em até 2 dias úteis. Você também pode procurar o Procon do seu estado. Foro: o do seu domicílio, como prevê o Código de Defesa do Consumidor. Lei aplicável: a lei brasileira.",
+        "Última atualização: 20 de outubro de 2026."
+      ],
+      "termsSecondChance": "Segunda proposta: para quem abre o pagamento e volta sem concluir, podemos oferecer, uma única vez por visita, o mesmo produto por {downsell} em vez de {price}. É um preço definido de forma automatizada, que só aparece para quem volta da página de pagamento sem ter concluído o pedido.",
+      "termsPromo": "Por e-mail, para quem confirmou a inscrição e ainda não comprou, podemos oferecer, uma única vez, o mesmo produto por {promo} em vez de {price}: um preço válido até o prazo indicado no e-mail e definido de forma automatizada.",
+      "termsPromoSingle": "Para quem se inscreveu nos nossos e-mails e ainda não comprou, podemos oferecer por e-mail, uma única vez, o mesmo produto por {promo} em vez de {price}: um preço válido até o prazo indicado no e-mail e definido de forma automatizada.",
+      "withdrawalLink": "Desistir da compra"
+    },
+    "cookieBanner": {
+      "text": "Se você aceitar, o Pixel da Meta e a Utmify medem as visitas que chegam pelos anúncios (nunca as suas respostas). O X é o mesmo que recusar.",
+      "accept": "Aceitar",
+      "reject": "Recusar",
+      "policyLink": "Política de cookies"
+    },
+    "ui": {
+      "next": "Avançar",
+      "back": "Voltar",
+      "continue": "Continuar",
+      "soundOn": "Ligar o som",
+      "soundOff": "Desligar o som",
+      "restart": "Refazer o quiz do zero",
+      "stepOf": "{current} de {total}"
+    }
+  },
+  "market": {
+    "key": "br",
+    "label": "Brasil · Trilha UGC",
+    "project": "trilha-ugc",
+    "database": "trilha-ugc-metricas",
+    "siteUrl": "https://trilha-ugc.pages.dev",
+    "htmlLang": "pt-BR",
+    "locale": "pt-BR",
+    "currency": "BRL",
+    "money": {
+      "prefix": "R$ ",
+      "suffix": "",
+      "decimal": ",",
+      "thousands": "."
+    },
+    "dateLanguage": "pt",
+    "timeZone": "America/Sao_Paulo",
+    "planTimeZone": "America/Sao_Paulo",
+    "metricsExclude": {
+      "countries": [],
+      "continents": []
+    },
+    "emailDomains": [
+      "gmail.com",
+      "hotmail.com",
+      "outlook.com",
+      "yahoo.com.br",
+      "icloud.com",
+      "bol.com.br",
+      "uol.com.br",
+      "live.com",
+      "terra.com.br"
+    ],
+    "emailKnown": [
+      "hotmail.com.br",
+      "outlook.com.br",
+      "yahoo.com",
+      "ig.com.br",
+      "globo.com",
+      "globomail.com",
+      "r7.com",
+      "zipmail.com.br"
+    ],
+    "quizProgressLabel": "Progresso do quiz",
+    "prices": {
+      "bump": 19.9,
+      "kit": 47,
+      "list": 27
+    },
+    "config": {
+      "brandName": "Trilha UGC",
+      "productName": "Trilha UGC 21 Dias",
+      "company": {
+        "name": "GLE DIGITAL LTDA",
+        "vat": "58.857.150/0001-04",
+        "taxIdLabel": "CNPJ",
+        "address": "Avenida Mafra, 453, Quadra 211, Lote 16, Setor 02, Piçarras, Guaratuba-PR, CEP 83280-000, Brasil",
+        "email": "supporto@piano-ugc.com"
+      },
+      "checkoutUrl": "https://pay.hotmart.com/K108118162G?checkoutMode=10",
+      "funnel": {
+        "offers": [
+          "3yxg2jx6",
+          "z752258y",
+          "9mz7egf0"
+        ],
+        "steps": [
+          {
+            "id": "kit",
+            "label": "Kit Propostas",
+            "productId": "8772483"
+          },
+          {
+            "id": "marche",
+            "label": "Lista das 60 marcas",
+            "productId": "8772494"
+          }
+        ]
+      },
+      "downsell": {
+        "enabled": true,
+        "offerCode": "z752258y",
+        "base": 24.9
+      },
+      "promo": {
+        "enabled": true,
+        "offerCode": "9mz7egf0",
+        "base": 19.9,
+        "hours": 48,
+        "layout": "first"
+      },
+      "price": 29.9,
+      "anchorPrice": 97,
+      "vatIncluded": true,
+      "guaranteeDays": 30,
+      "paymentMethods": [
+        "visa",
+        "mastercard",
+        "pix",
+        "boleto",
+        "applepay"
+      ],
+      "testimonials": [],
+      "metricsCountries": [
+        "BR"
+      ],
+      "withdrawalUrl": "/arrependimento/",
+      "backfillFrom": 0
+    },
+    "strings": {
+      "close": "Fechar",
+      "closeAndReject": "Fechar e recusar os cookies opcionais",
+      "minutes": "Minutos",
+      "seconds": "Segundos",
+      "hours": "Horas",
+      "days": "Dias",
+      "now": "agora",
+      "today": "Hoje",
+      "rec": "REC",
+      "fee": "Cachê",
+      "deliverables": "O que entregar",
+      "format": "Formato",
+      "deadline": "Prazo",
+      "tapToOpen": "Toque na notificação para abrir o briefing",
+      "brief": "Briefing",
+      "hintStoryboard": "Quase! Pense no que quem rola o feed vê primeiro.",
+      "hintStoryboardNext": "Quase! Qual cena vem logo depois?",
+      "tryAgain": "Tente de novo: a resposta certa está entre as outras.",
+      "recording": "Gravando…",
+      "recordDone": "Gravação salva",
+      "tipLabel": "Dica",
+      "delivered": "Entregue",
+      "typing": "digitando…",
+      "added": "adicionados",
+      "walletEmpty": "Conclua um briefing para ver o cachê",
+      "walletLedger": "Briefings concluídos",
+      "walletWhy": "Por que você vê reais aqui?",
+      "profileFallback": "Creator",
+      "bonus": "BÔNUS",
+      "includedToday": "INCLUSO HOJE",
+      "value": "Valor",
+      "included": "De presente",
+      "stepLabel": "Passo",
+      "faqTitle": "Perguntas frequentes",
+      "verifiedFallback": "Depoimento de uma compradora verificada",
+      "online": "online",
+      "guarantee": "GARANTIA",
+      "guaranteeDaysUnit": "DIAS",
+      "satisfied": "SATISFAÇÃO OU REEMBOLSO",
+      "cookiePrefs": "Preferências de cookies",
+      "privacy": "Privacidade",
+      "cookie": "Cookies",
+      "terms": "Termos",
+      "brandOf": "é uma marca da",
+      "vat": "CNPJ",
+      "seat": "Sede",
+      "contact": "Contato",
+      "rights": "Todos os direitos reservados.",
+      "oneTime": "Pagamento único",
+      "plusVat": "+ impostos",
+      "vatIncluded": "sem mensalidade",
+      "soundOnShort": "Som ligado",
+      "soundOffShort": "Som desligado",
+      "loading": "Carregando…",
+      "profile": "Perfil",
+      "flowLabels": [
+        "Marca",
+        "Briefing",
+        "Vídeo",
+        "Cachê"
+      ],
+      "facelessLabels": [
+        "Só mãos",
+        "Só voz",
+        "Unboxing"
+      ],
+      "durations": [
+        "15 s",
+        "30 s",
+        "60 s"
+      ],
+      "planWeek": "Semana",
+      "safetyChips": [
+        "Sem taxa de entrada",
+        "Sem Pix adiantado",
+        "Plataformas sérias"
+      ],
+      "scrollHint": "Role",
+      "appIconLetter": "U",
+      "withdrawalFallback": "Arrependimento e reembolso",
+      "reel": {
+        "hookWindow": "Abertura",
+        "endWindow": "Final",
+        "idle": "Prévia",
+        "hookYes": "Param para assistir",
+        "hookNo": "Passam direto",
+        "endYes": "A marca aprova",
+        "endNo": "Refazer",
+        "aria": "Prévia do vídeo"
+      },
+      "phaseLabels": {
+        "notification": "Notificação",
+        "brief": "Leitura",
+        "hook": "Gancho",
+        "storyboard": "Cenas",
+        "record": "Gravação",
+        "closing": "Fechamento",
+        "delivery": "Entrega"
+      },
+      "yourHook": "O seu gancho",
+      "yourSequence": "A sua sequência",
+      "sendChecks": [
+        "Formato vertical 9:16",
+        "Duração certa",
+        "Áudio limpo"
+      ],
+      "deliveredMsg": "Aqui está o vídeo, como no briefing!",
+      "videoFile": "video_final.mp4",
+      "chatWith": "Conversa com",
+      "walletSlots": "briefings entregues",
+      "pending": "aguardando",
+      "niches": "Os seus nichos",
+      "goal": "Objetivo",
+      "yourPace": "O seu ritmo",
+      "emailDomains": "Completar o endereço",
+      "emailFix": "Corrigir",
+      "discountTag": "Desconto",
+      "pickAtLeast": "Escolha pelo menos {n}",
+      "pickOneMore": "Escolha mais uma",
+      "pickMore": "Escolha mais {n}",
+      "module": "Módulo",
+      "planDays": "{days} dias",
+      "modules": "módulos",
+      "bonusPlus": "bônus",
+      "todayPlan": "A trilha de hoje",
+      "dayLabel": "Dia",
+      "loadError": "A conexão está lenta e a página não carregou inteira.",
+      "retry": "Tentar de novo",
+      "offline": "Você está sem internet: a gente tenta de novo sozinho assim que a conexão voltar.",
+      "guaranteeShort": "Garantia de {days} dias ou o seu dinheiro de volta",
+      "bundleLine": "{modules} módulos + {bonuses} bônus: hoje tudo por {price}",
+      "bundleLineVatIncluded": "{modules} módulos + {bonuses} bônus: hoje tudo por {price}",
+      "paymentMethods": "Meios de pagamento disponíveis no checkout"
+    }
+  }
+}

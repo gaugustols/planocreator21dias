@@ -1,0 +1,162 @@
+{
+  "sequence": 41,
+  "id": "041_brief-pasta_brief",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-pasta",
+  "phase": "brief",
+  "kind": "brief",
+  "title": "Unboxing “o café da tarde”",
+  "options": [
+    {
+      "index": 0,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "CACHÊ\n\nR$ 390"
+    },
+    {
+      "index": 1,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "PRAZO\n\n⏰\nEm até 10 dias"
+    },
+    {
+      "index": 2,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 3,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 500\n?"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Aceito o briefing"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 11,
+    "maxIndex": 11,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "moka"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "bellezza",
+        "casa"
+      ]
+    },
+    "wallet": {
+      "total": 500,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "brief"
+    },
+    "confetti": 1,
+    "startedAt": 1794423904122
+  },
+  "textSha256": "027a9e9cb55ddecc82ae051759fe13acda6559d45fe11c8276747c9c133fe485"
+}

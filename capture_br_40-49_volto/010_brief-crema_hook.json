@@ -1,0 +1,136 @@
+{
+  "sequence": 10,
+  "id": "010_brief-crema_hook",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-crema",
+  "phase": "hook",
+  "kind": "brief",
+  "title": "Escolha o gancho: os 3 primeiros segundos",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "🧴"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "✕\n“Oi, gente! Então, hoje eu vou falar de um creme que me mandaram…”"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "true",
+      "checked": null,
+      "disabled": true,
+      "text": "✓\nFinalizador já na mão: “Se o seu cacho também vira frizz em cinco minutos de calor, olha isso.”"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "C\n“O finalizador mais revolucionário de todos os tempos: resultado garantido em 24 horas!”"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continuar"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "1ora"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "hook"
+    },
+    "confetti": 0,
+    "startedAt": 1794424291704
+  },
+  "textSha256": "6b70a4b9ba45542c45de587c0deec680af101db21ee5410a1555840963b42fa2"
+}

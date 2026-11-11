@@ -1,0 +1,192 @@
+{
+  "sequence": 26,
+  "id": "026_categorie_question",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "categorie",
+  "phase": "",
+  "kind": "question",
+  "title": "Que produtos da sua rotina podem virar vídeos?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "bellezza",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🧴\nBeleza e skincare"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "casa",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🧼\nCasa e limpeza"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "cucina",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🍳\nCozinha e café"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "moda",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "👗\nModa e acessórios"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "famiglia",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🍼\nCrianças e família"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "animali",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🐶\nPets"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "benessere",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🏋️\nEsporte e bem-estar"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "tech",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "💻\nTecnologia e gadgets"
+    },
+    {
+      "index": 8,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 9,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 200\n?"
+    },
+    {
+      "index": 10,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    },
+    {
+      "index": 11,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "Escolha pelo menos 2"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 8,
+    "maxIndex": 8,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "mio"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "30min"
+      ],
+      "camera": [
+        "mani_voce"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "phases": {
+      "brief-crema": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424053429
+  },
+  "textSha256": "ec07f57f192a4c829e0172bb40bbe23e59ab4ee262fbdd8db8124113a2464b84"
+}

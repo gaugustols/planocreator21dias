@@ -1,0 +1,110 @@
+{
+  "sequence": 2,
+  "id": "002_obiettivo_question",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "obiettivo",
+  "phase": "",
+  "kind": "question",
+  "title": "O que mudaria na sua vida com um dinheiro a mais todo mês?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "arrotondare",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "💰\nTer um dinheiro meu\nMais folga no mês, sem largar o emprego"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "mio",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🌱\nConstruir algo só meu\nEscolher meus horários e crescer no meu ritmo"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "creativa",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🎨\nGanhar com o que gosto\nTransformar meus vídeos em um serviço"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "prodotti",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🎁\nTrabalhar com produtos que conheço\nMostrar achados e oferecer vídeos para marcas"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 1,
+    "maxIndex": 1,
+    "answers": {
+      "eta": [
+        "18-29"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794424053509
+  },
+  "textSha256": "37794770c9b2112a140272cf3596f1ddc7b4fb7bb41fa9595e8e69da7316f2c1"
+}

@@ -1,0 +1,118 @@
+{
+  "sequence": 4,
+  "id": "004_tempo_question",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "tempo",
+  "phase": "",
+  "kind": "question",
+  "title": "Onde essa nova atividade cabe no seu dia?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "moka",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "☕\nO tempo de um cafezinho\n10 a 15 minutos por dia"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "30min",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "⏱️\nMeia hora por dia\nNo almoço ou à noite"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "1ora",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🌙\nUma hora por dia\nQuando a casa finalmente fica em silêncio"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "weekend",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🗓️\nSó no fim de semana\nUmas horinhas entre sábado e domingo"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 3,
+    "maxIndex": 3,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "natale"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794424435183
+  },
+  "textSha256": "29f02c68a75e50353dcf47417306eb62a91aa1a4320ead8520b55ec78d304a27"
+}

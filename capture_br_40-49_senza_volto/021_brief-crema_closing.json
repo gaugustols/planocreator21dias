@@ -1,0 +1,136 @@
+{
+  "sequence": 21,
+  "id": "021_brief-crema_closing",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-crema",
+  "phase": "closing",
+  "kind": "brief",
+  "title": "Últimos 2 segundos: como você fecha?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "🧴"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 0\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "✕\n“Link na bio, beijo!”"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "B\n“Corre que é só hoje: 50% de desconto!”"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "true",
+      "checked": null,
+      "disabled": true,
+      "text": "✓\n“Agora eu não saio de casa sem ele. Se o seu cabelo é como o meu, testa.”"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continuar"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "parte"
+      ],
+      "tempo": [
+        "moka"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "closing"
+    },
+    "confetti": 0,
+    "startedAt": 1794424291420
+  },
+  "textSha256": "07cc90d8ac0d7fb920cee681718593917d087868a6a5429dfacaa70b670572f8"
+}

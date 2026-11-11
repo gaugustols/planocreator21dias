@@ -1,0 +1,110 @@
+{
+  "sequence": 35,
+  "id": "035_brief-moka_record",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "brief-moka",
+  "phase": "record",
+  "kind": "brief",
+  "title": "Grave a cena do café: toque no botão vermelho",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "Gravar"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 200\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 9,
+    "maxIndex": 9,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "parte"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "moda",
+        "famiglia"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "record"
+    },
+    "confetti": 1,
+    "startedAt": 1794424165556
+  },
+  "textSha256": "473eab000eda104e3df9f72ebc87b9b20672dbdd36cf6965336fdc2f1bb88594"
+}

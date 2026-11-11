@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "itState": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 2,
+    "maxIndex": 2,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "mio"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794424332530
+  },
+  "brState": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 2,
+    "maxIndex": 2,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794424336656
+  },
+  "utmSeparated": true,
+  "nameSeparated": true,
+  "countdownSeparated": true,
+  "reloadAndBack": true,
+  "returnToBrazilianQuiz": true
+}

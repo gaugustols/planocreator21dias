@@ -1,0 +1,144 @@
+{
+  "sequence": 57,
+  "id": "057_optin_optin",
+  "url": "http://127.0.0.1:4173/br/",
+  "step": "optin",
+  "phase": "",
+  "kind": "optin",
+  "title": "Quer receber as nossas dicas para começar no UGC?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "optin-no",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Não, obrigada"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Sim, quero receber!"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voltar"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💵\nR$ 890\n?"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ligar o som"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 15,
+    "maxIndex": 15,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "senza_volto"
+      ],
+      "categorie": [
+        "moda",
+        "famiglia"
+      ],
+      "primo-video": [
+        "non-ancora"
+      ],
+      "analisi.mid": [
+        "no"
+      ]
+    },
+    "wallet": {
+      "total": 890,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Finalizador · Caracolê",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Café · Pingô",
+          "amount": 300
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Biscoitos · Lata Cheia",
+          "amount": 390
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794424435018
+  },
+  "textSha256": "6fdfb9f6bfa1b64df06a038490eedaa7ba60c1832ebb7c557c556e1ff81bf868"
+}

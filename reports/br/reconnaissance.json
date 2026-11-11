@@ -1,0 +1,704 @@
+{
+  "origin": "https://trilha-ugc.pages.dev/",
+  "capturedAt": "2026-11-11T18:56:40.634Z",
+  "domains": [
+    {
+      "domain": "trilha-ugc.pages.dev",
+      "requests": 18,
+      "types": [
+        "document",
+        "font",
+        "script",
+        "stylesheet",
+        "image"
+      ]
+    },
+    {
+      "domain": "connect.facebook.net",
+      "requests": 6,
+      "types": [
+        "script"
+      ]
+    },
+    {
+      "domain": "cdn.utmify.com.br",
+      "requests": 6,
+      "types": [
+        "script"
+      ]
+    },
+    {
+      "domain": "api.ipify.org",
+      "requests": 3,
+      "types": [
+        "fetch"
+      ]
+    },
+    {
+      "domain": "api6.ipify.org",
+      "requests": 3,
+      "types": [
+        "fetch"
+      ]
+    },
+    {
+      "domain": "tracking.utmify.com.br",
+      "requests": 11,
+      "types": [
+        "fetch"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "document",
+      "url": "https://trilha-ugc.pages.dev/"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "font",
+      "url": "https://trilha-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/index-CsqgZ4_P.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://trilha-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api6.ipify.org/?format=json"
+    },
+    {
+      "page": "landing",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=trilha-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "document",
+      "url": "https://trilha-ugc.pages.dev/?ab=landing1:b"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "font",
+      "url": "https://trilha-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/index-CsqgZ4_P.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://trilha-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/18-29.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/30-39.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/40-49.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/50.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api6.ipify.org/?format=json"
+    },
+    {
+      "page": "landing-b",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=trilha-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing-b",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "document",
+      "url": "https://trilha-ugc.pages.dev/?ver=oferta"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "font",
+      "url": "https://trilha-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/index-CsqgZ4_P.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://trilha-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/ResultScreen-CbSB5OWy.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/confetti-DgEV_XmA.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api6.ipify.org/?format=json"
+    },
+    {
+      "page": "offer",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=trilha-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "offer",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "offer",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    }
+  ],
+  "responses": [
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "document",
+      "url": "https://trilha-ugc.pages.dev/"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "stylesheet",
+      "url": "https://trilha-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "font",
+      "url": "https://trilha-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/index-CsqgZ4_P.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=trilha-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "document",
+      "url": "https://trilha-ugc.pages.dev/?ab=landing1:b"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "stylesheet",
+      "url": "https://trilha-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "font",
+      "url": "https://trilha-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/index-CsqgZ4_P.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/18-29.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/50.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/40-49.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://trilha-ugc.pages.dev/ab/landing1/30-39.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=trilha-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "document",
+      "url": "https://trilha-ugc.pages.dev/?ver=oferta"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "stylesheet",
+      "url": "https://trilha-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "font",
+      "url": "https://trilha-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/index-CsqgZ4_P.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/ResultScreen-CbSB5OWy.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://trilha-ugc.pages.dev/assets/confetti-DgEV_XmA.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=trilha-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    }
+  ],
+  "errors": [
+    {
+      "page": "landing",
+      "type": "network",
+      "url": "https://api6.ipify.org/?format=json",
+      "error": "net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+      "page": "landing-b",
+      "type": "network",
+      "url": "https://api6.ipify.org/?format=json",
+      "error": "net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+      "page": "offer",
+      "type": "network",
+      "url": "https://api6.ipify.org/?format=json",
+      "error": "net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "pages": [
+    {
+      "name": "landing",
+      "url": "https://trilha-ugc.pages.dev/",
+      "title": "Trilha UGC 21 Dias · Quiz grátis",
+      "text": "Trilha UGC\n\nQuiz grátis · 4 minutos\n\nSeu celular pode render de R$ 800 a R$ 4.000 por mês\n\nUma renda sua com vídeos para marcas, sem seguidores e sem aparecer.\n\nEscolha a sua idade e comece\n🙋‍♀️\n18–29\n💁‍♀️\n30–39\n👩‍💼\n40–49\n👩‍🎨\n50+\nPrivacidade\nTermos\nDesistir da compra\n\nQuiz gratuito para maiores de 18 anos; no fim, apresentamos um conteúdo educativo pago, com pagamento único, sem obrigação de compra. Simulação demonstrativa: as marcas Caracolê, Pingô e Lata Cheia são fictícias, e os cachês mostrados não são dinheiro de verdade. Ninguém vai te pagar pelas atividades desta página, e o cofrinho de teste não pode ser sacado nem convertido. Os valores são exemplos de orçamento de R$ 200 a R$ 500 por vídeo e cenários de faturamento bruto, antes de taxas e impostos. A faixa de R$ 800 a R$ 4.000 por mês ilustra a venda de 4 a 8 vídeos nesses preços, não resultados já obtidos nem ganhos garantidos.\n\nEste site não tem vínculo com Facebook, Instagram, Meta, TikTok ou Google, nem com as plataformas e as marcas citadas. As marcas pertencem aos seus titulares; as usadas na simulação são fictícias.",
+      "links": [
+        {
+          "text": "Privacidade",
+          "href": "https://trilha-ugc.pages.dev/#privacy"
+        },
+        {
+          "text": "Termos",
+          "href": "https://trilha-ugc.pages.dev/#termini"
+        },
+        {
+          "text": "Desistir da compra",
+          "href": "https://trilha-ugc.pages.dev/arrependimento/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba54204ee67b798e9e16hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba54204ee67b798e9e16hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        }
+      ]
+    },
+    {
+      "name": "landing-b",
+      "url": "https://trilha-ugc.pages.dev/?ab=landing1:b",
+      "title": "Trilha UGC 21 Dias · Quiz grátis",
+      "text": "Trilha UGC\n\nQuiz grátis · 4 minutos\n\nSeu celular pode render de R$ 800 a R$ 4.000 por mês\n\nUma renda sua com vídeos para marcas, sem seguidores e sem aparecer.\n\nEscolha a sua idade e comece\n18–29\n30–39\n40–49\n50+\nPrivacidade\nTermos\nDesistir da compra\n\nQuiz gratuito para maiores de 18 anos; no fim, apresentamos um conteúdo educativo pago, com pagamento único, sem obrigação de compra. Simulação demonstrativa: as marcas Caracolê, Pingô e Lata Cheia são fictícias, e os cachês mostrados não são dinheiro de verdade. Ninguém vai te pagar pelas atividades desta página, e o cofrinho de teste não pode ser sacado nem convertido. Os valores são exemplos de orçamento de R$ 200 a R$ 500 por vídeo e cenários de faturamento bruto, antes de taxas e impostos. A faixa de R$ 800 a R$ 4.000 por mês ilustra a venda de 4 a 8 vídeos nesses preços, não resultados já obtidos nem ganhos garantidos.\n\nEste site não tem vínculo com Facebook, Instagram, Meta, TikTok ou Google, nem com as plataformas e as marcas citadas. As marcas pertencem aos seus titulares; as usadas na simulação são fictícias.\n\nFotos geradas por inteligência artificial: não mostram pessoas reais.",
+      "links": [
+        {
+          "text": "Privacidade",
+          "href": "https://trilha-ugc.pages.dev/?ab=landing1:b#privacy"
+        },
+        {
+          "text": "Termos",
+          "href": "https://trilha-ugc.pages.dev/?ab=landing1:b#termini"
+        },
+        {
+          "text": "Desistir da compra",
+          "href": "https://trilha-ugc.pages.dev/arrependimento/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba5ba6ddf38085845809hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba5ba6ddf38085845809hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        }
+      ]
+    },
+    {
+      "name": "offer",
+      "url": "https://trilha-ugc.pages.dev/?ver=oferta",
+      "title": "Trilha UGC 21 Dias · Quiz grátis",
+      "text": "A oferta termina em\n08:03:21\n\nQuero vender vídeos\n⏰\nOferta especial disponível hoje — 11/11/2026\n\n✨\nDA SUA ROTINA PARA AS MARCAS\n\nVocê já tem o celular. Aprenda a cobrar de R$ 200 a R$ 500 por vídeo.\n\nTer um dinheiro seu pode começar com o que já está na sua casa. Saiba o que gravar, para quais marcas oferecer e como apresentar o seu preço, com roteiros e mensagens prontos para adaptar.\n\nA TRILHA DE HOJE\n\nDia 1\nDia 2\nDia 3\nDia 4\nDia 5\n3 / 21\n🗓️\n21 dias · 8 módulos\n🎁\n+5 bônus\n🤩\n📸\n✅\nSeu primeiro portfólio: vídeos com produtos que você já tem\n✅\nSem depender de seguidores: você oferece o vídeo para a marca usar\n✅\nO que escrever: mensagens prontas para abordar as marcas\n✅\nUm passo por dia: 21 dias para gravar, montar o portfólio e enviar propostas\nQuero vender vídeos para marcas\n\nR$ 97 R$ 29,90 · pagamento único\n\n⏰\nA oferta de hoje termina em\n08:03:21\n\n🔒\nPagamento protegido pela Hotmart\n\nVocê até quer começar. Mas trava nessas perguntas?\n🤔\nO que eu gravo?\nVocê olha os produtos de casa e não sabe por qual começar. A trilha traz ideias, ganchos e roteiros para tirar o primeiro vídeo do papel.\n🤷‍♀️\nE se ninguém me segue?\nO seu portfólio mostra o que você sabe criar. É esse conteúdo que você oferece para a marca publicar nos canais dela.\n⚠️\nComo eu encontro marcas?\nVocê recebe o caminho para procurar campanhas e se apresentar diretamente às marcas, além das orientações para reconhecer uma proposta séria.\n🧾\nQuanto eu cobro?\nVá para a conversa com uma tabela de referência e exemplos de proposta. Combine o vídeo, os ajustes e o uso em anúncios antes de gravar.\nO que você leva para gravar, oferecer e negociar seus vídeos\n🗓️\nMÓDULO 01\nA TRILHA DE 21 DIAS\nAbra a tarefa do dia e faça o próximo movimento: escolher o produto, gravar, montar o portfólio ou enviar uma proposta. Sem ficar juntando dicas soltas.\n🖼️\nMÓDULO 02\nPORTFÓLIO SEM SEGUIDORES\nMonte uma vitrine com 3 a 5 vídeos usando o que você tem em casa. Mostre o que sabe criar, mesmo que o seu perfil ainda tenha zero seguidores.\n🤲\nMÓDULO 03\nFORMATOS SEM ROSTO\nEscolha quanto quer aparecer: só mãos, só voz, unboxing ou ASMR. Veja como apresentar o produto mantendo a sua vida fora da câmera.\n🎬\nMÓDULO 04\nGANCHOS E ROTEIROS PRONTOS\nAbra um roteiro de 15, 30 ou 60 segundos e adapte ao produto. Saiba o que dizer e mostrar antes de começar a gravar.\n📱\nMÓDULO 05\nGRAVAR E EDITAR NO CELULAR\nUse a luz da janela, apoie o celular e siga a sequência de gravação e edição. Aprenda com apps gratuitos, sem comprar câmera ou iluminação.\n🔍\nMÓDULO 06\nONDE ENCONTRAR MARCAS\nSaiba onde procurar campanhas no Brasil e para quem mandar o portfólio. Com o caminho de cadastro e as mensagens para abordar as marcas.\n🧾\nMÓDULO 07\nPREÇOS, CONTRATOS E DIREITOS DE USO\nApresente propostas de R$ 200 a R$ 500 por vídeo com o que está incluído: briefing, ajustes e direitos de uso. Adapte a tabela de exemplo à sua negociação.\n⚖️\nMÓDULO 08\nIMPOSTOS SEM MEDO\nPessoa física ou MEI, carnê-leão e nota fiscal: o que vale para quem está começando, em palavras simples.\n🎁\nE mais: 5 bônus para colocar a mão na massa\nBÔNUS #1\nINCLUSO HOJE\n🛡️\nGuia anti-golpe para creators\nReconheça os sinais de uma falsa proposta e saiba o que conferir antes de aceitar um trabalho ou passar qualquer informação.\nValor: R$ 12\nDE PRESENTE\nBÔNUS #2\nINCLUSO HOJE\n💌\nMensagens prontas para marcas\nCopie, adapte e envie: mensagens para apresentar o seu trabalho, retomar a conversa com quem não respondeu e responder a um briefing.\nValor: R$ 17\nDE PRESENTE\nBÔNUS #3\nINCLUSO HOJE\n🗓️\n30 ideias de vídeo para o portfólio\nEscolha uma ideia, adapte ao produto que tem em casa e grave mais um vídeo para apresentar no seu portfólio.\nValor: R$ 15\nDE PRESENTE\nBÔNUS #4\nINCLUSO HOJE\n✂️\nEdição no celular, passo a passo\nSiga a sequência de cortes, textos e áudio num app gratuito. Veja como preparar o vídeo para mostrar à marca.\nValor: R$ 19\nDE PRESENTE\nBÔNUS #5\nINCLUSO HOJE\n📋\nChecklist antes da entrega\nConfira os 12 pontos antes da entrega e corrija os detalhes que podem fazer a marca pedir ajustes.\nValor: R$ 9\nDE PRESENTE\n\n8 módulos + 5 bônus: hoje tudo por R$ 29,90\n\nQuero vender vídeos para marcas\n✅\nÉ para você se…\n✓\nQuer ter um dinheiro seu e construir uma renda sem largar o emprego\n✓\nTem um celular e alguns produtos em casa: para começar, é só isso\n✓\nNão tem seguidores, ou não quer mostrar o rosto\n✓\nQuer transformar o que sabe sobre produtos em um serviço para marcas\n✓\nQuer saber o que fazer hoje e colocar em prática\n❌\nNão é para você se…\n✕\nProcura “dinheiro fácil” ou ganhar sem fazer nada: aqui precisa de dedicação\n✕\nQuer salário fixo: UGC é trabalho por projeto, vídeo a vídeo\n✕\nNão tem nem 15 minutos por dia durante 3 semanas\n✕\nEspera que as marcas te achem sem você se apresentar\nComo funciona\n01\nGaranta o seu acesso\nPagamento único pela Hotmart, no Pix, no cartão ou nos outros meios disponíveis no checkout. Sem mensalidade.\n02\nAbra a sua área de membros\nAssim que o pagamento é confirmado, chega o acesso à Trilha, aos modelos e aos bônus. Abre até pelo celular.\n03\nPrepare os vídeos e ofereça às marcas\nSiga a sequência de 21 dias: grave os vídeos, monte o portfólio e use as mensagens para enviar as suas primeiras propostas.\n🔥\nOFERTA DE HOJE\n🔥\n\nA TRILHA DE HOJE\n\nDia 1\nDia 2\nDia 3\nDia 4\nDia 5\n3 / 21\n🎁\n+5 bônus\n\nTrilha UGC 21 Dias\n\n✅\n8 módulos: do primeiro vídeo à proposta para marcas\n✅\n21 dias com o próximo passo na sua frente\n✅\nRoteiros e mensagens para copiar e adaptar\n✅\nTabela de preços e 5 bônus inclusos\n✅\nAcesso pelo celular, sem mensalidade\n-69%\nDesconto de 69% aplicado\nA oferta de hoje termina em 08:03:21\n\nPreço originalR$ 97\n\nSÓ HOJE\n\nR$ 29,90\n\nPagamento único · sem mensalidade\n\nou seja, cerca de R$ 1,42 por dia nos 21 dias da trilha\n\n✨\nVocê economiza R$ 67,10\n\nQuero vender vídeos para marcas\n\n🔒\nPagamento protegido pela Hotmart\n\nVISA\npix\nBOLETO\nSATISFAÇÃO OU REEMBOLSO • GARANTIA 30 DIAS •\nGARANTIA\n30\nDIAS\nGarantia incondicional de 30 dias\n\nEntre na área de membros, veja os roteiros e comece a usar a trilha. Se não fizer sentido para você, peça o reembolso total em até 30 dias depois da compra, pela sua área de compras da Hotmart ou por e-mail, sem precisar explicar o motivo.\n\nPerguntas frequentes\nPrecisa ter muitos seguidores?\n\nNão. No UGC, a marca paga pelo vídeo, não pelo seu público: quem publica é ela, nos canais e nos anúncios dela. Você precisa de um portfólio com alguns vídeos de teste, e na trilha a gente mostra como montar o seu do zero.\n\nPreciso mesmo mostrar o rosto?\n\nNão. Tem formatos só com mãos, só com voz ou de unboxing, e muitas marcas usam exatamente assim. A trilha tem um módulo inteiro só de vídeos sem rosto.\n\nQuanto dá para ganhar de verdade?\n\nNa trilha, você aprende a montar propostas de R$ 200 a R$ 500 por vídeo, conforme o briefing e os direitos de uso. Nessa faixa, 2 vídeos vendidos no mês representam R$ 400 a R$ 1.000; 4, de R$ 800 a R$ 2.000; 8, de R$ 1.600 a R$ 4.000. O caminho é aprender a criar vídeos que a marca pode usar e apresentar esse serviço com uma proposta clara.\n\nPreciso abrir MEI? E os impostos?\n\nPara começar, dá para receber como pessoa física, no seu CPF. Se quem paga é uma empresa, ela normalmente desconta 11% de INSS (é o RPA); se é uma pessoa ou uma plataforma de fora do Brasil, você mesma recolhe pelo carnê-leão. Em 2026, o imposto de renda mensal é zero para rendimentos de até R$ 5.000 por mês (Lei 15.270/2025). Existe o MEI de “editor(a) de vídeo independente”, mas não está claro se ele cobre gravar e aparecer no vídeo. Na trilha está tudo explicado em palavras simples; para o seu caso, confirme com um contador.\n\nIsso é golpe?\n\nPergunta justíssima, ainda mais hoje em dia. Veja o que a gente nunca vai fazer: pedir dinheiro para você trabalhar, pedir código, senha ou documento, colocar você em grupo de WhatsApp ou de Telegram. A Trilha UGC é um conteúdo educativo, com pagamento único e garantia de reembolso. E plataforma séria não cobra para você entrar nem para liberar cachê: no máximo, fica com uma taxa do cachê. Quem cobra para “liberar” tarefa ou pagamento está aplicando golpe.\n\nPreciso saber inglês?\n\nNão. A trilha é toda em português, e os vídeos você grava em português, para marcas que vendem no Brasil. As principais plataformas que atendem creators brasileiras também são em português.\n\nQuanto tempo leva?\n\nEm 21 dias, você segue a sequência para gravar os primeiros vídeos, montar o portfólio, definir preços e enviar propostas. As tarefas foram pensadas para 15 a 60 minutos por dia. Só consegue no fim de semana? A trilha mostra como gravar vários vídeos numa sessão.\n\nComo eu recebo o conteúdo?\n\nAssim que o pagamento é confirmado, chega um e-mail da Hotmart com o acesso à sua área de membros: no Pix e no cartão, em geral em poucos minutos. Lá estão a Trilha, os modelos e os bônus, tudo digital: você abre no celular, no tablet ou no computador. Nada de frete e nada de mensalidade.\n\nNão me dou bem com tecnologia: consigo mesmo assim?\n\nConsegue começar pelo básico: onde apoiar o celular, como usar a luz da janela e que app gratuito abrir para editar. Você segue o roteiro e a sequência de gravação, mesmo que nunca tenha montado um portfólio.\n\nPor que pagar, se o cadastro nas plataformas é de graça?\n\nVocê leva o que precisa preparar antes de se apresentar: roteiros para gravar, uma sequência para montar o portfólio, uma tabela para definir o preço e mensagens para abordar as marcas. É esse passo a passo que você compra. Depois, usa o portfólio e as mensagens para se cadastrar e enviar propostas nas plataformas ou diretamente às marcas.\n\n🚀\nVocê já tem o celular. Comece a construir uma renda sua com ele.\n\nR$ 97 R$ 29,90 · pagamento único\n\nQuero vender vídeos para marcas\n\n🛡️\nGarantia de 30 dias ou o seu dinheiro de volta\n\nTrilha UGC\n\nQuiz gratuito para maiores de 18 anos; no fim, apresentamos um conteúdo educativo pago, com pagamento único, sem obrigação de compra. Simulação demonstrativa: as marcas Caracolê, Pingô e Lata Cheia são fictícias, e os cachês mostrados não são dinheiro de verdade. Ninguém vai te pagar pelas atividades desta página, e o cofrinho de teste não pode ser sacado nem convertido. Os valores são exemplos de orçamento de R$ 200 a R$ 500 por vídeo e cenários de faturamento bruto, antes de taxas e impostos. A faixa de R$ 800 a R$ 4.000 por mês ilustra a venda de 4 a 8 vídeos nesses preços, não resultados já obtidos nem ganhos garantidos.\n\nAviso sobre ganhos: a Trilha UGC vende um conteúdo educativo; não oferece emprego e não paga você para fazer tarefas. Nenhum ganho é garantido. Os valores mostrados são exemplos de orçamento e cenários de faturamento bruto, antes de taxas e impostos, e não são resultados típicos: muita gente ganha pouco ou nada, outras ganham mais. Os resultados dependem da sua dedicação, do tempo que você investe e das escolhas das marcas e das plataformas, que podem mudar a qualquer momento. O cachê precisa ser declarado conforme a lei. Se você procura “dinheiro fácil”, esta trilha não é para você.\n\nEste site não tem vínculo com Facebook, Instagram, Meta, TikTok ou Google, nem com as plataformas e as marcas citadas. As marcas pertencem aos seus titulares; as usadas na simulação são fictícias.\n\nPrivacidade\nTermos\nDesistir da compra\nRefazer o quiz do zero\n\nTrilha UGC é uma marca da GLE DIGITAL LTDA · Sede: Avenida Mafra, 453, Quadra 211, Lote 16, Setor 02, Piçarras, Guaratuba-PR, CEP 83280-000, Brasil · CNPJ: 58.857.150/0001-04 · supporto@piano-ugc.com\n\n© 2026 Trilha UGC. Todos os direitos reservados.\n\nR$ 97\nR$ 29,90\nQuero vender vídeos para marcas",
+      "links": [
+        {
+          "text": "Quero vender vídeos para marcas",
+          "href": "https://pay.hotmart.com/K108118162G?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Quero vender vídeos para marcas",
+          "href": "https://pay.hotmart.com/K108118162G?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Quero vender vídeos para marcas",
+          "href": "https://pay.hotmart.com/K108118162G?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Quero vender vídeos para marcas",
+          "href": "https://pay.hotmart.com/K108118162G?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Privacidade",
+          "href": "https://trilha-ugc.pages.dev/?ver=oferta#privacy"
+        },
+        {
+          "text": "Termos",
+          "href": "https://trilha-ugc.pages.dev/?ver=oferta#termini"
+        },
+        {
+          "text": "Desistir da compra",
+          "href": "https://trilha-ugc.pages.dev/arrependimento/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Quero vender vídeos para marcas",
+          "href": "https://pay.hotmart.com/K108118162G?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4ba61204ee67b798ea2a0hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        }
+      ]
+    }
+  ]
+}
