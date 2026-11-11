@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-11-11T19:32:16.904Z",
+  "copy": {
+    "headline": "Seu celular pode render **de R$ 800 a R$ 4.000 por mês**",
+    "subheadline": "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer."
+  },
+  "variants": [
+    {
+      "variant": "a",
+      "headline": "Seu celular pode render de R$ 800 a R$ 4.000 por mês",
+      "subheadline": "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.",
+      "prerender": {
+        "headlines": [
+          "Seu celular pode render de R$ 800 a R$ 4.000 por mês",
+          "Seu celular pode render de R$ 800 a R$ 4.000 por mês"
+        ],
+        "subheadlines": [
+          "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.",
+          "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer."
+        ]
+      }
+    },
+    {
+      "variant": "b",
+      "headline": "Seu celular pode render de R$ 800 a R$ 4.000 por mês",
+      "subheadline": "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.",
+      "prerender": {
+        "headlines": [
+          "Seu celular pode render de R$ 800 a R$ 4.000 por mês",
+          "Seu celular pode render de R$ 800 a R$ 4.000 por mês"
+        ],
+        "subheadlines": [
+          "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.",
+          "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer."
+        ]
+      }
+    },
+    {
+      "variant": "c",
+      "headline": "Seu celular pode render de R$ 800 a R$ 4.000 por mês",
+      "subheadline": "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.",
+      "prerender": {
+        "headlines": [
+          "Seu celular pode render de R$ 800 a R$ 4.000 por mês",
+          "Seu celular pode render de R$ 800 a R$ 4.000 por mês"
+        ],
+        "subheadlines": [
+          "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.",
+          "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer."
+        ]
+      }
+    }
+  ],
+  "existingVariantCSessionTested": true,
+  "firstStepProgression": true,
+  "verifiedOriginals": 364,
+  "errors": []
+}

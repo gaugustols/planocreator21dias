@@ -9,6 +9,8 @@ const sourceOrigin = new URL(profile.origin).origin;
 const sha = bytes => createHash('sha256').update(bytes).digest('hex');
 const mappedPath = pathname => profile.basePath.slice(0, -1) + pathname;
 const files = [], storageKeys = new Map();
+const landingCopy = JSON.parse(await readFile('content/br-landing.json', 'utf8'));
+const keyOf = property => property.key?.name ?? property.key?.value;
 
 function relocateCss(source, name) {
   const edits=[];
@@ -22,6 +24,18 @@ function relocateJavaScript(source, name) {
   const info = analyzeJavaScript(source);
   const redirectFunctions = info.nodes.filter(n => n.type === 'FunctionDeclaration' && /window\.location\.assign/.test(source.slice(n.start, n.end)));
   const edits = [];
+  const content = info.nodes.find(n => n.type === 'VariableDeclarator' && n.init?.type === 'ObjectExpression' && n.init.properties.some(p => keyOf(p) === 'landing'));
+  const landing = content?.init.properties.find(p => keyOf(p) === 'landing')?.value;
+  if (landing?.type === 'ObjectExpression') {
+    const variants = landing.properties.find(p => keyOf(p) === 'variants')?.value;
+    const targets = [landing, ...(variants?.properties || []).map(p => p.value)].filter(n => n.type === 'ObjectExpression');
+    for (const target of targets) for (const property of target.properties) {
+      const key = keyOf(property);
+      if (!Object.hasOwn(landingCopy, key)) continue;
+      const original = property.value.type === 'Literal' ? property.value.value : property.value.type === 'TemplateLiteral' && !property.value.expressions.length ? property.value.quasis[0].value.cooked : undefined;
+      if (original !== undefined && original !== landingCopy[key]) edits.push({ start:property.value.start, end:property.value.end, original, replacement:JSON.stringify(landingCopy[key]), reason:'Apply the approved Brazilian landing copy to every variant', file:name });
+    }
+  }
   for (const node of info.nodes) {
     const value = node.type === 'Literal' && typeof node.value === 'string' ? node.value : node.type === 'TemplateLiteral' && !node.expressions.length ? node.quasis[0].value.cooked : null;
     if (value === null) continue;
@@ -65,6 +79,22 @@ function relocateHtml(source, name) {
   source = source.replace(/<style\b([^>]*)>([\s\S]*?)<\/style>/gi,(whole,attrs,body)=>{
     const result=relocateCss(body,name+':inline-style'); edits.push(...result.edits); return `<style${attrs}>${result.source}</style>`;
   });
+  if (name === 'index.html') {
+    // Copy the existing primary markup, including its highlight, into the
+    // alternate text spans. Count nested spans to preserve the rest of the HTML.
+    const replacements=[];
+    let primary;
+    for (const opening of source.matchAll(/<span\b[^>]*\bdata-landing1="(a b|c)"[^>]*>/g)) {
+      const start=opening.index+opening[0].length;
+      const tags=/<\/?span\b[^>]*>/g; tags.lastIndex=start;
+      let depth=1,closing;
+      while ((closing=tags.exec(source))) { depth+=closing[0].startsWith('</')?-1:1; if(!depth)break; }
+      if(depth)throw new Error('Unbalanced landing text span');
+      if(opening[1]==='a b')primary=source.slice(start,closing.index);
+      else if(primary!==undefined&&source.slice(start,closing.index)!==primary)replacements.push({start,end:closing.index,replacement:primary,reason:'Match the prerendered Brazilian headline/subheadline to the approved primary copy',file:name});
+    }
+    for(const edit of replacements.sort((a,b)=>b.start-a.start)){source=source.slice(0,edit.start)+edit.replacement+source.slice(edit.end);edits.push(edit);}
+  }
   if (!/<base\b/i.test(source)) { source = source.replace(/<head>/i, `<head><base href="${profile.basePath}">`); edits.push({reason:'Set the Brazilian document base',replacement:profile.basePath,file:name}); }
   return { source, edits };
 }
@@ -83,6 +113,6 @@ for (const file of await filesBelow(profile.sourceRoot)) {
   await writeFile(target,bytes);
   files.push({source:file.split(path.sep).join('/'),file:target.split(path.sep).join('/'),bytes:bytes.length,originalSha256:sha(original),sha256:sha(bytes),edits});
 }
-const report={origin:profile.origin,basePath:profile.basePath,createdAt:new Date().toISOString(),storageKeys:Object.fromEntries(storageKeys),files};
+const report={origin:profile.origin,basePath:profile.basePath,createdAt:new Date().toISOString(),landingCopy,storageKeys:Object.fromEntries(storageKeys),files};
 await writeFile(path.join(profile.reportDir,'mount-manifest.json'),JSON.stringify(report,null,2));
 console.log(JSON.stringify({files:files.length,changed:files.filter(f=>f.edits.length).length,edits:files.reduce((n,f)=>n+f.edits.length,0),storageKeys:storageKeys.size,basePath:profile.basePath}));

@@ -1,7 +1,11 @@
 {
   "origin": "https://trilha-ugc.pages.dev/",
   "basePath": "/br/",
-  "createdAt": "2026-11-11T19:11:44.476Z",
+  "createdAt": "2026-11-11T19:30:20.421Z",
+  "landingCopy": {
+    "headline": "Seu celular pode render **de R$ 800 a R$ 4.000 por mês**",
+    "subheadline": "Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer."
+  },
   "storageKeys": {
     "ugc-vc-v1": "ugc-br-vc-v1",
     "ugc-m-force": "ugc-br-m-force",
@@ -132,9 +136,9 @@
     {
       "source": "recovered/br/assets/index-CsqgZ4_P.js",
       "file": "site/br/assets/index-CsqgZ4_P.js",
-      "bytes": 376359,
+      "bytes": 376373,
       "originalSha256": "ce26ad946ea834ec4dce492eb371d93e2d520b6d8171ec3ea7874891adcf4125",
-      "sha256": "2d8b2a57080589da0d6e113504fd66d966a035af0e60f56700aa23b4eda6f446",
+      "sha256": "7d36889d65da3bcd318f78b04dca3c4d61e8c9dfaefc0a142abe28365dbaea1b",
       "edits": [
         {
           "start": 370692,
@@ -310,6 +314,22 @@
           "original": "ugc-funnel-v1",
           "replacement": "\"ugc-br-funnel-v1\"",
           "reason": "Separate Brazilian browser storage",
+          "file": "assets/index-CsqgZ4_P.js"
+        },
+        {
+          "start": 237029,
+          "end": 237092,
+          "original": "Descubra como oferecer vídeos de R$ 200 a R$ 500 para marcas.",
+          "replacement": "\"Uma renda sua com vídeos para marcas, sem seguidores e sem aparecer.\"",
+          "reason": "Apply the approved Brazilian landing copy to every variant",
+          "file": "assets/index-CsqgZ4_P.js"
+        },
+        {
+          "start": 236964,
+          "end": 237016,
+          "original": "E se o seu celular virasse **uma fonte de renda?**",
+          "replacement": "\"Seu celular pode render **de R$ 800 a R$ 4.000 por mês**\"",
+          "reason": "Apply the approved Brazilian landing copy to every variant",
           "file": "assets/index-CsqgZ4_P.js"
         },
         {
@@ -1694,9 +1714,9 @@
     {
       "source": "recovered/br/index.html",
       "file": "site/br/index.html",
-      "bytes": 18235,
+      "bytes": 18249,
       "originalSha256": "de6f9d7c2fc7972db4b6759800cbf98eab7e6f159331d6d5957d5e1c23729e3b",
-      "sha256": "5aeb3886a058e10e1d16f3cfeff11d629035c2ed929f92c460baa547c2564c12",
+      "sha256": "f85765fb500268957ceaac21a96fb95028b74a432378c8a3f6c60677c3633cf1",
       "edits": [
         {
           "start": 1008,
@@ -1736,6 +1756,20 @@
           "original": "/arrependimento/",
           "replacement": "/br/arrependimento/",
           "reason": "Relocate HTML href",
+          "file": "index.html"
+        },
+        {
+          "start": 6905,
+          "end": 6993,
+          "replacement": "Uma renda sua com vídeos para marcas<span class=\"punct\">,</span> sem seguidores e sem aparecer<span class=\"punct\">.</span>",
+          "reason": "Match the prerendered Brazilian headline/subheadline to the approved primary copy",
+          "file": "index.html"
+        },
+        {
+          "start": 6526,
+          "end": 6623,
+          "replacement": "Seu celular pode render <span class=\"hl\">de R$ 800 a R$ 4.000 por mês</span>",
+          "reason": "Match the prerendered Brazilian headline/subheadline to the approved primary copy",
           "file": "index.html"
         },
         {

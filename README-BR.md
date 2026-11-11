@@ -35,11 +35,13 @@ Todos os comandos de reconhecimento/espelho/auditoria/inspeção também aceitam
 
 ## O que foi adaptado
 
-As adaptações reproduzíveis ficam em `mount_br.mjs`. O inventário `reports/br/mount-manifest.json` registra SHA-256 de cada original e de cada arquivo gerado, mais cada alteração. Foram modificados **quatro arquivos**, com **38 substituições/inserções**. As imagens, fontes, CSS externo e os demais módulos mantêm os bytes originais.
+As adaptações reproduzíveis ficam em `mount_br.mjs`. O inventário `reports/br/mount-manifest.json` registra SHA-256 de cada original e de cada arquivo gerado, mais cada alteração. Foram modificados **quatro arquivos**, com **42 substituições/inserções**, incluindo a copy de entrada aprovada. As imagens, fontes, CSS externo e os demais módulos mantêm os bytes originais.
+
+A headline e a subheadline aprovadas estão em `content/br-landing.json` e aparecem em todas as variantes brasileiras, inclusive no HTML pré-renderizado. A variante C usa a mesma copy da principal. A conferência está em `reports/br/landing-copy-verification.json`, com prévias em `reports/br/landing-copy-485.png` e `reports/br/landing-copy-390.png`. As capturas completas da recuperação registram o conteúdo anterior a esse ajuste; o relatório de copy registra a alteração atual.
 
 O HTML recebe `<base href="/br/">`. Links internos, página de arrependimento, URLs próprias, metadados e retorno ao início passam a usar `/br/`. As fontes referenciadas no CSS embutido da página de arrependimento também recebem o prefixo. Os imports dinâmicos mantêm a árvore relativa `assets/`, sob `/br/assets/`.
 
-As **16 chaves próprias** de navegador passam de `ugc-*` para `ugc-br-*`, inclusive as usadas no bootstrap HTML, na captura de lead, no quiz, no nome, nas UTMs, no A/B e no contador. A versão italiana mantém suas chaves originais. Os endpoints próprios brasileiros passam a `/br/api/*`. O domínio lógico usado pelo app é o domínio atual com `/br/`. Não foram alterados os textos comerciais, imagens, preços, identificadores Hotmart ou pixels da oferta.
+As **16 chaves próprias** de navegador passam de `ugc-*` para `ugc-br-*`, inclusive as usadas no bootstrap HTML, na captura de lead, no quiz, no nome, nas UTMs, no A/B e no contador. A versão italiana mantém suas chaves originais. Os endpoints próprios brasileiros passam a `/br/api/*`. O domínio lógico usado pelo app é o domínio atual com `/br/`. As imagens, preços, identificadores Hotmart e pixels da oferta foram preservados; a copy de entrada segue a aprovação descrita acima.
 
 Não edite somente a cópia gerada se quiser manter uma alteração: `npm run mount:br`/`npm run build` podem regravá-la. A recuperação mantém os originais como evidência; mudanças futuras de conteúdo devem ser feitas conscientemente no processo de geração ou em uma nova fonte editável. O site público não disponibiliza o projeto TSX/TypeScript nem source maps referenciados; foi recuperado o build compilado.
 
