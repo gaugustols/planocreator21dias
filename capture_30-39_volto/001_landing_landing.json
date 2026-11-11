@@ -1,0 +1,93 @@
+{
+  "sequence": 1,
+  "id": "001_landing_landing",
+  "url": "http://127.0.0.1:4173/",
+  "step": "landing",
+  "phase": "",
+  "kind": "landing",
+  "title": "Diventa UGC creator in 21 giorni, anche senza follower",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "18-29",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "18–29"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "30-39",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "30–39"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "40-49",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "40–49"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "50+",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "50+"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    },
+    {
+      "index": 5,
+      "tag": "A",
+      "testid": "withdrawal",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Recedi dal contratto qui"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 0,
+    "maxIndex": 0,
+    "answers": {},
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794418874171
+  },
+  "textSha256": "9200b0dc629fe0fe62705cca28799e33a63a3ae3d07ad9b0d99b1745ff67bbf8"
+}

@@ -1,0 +1,121 @@
+{
+  "sequence": 36,
+  "id": "036_brief-moka_record",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-moka",
+  "phase": "record",
+  "kind": "brief",
+  "title": "Gira la scena della moka: tocca il tasto rosso",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "Registra"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continua"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n200 €\n?"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 9,
+    "maxIndex": 9,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "corso"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "bellezza",
+        "tech"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "record"
+    },
+    "confetti": 1,
+    "startedAt": 1794418981966
+  },
+  "textSha256": "d4c8c1fcf85cca55385dc6f195ba1637a70d4b5fda6f606b798ca60458e38c63"
+}

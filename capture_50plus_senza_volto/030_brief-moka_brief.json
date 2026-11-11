@@ -1,0 +1,154 @@
+{
+  "sequence": 30,
+  "id": "030_brief-moka_brief",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-moka",
+  "phase": "brief",
+  "kind": "brief",
+  "title": "Video “il rito della moka”",
+  "options": [
+    {
+      "index": 0,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "COMPENSO\n\n350 €"
+    },
+    {
+      "index": 1,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "SCADENZA\n\n⏰\nEntro 7 giorni"
+    },
+    {
+      "index": 2,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 3,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n200 €\n?"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Accetto il brief"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 9,
+    "maxIndex": 9,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "senza_volto"
+      ],
+      "categorie": [
+        "moda",
+        "famiglia"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "brief"
+    },
+    "confetti": 1,
+    "startedAt": 1794419086184
+  },
+  "textSha256": "7b05e6bd8bc820098a2076fdf36ec2fa594ac8660db81cd83bc0ceb9571c18ff"
+}

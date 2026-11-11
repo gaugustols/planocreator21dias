@@ -1,0 +1,118 @@
+{
+  "sequence": 45,
+  "id": "045_brief-pasta_record",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-pasta",
+  "phase": "record",
+  "kind": "brief",
+  "title": "Gira l'unboxing (solo mani): tocca il tasto rosso",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "record",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Registra"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n550 €\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 11,
+    "maxIndex": 11,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "cucina",
+        "moda"
+      ]
+    },
+    "wallet": {
+      "total": 550,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "record"
+    },
+    "confetti": 1,
+    "startedAt": 1794419085987
+  },
+  "textSha256": "bdf3818311f61b3a076ddbc29093cb0f384416bc50bd59aca1aecd3ebe563cb0"
+}

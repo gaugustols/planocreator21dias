@@ -1,0 +1,110 @@
+{
+  "sequence": 35,
+  "id": "035_brief-moka_record",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-moka",
+  "phase": "record",
+  "kind": "brief",
+  "title": "Gira la scena della moka: tocca il tasto rosso",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "Registra"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n200 €\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 9,
+    "maxIndex": 9,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "mio"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "30min"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "casa",
+        "cucina"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "record"
+    },
+    "confetti": 1,
+    "startedAt": 1794418741004
+  },
+  "textSha256": "b5189bd3cbb3a7868edf166976937ed397ced5d2f0e62f4c2dbe516d2dd45b37"
+}

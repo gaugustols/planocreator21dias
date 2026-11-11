@@ -1,0 +1,116 @@
+{
+  "sequence": 39,
+  "id": "039_regola-d-oro_interstitial",
+  "url": "http://127.0.0.1:4173/",
+  "step": "regola-d-oro",
+  "phase": "",
+  "kind": "interstitial",
+  "title": "Nella realtà paga la marca. Mai tu.",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Chiaro, prossimo brief"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n550 €\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 10,
+    "maxIndex": 10,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "mio"
+      ],
+      "spesa": [
+        "niente"
+      ],
+      "tempo": [
+        "30min"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "casa",
+        "cucina"
+      ]
+    },
+    "wallet": {
+      "total": 550,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794419086157
+  },
+  "textSha256": "983faef2a9df2dcb016c754a95df142463e0496bfa717174c11db48575ed5c9e"
+}

@@ -1,0 +1,103 @@
+{
+  "sequence": 25,
+  "id": "025_niente-follower_interstitial",
+  "url": "http://127.0.0.1:4173/",
+  "step": "niente-follower",
+  "phase": "",
+  "kind": "interstitial",
+  "title": "Non servono follower. E nemmeno la faccia.",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Meno male, andiamo avanti"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n200 €\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 7,
+    "maxIndex": 7,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "mio"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "30min"
+      ],
+      "camera": [
+        "senza_volto"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "phases": {
+      "brief-crema": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794418874487
+  },
+  "textSha256": "80cf7ad5f84a3c73d146484ae3c8bd4e238df42091809a4586e3f722d0b258be"
+}

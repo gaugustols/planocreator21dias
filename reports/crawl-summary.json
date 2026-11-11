@@ -1,0 +1,5955 @@
+{
+  "checkedAt": "2026-11-11T17:50:29.119Z",
+  "base": "http://127.0.0.1:4173/",
+  "branches": 12,
+  "passed": 12,
+  "captures": 753,
+  "coverage": {
+    "eta": [
+      "18-29",
+      "30-39",
+      "40-49",
+      "50+"
+    ],
+    "obiettivo": [
+      "arrotondare",
+      "mio",
+      "creativa",
+      "prodotti"
+    ],
+    "spesa": [
+      "natale",
+      "vacanza",
+      "corso",
+      "parte",
+      "niente"
+    ],
+    "tempo": [
+      "moka",
+      "30min",
+      "1ora",
+      "weekend"
+    ],
+    "camera": [
+      "volto",
+      "mani_voce",
+      "senza_volto"
+    ],
+    "categorie": [
+      "bellezza",
+      "casa",
+      "cucina",
+      "moda",
+      "famiglia",
+      "animali",
+      "benessere",
+      "tech"
+    ],
+    "primo-video": [
+      "oggi",
+      "domani",
+      "weekend",
+      "non-ancora"
+    ],
+    "analisi:midQuestion": [
+      "si",
+      "no"
+    ]
+  },
+  "results": [
+    {
+      "branch": {
+        "index": 0,
+        "name": "18-29_volto",
+        "age": "18-29",
+        "camera": "volto",
+        "landing": "a",
+        "result": "a"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 62,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "18-29"
+        ],
+        "obiettivo": [
+          "arrotondare"
+        ],
+        "spesa": [
+          "natale"
+        ],
+        "tempo": [
+          "moka"
+        ],
+        "camera": [
+          "volto"
+        ],
+        "categorie": [
+          "bellezza",
+          "casa"
+        ],
+        "primo-video": [
+          "oggi"
+        ],
+        "analisi:midQuestion": [
+          "si"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/BriefScreen-CrHq_bvB.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "landing",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "18-29",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🙋‍♀️\n18–29"
+          }
+        },
+        {
+          "step": "obiettivo",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "arrotondare",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "💶\nArrotondare a fine mese\nUn'entrata extra, senza lasciare il lavoro"
+          }
+        },
+        {
+          "step": "spesa",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "natale",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🎁\nI regali di Natale"
+          }
+        },
+        {
+          "step": "tempo",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "moka",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "☕\nIl tempo di una moka\n10–15 minuti al giorno"
+          }
+        },
+        {
+          "step": "cos-e-ugc",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Ok, fammi provare"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nBRIEF UGC\nora\nVelù ti ha mandato un brief\nCompenso proposto: 200 € · Video da 15 secondi per la crema mani."
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“Ciao ragazzi! Allora, oggi vi parlo di una crema che mi hanno mandato…”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "B\nCrema già in mano: “Se d'inverno anche le tue mani sembrano carta vetrata, guarda qui.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "1",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✋\nMani secche in primo piano"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "2",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nApro il tubetto e lo mostro da vicino"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "3",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✨\nLa spalmo e si vede la texture"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "4",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "👍\nIl mio consiglio finale"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“Link in bio, ciao!”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“Ormai non esco più senza. Se hai le mani come le mie, provala.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "camera",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "volto",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "😄\nCi metto la faccia\nParlare in camera non mi spaventa (troppo)"
+          }
+        },
+        {
+          "step": "niente-follower",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Meno male, andiamo avanti"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "bellezza",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🧴\nBellezza e skincare"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "casa",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🧼\nCasa e pulizie"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 11,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "☕\nBRIEF UGC\nora\nNuovo brief da Gorgoglio\nCompenso proposto: 350 € · Video da 30 secondi, voce fuori campo."
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "B\n“Allora, il mio rapporto con il caffè nasce tanti anni fa, a casa di mia nonna…”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "A\nPrimo piano sulla moka che borbotta, poi la voce: “Mentre sale il caffè, tre minuti solo per me.”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "regola-d-oro",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Chiaro, prossimo brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "📦\nBRIEF UGC\nora\nBrief da Bronzetto: unboxing senza volto\nCompenso proposto: 600 € · Video da 30 secondi, solo mani e uso nelle inserzioni per 3 mesi."
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“UNBOXING PASTA ARTIGIANALE PREMIUM DI ALTISSIMA QUALITÀ”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“La pasta che uso per la carbonara. Senza panna, ovviamente.”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "primo-video",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "oggi",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🎬\nOggi stesso, con un prodotto che ho in casa"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "question",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "si",
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, voglio il piano passo passo"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "done",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, iscrivimi!"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 1,
+        "name": "18-29_mani_voce",
+        "age": "18-29",
+        "camera": "mani_voce",
+        "landing": "b",
+        "result": "b"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 61,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "18-29"
+        ],
+        "obiettivo": [
+          "mio"
+        ],
+        "spesa": [
+          "vacanza"
+        ],
+        "tempo": [
+          "30min"
+        ],
+        "camera": [
+          "mani_voce"
+        ],
+        "categorie": [
+          "casa",
+          "cucina"
+        ],
+        "primo-video": [
+          "domani"
+        ],
+        "analisi:midQuestion": [
+          "no"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/18-29.webp"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/30-39.webp"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/40-49.webp"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/50.webp"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/BriefScreen-CrHq_bvB.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "landing",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "18-29",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "18–29"
+          }
+        },
+        {
+          "step": "obiettivo",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "mio",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🌱\nQualcosa di mio\nUn'attività da gestire con i miei tempi"
+          }
+        },
+        {
+          "step": "spesa",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "vacanza",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🏖️\nUna vacanza"
+          }
+        },
+        {
+          "step": "tempo",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "30min",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "⏱️\nMezz'ora al giorno\nIn pausa pranzo o la sera"
+          }
+        },
+        {
+          "step": "cos-e-ugc",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Ok, fammi provare"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nBRIEF UGC\nora\nVelù ti ha mandato un brief\nCompenso proposto: 200 € · Video da 15 secondi per la crema mani."
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“La crema mani più rivoluzionaria di sempre: risultati garantiti in 24 ore!”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "B\nCrema già in mano: “Se d'inverno anche le tue mani sembrano carta vetrata, guarda qui.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "1",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✋\nMani secche in primo piano"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "2",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nApro il tubetto e lo mostro da vicino"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "3",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✨\nLa spalmo e si vede la texture"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "4",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "👍\nIl mio consiglio finale"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "B\n“Correte a prenderla, solo oggi sconto del 50%!”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“Ormai non esco più senza. Se hai le mani come le mie, provala.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "camera",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "mani_voce",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🤲\nSolo mani e voce\nMostro il prodotto e lo racconto, ma il viso no"
+          }
+        },
+        {
+          "step": "niente-follower",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Meno male, andiamo avanti"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "casa",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🧼\nCasa e pulizie"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "cucina",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🍳\nCucina e caffè"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 11,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "☕\nBRIEF UGC\nora\nNuovo brief da Gorgoglio\nCompenso proposto: 350 € · Video da 30 secondi, voce fuori campo."
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "C\nIl pacchetto fermo sul tavolo per 5 secondi, in silenzio, poi inizio a parlare."
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "A\nPrimo piano sulla moka che borbotta, poi la voce: “Mentre sale il caffè, tre minuti solo per me.”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "regola-d-oro",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Chiaro, prossimo brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "📦\nBRIEF UGC\nora\nBrief da Bronzetto: unboxing senza volto\nCompenso proposto: 600 € · Video da 30 secondi, solo mani e uso nelle inserzioni per 3 mesi."
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "B\n“Rigatoni trafilati al bronzo: formato, peso e tempo di cottura”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“La pasta che uso per la carbonara. Senza panna, ovviamente.”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "primo-video",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "domani",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "☀️\nDomani"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "question",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "no",
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "done",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "optin-no",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "name-skip",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Preferisco non dirlo"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 2,
+        "name": "18-29_senza_volto",
+        "age": "18-29",
+        "camera": "senza_volto",
+        "landing": "c",
+        "result": "a"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 62,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "18-29"
+        ],
+        "obiettivo": [
+          "creativa"
+        ],
+        "spesa": [
+          "corso"
+        ],
+        "tempo": [
+          "1ora"
+        ],
+        "camera": [
+          "senza_volto"
+        ],
+        "categorie": [
+          "cucina",
+          "moda"
+        ],
+        "primo-video": [
+          "weekend"
+        ],
+        "analisi:midQuestion": [
+          "si"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/BriefScreen-CrHq_bvB.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "landing",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "18-29",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🙋‍♀️\n18–29"
+          }
+        },
+        {
+          "step": "obiettivo",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "creativa",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🎨\nDare sfogo alla creatività\nFare video mi diverte già"
+          }
+        },
+        {
+          "step": "spesa",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "corso",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "📚\nUn corso o una passione"
+          }
+        },
+        {
+          "step": "tempo",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "1ora",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🌙\nUn'ora al giorno\nQuando la casa è finalmente tranquilla"
+          }
+        },
+        {
+          "step": "cos-e-ugc",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Ok, fammi provare"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nBRIEF UGC\nora\nVelù ti ha mandato un brief\nCompenso proposto: 200 € · Video da 15 secondi per la crema mani."
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“Ciao ragazzi! Allora, oggi vi parlo di una crema che mi hanno mandato…”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "B\nCrema già in mano: “Se d'inverno anche le tue mani sembrano carta vetrata, guarda qui.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "1",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✋\nMani secche in primo piano"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "2",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nApro il tubetto e lo mostro da vicino"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "3",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✨\nLa spalmo e si vede la texture"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "4",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "👍\nIl mio consiglio finale"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“Link in bio, ciao!”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“Ormai non esco più senza. Se hai le mani come le mie, provala.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "camera",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "senza_volto",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "📦\nPreferisco non apparire\nSolo prodotto, scritte e musica"
+          }
+        },
+        {
+          "step": "niente-follower",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Meno male, andiamo avanti"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "cucina",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🍳\nCucina e caffè"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "moda",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "👗\nModa e accessori"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 11,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "☕\nBRIEF UGC\nora\nNuovo brief da Gorgoglio\nCompenso proposto: 350 € · Video da 30 secondi, voce fuori campo."
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "B\n“Allora, il mio rapporto con il caffè nasce tanti anni fa, a casa di mia nonna…”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "A\nPrimo piano sulla moka che borbotta, poi la voce: “Mentre sale il caffè, tre minuti solo per me.”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "regola-d-oro",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Chiaro, prossimo brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "📦\nBRIEF UGC\nora\nBrief da Bronzetto: unboxing senza volto\nCompenso proposto: 600 € · Video da 30 secondi, solo mani e uso nelle inserzioni per 3 mesi."
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“UNBOXING PASTA ARTIGIANALE PREMIUM DI ALTISSIMA QUALITÀ”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“La pasta che uso per la carbonara. Senza panna, ovviamente.”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "primo-video",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "weekend",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🗓️\nQuesto weekend"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "question",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "si",
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, voglio il piano passo passo"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "done",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, iscrivimi!"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 3,
+        "name": "30-39_volto",
+        "age": "30-39",
+        "camera": "volto",
+        "landing": "b",
+        "result": "b"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 63,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "30-39"
+        ],
+        "obiettivo": [
+          "prodotti"
+        ],
+        "spesa": [
+          "parte"
+        ],
+        "tempo": [
+          "weekend"
+        ],
+        "camera": [
+          "volto"
+        ],
+        "categorie": [
+          "moda",
+          "famiglia"
+        ],
+        "primo-video": [
+          "non-ancora"
+        ],
+        "analisi:midQuestion": [
+          "no"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "optin-no",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "name-skip",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Preferisco non dirlo"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 4,
+        "name": "30-39_mani_voce",
+        "age": "30-39",
+        "camera": "mani_voce",
+        "landing": "c",
+        "result": "a"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 65,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "30-39"
+        ],
+        "obiettivo": [
+          "arrotondare"
+        ],
+        "spesa": [
+          "niente"
+        ],
+        "tempo": [
+          "moka"
+        ],
+        "camera": [
+          "mani_voce"
+        ],
+        "categorie": [
+          "famiglia",
+          "animali"
+        ],
+        "primo-video": [
+          "oggi"
+        ],
+        "analisi:midQuestion": [
+          "si"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, iscrivimi!"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 5,
+        "name": "30-39_senza_volto",
+        "age": "30-39",
+        "camera": "senza_volto",
+        "landing": "a",
+        "result": "b"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 63,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "30-39"
+        ],
+        "obiettivo": [
+          "mio"
+        ],
+        "spesa": [
+          "natale"
+        ],
+        "tempo": [
+          "30min"
+        ],
+        "camera": [
+          "senza_volto"
+        ],
+        "categorie": [
+          "animali",
+          "benessere"
+        ],
+        "primo-video": [
+          "domani"
+        ],
+        "analisi:midQuestion": [
+          "no"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "optin-no",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "name-skip",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Preferisco non dirlo"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 6,
+        "name": "40-49_volto",
+        "age": "40-49",
+        "camera": "volto",
+        "landing": "c",
+        "result": "a"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 62,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "40-49"
+        ],
+        "obiettivo": [
+          "creativa"
+        ],
+        "spesa": [
+          "vacanza"
+        ],
+        "tempo": [
+          "1ora"
+        ],
+        "camera": [
+          "volto"
+        ],
+        "categorie": [
+          "benessere",
+          "tech"
+        ],
+        "primo-video": [
+          "weekend"
+        ],
+        "analisi:midQuestion": [
+          "si"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/BriefScreen-CrHq_bvB.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "landing",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "40-49",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "👩‍💼\n40–49"
+          }
+        },
+        {
+          "step": "obiettivo",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "creativa",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🎨\nDare sfogo alla creatività\nFare video mi diverte già"
+          }
+        },
+        {
+          "step": "spesa",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "vacanza",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🏖️\nUna vacanza"
+          }
+        },
+        {
+          "step": "tempo",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "1ora",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🌙\nUn'ora al giorno\nQuando la casa è finalmente tranquilla"
+          }
+        },
+        {
+          "step": "cos-e-ugc",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Ok, fammi provare"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nBRIEF UGC\nora\nVelù ti ha mandato un brief\nCompenso proposto: 200 € · Video da 15 secondi per la crema mani."
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“Ciao ragazzi! Allora, oggi vi parlo di una crema che mi hanno mandato…”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "B\nCrema già in mano: “Se d'inverno anche le tue mani sembrano carta vetrata, guarda qui.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "1",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✋\nMani secche in primo piano"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "2",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nApro il tubetto e lo mostro da vicino"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "3",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✨\nLa spalmo e si vede la texture"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "4",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "👍\nIl mio consiglio finale"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“Link in bio, ciao!”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“Ormai non esco più senza. Se hai le mani come le mie, provala.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "camera",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "volto",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "😄\nCi metto la faccia\nParlare in camera non mi spaventa (troppo)"
+          }
+        },
+        {
+          "step": "niente-follower",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Meno male, andiamo avanti"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 6,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "benessere",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🏋️\nSport e benessere"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "tech",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "💻\nTech e gadget"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 11,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "☕\nBRIEF UGC\nora\nNuovo brief da Gorgoglio\nCompenso proposto: 350 € · Video da 30 secondi, voce fuori campo."
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "B\n“Allora, il mio rapporto con il caffè nasce tanti anni fa, a casa di mia nonna…”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "A\nPrimo piano sulla moka che borbotta, poi la voce: “Mentre sale il caffè, tre minuti solo per me.”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "regola-d-oro",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Chiaro, prossimo brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "📦\nBRIEF UGC\nora\nBrief da Bronzetto: unboxing senza volto\nCompenso proposto: 600 € · Video da 30 secondi, solo mani e uso nelle inserzioni per 3 mesi."
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "A\n“UNBOXING PASTA ARTIGIANALE PREMIUM DI ALTISSIMA QUALITÀ”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“La pasta che uso per la carbonara. Senza panna, ovviamente.”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "primo-video",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "weekend",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🗓️\nQuesto weekend"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "question",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "si",
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, voglio il piano passo passo"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "done",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, iscrivimi!"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 7,
+        "name": "40-49_mani_voce",
+        "age": "40-49",
+        "camera": "mani_voce",
+        "landing": "a",
+        "result": "b"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 61,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "40-49"
+        ],
+        "obiettivo": [
+          "prodotti"
+        ],
+        "spesa": [
+          "corso"
+        ],
+        "tempo": [
+          "weekend"
+        ],
+        "camera": [
+          "mani_voce"
+        ],
+        "categorie": [
+          "tech",
+          "bellezza"
+        ],
+        "primo-video": [
+          "non-ancora"
+        ],
+        "analisi:midQuestion": [
+          "no"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/BriefScreen-CrHq_bvB.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "landing",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "40-49",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "👩‍💼\n40–49"
+          }
+        },
+        {
+          "step": "obiettivo",
+          "phase": "",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "prodotti",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🎁\nProvare prodotti nuovi\nE raccontarli a modo mio"
+          }
+        },
+        {
+          "step": "spesa",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "corso",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "📚\nUn corso o una passione"
+          }
+        },
+        {
+          "step": "tempo",
+          "phase": "",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "weekend",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🗓️\nSolo nel weekend\nQualche ora tra sabato e domenica"
+          }
+        },
+        {
+          "step": "cos-e-ugc",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Ok, fammi provare"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nBRIEF UGC\nora\nVelù ti ha mandato un brief\nCompenso proposto: 200 € · Video da 15 secondi per la crema mani."
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“La crema mani più rivoluzionaria di sempre: risultati garantiti in 24 ore!”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "B\nCrema già in mano: “Se d'inverno anche le tue mani sembrano carta vetrata, guarda qui.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "1",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✋\nMani secche in primo piano"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "2",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "🧴\nApro il tubetto e lo mostro da vicino"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "3",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "✨\nLa spalmo e si vede la texture"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scene",
+            "option": null,
+            "order": "4",
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "👍\nIl mio consiglio finale"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "storyboard",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "B\n“Correte a prenderla, solo oggi sconto del 50%!”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“Ormai non esco più senza. Se hai le mani come le mie, provala.”"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "closing",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-crema",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "camera",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "mani_voce",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🤲\nSolo mani e voce\nMostro il prodotto e lo racconto, ma il viso no"
+          }
+        },
+        {
+          "step": "niente-follower",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Meno male, andiamo avanti"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "bellezza",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🧴\nBellezza e skincare"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "tech",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "💻\nTech e gadget"
+          }
+        },
+        {
+          "step": "categorie",
+          "phase": "",
+          "target": {
+            "index": 11,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "☕\nBRIEF UGC\nora\nNuovo brief da Gorgoglio\nCompenso proposto: 350 € · Video da 30 secondi, voce fuori campo."
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "C\nIl pacchetto fermo sul tavolo per 5 secondi, in silenzio, poi inizio a parlare."
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "A\nPrimo piano sulla moka che borbotta, poi la voce: “Mentre sale il caffè, tre minuti solo per me.”"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-moka",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "regola-d-oro",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Chiaro, prossimo brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "notification",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "📦\nBRIEF UGC\nora\nBrief da Bronzetto: unboxing senza volto\nCompenso proposto: 600 € · Video da 30 secondi, solo mani e uso nelle inserzioni per 3 mesi."
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "brief",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Accetto il brief"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "false",
+            "checked": null,
+            "disabled": false,
+            "text": "B\n“Rigatoni trafilati al bronzo: formato, peso e tempo di cottura”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "task-option",
+            "option": null,
+            "order": null,
+            "correct": "true",
+            "checked": null,
+            "disabled": false,
+            "text": "C\n“La pasta che uso per la carbonara. Senza panna, ovviamente.”"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "hook",
+          "target": {
+            "index": 7,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "record",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Registra"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "record",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "brief-pasta",
+          "phase": "delivery",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "primo-video",
+          "phase": "",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "non-ancora",
+            "order": null,
+            "correct": null,
+            "checked": "false",
+            "disabled": false,
+            "text": "🤗\nNon me la sento ancora"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "question",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "option",
+            "option": "no",
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "analisi",
+          "phase": "done",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "optin-no",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "name-skip",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Preferisco non dirlo"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 8,
+        "name": "40-49_senza_volto",
+        "age": "40-49",
+        "camera": "senza_volto",
+        "landing": "b",
+        "result": "a"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 64,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "40-49"
+        ],
+        "obiettivo": [
+          "arrotondare"
+        ],
+        "spesa": [
+          "parte"
+        ],
+        "tempo": [
+          "moka"
+        ],
+        "camera": [
+          "senza_volto"
+        ],
+        "categorie": [
+          "bellezza",
+          "casa"
+        ],
+        "primo-video": [
+          "oggi"
+        ],
+        "analisi:midQuestion": [
+          "si"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/18-29.webp"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/30-39.webp"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/40-49.webp"
+        },
+        {
+          "method": "GET",
+          "type": "image",
+          "url": "http://127.0.0.1:4173/ab/landing1/50.webp"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "analisi",
+          "phase": "done",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, iscrivimi!"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 9,
+        "name": "50plus_volto",
+        "age": "50+",
+        "camera": "volto",
+        "landing": "a",
+        "result": "b"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 63,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "50+"
+        ],
+        "obiettivo": [
+          "mio"
+        ],
+        "spesa": [
+          "niente"
+        ],
+        "tempo": [
+          "30min"
+        ],
+        "camera": [
+          "volto"
+        ],
+        "categorie": [
+          "casa",
+          "cucina"
+        ],
+        "primo-video": [
+          "domani"
+        ],
+        "analisi:midQuestion": [
+          "no"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "optin-no",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "name-skip",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Preferisco non dirlo"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 10,
+        "name": "50plus_mani_voce",
+        "age": "50+",
+        "camera": "mani_voce",
+        "landing": "b",
+        "result": "a"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 64,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "50+"
+        ],
+        "obiettivo": [
+          "creativa"
+        ],
+        "spesa": [
+          "natale"
+        ],
+        "tempo": [
+          "1ora"
+        ],
+        "camera": [
+          "mani_voce"
+        ],
+        "categorie": [
+          "cucina",
+          "moda"
+        ],
+        "primo-video": [
+          "weekend"
+        ],
+        "analisi:midQuestion": [
+          "si"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Sì, iscrivimi!"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    },
+    {
+      "branch": {
+        "index": 11,
+        "name": "50plus_senza_volto",
+        "age": "50+",
+        "camera": "senza_volto",
+        "landing": "c",
+        "result": "b"
+      },
+      "success": true,
+      "funnelReachedOffer": true,
+      "failure": null,
+      "captures": 63,
+      "steps": [
+        "landing",
+        "obiettivo",
+        "spesa",
+        "tempo",
+        "cos-e-ugc",
+        "brief-crema",
+        "camera",
+        "niente-follower",
+        "categorie",
+        "brief-moka",
+        "regola-d-oro",
+        "brief-pasta",
+        "primo-video",
+        "analisi",
+        "email",
+        "optin",
+        "nome",
+        "sconto",
+        "risultato"
+      ],
+      "phases": [
+        "brief-crema:notification",
+        "brief-crema:brief",
+        "brief-crema:hook",
+        "brief-crema:storyboard",
+        "brief-crema:record",
+        "brief-crema:closing",
+        "brief-crema:delivery",
+        "brief-moka:notification",
+        "brief-moka:brief",
+        "brief-moka:hook",
+        "brief-moka:record",
+        "brief-moka:delivery",
+        "brief-pasta:notification",
+        "brief-pasta:brief",
+        "brief-pasta:hook",
+        "brief-pasta:record",
+        "brief-pasta:delivery",
+        "analisi:loading",
+        "analisi:question",
+        "analisi:done",
+        "sconto:cover",
+        "sconto:revealed"
+      ],
+      "choices": {
+        "eta": [
+          "50+"
+        ],
+        "obiettivo": [
+          "prodotti"
+        ],
+        "spesa": [
+          "vacanza"
+        ],
+        "tempo": [
+          "weekend"
+        ],
+        "camera": [
+          "senza_volto"
+        ],
+        "categorie": [
+          "moda",
+          "famiglia"
+        ],
+        "primo-video": [
+          "non-ancora"
+        ],
+        "analisi:midQuestion": [
+          "no"
+        ]
+      },
+      "errors": [],
+      "blocked": [],
+      "requests": [
+        {
+          "method": "GET",
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "method": "GET",
+          "type": "font",
+          "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+        },
+        {
+          "method": "GET",
+          "type": "stylesheet",
+          "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+        },
+        {
+          "method": "GET",
+          "type": "script",
+          "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+        }
+      ],
+      "actions": [
+        {
+          "step": "email",
+          "phase": "",
+          "target": {
+            "index": 1,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Mandami il piano"
+          }
+        },
+        {
+          "step": "optin",
+          "phase": "",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "optin-no",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "No, grazie"
+          }
+        },
+        {
+          "step": "nome",
+          "phase": "",
+          "target": {
+            "index": 2,
+            "tag": "BUTTON",
+            "testid": "name-skip",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Preferisco non dirlo"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "cover",
+          "target": {
+            "index": 0,
+            "tag": "BUTTON",
+            "testid": "scratch-reveal",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Rivela lo sconto"
+          }
+        },
+        {
+          "step": "sconto",
+          "phase": "revealed",
+          "target": {
+            "index": 3,
+            "tag": "BUTTON",
+            "testid": "primary",
+            "option": null,
+            "order": null,
+            "correct": null,
+            "checked": null,
+            "disabled": false,
+            "text": "Continua"
+          }
+        }
+      ]
+    }
+  ]
+}

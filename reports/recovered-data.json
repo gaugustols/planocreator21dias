@@ -1,0 +1,1562 @@
+{
+  "config": {
+    "brandName": "Piano UGC",
+    "productName": "Piano UGC 21 Giorni",
+    "checkoutUrl": "https://pay.hotmart.com/S108075670L?checkoutMode=10",
+    "price": 27,
+    "vatIncluded": true,
+    "anchorPrice": 97,
+    "showAnchor": true,
+    "showBonusValues": true,
+    "urgencyBar": {
+      "enabled": true
+    },
+    "countdown": {
+      "enabled": true,
+      "mode": "endOfDay",
+      "minutes": 10,
+      "deadlineISO": ""
+    },
+    "guaranteeDays": 15,
+    "paymentMethods": [
+      "visa",
+      "mastercard",
+      "paypal",
+      "applepay",
+      "googlepay",
+      "klarna"
+    ],
+    "funnel": {
+      "offers": [
+        "y1gwfwn1",
+        "aibqj33v",
+        "2roohjnz"
+      ],
+      "steps": [
+        {
+          "id": "kit",
+          "label": "Kit Proposte",
+          "productId": "8768460"
+        },
+        {
+          "id": "marche",
+          "label": "Lista das 67 marcas",
+          "productId": "8755932"
+        }
+      ]
+    },
+    "testimonials": [
+      {
+        "name": "Alessia",
+        "status": "Torino",
+        "messages": [
+          {
+            "from": "customer",
+            "text": "Volevo dirti che finalmente ho registrato il mio primo video! Non è perfetto, ma almeno ho iniziato 😂",
+            "time": ""
+          },
+          {
+            "from": "us",
+            "text": "Questo è l'importante! Il primo passo è sempre il più difficile.",
+            "time": ""
+          },
+          {
+            "from": "customer",
+            "text": "Verissimo. Prima pensavo che fare UGC fosse molto più complicato, invece con le indicazioni del percorso mi sono sentita più sicura. Ora voglio provare a farne altri!",
+            "time": ""
+          }
+        ],
+        "verifiedNote": "Studentessa del percorso UGC · edizione 2025"
+      },
+      {
+        "name": "Sofia",
+        "status": "Roma",
+        "messages": [
+          {
+            "from": "customer",
+            "text": "Ho finito il mio portfoliooo 🥹 Alla fine ho usato anche i prodotti che avevo già a casa per registrare i primi video.",
+            "time": ""
+          },
+          {
+            "from": "us",
+            "text": "Grandeee! Visto che non serviva aspettare di avere tutto perfetto?",
+            "time": ""
+          },
+          {
+            "from": "customer",
+            "text": "Esatto ahah, continuavo a rimandare perché pensavo di non avere l'attrezzatura giusta. Adesso almeno posso iniziare a presentarmi ai brand!",
+            "time": ""
+          }
+        ],
+        "verifiedNote": "Studentessa del percorso UGC · edizione 2025"
+      },
+      {
+        "name": "Martina",
+        "status": "Palermo",
+        "messages": [
+          {
+            "from": "customer",
+            "text": "Oddio, mi hanno appena risposto!! Un brand vuole collaborare con me per un video UGC 😭",
+            "time": ""
+          },
+          {
+            "from": "us",
+            "text": "Ma che bella notizia! È la prima collaborazione?",
+            "time": ""
+          },
+          {
+            "from": "customer",
+            "text": "Sì ahah, la prima in assoluto! Avevo mandato un po' di candidature seguendo il metodo e finalmente qualcuno mi ha risposto.",
+            "time": ""
+          },
+          {
+            "from": "us",
+            "text": "Grandissima! Ora concentrati sul fare un bel lavoro 💪",
+            "time": ""
+          }
+        ],
+        "verifiedNote": "Studentessa del percorso UGC · edizione 2025"
+      },
+      {
+        "name": "Martina",
+        "status": "Roma",
+        "messages": [
+          {
+            "from": "customer",
+            "text": "Comunque volevo aggiornarti perché questo mese è andata molto meglio del previsto 😭",
+            "time": "11:08"
+          },
+          {
+            "from": "us",
+            "text": "Dai, raccontami! Come sta andando con i lavori UGC?",
+            "time": "11:09"
+          },
+          {
+            "from": "customer",
+            "text": "Questo mese sono arrivata a 1.600€ in più! 🥹 Non pensavo davvero di riuscire a creare un'entrata extra così, soprattutto continuando con il mio lavoro principale.",
+            "time": "11:11"
+          },
+          {
+            "from": "us",
+            "text": "Grandissima! Sono contento che il percorso ti stia aiutando. Sono collaborazioni singole o stai già lavorando con qualche brand in modo continuativo?",
+            "time": "11:13"
+          },
+          {
+            "from": "customer",
+            "text": "Un po' entrambe le cose! Ho iniziato con qualche collaborazione e poi sono arrivati altri contatti. La cosa bella è che riesco a organizzarmi con i video nel tempo libero, senza dover lasciare il mio lavoro.",
+            "time": "11:15"
+          },
+          {
+            "from": "customer",
+            "text": "Per me la differenza è stata avere un metodo da seguire. Prima non sapevo bene da dove partire, adesso ho molto più chiaro cosa fare e come presentarmi ai brand ❤️",
+            "time": "11:15"
+          }
+        ],
+        "verifiedNote": "Studentessa del percorso UGC · edizione 2025 · Risultato individuale, non tipico: dipende da tempo, impegno e richieste dei brand."
+      },
+      {
+        "name": "Giulia",
+        "status": "Napoli",
+        "messages": [
+          {
+            "from": "customer",
+            "text": "Ti devo aggiornare ahah, questo mese con l'UGC sono arrivata a 1.600€ extra 😭❤️",
+            "time": "14:32"
+          },
+          {
+            "from": "us",
+            "text": "Ma dai!! Grandissima 😂 Sono collaborazioni con brand diversi?",
+            "time": "14:34"
+          },
+          {
+            "from": "customer",
+            "text": "Sì! Ho fatto diversi video per un paio di brand e poi mi sono arrivate altre richieste. Alcuni contatti sono partiti proprio dalle candidature che ho mandato.",
+            "time": "14:35"
+          },
+          {
+            "from": "us",
+            "text": "E riesci a gestire tutto insieme al tuo lavoro?",
+            "time": "14:36"
+          },
+          {
+            "from": "customer",
+            "text": "Sì, è proprio questo che mi piace. Mi organizzo con le riprese nel tempo libero. All'inizio avevo paura di non essere capace, invece seguendo i passaggi mi sono sbloccata tantissimo. Non pensavo di riuscire ad arrivare a questo punto 🥹",
+            "time": "14:38"
+          },
+          {
+            "from": "us",
+            "text": "Sono davvero contento! Continua così 💪",
+            "time": "14:39"
+          }
+        ],
+        "verifiedNote": "Studentessa del percorso UGC · edizione 2025 · Risultato individuale, non tipico: dipende da tempo, impegno e richieste dei brand."
+      }
+    ],
+    "metaPixelId": "",
+    "utmify": {
+      "pixelId": "6ad3d977f9f1c8c2e0347272",
+      "utmsScript": true,
+      "metaPixelIds": [
+        "2346168272822517"
+      ]
+    },
+    "company": {
+      "name": "GLE DIGITAL LTDA",
+      "vat": "58.857.150/0001-04",
+      "taxIdLabel": "CNPJ (Brasile)",
+      "address": "Avenida Mafra, 453, Quadra 211, Lote 16, Setor 02, Piçarras, Guaratuba-PR, CEP 83280-000, Brasile",
+      "email": "supporto@piano-ugc.com"
+    },
+    "sound": true,
+    "emojiStyle": "native",
+    "metricsCountries": [
+      "IT"
+    ],
+    "withdrawalUrl": "/recesso/",
+    "analysisSeconds": 6,
+    "maxConfetti": 2,
+    "stickyCta": true,
+    "consentDays": 180,
+    "cookieConsent": false,
+    "emailGate": true,
+    "scratch": {
+      "enabled": true
+    },
+    "downsell": {
+      "enabled": true,
+      "offerCode": "aibqj33v",
+      "base": 19
+    },
+    "promo": {
+      "enabled": true,
+      "offerCode": "2roohjnz",
+      "base": 14.9,
+      "hours": 48,
+      "layout": "first"
+    },
+    "confirmInPlan": {
+      "enabled": true,
+      "waitSeconds": 120
+    },
+    "confirmByEmail": false,
+    "backfillFrom": 1792378200000,
+    "experiments": {
+      "landing1": {
+        "title": "Landing: fotos × texto",
+        "variants": {
+          "a": "Atual",
+          "b": "Fotos das idades",
+          "c": "Headline de perfil"
+        },
+        "weights": {
+          "a": 1,
+          "b": 1,
+          "c": 1
+        },
+        "metric": "start",
+        "running": true
+      },
+      "result1": {
+        "title": "Resultado: preço logo × atual",
+        "variants": {
+          "a": "Atual",
+          "b": "Preço logo após o «Oggi → 21 giorni»"
+        },
+        "weights": {
+          "a": 1,
+          "b": 1
+        },
+        "metric": "checkout",
+        "running": true
+      }
+    }
+  },
+  "content": {
+    "locale": "it-IT",
+    "currency": "EUR",
+    "chapters": [
+      {
+        "id": 1,
+        "label": "Profilo"
+      },
+      {
+        "id": 2,
+        "label": "Prova"
+      },
+      {
+        "id": 3,
+        "label": "Stile"
+      },
+      {
+        "id": 4,
+        "label": "Piano"
+      }
+    ],
+    "landing": {
+      "badge": "Quiz gratuito · 4 minuti",
+      "headline": "Diventa UGC creator in 21 giorni, **anche senza follower**",
+      "subheadline": "Le marche pagano persone comuni per video girati col telefono. Nel quiz lo provi tu.",
+      "firstQuestion": {
+        "kind": "question",
+        "id": "eta",
+        "chapter": 1,
+        "title": "Scegli la tua età per iniziare",
+        "layout": "grid",
+        "options": [
+          {
+            "id": "18-29",
+            "label": "18–29",
+            "emoji": "woman_raising_hand"
+          },
+          {
+            "id": "30-39",
+            "label": "30–39",
+            "emoji": "woman_tipping_hand"
+          },
+          {
+            "id": "40-49",
+            "label": "40–49",
+            "emoji": "woman_office_worker"
+          },
+          {
+            "id": "50+",
+            "label": "50+",
+            "emoji": "woman_artist"
+          }
+        ],
+        "reaction": {
+          "18-29": "Perfetto: il linguaggio dei social lo parli già.",
+          "30-39": "Perfetto: alle marche servono persone vere, non attori.",
+          "40-49": "Ottimo: alle marche servono volti (e mani) di tutte le età.",
+          "50+": "Ottimo: alle marche servono persone vere di ogni età. E l'esperienza si vede."
+        }
+      },
+      "trustLine": "Niente app da scaricare e niente numero di telefono.",
+      "disclaimer": "Quiz gratuito riservato ai maggiorenni. Contiene una simulazione: le marche sono di fantasia e i compensi mostrati non sono denaro reale, ma esempi di preventivo da 200 a 600 € lordi per video, secondo il progetto e i diritti d'uso. Al termine ti presentiamo il Piano UGC 21 Giorni, una guida a pagamento ({price} + IVA, pagamento unico): nessun obbligo di acquisto. Non è un'offerta di lavoro e nessun guadagno è garantito.",
+      "variants": {
+        "b": {
+          "footerNote": "Foto generate con l'intelligenza artificiale: non ritraggono persone reali."
+        },
+        "c": {
+          "headline": "Che tipo di creator UGC saresti?",
+          "subheadline": "Rispondi a qualche domanda e prova a girare i primi video: per gioco, ma come si fa davvero."
+        }
+      }
+    },
+    "steps": [
+      {
+        "kind": "question",
+        "id": "obiettivo",
+        "chapter": 1,
+        "title": "Cosa ti piacerebbe ottenere con l'UGC?",
+        "subtitle": "Scegli la risposta più vicina a te.",
+        "options": [
+          {
+            "id": "arrotondare",
+            "label": "Arrotondare a fine mese",
+            "hint": "Un'entrata extra, senza lasciare il lavoro",
+            "emoji": "coin"
+          },
+          {
+            "id": "mio",
+            "label": "Qualcosa di mio",
+            "hint": "Un'attività da gestire con i miei tempi",
+            "emoji": "seedling"
+          },
+          {
+            "id": "creativa",
+            "label": "Dare sfogo alla creatività",
+            "hint": "Fare video mi diverte già",
+            "emoji": "artist_palette"
+          },
+          {
+            "id": "prodotti",
+            "label": "Provare prodotti nuovi",
+            "hint": "E raccontarli a modo mio",
+            "emoji": "gift"
+          }
+        ],
+        "reaction": {
+          "arrotondare": "Obiettivo realistico: si parte da pochi video al mese, non da uno stipendio.",
+          "mio": "Bello: marche, orari e prezzi li scegli tu.",
+          "creativa": "Perfetto: qui la creatività diventa un servizio che le marche pagano.",
+          "prodotti": "Succede spesso: tante marche ti spediscono il prodotto da usare nel video."
+        }
+      },
+      {
+        "kind": "question",
+        "id": "spesa",
+        "chapter": 1,
+        "title": "Hai una spesa in vista per cui ti farebbe comodo un'entrata in più?",
+        "subtitle": "Ci aiuta a capire cosa ti motiva.",
+        "options": [
+          {
+            "id": "natale",
+            "label": "I regali di Natale",
+            "emoji": "gift"
+          },
+          {
+            "id": "vacanza",
+            "label": "Una vacanza",
+            "emoji": "beach_with_umbrella"
+          },
+          {
+            "id": "corso",
+            "label": "Un corso o una passione",
+            "emoji": "books"
+          },
+          {
+            "id": "parte",
+            "label": "Mettere qualcosa da parte",
+            "emoji": "bank"
+          },
+          {
+            "id": "niente",
+            "label": "Niente di preciso",
+            "emoji": "woman_shrugging"
+          }
+        ],
+        "reaction": {
+          "natale": "Segnato: nel tuo piano trovi le date, settimana per settimana.",
+          "vacanza": "Ci vuole proprio! Nel piano mettiamo le date, così sai quando finisci.",
+          "corso": "Giustissimo: una passione merita il suo spazio.",
+          "parte": "Scelta saggia: con un piano e delle date ci si organizza meglio.",
+          "niente": "Nessun problema: anche la curiosità è un buon motivo."
+        }
+      },
+      {
+        "kind": "question",
+        "id": "tempo",
+        "chapter": 1,
+        "title": "Quanto tempo potresti dedicarci?",
+        "subtitle": "Anche poco va bene: conta la costanza.",
+        "options": [
+          {
+            "id": "moka",
+            "label": "Il tempo di una moka",
+            "hint": "10–15 minuti al giorno",
+            "emoji": "hot_beverage"
+          },
+          {
+            "id": "30min",
+            "label": "Mezz'ora al giorno",
+            "hint": "In pausa pranzo o la sera",
+            "emoji": "stopwatch"
+          },
+          {
+            "id": "1ora",
+            "label": "Un'ora al giorno",
+            "hint": "Quando la casa è finalmente tranquilla",
+            "emoji": "crescent_moon"
+          },
+          {
+            "id": "weekend",
+            "label": "Solo nel weekend",
+            "hint": "Qualche ora tra sabato e domenica",
+            "emoji": "spiral_calendar"
+          }
+        ],
+        "reaction": {
+          "moka": "Si può partire anche così: un video da 15 secondi si gira in pochi minuti.",
+          "30min": "Ottimo ritmo: in mezz'ora giri e monti un video corto.",
+          "1ora": "Con un'ora al giorno il piano va spedito.",
+          "weekend": "Va benissimo: ti mostriamo come girare più video in una sola sessione."
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "cos-e-ugc",
+        "chapter": 1,
+        "eyebrow": "Cos'è l'UGC",
+        "title": "Le marche pagano video che sembrano **il consiglio di un'amica**",
+        "body": [
+          "UGC vuol dire “contenuti creati dagli utenti”: video brevi girati da persone comuni, non da attori. Le marche li usano sui loro profili e nelle inserzioni, perché ci fidiamo più di una persona vera che di uno spot.",
+          "Funziona così: la marca ti manda un brief (le sue istruzioni), concordate il prezzo, tu giri il video col telefono e lo consegni. Adesso lo provi tu: tre brief di prova, con marche di esempio e **preventivi da 200 a 600 € per video**, secondo il progetto e i diritti d'uso."
+        ],
+        "visual": "rates",
+        "stat": {
+          "value": "200–600 €",
+          "label": "per un video UGC, secondo il progetto e i diritti d'uso",
+          "source": "Esempi di preventivo: importi lordi, variabili in base a brief, esperienza e diritti d'uso."
+        },
+        "cta": "Ok, fammi provare"
+      },
+      {
+        "kind": "brief",
+        "id": "brief-crema",
+        "chapter": 2,
+        "index": 1,
+        "brand": {
+          "name": "Velù",
+          "product": "Crema mani alla mandorla · 75 ml",
+          "emoji": "lotion_bottle",
+          "tagline": "Cosmetici delicati",
+          "accent": "#c2577a"
+        },
+        "notification": {
+          "app": "Brief UGC",
+          "title": "Velù ti ha mandato un brief",
+          "body": "Compenso proposto: 200 € · Video da 15 secondi per la crema mani."
+        },
+        "briefCard": {
+          "title": "Video “mani secche d'inverno”",
+          "format": "Verticale 9:16 · 15 secondi",
+          "deliverables": [
+            "1 video con la crema in mano nei primi 3 secondi",
+            "Luce naturale, niente filtri di bellezza",
+            "Tono spontaneo, come un consiglio a un'amica",
+            "File originale senza musica: la aggiunge la marca"
+          ],
+          "fee": 200,
+          "deadline": "Entro 5 giorni",
+          "accept": "Accetto il brief"
+        },
+        "hook": {
+          "title": "Scegli l'aggancio: **i primi 3 secondi**",
+          "subtitle": "Chi scorre il feed decide in un attimo se fermarsi. Quale apertura funziona meglio?",
+          "options": [
+            {
+              "id": "saluto",
+              "text": "“Ciao ragazzi! Allora, oggi vi parlo di una crema che mi hanno mandato…”",
+              "correct": false,
+              "feedback": "È l'errore più comune: il saluto si mangia i primi 3 secondi e “mi hanno mandato” suona subito come pubblicità. Si parte dal problema o dal prodotto."
+            },
+            {
+              "id": "problema",
+              "text": "Crema già in mano: “Se d'inverno anche le tue mani sembrano carta vetrata, guarda qui.”",
+              "correct": true,
+              "feedback": "Esatto: un problema che tutti riconoscono, tono da amica e prodotto già in vista. Chi ha le mani secche si ferma."
+            },
+            {
+              "id": "spot",
+              "text": "“La crema mani più rivoluzionaria di sempre: risultati garantiti in 24 ore!”",
+              "correct": false,
+              "feedback": "Sembra uno spot di trent'anni fa. L'UGC funziona perché suona sincero, e promettere risultati “garantiti” su un cosmetico è un rischio legale per la marca."
+            }
+          ]
+        },
+        "storyboard": {
+          "title": "Metti in ordine le scene",
+          "subtitle": "Tocca le 4 scene nell'ordine in cui le metteresti nel video.",
+          "scenes": [
+            {
+              "id": "aggancio",
+              "label": "Mani secche in primo piano",
+              "emoji": "raised_hand"
+            },
+            {
+              "id": "prodotto",
+              "label": "Apro il tubetto e lo mostro da vicino",
+              "emoji": "lotion_bottle"
+            },
+            {
+              "id": "prova",
+              "label": "La spalmo e si vede la texture",
+              "emoji": "sparkles"
+            },
+            {
+              "id": "chiusura",
+              "label": "Il mio consiglio finale",
+              "emoji": "thumbs_up"
+            }
+          ],
+          "success": "Perfetto: aggancio, prodotto, prova e chiusura. È la struttura base che quasi ogni marca si aspetta."
+        },
+        "record": {
+          "title": "Ciak, si gira: tocca il tasto rosso",
+          "tips": [
+            "Luce di una finestra davanti a te, mai alle spalle",
+            "Telefono in verticale e appoggiato: niente mosso",
+            "Crema in mano entro i primi 3 secondi",
+            "Parla come a un'amica, non come in TV"
+          ],
+          "button": "Registra",
+          "seconds": 4
+        },
+        "closing": {
+          "title": "Ultimi 2 secondi: **come chiudi?**",
+          "subtitle": "Il finale decide se la marca approva il video.",
+          "options": [
+            {
+              "id": "link",
+              "text": "“Link in bio, ciao!”",
+              "correct": false,
+              "feedback": "Il video lo pubblica la marca, non tu: chi lo guarda non vedrà mai la tua bio. Il pulsante per comprare lo aggiunge la marca nell'inserzione."
+            },
+            {
+              "id": "sconto",
+              "text": "“Correte a prenderla, solo oggi sconto del 50%!”",
+              "correct": false,
+              "feedback": "Mai inventare offerte: prezzi e promozioni li decide la marca, non tu. Chiudi con un consiglio, non con un ordine."
+            },
+            {
+              "id": "consiglio",
+              "text": "“Ormai non esco più senza. Se hai le mani come le mie, provala.”",
+              "correct": true,
+              "feedback": "Perfetto: un consiglio personale e un invito semplice, senza urlare. È così che chiude un buon video UGC."
+            }
+          ]
+        },
+        "delivery": {
+          "sending": "Invio a Velù in corso…",
+          "approvedTitle": "Video approvato da **Velù!**",
+          "brandMessage": "Ciao! Approvato: aggancio azzeccato e una luce bellissima. Lo usiamo nelle storie della settimana prossima. Grazie!",
+          "walletLabel": "Video crema mani · Velù"
+        }
+      },
+      {
+        "kind": "question",
+        "id": "camera",
+        "chapter": 3,
+        "title": "Come ti senti davanti alla fotocamera?",
+        "subtitle": "Rispondi sinceramente: c'è un formato per ognuno.",
+        "options": [
+          {
+            "id": "volto",
+            "label": "Ci metto la faccia",
+            "hint": "Parlare in camera non mi spaventa (troppo)",
+            "emoji": "grinning_face_with_smiling_eyes"
+          },
+          {
+            "id": "mani_voce",
+            "label": "Solo mani e voce",
+            "hint": "Mostro il prodotto e lo racconto, ma il viso no",
+            "emoji": "palms_up_together"
+          },
+          {
+            "id": "senza_volto",
+            "label": "Preferisco non apparire",
+            "hint": "Solo prodotto, scritte e musica",
+            "emoji": "package"
+          }
+        ],
+        "reaction": {
+          "volto": "Bene: i video parlati in camera sono il formato classico dell'UGC.",
+          "mani_voce": "Scelta furba: tantissimi video UGC mostrano solo le mani.",
+          "senza_volto": "Si può fare: unboxing e video senza volto sono un formato a sé."
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "niente-follower",
+        "chapter": 3,
+        "eyebrow": "La buona notizia",
+        "title": "Non servono follower. **E nemmeno la faccia.**",
+        "body": [
+          "Le marche non comprano il tuo pubblico: comprano il video. Lo pubblicano loro, sui loro canali e nelle loro inserzioni.",
+          "E se la fotocamera ti mette a disagio, ci sono formati in cui non appari mai: solo mani, solo voce, oppure il prodotto che si racconta da solo."
+        ],
+        "visual": "faceless",
+        "bullets": [
+          {
+            "emoji": "megaphone",
+            "text": "Il video lo pubblica **la marca**, non tu"
+          },
+          {
+            "emoji": "euro_banknote",
+            "text": "Ti pagano per **il video consegnato**, non per i follower"
+          },
+          {
+            "emoji": "house",
+            "text": "Il portfolio si fa con **i prodotti che hai già in casa**"
+          }
+        ],
+        "cta": "Meno male, andiamo avanti"
+      },
+      {
+        "kind": "question",
+        "id": "categorie",
+        "chapter": 3,
+        "title": "Quali categorie ti ispirano di più?",
+        "subtitle": "Scegline almeno 2: ti aiutano a decidere le prime nicchie del piano.",
+        "multi": true,
+        "minSelect": 2,
+        "layout": "grid",
+        "cta": "Continua",
+        "options": [
+          {
+            "id": "bellezza",
+            "label": "Bellezza e skincare",
+            "emoji": "lotion_bottle"
+          },
+          {
+            "id": "casa",
+            "label": "Casa e pulizie",
+            "emoji": "soap"
+          },
+          {
+            "id": "cucina",
+            "label": "Cucina e caffè",
+            "emoji": "cooking"
+          },
+          {
+            "id": "moda",
+            "label": "Moda e accessori",
+            "emoji": "dress"
+          },
+          {
+            "id": "famiglia",
+            "label": "Bimbi e famiglia",
+            "emoji": "baby_bottle"
+          },
+          {
+            "id": "animali",
+            "label": "Animali",
+            "emoji": "dog_face"
+          },
+          {
+            "id": "benessere",
+            "label": "Sport e benessere",
+            "emoji": "dumbbell"
+          },
+          {
+            "id": "tech",
+            "label": "Tech e gadget",
+            "emoji": "laptop"
+          }
+        ],
+        "reaction": {
+          "cucina": "Ottima scelta: in Italia di cibo se ne intendono tutti.",
+          "animali": "Gli animali bucano lo schermo, e le marche lo sanno.",
+          "tech": "Bene: chi vende tecnologia ha sempre bisogno di video “come si usa”."
+        }
+      },
+      {
+        "kind": "brief",
+        "id": "brief-moka",
+        "chapter": 3,
+        "index": 2,
+        "brand": {
+          "name": "Gorgoglio",
+          "product": "Miscela per moka “Risveglio” · 250 g",
+          "emoji": "hot_beverage",
+          "tagline": "Caffè per la moka",
+          "accent": "#8a4b2a"
+        },
+        "notification": {
+          "app": "Brief UGC",
+          "title": "Nuovo brief da Gorgoglio",
+          "body": "Compenso proposto: 350 € · Video da 30 secondi, voce fuori campo."
+        },
+        "briefCard": {
+          "title": "Video “il rito della moka”",
+          "format": "Verticale 9:16 · 30 secondi · voce fuori campo",
+          "deliverables": [
+            "1 video: moka sul fuoco, caffè che sale, tazzina",
+            "Voce fuori campo: il viso non serve",
+            "Pacchetto ben leggibile per almeno 2 secondi",
+            "Niente musica: solo i suoni veri della cucina"
+          ],
+          "fee": 350,
+          "deadline": "Entro 7 giorni",
+          "accept": "Accetto il brief"
+        },
+        "hook": {
+          "title": "Che aggancio usi **per la moka**?",
+          "subtitle": "Stavolta conta anche l'audio. E il borbottio della moka lo riconoscono tutti.",
+          "options": [
+            {
+              "id": "borbottio",
+              "text": "Primo piano sulla moka che borbotta, poi la voce: “Mentre sale il caffè, tre minuti solo per me.”",
+              "correct": true,
+              "feedback": "Perfetto: un suono che ogni italiano riconosce e un'emozione vera nei primi secondi. Il pacchetto entra subito dopo, quando chi guarda è già agganciato."
+            },
+            {
+              "id": "nonna",
+              "text": "“Allora, il mio rapporto con il caffè nasce tanti anni fa, a casa di mia nonna…”",
+              "correct": false,
+              "feedback": "Tenero, ma lento: nei primi 3 secondi non succede niente e il prodotto arriva tardi. Le storie funzionano se partono dal momento più forte, non dall'inizio."
+            },
+            {
+              "id": "fermo",
+              "text": "Il pacchetto fermo sul tavolo per 5 secondi, in silenzio, poi inizio a parlare.",
+              "correct": false,
+              "feedback": "Il prodotto si vede, ma 5 secondi immobili su un telefono sono un'eternità. Serve movimento o un suono fin dal primo istante."
+            }
+          ]
+        },
+        "record": {
+          "title": "Gira la scena della moka: tocca il tasto rosso",
+          "tips": [
+            "Telefono vicino alla moka: il borbottio si deve sentire",
+            "Si vedono solo mani e fornello: va benissimo",
+            "Pacchetto in primo piano per almeno 2 secondi"
+          ],
+          "button": "Registra",
+          "seconds": 4
+        },
+        "delivery": {
+          "sending": "Invio a Gorgoglio in corso…",
+          "approvedTitle": "Approvato da **Gorgoglio!**",
+          "brandMessage": "Quel borbottio all'inizio ci ha conquistati. Approvato! Lo pubblichiamo sui nostri profili questo autunno.",
+          "walletLabel": "Video moka · Gorgoglio"
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "regola-d-oro",
+        "chapter": 3,
+        "eyebrow": "Quello che nessuno ti dice",
+        "title": "Nella realtà **paga la marca. Mai tu.**",
+        "body": [
+          "Hai appena visto il giro completo: brief, video, consegna, compenso. Nella vita vera funziona così, con una differenza: all'inizio tante candidature restano senza risposta. È normale, e con un portfolio migliore le risposte iniziano ad arrivare.",
+          "E poi c'è una regola che vale sempre. Le piattaforme serie non ti chiedono soldi per iscriverti o per ricevere i compensi: al massimo trattengono una commissione sul compenso (su Upwork i crediti per candidarti sono a pagamento, ma è facoltativo). Se qualcuno ti chiede soldi per darti un lavoro o per sbloccare un compenso, **è una truffa**."
+        ],
+        "visual": "safety",
+        "bullets": [
+          {
+            "emoji": "prohibited",
+            "text": "Nessun gruppo WhatsApp o Telegram con finti reclutatori"
+          },
+          {
+            "emoji": "check_mark_button",
+            "text": "Brief scritto e compenso chiaro **prima** di girare"
+          }
+        ],
+        "cta": "Chiaro, prossimo brief"
+      },
+      {
+        "kind": "brief",
+        "id": "brief-pasta",
+        "chapter": 3,
+        "index": 3,
+        "brand": {
+          "name": "Bronzetto",
+          "product": "Rigatoni trafilati al bronzo · 500 g",
+          "emoji": "package",
+          "tagline": "Pastificio artigianale",
+          "accent": "#b06a12"
+        },
+        "notification": {
+          "app": "Brief UGC",
+          "title": "Brief da Bronzetto: unboxing senza volto",
+          "body": "Compenso proposto: 600 € · Video da 30 secondi, solo mani e uso nelle inserzioni per 3 mesi."
+        },
+        "briefCard": {
+          "title": "Unboxing “la pasta della domenica”",
+          "format": "Verticale 9:16 · 30 secondi · senza volto",
+          "deliverables": [
+            "Solo mani: scatola, pasta, ciotola",
+            "Primo piano sulla superficie ruvida",
+            "Scritte sul video al posto della voce",
+            "Uso del video nelle inserzioni per 3 mesi (incluso nel compenso)"
+          ],
+          "fee": 600,
+          "deadline": "Entro 10 giorni",
+          "accept": "Accetto il brief"
+        },
+        "hook": {
+          "title": "Niente faccia, niente voce: **quale scritta apre il video?**",
+          "subtitle": "Nei video senza volto la prima scritta fa tutto il lavoro.",
+          "options": [
+            {
+              "id": "maiuscolo",
+              "text": "“UNBOXING PASTA ARTIGIANALE PREMIUM DI ALTISSIMA QUALITÀ”",
+              "correct": false,
+              "feedback": "Tutto maiuscolo e aggettivi da catalogo: sembra una pubblicità e si passa oltre. Meglio una frase che incuriosisca o faccia sorridere."
+            },
+            {
+              "id": "etichetta",
+              "text": "“Rigatoni trafilati al bronzo: formato, peso e tempo di cottura”",
+              "correct": false,
+              "feedback": "Corretto, ma è un'etichetta, non un aggancio: non dà nessun motivo per fermarsi. Le informazioni tecniche vanno a metà video."
+            },
+            {
+              "id": "carbonara",
+              "text": "“La pasta che uso per la carbonara. Senza panna, ovviamente.”",
+              "correct": true,
+              "feedback": "Centrato: ironia che ogni italiano capisce al volo, e il prodotto è già protagonista. Chi si ferma vuole vedere come va a finire."
+            }
+          ]
+        },
+        "record": {
+          "title": "Gira l'unboxing (solo mani): tocca il tasto rosso",
+          "tips": [
+            "Inquadra dall'alto: si vedono solo mani e prodotto",
+            "Versa la pasta nella ciotola: anche il suono conta",
+            "Primo piano sulle righe ruvide dei rigatoni"
+          ],
+          "button": "Registra",
+          "seconds": 4
+        },
+        "delivery": {
+          "sending": "Invio a Bronzetto in corso…",
+          "approvedTitle": "Approvato da **Bronzetto!**",
+          "brandMessage": "La battuta sulla panna ha fatto ridere tutto l'ufficio. Approvato: lo usiamo nelle inserzioni dei prossimi 3 mesi, come da brief.",
+          "walletLabel": "Unboxing pasta · Bronzetto"
+        }
+      },
+      {
+        "kind": "question",
+        "id": "primo-video",
+        "chapter": 4,
+        "title": "Quando vuoi girare il tuo **primo video vero**?",
+        "subtitle": "Scegli quello che ti viene più naturale.",
+        "options": [
+          {
+            "id": "oggi",
+            "label": "Oggi stesso, con un prodotto che ho in casa",
+            "emoji": "clapper_board"
+          },
+          {
+            "id": "domani",
+            "label": "Domani",
+            "emoji": "sun"
+          },
+          {
+            "id": "weekend",
+            "label": "Questo weekend",
+            "emoji": "calendar"
+          },
+          {
+            "id": "non-ancora",
+            "label": "Non me la sento ancora",
+            "emoji": "hugging_face"
+          }
+        ],
+        "reaction": {
+          "oggi": "Brava: al primo giorno del piano bastano 15 minuti.",
+          "domani": "Perfetto: domani ti basta un quarto d'ora per iniziare.",
+          "weekend": "Ottimo: nel weekend giri più video in una volta sola.",
+          "non-ancora": "È normale: il piano parte proprio da qui, un passo alla volta."
+        }
+      },
+      {
+        "kind": "analysis",
+        "id": "analisi",
+        "chapter": 4,
+        "title": "Un attimo: **stiamo preparando il tuo piano**",
+        "doneTitle": "Fatto: **il tuo piano è pronto**",
+        "lines": [
+          "Analisi delle tue risposte",
+          "Scelta dei formati adatti a come vuoi apparire",
+          "Riepilogo dei 3 video consegnati",
+          "Calcolo degli scenari con preventivi da 200 a 600 € a video",
+          "Suddivisione delle attività in 3 settimane",
+          "Il tuo piano di 21 giorni è pronto"
+        ],
+        "midQuestion": {
+          "title": "Vuoi che il piano ti dica **cosa fare ogni giorno, passo passo?**",
+          "layout": "buttons",
+          "options": [
+            {
+              "id": "si",
+              "label": "Sì, voglio il piano passo passo"
+            },
+            {
+              "id": "no",
+              "label": "No, grazie"
+            }
+          ]
+        },
+        "facts": [
+          {
+            "emoji": "locked",
+            "text": "Pagamento sicuro con Hotmart"
+          },
+          {
+            "emoji": "shield",
+            "text": "Garanzia di {days} giorni"
+          },
+          {
+            "emoji": "open_book",
+            "text": "Guida in italiano, passo passo"
+          }
+        ]
+      },
+      {
+        "kind": "email",
+        "id": "email",
+        "chapter": 4,
+        "title": "Il tuo piano è pronto. **Dove te lo mandiamo?**",
+        "subtitle": "Lo vedi subito qui, e te lo mandiamo anche via email: così lo ritrovi quando vuoi.",
+        "label": "La tua email",
+        "placeholder": "nome@esempio.it",
+        "cta": "Mandami il piano",
+        "privacy": {
+          "text": "Usiamo la tua email per inviarti il piano e, se apri il pagamento senza completarlo, per un solo promemoria. Puoi opporti quando vuoi. Titolare: {company}",
+          "link": "Informativa privacy"
+        },
+        "invalid": "Controlla l'indirizzo: dev'essere tipo nome.cognome@gmail.com, senza spazi né lettere accentate (con Gmail, almeno 6 lettere o numeri prima della @).",
+        "suggest": "Forse intendevi {email}?"
+      },
+      {
+        "kind": "optin",
+        "id": "optin",
+        "chapter": 4,
+        "title": "Vuoi ricevere **i nostri consigli** per iniziare con l'UGC?",
+        "text": "Le risposte ai dubbi di chi parte da zero e le nostre offerte, via email.",
+        "yes": "Sì, iscrivimi!",
+        "no": "No, grazie",
+        "note": "Ti chiediamo una conferma via email e puoi disiscriverti quando vuoi.",
+        "noteSingle": "Puoi disiscriverti quando vuoi, con un clic in fondo a ogni email.",
+        "privacyLink": "Informativa privacy",
+        "preview": [
+          {
+            "emoji": "thinking_face",
+            "title": "Niente follower e niente faccia?",
+            "text": "Si può iniziare lo stesso: ecco come."
+          },
+          {
+            "emoji": "stopwatch",
+            "title": "Poco tempo?",
+            "text": "Si parte con 15 minuti al giorno."
+          },
+          {
+            "emoji": "package",
+            "title": "Cosa c'è nel Piano UGC",
+            "text": "Moduli, modelli e bonus, uno a uno."
+          }
+        ]
+      },
+      {
+        "kind": "name",
+        "id": "nome",
+        "chapter": 4,
+        "eyebrow": "Il tuo piano è pronto!",
+        "title": "Come ti chiami?",
+        "label": "Nome",
+        "placeholder": "Es. Giulia",
+        "cta": "Continua",
+        "skip": "Preferisco non dirlo",
+        "invalid": "Scrivi solo il nome: lettere, spazi o apostrofi, da 2 a 30 caratteri.",
+        "privacy": {
+          "text": "Facoltativo: lo usiamo solo per chiamarti per nome, qui e nelle email.",
+          "link": "Informativa privacy"
+        }
+      },
+      {
+        "kind": "scratch",
+        "id": "sconto",
+        "chapter": 4,
+        "title": "Gratta per scoprire il tuo **sconto esclusivo!**",
+        "subtitle": "Inizia il tuo percorso con una sorpresa da parte nostra.",
+        "badge": "Sconto sul tuo piano personale",
+        "foil": "Gratta qui",
+        "reveal": "Rivela lo sconto",
+        "sheetTitle": "Congratulazioni!",
+        "sheetTitleName": "Complimenti, {nome}!",
+        "sheetText": "Hai ottenuto uno sconto del {percent}%",
+        "cta": "Continua",
+        "note": "Lo sconto viene applicato automaticamente."
+      },
+      {
+        "kind": "result",
+        "id": "risultato",
+        "chapter": 4
+      }
+    ],
+    "wallet": {
+      "label": "Valore dei tuoi video",
+      "tooltip": "I brief di questo quiz sono una simulazione: le marche sono di fantasia e questi euro non sono veri, quindi nessuno te li paga e non si possono incassare. Gli esempi usano preventivi da 200 a 600 € lordi per video, secondo il brief, l'esperienza e i diritti d'uso. Non sono una media nazionale né un minimo garantito. Nella realtà le piattaforme possono trattenere una percentuale e i compensi vanno dichiarati."
+    },
+    "result": {
+      "title": "Ecco il tuo **piano UGC di 21 giorni**",
+      "titleName": "{nome}, ecco il tuo **piano UGC di 21 giorni**",
+      "profileLabel": "Il tuo profilo da creator",
+      "profileQuestionId": "camera",
+      "goalQuestionId": "obiettivo",
+      "profiles": {
+        "volto": {
+          "name": "Volto di fiducia",
+          "description": "Ci metti la faccia, e si vede. Alle marche serve proprio questo: una persona vera che racconta un prodotto come lo racconterebbe a un'amica. È il formato classico dell'UGC e, con un po' di allenamento, anche il più versatile.",
+          "strengths": [
+            "Video parlati in camera",
+            "Tutorial “come si usa”",
+            "Reazioni spontanee"
+          ]
+        },
+        "mani_voce": {
+          "name": "Mani che parlano",
+          "description": "In Italia con le mani si parla da sempre. Tu mostri il prodotto da vicino e lo racconti con la tua voce, senza mai inquadrare il viso. Perfetto per cosmetici, cucina e casa, dove conta vedere **come si usa**.",
+          "strengths": [
+            "Dimostrazioni da vicino",
+            "Voce fuori campo",
+            "Tutorial passo passo"
+          ]
+        },
+        "senza_volto": {
+          "name": "Regia invisibile",
+          "description": "Non appari e non parli: costruisci il video con inquadrature, scritte e i suoni veri del prodotto. Unboxing, ASMR e “prima e dopo” sono formati molto usati dalle marche, e **la tua faccia resta solo tua**.",
+          "strengths": [
+            "Unboxing",
+            "Scritte sul video",
+            "Suoni e ASMR"
+          ]
+        }
+      },
+      "planTitle": "Il tuo piano, **settimana per settimana**",
+      "plan": [
+        {
+          "week": "Settimana 1",
+          "title": "Basi e primi video di prova",
+          "items": [
+            "Scegli 2-3 nicchie, partendo dalle categorie che ti ispirano",
+            "Gira 3 video di prova con prodotti che hai già in casa",
+            "Esercitati sugli agganci con i modelli pronti",
+            "Monta tutto dal telefono con un'app gratuita"
+          ]
+        },
+        {
+          "week": "Settimana 2",
+          "title": "Un portfolio che si fa notare",
+          "items": [
+            "Raccogli i video migliori in un portfolio online, anche con zero follower",
+            "Prepara listino prezzi e media kit",
+            "Iscriviti a 2-3 piattaforme che lavorano con creator in Italia",
+            "Scrivi una bio che dica chiaramente cosa fai"
+          ]
+        },
+        {
+          "week": "Settimana 3",
+          "title": "Le prime candidature",
+          "items": [
+            "Proponiti per le campagne aperte sulle piattaforme",
+            "Scrivi direttamente alle marche con i messaggi pronti",
+            "Gestisci brief, revisioni e diritti d'uso",
+            "Metti in regola i compensi: prestazione occasionale e soglie"
+          ]
+        }
+      ],
+      "projection": {
+        "title": "Il potenziale dei tuoi video",
+        "rows": [
+          {
+            "label": "1 video al mese",
+            "range": "200–600 €"
+          },
+          {
+            "label": "2 video al mese",
+            "range": "400–1.200 €"
+          },
+          {
+            "label": "4 video al mese",
+            "range": "800–2.400 €"
+          },
+          {
+            "label": "8 video al mese",
+            "range": "1.600–4.800 €"
+          }
+        ],
+        "note": "Scenari con preventivi da 200 a 600 € per video venduto. Importi lordi, prima di costi, imposte ed eventuali commissioni; il prezzo dipende da brief, esperienza e diritti d'uso. Il numero di incarichi non è garantito.",
+        "highlight": {
+          "questionId": "tempo",
+          "rowByOption": {
+            "moka": 1,
+            "30min": 1,
+            "weekend": 1,
+            "1ora": 2
+          }
+        }
+      },
+      "simulationRecap": "Hai consegnato **{count} video**, tutti approvati: i preventivi di questi tre progetti valgono **{total} in tutto**. Il prezzo di ogni video dipende dal brief e dai diritti d'uso concordati con la marca.",
+      "bridge": "Ora tocca a te: **trasforma questi {total} in compensi veri.** Con il Piano UGC 21 Giorni impari a trovare le marche, a candidarti e a consegnare video che vengono approvati.",
+      "cta": "Sì, voglio il mio Piano UGC",
+      "personal": {
+        "timeQuestionId": "tempo",
+        "time": {
+          "moka": {
+            "chip": "15 min al giorno",
+            "phrase": "con 15 minuti al giorno"
+          },
+          "30min": {
+            "chip": "30 min al giorno",
+            "phrase": "con mezz'ora al giorno"
+          },
+          "1ora": {
+            "chip": "1 ora al giorno",
+            "phrase": "con un'ora al giorno"
+          },
+          "weekend": {
+            "chip": "Solo nel weekend",
+            "phrase": "anche solo nel weekend"
+          }
+        },
+        "format": {
+          "volto": "Ci metti la faccia",
+          "mani_voce": "Mani e voce",
+          "senza_volto": "Senza volto"
+        }
+      },
+      "today": {
+        "subtitle": "Ecco da dove parti e dove puoi arrivare, {tempo}.",
+        "subtitleNoTime": "Ecco da dove parti e dove puoi arrivare.",
+        "levelLabel": "Livello",
+        "now": {
+          "title": "Oggi",
+          "badge": "{count} brief di prova superati",
+          "rows": [
+            {
+              "label": "Portfolio",
+              "value": "da costruire"
+            },
+            {
+              "label": "Listino prezzi",
+              "value": "da fare"
+            },
+            {
+              "label": "Candidature inviate",
+              "value": "0"
+            }
+          ],
+          "level": "Principiante"
+        },
+        "goal": {
+          "title": "Tra 21 giorni",
+          "badge": "obiettivi del piano",
+          "rows": [
+            {
+              "label": "Portfolio",
+              "value": "5 video"
+            },
+            {
+              "label": "Listino prezzi",
+              "value": "pronto"
+            },
+            {
+              "label": "Candidature inviate",
+              "value": "10"
+            }
+          ],
+          "level": "Pronta per i brief veri"
+        }
+      },
+      "dates": {
+        "week": "{week} · {range}",
+        "finish": "Finisci il piano {data}",
+        "startQuestionId": "primo-video",
+        "startLabel": "Il tuo primo video",
+        "start": {
+          "oggi": "oggi",
+          "domani": "domani",
+          "weekend": "questo weekend",
+          "non-ancora": "quando te la senti"
+        },
+        "startToday": [
+          "oggi"
+        ],
+        "goalQuestionId": "spesa",
+        "goals": {
+          "natale": {
+            "phrase": "in tempo per i regali di Natale",
+            "by": "11-30",
+            "within": 60
+          }
+        }
+      }
+    },
+    "offer": {
+      "urgencyBar": "Offerta speciale disponibile oggi — {date}",
+      "topBar": {
+        "label": "L'offerta scade tra",
+        "cta": "Ottieni il mio piano",
+        "ready": "Il tuo piano è pronto"
+      },
+      "hero": {
+        "eyebrow": "Dalla prova alla realtà",
+        "title": "Il piano di 21 giorni per **diventare UGC creator in Italia**",
+        "subtitle": "Portfolio senza follower, formati anche senza volto, modelli pronti e le piattaforme dove trovare le marche. Tutto in italiano, tutto dal telefono.",
+        "bullets": [
+          "**21 giorni, un passo al giorno**, anche con poco tempo",
+          "**Anche senza volto:** solo mani, voce o unboxing",
+          "**Modelli pronti:** agganci, copioni, listino prezzi",
+          "**Tasse in parole semplici:** prestazione occasionale e soglie"
+        ],
+        "cta": "Voglio il Piano UGC"
+      },
+      "problem": {
+        "title": "Perché chi inizia da solo **si blocca quasi sempre**",
+        "items": [
+          {
+            "emoji": "thinking_face",
+            "title": "Non sai da dove cominciare",
+            "text": "Video, portfolio, piattaforme, prezzi: tutto insieme fa venire voglia di lasciar perdere prima ancora di iniziare."
+          },
+          {
+            "emoji": "woman_shrugging",
+            "title": "Pensi che servano follower",
+            "text": "E allora rimandi. In realtà le marche guardano i tuoi video, non quante persone ti seguono."
+          },
+          {
+            "emoji": "warning",
+            "title": "Hai paura delle truffe",
+            "text": "Giustamente: in giro ci sono finte “offerte di lavoro” che chiedono soldi. Bisogna saperle riconoscere."
+          },
+          {
+            "emoji": "receipt",
+            "title": "Non sai quanto chiedere",
+            "text": "Troppo poco e lavori gratis, troppo e nessuno risponde. Senza un listino di riferimento si va a tentativi."
+          }
+        ]
+      },
+      "includes": {
+        "title": "Cosa ricevi oggi",
+        "items": [
+          {
+            "emoji": "spiral_calendar",
+            "title": "Il piano di 21 giorni",
+            "text": "Cosa fare ogni giorno, dal primo video di prova alla prima candidatura. Pensato per chi ha poco tempo."
+          },
+          {
+            "emoji": "framed_picture",
+            "title": "Portfolio senza follower",
+            "text": "Come girare 3-5 video di prova con quello che hai in casa e raccoglierli in una vetrina online da mandare alle marche."
+          },
+          {
+            "emoji": "palms_up_together",
+            "title": "Formati senza volto",
+            "text": "Solo mani, solo voce, unboxing e ASMR: come farli bene se non vuoi apparire."
+          },
+          {
+            "emoji": "clapper_board",
+            "title": "Agganci e copioni pronti",
+            "text": "Le frasi che fermano chi scorre e copioni da 15, 30 e 60 secondi da adattare a ogni prodotto."
+          },
+          {
+            "emoji": "mobile_phone",
+            "title": "Girare e montare col telefono",
+            "text": "Luce, audio, inquadrature e montaggio con app gratuite. Nessuna attrezzatura da comprare."
+          },
+          {
+            "emoji": "magnifying_glass",
+            "title": "Dove trovare le marche",
+            "text": "Le piattaforme che lavorano con creator in Italia, come iscriversi passo passo e come proporsi direttamente alle marche."
+          },
+          {
+            "emoji": "receipt",
+            "title": "Prezzi, contratti e diritti d'uso",
+            "text": "Come costruire preventivi da 200 a 600 € per video in base al brief, alle revisioni e ai diritti d'uso. Con un listino di esempio da adattare alle tue proposte."
+          },
+          {
+            "emoji": "balance_scale",
+            "title": "Tasse senza ansia",
+            "text": "Prestazione occasionale, soglie da conoscere e quando serve la partita IVA, spiegate in parole semplici."
+          }
+        ]
+      },
+      "bonuses": {
+        "title": "E in più, **5 bonus inclusi oggi**",
+        "items": [
+          {
+            "emoji": "shield",
+            "title": "Guida anti-truffa per creator",
+            "text": "I segnali di una finta offerta e le regole d'oro: mai pagare per lavorare, mai dare codici o documenti a sconosciuti.",
+            "value": "12 €"
+          },
+          {
+            "emoji": "love_letter",
+            "title": "Messaggi pronti per le marche",
+            "text": "Email e messaggi in direct già scritti per proporti, ricontattare chi non risponde e rispondere a un brief: li copi e li adatti.",
+            "value": "17 €"
+          },
+          {
+            "emoji": "calendar",
+            "title": "30 idee di video per il portfolio",
+            "text": "Divise per categoria, una al giorno: per continuare ad allenarti anche dopo il piano.",
+            "value": "15 €"
+          },
+          {
+            "emoji": "scissors",
+            "title": "Montaggio dal telefono, passo passo",
+            "text": "La guida passo passo per montare i tuoi video con un'app gratuita: tagli, scritte, musica e formati.",
+            "value": "19 €"
+          },
+          {
+            "emoji": "clipboard",
+            "title": "Checklist prima della consegna",
+            "text": "I 12 controlli da fare prima di mandare un video, per evitare revisioni e figuracce.",
+            "value": "9 €"
+          }
+        ]
+      },
+      "forWho": {
+        "yesTitle": "Fa per te se…",
+        "yes": [
+          "Vuoi un'entrata extra da costruire con i tuoi tempi, senza lasciare il lavoro",
+          "Hai un telefono e qualche prodotto in casa: per iniziare basta questo",
+          "Non hai follower, o non hai voglia di mostrare il viso",
+          "Ti piace l'idea di raccontare prodotti che usi davvero",
+          "Preferisci un piano chiaro a mille video sparsi su YouTube"
+        ],
+        "noTitle": "Non fa per te se…",
+        "no": [
+          "Cerchi “guadagni facili” o soldi senza fare niente: qui serve impegno",
+          "Vuoi uno stipendio fisso: l'UGC è un'attività a progetto, video per video",
+          "Non hai nemmeno 15 minuti al giorno per 3 settimane",
+          "Speri che le marche ti trovino senza che tu ti proponga"
+        ]
+      },
+      "howItWorks": {
+        "title": "Come funziona",
+        "steps": [
+          {
+            "title": "Acquisti in pochi secondi",
+            "text": "Pagamento unico tramite Hotmart, con carta o con gli altri metodi disponibili al checkout. Nessun abbonamento."
+          },
+          {
+            "title": "Ricevi tutto via email",
+            "text": "Subito dopo il pagamento ti arriva l'accesso al Piano, ai modelli e ai bonus. Li apri anche dal telefono."
+          },
+          {
+            "title": "Segui il piano",
+            "text": "Un passo al giorno per 21 giorni: video di prova, portfolio, prime candidature. Al tuo ritmo."
+          }
+        ]
+      },
+      "price": {
+        "title": "Offerta di oggi",
+        "productName": "Piano UGC 21 Giorni",
+        "lines": [
+          "Il metodo completo: 8 moduli",
+          "Piano di 21 giorni, un passo al giorno",
+          "Agganci, copioni e modelli pronti",
+          "5 bonus inclusi",
+          "Accesso immediato: resta tutto tuo"
+        ],
+        "anchorLabel": "Prezzo originale",
+        "priceLabel": "Oggi solo",
+        "saveLabel": "Risparmi",
+        "cta": "Voglio il Piano UGC",
+        "secure": "Pagamento protetto tramite Hotmart",
+        "countdownLabel": "L'offerta di oggi scade tra",
+        "intro": "Il tuo piano “{profilo}” è pronto",
+        "introName": "{nome}, il tuo piano “{profilo}” è pronto",
+        "perDay": "cioè circa {perDay} al giorno per i {days} giorni del piano (+ IVA)",
+        "coupon": "Sconto del {percent}% applicato"
+      },
+      "downsell": {
+        "title": "Aspetta! Non vogliamo che sia il prezzo a fermarti.",
+        "titleName": "Aspetta, {nome}! Non vogliamo che sia il prezzo a fermarti.",
+        "text": "Solo per te, adesso: il Piano UGC a **{downsell} + IVA** invece di {price} + IVA.",
+        "cta": "Sì, lo prendo a {downsell}",
+        "no": "No, grazie"
+      },
+      "promoExpired": "Il prezzo di {promo} + IVA valeva fino a {quando}.",
+      "guarantee": {
+        "title": "Garanzia soddisfatti o rimborsati: {days} giorni",
+        "text": "Prova il Piano UGC con calma. Se entro {days} giorni dall'acquisto capisci che non fa per te, chiedi il rimborso completo dalla tua area acquisti Hotmart o scrivendoci via email, senza dover spiegare il motivo. È una garanzia volontaria, in aggiunta ai diritti previsti dalla legge per gli acquisti online."
+      },
+      "testimonialsTitle": "Cosa raccontano le studentesse del percorso UGC",
+      "faq": [
+        {
+          "q": "Servono tanti follower?",
+          "a": "No. Nell'UGC la marca paga il video, non il tuo pubblico: è lei a pubblicarlo, sui suoi canali e nelle sue inserzioni. Ti serve un portfolio con qualche video di prova, e nel piano ti mostriamo come costruirlo partendo da zero."
+        },
+        {
+          "q": "Devo per forza metterci la faccia?",
+          "a": "No. Ci sono formati con solo mani, solo voce o unboxing, e molte marche li usano proprio così. Nel piano c'è un modulo intero dedicato ai video senza volto."
+        },
+        {
+          "q": "Quanto si guadagna davvero?",
+          "a": "Nel piano impari a costruire proposte da 200 a 600 € per video, secondo il brief, l'esperienza e i diritti d'uso. A queste tariffe, 2 video venduti al mese valgono 400–1.200 € lordi; 4 video valgono 800–2.400 €. Sono scenari prima di costi, imposte ed eventuali commissioni: il risultato dipende dagli incarichi che ottieni, e all'inizio può essere zero. Nessun guadagno è garantito."
+        },
+        {
+          "q": "Serve la partita IVA? E le tasse?",
+          "a": "Per collaborazioni occasionali di solito no: si usa la prestazione occasionale e il compenso va indicato nella dichiarazione dei redditi. Se l'attività diventa abituale e continuativa, la partita IVA serve a prescindere dall'importo. E occhio al mito dei 5.000 € “esentasse”: è solo la soglia oltre la quale scattano i contributi INPS. Nel piano trovi tutto spiegato in parole semplici; per il tuo caso specifico chiedi conferma a un CAF o a un commercialista."
+        },
+        {
+          "q": "È una truffa?",
+          "a": "Domanda giustissima, di questi tempi. Ecco cosa non faremo mai: chiederti soldi per farti lavorare, chiederti codici, documenti o l'IBAN, aggiungerti a gruppi WhatsApp o Telegram. Il Piano UGC è una guida formativa a pagamento unico, con garanzia di rimborso. Le piattaforme serie non ti chiedono soldi per iscriverti o per ricevere i compensi: al massimo trattengono una commissione sul compenso (su Upwork i crediti per candidarti sono a pagamento, ma è facoltativo)."
+        },
+        {
+          "q": "Serve sapere l'inglese?",
+          "a": "No. Il piano è tutto in italiano e i video li giri in italiano, per marche che vendono in Italia. Se una piattaforma ha l'iscrizione in inglese, ti guidiamo schermata per schermata."
+        },
+        {
+          "q": "Quanto tempo ci vuole?",
+          "a": "Il piano è pensato per 15-60 minuti al giorno, per 21 giorni. Un video da 15 secondi si gira in pochi minuti; all'inizio il montaggio richiede un po' di più, poi si va spediti. Se hai tempo solo nel weekend, ti mostriamo come girare più video in una sola sessione."
+        },
+        {
+          "q": "Come ricevo il materiale?",
+          "a": "Subito dopo il pagamento ricevi un'email da Hotmart con l'accesso alla tua area riservata. Lì trovi il Piano, i modelli e i bonus, tutto in digitale: li apri da telefono, tablet o computer. Niente spedizioni e niente abbonamenti."
+        },
+        {
+          "q": "Non me la cavo con la tecnologia: posso farlo lo stesso?",
+          "a": "Sì. Il piano parte proprio dalle basi: dove appoggiare il telefono, come sfruttare la luce di una finestra, quale app gratuita usare per montare. E alle marche servono persone vere di tutte le età."
+        },
+        {
+          "q": "Perché pagare, se iscriversi alle piattaforme è gratis?",
+          "a": "Perché le piattaforme ti mostrano le campagne, ma non ti insegnano a farti scegliere. Il Piano UGC ti fa risparmiare settimane di tentativi: come costruire il portfolio, cosa scrivere, quanto chiedere, come evitare le truffe e come mettere in regola i compensi. Non compri l'accesso a nessuna piattaforma. Le piattaforme serie non ti chiedono soldi per iscriverti o per ricevere i compensi: al massimo trattengono una commissione sul compenso (su Upwork i crediti per candidarti sono a pagamento, ma è facoltativo)."
+        }
+      ],
+      "finalCta": {
+        "title": "Hai visto come funziona. **Adesso impara a farlo davvero.**",
+        "cta": "Voglio il Piano UGC"
+      }
+    },
+    "legal": {
+      "simulationDisclaimer": "Quiz gratuito riservato ai maggiorenni; al termine ti presentiamo una guida a pagamento (27 € + IVA, pagamento unico), senza obbligo di acquisto. Simulazione dimostrativa: le marche Velù, Gorgoglio e Bronzetto sono di fantasia e i compensi mostrati non sono denaro reale. Nessuno ti pagherà per le attività di questa pagina e il salvadanaio di prova non si può incassare né convertire. Gli importi sono esempi di preventivo da 200 a 600 € lordi per video, secondo il progetto e i diritti d'uso; non sono una media nazionale né un minimo garantito.",
+      "earningsDisclaimer": "Avvertenza sui guadagni: Piano UGC vende una guida formativa, non offre lavoro e non ti paga per svolgere attività. Nessun guadagno è garantito. Le cifre mostrate sono esempi di preventivo e scenari di fatturato lordo, prima di costi, imposte ed eventuali commissioni, e non rappresentano risultati tipici: molte persone guadagnano poco o nulla, altre di più. I risultati dipendono dal tuo impegno, dal tempo che dedichi e dalle scelte di marche e piattaforme, che possono cambiare in qualsiasi momento. I compensi vanno dichiarati secondo la normativa fiscale. Se cerchi “guadagni facili”, questo piano non fa per te.",
+      "notAffiliated": "Questo sito non è affiliato a Facebook, Instagram, Meta, TikTok o Google, né alle piattaforme e alle marche citate. I marchi appartengono ai rispettivi titolari; quelli usati nella simulazione sono di fantasia.",
+      "privacyTitle": "Informativa sulla privacy",
+      "privacyBody": [
+        "Titolare del trattamento è {company}, con sede in {address}, {taxIdLabel} {vat}, email {email}. {brand} è un marchio di {company}.",
+        "Quiz e simulazione. Per usare il quiz non devi creare un account né lasciarci il numero di telefono, e il nome è facoltativo. Lo stato del quiz e della simulazione resta salvato nel tuo browser (sessionStorage), così puoi riprendere il quiz se la pagina si ricarica.",
+        "{emailPolicy}",
+        "Statistiche del quiz. Per capire quali passaggi del quiz e della pagina dell'offerta vanno migliorati e quali inserzioni portano più persone fino in fondo, registriamo sui server del nostro fornitore di hosting (Cloudflare) le schermate che visualizzi e il tempo passato su ciascuna, le risposte che scegli, le sezioni della pagina dell'offerta che scorri, i tocchi sul pulsante che porta al pagamento e, se acquisti, l'arrivo sulla pagina di conferma dell'ordine e l'ordine che ci comunica Hotmart (codice, offerta, prezzo, stato e metodo di pagamento, per esempio carta, PayPal o Apple Pay, e parametri dell'inserzione), senza nome, email né altri dati di pagamento. Per collegare all'ordine del Piano l'eventuale prodotto aggiuntivo che acquisti subito dopo il pagamento, di ogni ordine conserviamo per circa 2 giorni anche un codice ricavato dall'email con una chiave segreta (hash), non l'email. Registriamo anche il tipo di dispositivo, il sistema operativo, l'app in cui apri il sito (per esempio Instagram o Facebook), il paese da cui ti colleghi e i parametri dell'inserzione da cui arrivi. Questi dati sono legati solo a un codice casuale valido per questa visita, che resta nel tuo browser (sessionStorage) e sparisce quando chiudi la scheda: per queste statistiche non usiamo cookie e non salviamo il tuo indirizzo IP. Non li incrociamo con altre informazioni, tranne quando ci lasci l'email: allora il codice della visita viene salvato insieme a lei (vedi «Email») e, se acquisti con la stessa email, collegato all'ordine. Li consultiamo solo in forma aggregata e non li inviamo a Meta, a Utmify né ad altre piattaforme pubblicitarie. Base giuridica: legittimo interesse a migliorare il sito e le nostre inserzioni (art. 6.1.f GDPR). Conservazione: 13 mesi. Puoi opporti in qualsiasi momento scrivendo a {email}.",
+        "Dati di navigazione. Il fornitore di hosting Cloudflare, Inc. (Stati Uniti) registra dati tecnici come indirizzo IP, tipo di browser e pagine richieste, per garantire il funzionamento e la sicurezza del sito. Base giuridica: legittimo interesse (art. 6.1.f GDPR). Conservazione: 30 giorni.",
+        "{measurement}",
+        "Meta Pixel di Meta Platforms Ireland Ltd.: ci dice quante persone arrivano dalle nostre inserzioni e quante aprono il checkout. Per questa attività siamo contitolari del trattamento con Meta Platforms Ireland Ltd., la cui informativa è disponibile su facebook.com/privacy/policy. Meta può trasferire i dati negli Stati Uniti, sulla base dell'EU-US Data Privacy Framework.",
+        "Utmify (Brasile), strumento di attribuzione delle campagne: legge i parametri dell'inserzione da cui arrivi, salva nel localStorage del tuo browser i parametri UTM (per 7 giorni) e un identificativo del visitatore con gli identificativi del clic (finché non cancelli i dati del sito), e usa il tuo indirizzo IP (rilevato tramite il servizio ipify) e la posizione approssimativa che se ne ricava per attribuire l'eventuale acquisto all'inserzione giusta. Il trasferimento dei dati in Brasile è coperto dalla decisione di adeguatezza della Commissione europea per il Brasile (gennaio 2026).",
+        "Né Meta né Utmify ricevono le tue risposte al quiz: gli eventi automatici del pixel sono disattivati e inviamo solo eventi neutri, come “passo del quiz visualizzato” o “apertura del checkout”.",
+        "Acquisti. Il pagamento avviene sul checkout di Hotmart B.V., che tratta i dati necessari (nome, email, dati di pagamento) secondo la propria informativa e ci comunica quelli che servono a consegnarti il prodotto, a fornirti assistenza e a rispettare gli obblighi fiscali. Base giuridica: esecuzione del contratto e obblighi di legge (art. 6.1.b e 6.1.c GDPR). Conservazione: 10 anni per gli obblighi fiscali.",
+        "Assistenza. Se ci scrivi a {email}, il messaggio arriva tramite il servizio di inoltro email di Cloudflare in una casella Gmail (Google), dove lo leggiamo e ti rispondiamo. Usiamo i tuoi dati solo per risponderti e li conserviamo per il tempo necessario a gestire la richiesta. Non ti inviamo comunicazioni promozionali senza un consenso specifico e separato.",
+        "Destinatari e trasferimenti. I dati possono essere trattati dai nostri fornitori tecnici (hosting e inoltro delle email di assistenza su Cloudflare, Hotmart B.V. per i pagamenti, Resend per l'invio delle email, Google per la casella di posta dell'assistenza, Meta Platforms Ireland Ltd. e Utmify per la misurazione delle inserzioni), nominati responsabili o contitolari quando previsto. I trasferimenti fuori dallo Spazio economico europeo avvengono sulla base di decisioni di adeguatezza della Commissione europea (EU-US Data Privacy Framework per gli Stati Uniti, decisione di adeguatezza per il Brasile) o di clausole contrattuali standard, come per Resend.",
+        "I tuoi diritti. Puoi chiedere accesso, rettifica, cancellazione, limitazione e portabilità dei dati, opporti al trattamento e revocare il consenso in qualsiasi momento, scrivendo a {email}. Hai anche il diritto di proporre reclamo al Garante per la protezione dei dati personali (garanteprivacy.it).",
+        "Ultimo aggiornamento: 20 ottobre 2026."
+      ],
+      "privacyEmail": "Email. Se il quiz ti chiede l'email, la usiamo per mandarti il piano che chiedi, preparato con le tue risposte (esecuzione del servizio richiesto, art. 6.1.b GDPR). Serve per andare avanti: senza, non possiamo mandarti il piano. Insieme all'email salviamo le risposte del quiz, i parametri dell'inserzione da cui arrivi e il codice casuale della visita descritto in «Statistiche del quiz». Il nome è facoltativo: se dopo l'email ce lo dici, lo salviamo insieme all'email e lo usiamo solo per chiamarti per nome sul sito (nel quiz, nel piano, nella pagina dell'offerta, compresa la seconda proposta di prezzo, e nella pagina subito dopo il pagamento) e nelle email che ti mandiamo (consenso, art. 6.1.a GDPR: puoi revocarlo quando vuoi scrivendo a {email}); non lo passiamo a Hotmart e lo cancelliamo insieme all'email, negli stessi tempi. Se apri il pagamento ma non completi l'ordine, ti mandiamo una sola email con il link per riprenderlo, senza offerte né sconti (legittimo interesse a facilitare un acquisto che hai avviato, art. 6.1.f GDPR); lo stesso vale se hai scritto l'email direttamente nel checkout di Hotmart, che ce la comunica quando l'ordine non viene completato. Puoi opporti quando vuoi, dal link nell'email o scrivendo a {email}. Solo se lo scegli nella schermata dedicata, subito dopo quella dell'email, toccando «Sì, iscrivimi!», ti mandiamo anche consigli e offerte di {brand} (consenso, art. 6.1.a GDPR e art. 130 del Codice privacy): ti scriviamo una volta per chiederti di confermare l'iscrizione con un link e puoi revocare il consenso con un clic da ogni email. Per dimostrare il consenso conserviamo, per ogni passaggio (iscrizione, conferma, revoca), data e ora, il testo della schermata in cui l'hai dato, l'indirizzo IP e il tipo di browser. Quando tocchi il pulsante per andare al pagamento, passiamo la tua email a Hotmart B.V. per precompilare il checkout. Le email partono tramite Resend (Stati Uniti), nostro responsabile del trattamento, sulla base delle clausole contrattuali standard della Commissione europea. Le nostre email non contengono pixel di tracciamento; i pulsanti passano dal nostro sito, che ti porta alla pagina giusta. Conservazione: se non acquisti e non confermi l'iscrizione alle offerte, cancelliamo l'email e i dati collegati entro 30 giorni; se acquisti senza iscriverti alle offerte, 30 giorni dopo l'acquisto (i dati dell'ordine seguono «Acquisti»); con l'iscrizione confermata, fino alla revoca. Dopo la revoca o l'opposizione teniamo solo la prova del consenso e l'indirizzo nella lista di esclusione, per non scriverti più.",
+      "privacyEmailSingle": "Email. Se il quiz ti chiede l'email, la usiamo per mandarti il piano che chiedi, preparato con le tue risposte (esecuzione del servizio richiesto, art. 6.1.b GDPR). Serve per andare avanti: senza, non possiamo mandarti il piano. Insieme all'email salviamo le risposte del quiz, i parametri dell'inserzione da cui arrivi e il codice casuale della visita descritto in «Statistiche del quiz». Il nome è facoltativo: se dopo l'email ce lo dici, lo salviamo insieme all'email e lo usiamo solo per chiamarti per nome sul sito (nel quiz, nel piano, nella pagina dell'offerta, compresa la seconda proposta di prezzo, e nella pagina subito dopo il pagamento) e nelle email che ti mandiamo (consenso, art. 6.1.a GDPR: puoi revocarlo quando vuoi scrivendo a {email}); non lo passiamo a Hotmart e lo cancelliamo insieme all'email, negli stessi tempi. Se apri il pagamento ma non completi l'ordine, ti mandiamo una sola email con il link per riprenderlo, senza offerte né sconti (legittimo interesse a facilitare un acquisto che hai avviato, art. 6.1.f GDPR); lo stesso vale se hai scritto l'email direttamente nel checkout di Hotmart, che ce la comunica quando l'ordine non viene completato. Puoi opporti quando vuoi, dal link nell'email o scrivendo a {email}. Solo se lo scegli nella schermata dedicata, subito dopo quella dell'email, toccando «Sì, iscrivimi!», ti mandiamo anche consigli e offerte di {brand} (consenso, art. 6.1.a GDPR e art. 130 del Codice privacy): l'iscrizione parte subito, senza altri passaggi, e la prima di queste email può arrivarti già un'ora dopo. Puoi revocare il consenso quando vuoi, con un clic in fondo a ogni email o scrivendo a {email}. Per dimostrare il consenso conserviamo, per ogni passaggio (iscrizione, revoca), data e ora, il testo della schermata in cui l'hai dato, l'indirizzo IP e il tipo di browser. Quando tocchi il pulsante per andare al pagamento, passiamo la tua email a Hotmart B.V. per precompilare il checkout. Le email partono tramite Resend (Stati Uniti), nostro responsabile del trattamento, sulla base delle clausole contrattuali standard della Commissione europea. Le nostre email non contengono pixel di tracciamento; i pulsanti passano dal nostro sito, che ti porta alla pagina giusta. Conservazione: se non ti iscrivi e non acquisti, cancelliamo l'email e i dati collegati entro 30 giorni; se acquisti senza iscriverti, 30 giorni dopo l'acquisto (i dati dell'ordine seguono «Acquisti»); con l'iscrizione attiva, fino a quando ti disiscrivi. Dopo la revoca o l'opposizione teniamo solo la prova del consenso e l'indirizzo nella lista di esclusione, per non scriverti più.",
+      "privacyMeasurement": "Misurazione delle inserzioni (solo con il tuo consenso). Se premi “Accetta” nel banner dei cookie, il sito carica i due strumenti descritti qui sotto; prima della tua scelta non vengono nemmeno caricati. Base giuridica: consenso (art. 6.1.a GDPR), revocabile in qualsiasi momento dal link “Preferenze cookie” in fondo alla pagina. Se rifiuti o revochi il consenso, cancelliamo dal tuo browser i cookie di Meta e i dati salvati da Utmify.",
+      "privacyMeasurementNoBanner": "Misurazione delle inserzioni. Per sapere quante persone arrivano dalle nostre inserzioni e quante aprono il checkout, il sito carica, appena apri la pagina, i due strumenti descritti qui sotto. Puoi opporti in qualsiasi momento scrivendo a {email}; puoi anche cancellare i cookie e i dati salvati dal sito dalle impostazioni del tuo browser.",
+      "cookieTitle": "Cookie policy",
+      "cookieBody": [
+        "Questa Cookie policy spiega quali strumenti usa il sito di {brand} e come puoi scegliere.",
+        "Strumenti tecnici (sempre attivi). Servono a far funzionare il quiz e non richiedono consenso: ricordano le tue risposte durante la sessione, l'email che ci lasci nel quiz (per precompilare il pagamento), il nome, se ce lo dici (per chiamarti per nome sul sito), e un codice casuale della visita, usato solo per le statistiche aggregate del quiz descritte nell'informativa privacy (sessionStorage), la tua scelta sui cookie, la preferenza audio e il timer dell'offerta (localStorage). Restano sul tuo dispositivo e non li usiamo per profilarti.",
+        "Marketing e misurazione (disattivati finché non accetti). Prima del tuo consenso questi strumenti non vengono nemmeno caricati. Se premi “Accetta”, il sito carica:",
+        "Meta Pixel di Meta Platforms Ireland Ltd.: misura le visite arrivate dalle inserzioni e alcune azioni sul sito, come l'apertura del checkout. Usa i cookie _fbp e _fbc, che durano fino a 90 giorni. Meta può trasferire i dati negli Stati Uniti, sulla base dell'EU-US Data Privacy Framework.",
+        "Utmify (Brasile), strumento di attribuzione delle campagne: legge i parametri dell'inserzione da cui arrivi, salva nel localStorage del tuo browser i parametri UTM (per 7 giorni) e un identificativo del visitatore con gli identificativi del clic (finché non cancelli i dati del sito), e usa il tuo indirizzo IP (rilevato tramite il servizio ipify) e la posizione approssimativa che se ne ricava per attribuire l'eventuale acquisto all'inserzione giusta. Il trasferimento dei dati in Brasile è coperto dalla decisione di adeguatezza della Commissione europea per il Brasile (gennaio 2026).",
+        "Le tue risposte al quiz non vengono mai inviate a Meta né a Utmify: gli eventi automatici del pixel sono disattivati e registriamo solo passaggi neutri, come “passo del quiz visualizzato” o “apertura del checkout”.",
+        "Come scegliere. Nel banner puoi accettare o rifiutare con due pulsanti equivalenti; chiudere il banner con la X equivale a rifiutare. Puoi cambiare idea quando vuoi dal link “Preferenze cookie” in fondo alla pagina: se rifiuti o revochi il consenso, cancelliamo dal tuo browser i cookie di Meta e i dati salvati da Utmify. Ricordiamo la tua scelta per 6 mesi, poi te la richiediamo.",
+        "Checkout. La pagina di pagamento è gestita da Hotmart B.V., che usa i propri cookie secondo la propria informativa.",
+        "Titolare del trattamento: {company}, {address}. Contatti: {email}."
+      ],
+      "termsTitle": "Termini e condizioni di vendita",
+      "termsBody": [
+        "Venditore: {company}, {address}, {taxIdLabel} {vat}, email {email}. {brand} è un marchio di {company}. I pagamenti sono gestiti da Hotmart B.V. (Paesi Bassi), che agisce come agente commerciale per conto del venditore.",
+        "Prodotto: «{product}», contenuto digitale composto da una guida in PDF, modelli e bonus indicati nella pagina di vendita. Si consulta da smartphone, tablet o computer con un lettore PDF. Non è un'offerta di lavoro, non include l'accesso a piattaforme di terzi e non garantisce guadagni.",
+        "Prezzo: {price} + IVA (calcolata al checkout in base al Paese di residenza), pagamento unico. Nessun abbonamento e nessun addebito ricorrente. Eventuali prodotti aggiuntivi proposti al checkout sono facoltativi, non preselezionati e indicati con il loro prezzo prima del pagamento.",
+        "Subito dopo il pagamento possiamo proporti fino a due prodotti aggiuntivi facoltativi: il secondo solo se rifiuti il primo. Ognuno si paga a parte, sullo stesso metodo di pagamento e al prezzo indicato, IVA inclusa, e solo se lo confermi con il pulsante. Ogni prodotto aggiuntivo ha la propria garanzia di 15 giorni.",
+        "{secondChance}",
+        "Consegna: l'accesso viene inviato all'email indicata al checkout subito dopo la conferma del pagamento.",
+        "Garanzia volontaria: puoi chiedere il rimborso completo entro {days} giorni dall'acquisto, senza indicarne il motivo, dalla tua area acquisti Hotmart o scrivendo a {email}. La garanzia si aggiunge ai diritti previsti dalla legge.",
+        "Diritto di recesso: per i contratti a distanza hai diritto di recedere entro 14 giorni, salvo le eccezioni previste dall'art. 59 del Codice del Consumo.",
+        "Per recedere o chiedere il rimborso: accedi alla tua area acquisti Hotmart (consumer.hotmart.com) con l'email usata per l'acquisto, apri l'ordine del prodotto di cui vuoi il rimborso («{product}» o un prodotto aggiuntivo: ognuno ha il proprio ordine) e chiedi il rimborso; in alternativa scrivi a {email} indicando l'email d'acquisto. Il link «Recedi dal contratto qui» in fondo alla pagina apre queste istruzioni, con il collegamento all'area acquisti. Riceverai conferma su supporto durevole.",
+        "Conformità: il contenuto digitale è coperto dalla garanzia legale di conformità prevista dal Codice del Consumo.",
+        "Uso dei materiali: la guida e i modelli sono per uso personale. Non è consentito rivenderli o diffonderli.",
+        "Risultati: i contenuti hanno scopo formativo. I risultati dipendono da te e da terzi (marche e piattaforme) e non sono garantiti. Le simulazioni presenti nel sito sono dimostrative e gli importi mostrati non sono denaro reale.",
+        "Reclami: scrivi a {email}, rispondiamo entro 48 ore lavorative. Puoi anche ricorrere alle procedure di risoluzione alternativa delle controversie previste dal Codice del Consumo. Foro competente: quello del luogo di residenza del consumatore. Legge applicabile: legge italiana, fatte salve le norme inderogabili a tutela del consumatore residente in Italia.",
+        "Ultimo aggiornamento: 20 ottobre 2026."
+      ],
+      "termsSecondChance": "Seconda proposta: a chi apre il pagamento e torna indietro senza completarlo possiamo proporre, una sola volta per visita, lo stesso prodotto a {downsell} + IVA invece di {price} + IVA. È un prezzo personalizzato sulla base di un processo decisionale automatizzato (art. 49, comma 1, lettera e-bis, del Codice del Consumo): lo vede solo chi torna dalla pagina di pagamento senza aver completato l'ordine.",
+      "termsPromo": "Via email, a chi ha confermato l'iscrizione e non ha ancora acquistato possiamo proporre, una sola volta, lo stesso prodotto a {promo} + IVA invece di {price} + IVA: un prezzo valido fino alla scadenza indicata nell'email e personalizzato sulla base di un processo decisionale automatizzato (art. 49, comma 1, lettera e-bis, del Codice del Consumo).",
+      "termsPromoSingle": "A chi si è iscritta alle nostre email e non ha ancora acquistato possiamo proporre via email, una sola volta, lo stesso prodotto a {promo} + IVA invece di {price} + IVA: un prezzo valido fino alla scadenza indicata nell'email e personalizzato sulla base di un processo decisionale automatizzato (art. 49, comma 1, lettera e-bis, del Codice del Consumo).",
+      "withdrawalLink": "Recedi dal contratto qui"
+    },
+    "cookieBanner": {
+      "text": "Se accetti, Meta Pixel e Utmify misurano le visite dalle inserzioni (mai le tue risposte). La X equivale a rifiutare.",
+      "accept": "Accetta",
+      "reject": "Rifiuta",
+      "policyLink": "Cookie policy"
+    },
+    "ui": {
+      "next": "Avanti",
+      "back": "Indietro",
+      "continue": "Continua",
+      "soundOn": "Attiva l'audio",
+      "soundOff": "Disattiva l'audio",
+      "restart": "Rifai il quiz da capo",
+      "stepOf": "{current} di {total}"
+    }
+  }
+}

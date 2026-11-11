@@ -1,0 +1,106 @@
+{
+  "sequence": 51,
+  "id": "051_analisi_loading",
+  "url": "http://127.0.0.1:4173/",
+  "step": "analisi",
+  "phase": "loading",
+  "kind": "analysis",
+  "title": "Un attimo: stiamo preparando il tuo piano",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n1150 €\n?"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 13,
+    "maxIndex": 13,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "mio"
+      ],
+      "spesa": [
+        "niente"
+      ],
+      "tempo": [
+        "30min"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "casa",
+        "cucina"
+      ],
+      "primo-video": [
+        "domani"
+      ]
+    },
+    "wallet": {
+      "total": 1150,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Unboxing pasta · Bronzetto",
+          "amount": 600
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794419086157
+  },
+  "textSha256": "b320289bc504c5d950f6f3d634198591563dced39a4526179d18b6fa93769e27"
+}

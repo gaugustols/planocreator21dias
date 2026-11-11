@@ -1,0 +1,115 @@
+{
+  "sequence": 38,
+  "id": "038_brief-moka_delivery",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-moka",
+  "phase": "delivery",
+  "kind": "brief",
+  "title": "Approvato da Gorgoglio!",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continua"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n550 €\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 9,
+    "maxIndex": 9,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "niente"
+      ],
+      "tempo": [
+        "moka"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "famiglia",
+        "animali"
+      ]
+    },
+    "wallet": {
+      "total": 550,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794418874501
+  },
+  "textSha256": "5ab862d99f8219d0bb6b358c505a96d48b5f1091d6af8b9219e604a06b610488"
+}

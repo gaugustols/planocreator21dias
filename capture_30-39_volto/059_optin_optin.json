@@ -1,0 +1,144 @@
+{
+  "sequence": 59,
+  "id": "059_optin_optin",
+  "url": "http://127.0.0.1:4173/",
+  "step": "optin",
+  "phase": "",
+  "kind": "optin",
+  "title": "Vuoi ricevere i nostri consigli per iniziare con l'UGC?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "optin-no",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "No, grazie"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Sì, iscrivimi!"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n1150 €\n?"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 15,
+    "maxIndex": 15,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "parte"
+      ],
+      "tempo": [
+        "weekend"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "moda",
+        "famiglia"
+      ],
+      "primo-video": [
+        "non-ancora"
+      ],
+      "analisi.mid": [
+        "no"
+      ]
+    },
+    "wallet": {
+      "total": 1150,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Unboxing pasta · Bronzetto",
+          "amount": 600
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794418874171
+  },
+  "textSha256": "f1ff09bc9f98842f5948a6b4896aab276c7fb5db417e682adb3d1a5fb915be65"
+}

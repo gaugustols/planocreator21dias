@@ -1,0 +1,154 @@
+{
+  "sequence": 33,
+  "id": "033_brief-moka_hook",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-moka",
+  "phase": "hook",
+  "kind": "brief",
+  "title": "Che aggancio usi per la moka?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "☕"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n200 €\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "true",
+      "checked": null,
+      "disabled": true,
+      "text": "✓\nPrimo piano sulla moka che borbotta, poi la voce: “Mentre sale il caffè, tre minuti solo per me.”"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "✕\n“Allora, il mio rapporto con il caffè nasce tanti anni fa, a casa di mia nonna…”"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": "task-option-locked",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": true,
+      "text": "C\nIl pacchetto fermo sul tavolo per 5 secondi, in silenzio, poi inizio a parlare."
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Continua"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 9,
+    "maxIndex": 9,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "corso"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "senza_volto"
+      ],
+      "categorie": [
+        "cucina",
+        "moda"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "hook"
+    },
+    "confetti": 1,
+    "startedAt": 1794418740634
+  },
+  "textSha256": "3c03616de3ab69fd004e8868fa315a0724e6e8c2118f0dd7463c390fc92d55a1"
+}

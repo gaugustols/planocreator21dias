@@ -1,0 +1,114 @@
+{
+  "sequence": 19,
+  "id": "019_brief-crema_closing",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-crema",
+  "phase": "closing",
+  "kind": "brief",
+  "title": "Ultimi 2 secondi: come chiudi?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": false,
+      "text": "A\n“Link in bio, ciao!”"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": false,
+      "text": "B\n“Correte a prenderla, solo oggi sconto del 50%!”"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "true",
+      "checked": null,
+      "disabled": false,
+      "text": "C\n“Ormai non esco più senza. Se hai le mani come le mie, provala.”"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n0 €\n?"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "prodotti"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "weekend"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "closing"
+    },
+    "confetti": 0,
+    "startedAt": 1794419086184
+  },
+  "textSha256": "439caea809ff663189a2d558d018755eb1de847f6365b258f41e77d0da4b9865"
+}

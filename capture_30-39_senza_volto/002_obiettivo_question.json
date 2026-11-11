@@ -1,0 +1,110 @@
+{
+  "sequence": 2,
+  "id": "002_obiettivo_question",
+  "url": "http://127.0.0.1:4173/",
+  "step": "obiettivo",
+  "phase": "",
+  "kind": "question",
+  "title": "Cosa ti piacerebbe ottenere con l'UGC?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "arrotondare",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "💶\nArrotondare a fine mese\nUn'entrata extra, senza lasciare il lavoro"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "mio",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🌱\nQualcosa di mio\nUn'attività da gestire con i miei tempi"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "creativa",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🎨\nDare sfogo alla creatività\nFare video mi diverte già"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "prodotti",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🎁\nProvare prodotti nuovi\nE raccontarli a modo mio"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n0 €\n?"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 1,
+    "maxIndex": 1,
+    "answers": {
+      "eta": [
+        "30-39"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0
+    ],
+    "phases": {},
+    "confetti": 0,
+    "startedAt": 1794418874487
+  },
+  "textSha256": "f6a125540904dd9a09fe08e4ad57ca2339a8b6934256a8dee63fffe9d40c0bcb"
+}

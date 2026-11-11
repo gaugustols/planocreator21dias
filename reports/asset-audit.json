@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-11T17:38:29.873Z",
+  "referenced": 182,
+  "present": 181,
+  "missing": 0,
+  "absentOnOrigin": 1,
+  "dynamicExpressions": [
+    {
+      "file": "assets/index-By7_X_Iq.js",
+      "expression": "`${nt.dir}/${rt(e)}.webp`"
+    },
+    {
+      "file": "assets/index-By7_X_Iq.js",
+      "expression": "`${ne}emoji/${e}.webp`"
+    }
+  ],
+  "missingFiles": [],
+  "originUnavailableFiles": [
+    {
+      "url": "https://piano-ugc.pages.dev/assets/video_finale.mp4",
+      "source": "https://piano-ugc.pages.dev/assets/index-By7_X_Iq.js",
+      "reference": "video_finale.mp4",
+      "kind": "asset",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "reason": "Verified HTTP error or SPA HTML fallback"
+    }
+  ]
+}

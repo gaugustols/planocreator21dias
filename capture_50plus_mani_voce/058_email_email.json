@@ -1,0 +1,143 @@
+{
+  "sequence": 58,
+  "id": "058_email_email",
+  "url": "http://127.0.0.1:4173/",
+  "step": "email",
+  "phase": "",
+  "kind": "email",
+  "title": "Il tuo piano è pronto. Dove te lo mandiamo?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "LABEL",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "La tua email"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Mandami il piano"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n1150 €\n?"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 14,
+    "maxIndex": 14,
+    "answers": {
+      "eta": [
+        "50+"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "cucina",
+        "moda"
+      ],
+      "primo-video": [
+        "weekend"
+      ],
+      "analisi.mid": [
+        "si"
+      ]
+    },
+    "wallet": {
+      "total": 1150,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Unboxing pasta · Bronzetto",
+          "amount": 600
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794419085987
+  },
+  "textSha256": "6df17e232dd7b6afaa8f71bc46745b64d2d73bdc159fcbbc1b0428371936e3da"
+}

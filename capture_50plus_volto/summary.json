@@ -1,0 +1,197 @@
+{
+  "branch": {
+    "index": 9,
+    "name": "50plus_volto",
+    "age": "50+",
+    "camera": "volto",
+    "landing": "a",
+    "result": "b"
+  },
+  "success": true,
+  "funnelReachedOffer": true,
+  "failure": null,
+  "captures": 63,
+  "steps": [
+    "landing",
+    "obiettivo",
+    "spesa",
+    "tempo",
+    "cos-e-ugc",
+    "brief-crema",
+    "camera",
+    "niente-follower",
+    "categorie",
+    "brief-moka",
+    "regola-d-oro",
+    "brief-pasta",
+    "primo-video",
+    "analisi",
+    "email",
+    "optin",
+    "nome",
+    "sconto",
+    "risultato"
+  ],
+  "phases": [
+    "brief-crema:notification",
+    "brief-crema:brief",
+    "brief-crema:hook",
+    "brief-crema:storyboard",
+    "brief-crema:record",
+    "brief-crema:closing",
+    "brief-crema:delivery",
+    "brief-moka:notification",
+    "brief-moka:brief",
+    "brief-moka:hook",
+    "brief-moka:record",
+    "brief-moka:delivery",
+    "brief-pasta:notification",
+    "brief-pasta:brief",
+    "brief-pasta:hook",
+    "brief-pasta:record",
+    "brief-pasta:delivery",
+    "analisi:loading",
+    "analisi:question",
+    "analisi:done",
+    "sconto:cover",
+    "sconto:revealed"
+  ],
+  "choices": {
+    "eta": [
+      "50+"
+    ],
+    "obiettivo": [
+      "mio"
+    ],
+    "spesa": [
+      "niente"
+    ],
+    "tempo": [
+      "30min"
+    ],
+    "camera": [
+      "volto"
+    ],
+    "categorie": [
+      "casa",
+      "cucina"
+    ],
+    "primo-video": [
+      "domani"
+    ],
+    "analisi:midQuestion": [
+      "no"
+    ]
+  },
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "http://127.0.0.1:4173/"
+    },
+    {
+      "method": "GET",
+      "type": "font",
+      "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+    },
+    {
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+    }
+  ],
+  "actions": [
+    {
+      "step": "email",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Mandami il piano"
+      }
+    },
+    {
+      "step": "optin",
+      "phase": "",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "optin-no",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "No, grazie"
+      }
+    },
+    {
+      "step": "nome",
+      "phase": "",
+      "target": {
+        "index": 2,
+        "tag": "BUTTON",
+        "testid": "name-skip",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Preferisco non dirlo"
+      }
+    },
+    {
+      "step": "sconto",
+      "phase": "cover",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "scratch-reveal",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Rivela lo sconto"
+      }
+    },
+    {
+      "step": "sconto",
+      "phase": "revealed",
+      "target": {
+        "index": 3,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continua"
+      }
+    }
+  ]
+}

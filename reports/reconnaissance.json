@@ -1,0 +1,710 @@
+{
+  "origin": "https://piano-ugc.pages.dev/",
+  "capturedAt": "2026-11-11T17:25:10.410Z",
+  "domains": [
+    {
+      "domain": "piano-ugc.pages.dev",
+      "requests": 18,
+      "types": [
+        "document",
+        "font",
+        "script",
+        "stylesheet",
+        "image"
+      ]
+    },
+    {
+      "domain": "connect.facebook.net",
+      "requests": 6,
+      "types": [
+        "script"
+      ]
+    },
+    {
+      "domain": "cdn.utmify.com.br",
+      "requests": 6,
+      "types": [
+        "script"
+      ]
+    },
+    {
+      "domain": "api.ipify.org",
+      "requests": 3,
+      "types": [
+        "fetch"
+      ]
+    },
+    {
+      "domain": "api6.ipify.org",
+      "requests": 3,
+      "types": [
+        "fetch"
+      ]
+    },
+    {
+      "domain": "tracking.utmify.com.br",
+      "requests": 12,
+      "types": [
+        "fetch"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "document",
+      "url": "https://piano-ugc.pages.dev/"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "font",
+      "url": "https://piano-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/index-By7_X_Iq.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://piano-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api6.ipify.org/?format=json"
+    },
+    {
+      "page": "landing",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=piano-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "document",
+      "url": "https://piano-ugc.pages.dev/?ab=landing1:b"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "font",
+      "url": "https://piano-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/index-By7_X_Iq.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://piano-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/18-29.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/30-39.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/40-49.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/50.webp"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api6.ipify.org/?format=json"
+    },
+    {
+      "page": "landing-b",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing-b",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=piano-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing-b",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing-b",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "document",
+      "url": "https://piano-ugc.pages.dev/?ver=oferta"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "font",
+      "url": "https://piano-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/index-By7_X_Iq.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://piano-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/ResultScreen-D42Z-iof.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/confetti-NYcgYTrC.js"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "fetch",
+      "url": "https://api6.ipify.org/?format=json"
+    },
+    {
+      "page": "offer",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "method": "GET",
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=piano-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "offer",
+      "method": "POST",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "offer",
+      "method": "PUT",
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    }
+  ],
+  "responses": [
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "document",
+      "url": "https://piano-ugc.pages.dev/"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "stylesheet",
+      "url": "https://piano-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "font",
+      "url": "https://piano-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/index-By7_X_Iq.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=piano-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "document",
+      "url": "https://piano-ugc.pages.dev/?ab=landing1:b"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "stylesheet",
+      "url": "https://piano-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "font",
+      "url": "https://piano-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/index-By7_X_Iq.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/30-39.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/18-29.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/50.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "image",
+      "url": "https://piano-ugc.pages.dev/ab/landing1/40-49.webp"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=piano-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "landing-b",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "document",
+      "url": "https://piano-ugc.pages.dev/?ver=oferta"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "font",
+      "url": "https://piano-ugc.pages.dev/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "stylesheet",
+      "url": "https://piano-ugc.pages.dev/assets/index-DRbyHCeb.css"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/index-By7_X_Iq.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://cdn.utmify.com.br/scripts/utms/latest.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/ResultScreen-D42Z-iof.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://piano-ugc.pages.dev/assets/confetti-NYcgYTrC.js"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://api.ipify.org/?format=json"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/2346168272822517?v=2.9.439&r=stable&domain=piano-ugc.pages.dev&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/events"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    },
+    {
+      "page": "offer",
+      "status": 200,
+      "type": "fetch",
+      "url": "https://tracking.utmify.com.br/tracking/v1/lead"
+    }
+  ],
+  "errors": [
+    {
+      "page": "landing",
+      "type": "network",
+      "url": "https://api6.ipify.org/?format=json",
+      "error": "net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+      "page": "landing-b",
+      "type": "network",
+      "url": "https://api6.ipify.org/?format=json",
+      "error": "net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+      "page": "offer",
+      "type": "network",
+      "url": "https://api6.ipify.org/?format=json",
+      "error": "net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "pages": [
+    {
+      "name": "landing",
+      "url": "https://piano-ugc.pages.dev/",
+      "title": "Piano UGC 21 Giorni · Quiz gratuito",
+      "text": "Piano UGC\n\nQuiz gratuito · 4 minuti\n\nChe tipo di creator UGC saresti?\n\nRispondi a qualche domanda e prova a girare i primi video: per gioco, ma come si fa davvero.\n\nScegli la tua età per iniziare\n🙋‍♀️\n18–29\n💁‍♀️\n30–39\n👩‍💼\n40–49\n👩‍🎨\n50+\nPrivacy\nTermini\nRecedi dal contratto qui\n\nQuiz gratuito riservato ai maggiorenni; al termine ti presentiamo una guida a pagamento (27 €, IVA inclusa, pagamento unico), senza obbligo di acquisto. Simulazione dimostrativa: le marche Velù, Gorgoglio e Bronzetto sono di fantasia e i compensi mostrati non sono denaro reale. Nessuno ti pagherà per le attività di questa pagina e il salvadanaio di prova non si può incassare né convertire. Gli importi sono esempi di preventivo da 200 a 600 € lordi per video, secondo il progetto e i diritti d'uso; non sono una media nazionale né un minimo garantito.\n\nQuesto sito non è affiliato a Facebook, Instagram, Meta, TikTok o Google, né alle piattaforme e alle marche citate. I marchi appartengono ai rispettivi titolari; quelli usati nella simulazione sono di fantasia.",
+      "links": [
+        {
+          "text": "Privacy",
+          "href": "https://piano-ugc.pages.dev/#privacy"
+        },
+        {
+          "text": "Termini",
+          "href": "https://piano-ugc.pages.dev/#termini"
+        },
+        {
+          "text": "Recedi dal contratto qui",
+          "href": "https://piano-ugc.pages.dev/recesso/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4e0a6ddf380857ca7b2hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4e0a6ddf380857ca7b2hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        }
+      ]
+    },
+    {
+      "name": "landing-b",
+      "url": "https://piano-ugc.pages.dev/?ab=landing1:b",
+      "title": "Piano UGC 21 Giorni · Quiz gratuito",
+      "text": "Piano UGC\n\nQuiz gratuito · 4 minuti\n\nDiventa UGC creator in 21 giorni, anche senza follower\n\nLe marche pagano persone comuni per video girati col telefono. Nel quiz lo provi tu.\n\nScegli la tua età per iniziare\n18–29\n30–39\n40–49\n50+\nPrivacy\nTermini\nRecedi dal contratto qui\n\nQuiz gratuito riservato ai maggiorenni; al termine ti presentiamo una guida a pagamento (27 €, IVA inclusa, pagamento unico), senza obbligo di acquisto. Simulazione dimostrativa: le marche Velù, Gorgoglio e Bronzetto sono di fantasia e i compensi mostrati non sono denaro reale. Nessuno ti pagherà per le attività di questa pagina e il salvadanaio di prova non si può incassare né convertire. Gli importi sono esempi di preventivo da 200 a 600 € lordi per video, secondo il progetto e i diritti d'uso; non sono una media nazionale né un minimo garantito.\n\nQuesto sito non è affiliato a Facebook, Instagram, Meta, TikTok o Google, né alle piattaforme e alle marche citate. I marchi appartengono ai rispettivi titolari; quelli usati nella simulazione sono di fantasia.\n\nFoto generate con l'intelligenza artificiale: non ritraggono persone reali.",
+      "links": [
+        {
+          "text": "Privacy",
+          "href": "https://piano-ugc.pages.dev/?ab=landing1:b#privacy"
+        },
+        {
+          "text": "Termini",
+          "href": "https://piano-ugc.pages.dev/?ab=landing1:b#termini"
+        },
+        {
+          "text": "Recedi dal contratto qui",
+          "href": "https://piano-ugc.pages.dev/recesso/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4e7ea416263cf951f2dhQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4e7ea416263cf951f2dhQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        }
+      ]
+    },
+    {
+      "name": "offer",
+      "url": "https://piano-ugc.pages.dev/?ver=oferta",
+      "title": "Piano UGC 21 Giorni · Quiz gratuito",
+      "text": "L'offerta scade tra\n09:34:52\n\nOttieni il mio piano\n⏰\nOfferta speciale disponibile oggi — 11/11/2026\n\n✨\nDALLA PROVA ALLA REALTÀ\n\nIl piano di 21 giorni per diventare UGC creator in Italia\n\nPortfolio senza follower, formati anche senza volto, modelli pronti e le piattaforme dove trovare le marche. Tutto in italiano, tutto dal telefono.\n\nIL PIANO DI OGGI\n\nGiorno 1\nGiorno 2\nGiorno 3\nGiorno 4\nGiorno 5\n3 / 21\n🗓️\n21 giorni · 8 moduli\n🎁\n+5 bonus\n🤩\n📸\n✅\n21 giorni, un passo al giorno, anche con poco tempo\n✅\nAnche senza volto: solo mani, voce o unboxing\n✅\nModelli pronti: agganci, copioni, listino prezzi\n✅\nTasse in parole semplici: prestazione occasionale e soglie\nVoglio il Piano UGC\n\n97 € 27 € · pagamento unico\n\n⏰\nL'offerta di oggi scade tra\n09:34:52\n\n🔒\nPagamento protetto tramite Hotmart\n\nPerché chi inizia da solo si blocca quasi sempre\n🤔\nNon sai da dove cominciare\nVideo, portfolio, piattaforme, prezzi: tutto insieme fa venire voglia di lasciar perdere prima ancora di iniziare.\n🤷‍♀️\nPensi che servano follower\nE allora rimandi. In realtà le marche guardano i tuoi video, non quante persone ti seguono.\n⚠️\nHai paura delle truffe\nGiustamente: in giro ci sono finte “offerte di lavoro” che chiedono soldi. Bisogna saperle riconoscere.\n🧾\nNon sai quanto chiedere\nTroppo poco e lavori gratis, troppo e nessuno risponde. Senza un listino di riferimento si va a tentativi.\nCosa ricevi oggi\n🗓️\nMODULO 01\nIL PIANO DI 21 GIORNI\nCosa fare ogni giorno, dal primo video di prova alla prima candidatura. Pensato per chi ha poco tempo.\n🖼️\nMODULO 02\nPORTFOLIO SENZA FOLLOWER\nCome girare 3-5 video di prova con quello che hai in casa e raccoglierli in una vetrina online da mandare alle marche.\n🤲\nMODULO 03\nFORMATI SENZA VOLTO\nSolo mani, solo voce, unboxing e ASMR: come farli bene se non vuoi apparire.\n🎬\nMODULO 04\nAGGANCI E COPIONI PRONTI\nLe frasi che fermano chi scorre e copioni da 15, 30 e 60 secondi da adattare a ogni prodotto.\n📱\nMODULO 05\nGIRARE E MONTARE COL TELEFONO\nLuce, audio, inquadrature e montaggio con app gratuite. Nessuna attrezzatura da comprare.\n🔍\nMODULO 06\nDOVE TROVARE LE MARCHE\nLe piattaforme che lavorano con creator in Italia, come iscriversi passo passo e come proporsi direttamente alle marche.\n🧾\nMODULO 07\nPREZZI, CONTRATTI E DIRITTI D'USO\nCome costruire preventivi da 200 a 600 € per video in base al brief, alle revisioni e ai diritti d'uso. Con un listino di esempio da adattare alle tue proposte.\n⚖️\nMODULO 08\nTASSE SENZA ANSIA\nPrestazione occasionale, soglie da conoscere e quando serve la partita IVA, spiegate in parole semplici.\n🎁\nE in più, 5 bonus inclusi oggi\nBONUS #1\nINCLUSO OGGI\n🛡️\nGuida anti-truffa per creator\nI segnali di una finta offerta e le regole d'oro: mai pagare per lavorare, mai dare codici o documenti a sconosciuti.\nValore: 12 €\nIN OMAGGIO\nBONUS #2\nINCLUSO OGGI\n💌\nMessaggi pronti per le marche\nEmail e messaggi in direct già scritti per proporti, ricontattare chi non risponde e rispondere a un brief: li copi e li adatti.\nValore: 17 €\nIN OMAGGIO\nBONUS #3\nINCLUSO OGGI\n🗓️\n30 idee di video per il portfolio\nDivise per categoria, una al giorno: per continuare ad allenarti anche dopo il piano.\nValore: 15 €\nIN OMAGGIO\nBONUS #4\nINCLUSO OGGI\n✂️\nMontaggio dal telefono, passo passo\nLa guida passo passo per montare i tuoi video con un'app gratuita: tagli, scritte, musica e formati.\nValore: 19 €\nIN OMAGGIO\nBONUS #5\nINCLUSO OGGI\n📋\nChecklist prima della consegna\nI 12 controlli da fare prima di mandare un video, per evitare revisioni e figuracce.\nValore: 9 €\nIN OMAGGIO\n\n8 moduli + 5 bonus: oggi tutto a 27 €\n\nVoglio il Piano UGC\n✅\nFa per te se…\n✓\nVuoi un'entrata extra da costruire con i tuoi tempi, senza lasciare il lavoro\n✓\nHai un telefono e qualche prodotto in casa: per iniziare basta questo\n✓\nNon hai follower, o non hai voglia di mostrare il viso\n✓\nTi piace l'idea di raccontare prodotti che usi davvero\n✓\nPreferisci un piano chiaro a mille video sparsi su YouTube\n❌\nNon fa per te se…\n✕\nCerchi “guadagni facili” o soldi senza fare niente: qui serve impegno\n✕\nVuoi uno stipendio fisso: l'UGC è un'attività a progetto, video per video\n✕\nNon hai nemmeno 15 minuti al giorno per 3 settimane\n✕\nSperi che le marche ti trovino senza che tu ti proponga\nCome funziona\n01\nAcquisti in pochi secondi\nPagamento unico tramite Hotmart, con carta o con gli altri metodi disponibili al checkout. Nessun abbonamento.\n02\nRicevi tutto via email\nSubito dopo il pagamento ti arriva l'accesso al Piano, ai modelli e ai bonus. Li apri anche dal telefono.\n03\nSegui il piano\nUn passo al giorno per 21 giorni: video di prova, portfolio, prime candidature. Al tuo ritmo.\nCosa raccontano le studentesse del percorso UGC\nA\nAlessia\nTorino\n\nVolevo dirti che finalmente ho registrato il mio primo video! Non è perfetto, ma almeno ho iniziato 😂\n\nQuesto è l'importante! Il primo passo è sempre il più difficile.\n\nVerissimo. Prima pensavo che fare UGC fosse molto più complicato, invece con le indicazioni del percorso mi sono sentita più sicura. Ora voglio provare a farne altri!\n\nStudentessa del percorso UGC · edizione 2025\nS\nSofia\nRoma\n\nHo finito il mio portfoliooo 🥹 Alla fine ho usato anche i prodotti che avevo già a casa per registrare i primi video.\n\nGrandeee! Visto che non serviva aspettare di avere tutto perfetto?\n\nEsatto ahah, continuavo a rimandare perché pensavo di non avere l'attrezzatura giusta. Adesso almeno posso iniziare a presentarmi ai brand!\n\nStudentessa del percorso UGC · edizione 2025\nM\nMartina\nPalermo\n\nOddio, mi hanno appena risposto!! Un brand vuole collaborare con me per un video UGC 😭\n\nMa che bella notizia! È la prima collaborazione?\n\nSì ahah, la prima in assoluto! Avevo mandato un po' di candidature seguendo il metodo e finalmente qualcuno mi ha risposto.\n\nGrandissima! Ora concentrati sul fare un bel lavoro 💪\n\nStudentessa del percorso UGC · edizione 2025\nM\nMartina\nRoma\n\nComunque volevo aggiornarti perché questo mese è andata molto meglio del previsto 😭11:08\n\nDai, raccontami! Come sta andando con i lavori UGC?11:09\n\nQuesto mese sono arrivata a 1.600€ in più! 🥹 Non pensavo davvero di riuscire a creare un'entrata extra così, soprattutto continuando con il mio lavoro principale.11:11\n\nGrandissima! Sono contento che il percorso ti stia aiutando. Sono collaborazioni singole o stai già lavorando con qualche brand in modo continuativo?11:13\n\nUn po' entrambe le cose! Ho iniziato con qualche collaborazione e poi sono arrivati altri contatti. La cosa bella è che riesco a organizzarmi con i video nel tempo libero, senza dover lasciare il mio lavoro.11:15\n\nPer me la differenza è stata avere un metodo da seguire. Prima non sapevo bene da dove partire, adesso ho molto più chiaro cosa fare e come presentarmi ai brand ❤️11:15\n\nStudentessa del percorso UGC · edizione 2025 · Risultato individuale, non tipico: dipende da tempo, impegno e richieste dei brand.\nG\nGiulia\nNapoli\n\nTi devo aggiornare ahah, questo mese con l'UGC sono arrivata a 1.600€ extra 😭❤️14:32\n\nMa dai!! Grandissima 😂 Sono collaborazioni con brand diversi?14:34\n\nSì! Ho fatto diversi video per un paio di brand e poi mi sono arrivate altre richieste. Alcuni contatti sono partiti proprio dalle candidature che ho mandato.14:35\n\nE riesci a gestire tutto insieme al tuo lavoro?14:36\n\nSì, è proprio questo che mi piace. Mi organizzo con le riprese nel tempo libero. All'inizio avevo paura di non essere capace, invece seguendo i passaggi mi sono sbloccata tantissimo. Non pensavo di riuscire ad arrivare a questo punto 🥹14:38\n\nSono davvero contento! Continua così 💪14:39\n\nStudentessa del percorso UGC · edizione 2025 · Risultato individuale, non tipico: dipende da tempo, impegno e richieste dei brand.\n🔥\nOFFERTA DI OGGI\n🔥\n\nIL PIANO DI OGGI\n\nGiorno 1\nGiorno 2\nGiorno 3\nGiorno 4\nGiorno 5\n3 / 21\n🎁\n+5 bonus\n\nPiano UGC 21 Giorni\n\n✅\nIl metodo completo: 8 moduli\n✅\nPiano di 21 giorni, un passo al giorno\n✅\nAgganci, copioni e modelli pronti\n✅\n5 bonus inclusi\n✅\nAccesso immediato: resta tutto tuo\n-72%\nSconto del 72% applicato\nL'offerta di oggi scade tra 09:34:52\n\nPrezzo originale97 €\n\nOGGI SOLO\n\n27 €\n\nPagamento unico · IVA inclusa\n\ncioè circa 1,29 € al giorno per i 21 giorni del piano\n\n✨\nRisparmi 70 €\n\nVoglio il Piano UGC\n\n🔒\nPagamento protetto tramite Hotmart\n\nVISA\nPayPal\nG Pay\nKlarna.\nSODDISFATTI O RIMBORSATI • GARANZIA 15 GIORNI •\nGARANZIA\n15\nGIORNI\nGaranzia soddisfatti o rimborsati: 15 giorni\n\nProva il Piano UGC con calma. Se entro 15 giorni dall'acquisto capisci che non fa per te, chiedi il rimborso completo dalla tua area acquisti Hotmart o scrivendoci via email, senza dover spiegare il motivo. È una garanzia volontaria, in aggiunta ai diritti previsti dalla legge per gli acquisti online.\n\nDomande frequenti\nServono tanti follower?\n\nNo. Nell'UGC la marca paga il video, non il tuo pubblico: è lei a pubblicarlo, sui suoi canali e nelle sue inserzioni. Ti serve un portfolio con qualche video di prova, e nel piano ti mostriamo come costruirlo partendo da zero.\n\nDevo per forza metterci la faccia?\n\nNo. Ci sono formati con solo mani, solo voce o unboxing, e molte marche li usano proprio così. Nel piano c'è un modulo intero dedicato ai video senza volto.\n\nQuanto si guadagna davvero?\n\nNel piano impari a costruire proposte da 200 a 600 € per video, secondo il brief, l'esperienza e i diritti d'uso. A queste tariffe, 2 video venduti al mese valgono 400–1.200 € lordi; 4 video valgono 800–2.400 €. Sono scenari prima di costi, imposte ed eventuali commissioni: il risultato dipende dagli incarichi che ottieni, e all'inizio può essere zero. Nessun guadagno è garantito.\n\nServe la partita IVA? E le tasse?\n\nPer collaborazioni occasionali di solito no: si usa la prestazione occasionale e il compenso va indicato nella dichiarazione dei redditi. Se l'attività diventa abituale e continuativa, la partita IVA serve a prescindere dall'importo. E occhio al mito dei 5.000 € “esentasse”: è solo la soglia oltre la quale scattano i contributi INPS. Nel piano trovi tutto spiegato in parole semplici; per il tuo caso specifico chiedi conferma a un CAF o a un commercialista.\n\nÈ una truffa?\n\nDomanda giustissima, di questi tempi. Ecco cosa non faremo mai: chiederti soldi per farti lavorare, chiederti codici, documenti o l'IBAN, aggiungerti a gruppi WhatsApp o Telegram. Il Piano UGC è una guida formativa a pagamento unico, con garanzia di rimborso. Le piattaforme serie non ti chiedono soldi per iscriverti o per ricevere i compensi: al massimo trattengono una commissione sul compenso (su Upwork i crediti per candidarti sono a pagamento, ma è facoltativo).\n\nServe sapere l'inglese?\n\nNo. Il piano è tutto in italiano e i video li giri in italiano, per marche che vendono in Italia. Se una piattaforma ha l'iscrizione in inglese, ti guidiamo schermata per schermata.\n\nQuanto tempo ci vuole?\n\nIl piano è pensato per 15-60 minuti al giorno, per 21 giorni. Un video da 15 secondi si gira in pochi minuti; all'inizio il montaggio richiede un po' di più, poi si va spediti. Se hai tempo solo nel weekend, ti mostriamo come girare più video in una sola sessione.\n\nCome ricevo il materiale?\n\nSubito dopo il pagamento ricevi un'email da Hotmart con l'accesso alla tua area riservata. Lì trovi il Piano, i modelli e i bonus, tutto in digitale: li apri da telefono, tablet o computer. Niente spedizioni e niente abbonamenti.\n\nNon me la cavo con la tecnologia: posso farlo lo stesso?\n\nSì. Il piano parte proprio dalle basi: dove appoggiare il telefono, come sfruttare la luce di una finestra, quale app gratuita usare per montare. E alle marche servono persone vere di tutte le età.\n\nPerché pagare, se iscriversi alle piattaforme è gratis?\n\nPerché le piattaforme ti mostrano le campagne, ma non ti insegnano a farti scegliere. Il Piano UGC ti fa risparmiare settimane di tentativi: come costruire il portfolio, cosa scrivere, quanto chiedere, come evitare le truffe e come mettere in regola i compensi. Non compri l'accesso a nessuna piattaforma. Le piattaforme serie non ti chiedono soldi per iscriverti o per ricevere i compensi: al massimo trattengono una commissione sul compenso (su Upwork i crediti per candidarti sono a pagamento, ma è facoltativo).\n\n🚀\nHai visto come funziona. Adesso impara a farlo davvero.\n\n97 € 27 € · pagamento unico\n\nVoglio il Piano UGC\n\n🛡️\nSoddisfatti o rimborsati: 15 giorni\n\nPiano UGC\n\nQuiz gratuito riservato ai maggiorenni; al termine ti presentiamo una guida a pagamento (27 €, IVA inclusa, pagamento unico), senza obbligo di acquisto. Simulazione dimostrativa: le marche Velù, Gorgoglio e Bronzetto sono di fantasia e i compensi mostrati non sono denaro reale. Nessuno ti pagherà per le attività di questa pagina e il salvadanaio di prova non si può incassare né convertire. Gli importi sono esempi di preventivo da 200 a 600 € lordi per video, secondo il progetto e i diritti d'uso; non sono una media nazionale né un minimo garantito.\n\nAvvertenza sui guadagni: Piano UGC vende una guida formativa, non offre lavoro e non ti paga per svolgere attività. Nessun guadagno è garantito. Le cifre mostrate sono esempi di preventivo e scenari di fatturato lordo, prima di costi, imposte ed eventuali commissioni, e non rappresentano risultati tipici: molte persone guadagnano poco o nulla, altre di più. I risultati dipendono dal tuo impegno, dal tempo che dedichi e dalle scelte di marche e piattaforme, che possono cambiare in qualsiasi momento. I compensi vanno dichiarati secondo la normativa fiscale. Se cerchi “guadagni facili”, questo piano non fa per te.\n\nQuesto sito non è affiliato a Facebook, Instagram, Meta, TikTok o Google, né alle piattaforme e alle marche citate. I marchi appartengono ai rispettivi titolari; quelli usati nella simulazione sono di fantasia.\n\nPrivacy\nTermini\nRecedi dal contratto qui\nRifai il quiz da capo\n\nPiano UGC è un marchio di GLE DIGITAL LTDA · Sede legale: Avenida Mafra, 453, Quadra 211, Lote 16, Setor 02, Piçarras, Guaratuba-PR, CEP 83280-000, Brasile · CNPJ (Brasile): 58.857.150/0001-04 · supporto@piano-ugc.com\n\n© 2026 Piano UGC. Tutti i diritti riservati.\n\n97 €\n27 €\nVoglio il Piano UGC",
+      "links": [
+        {
+          "text": "Voglio il Piano UGC",
+          "href": "https://pay.hotmart.com/S108075670L?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Voglio il Piano UGC",
+          "href": "https://pay.hotmart.com/S108075670L?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Voglio il Piano UGC",
+          "href": "https://pay.hotmart.com/S108075670L?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Voglio il Piano UGC",
+          "href": "https://pay.hotmart.com/S108075670L?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://piano-ugc.pages.dev/?ver=oferta#privacy"
+        },
+        {
+          "text": "Termini",
+          "href": "https://piano-ugc.pages.dev/?ver=oferta#termini"
+        },
+        {
+          "text": "Recedi dal contratto qui",
+          "href": "https://piano-ugc.pages.dev/recesso/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        },
+        {
+          "text": "Voglio il Piano UGC",
+          "href": "https://pay.hotmart.com/S108075670L?checkoutMode=10&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR&sck=jLj6af4a4efa6ddf380857cacc7hQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR"
+        }
+      ]
+    }
+  ]
+}

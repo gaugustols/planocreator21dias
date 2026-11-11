@@ -1,0 +1,114 @@
+{
+  "sequence": 8,
+  "id": "008_brief-crema_hook",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-crema",
+  "phase": "hook",
+  "kind": "brief",
+  "title": "Scegli l'aggancio: i primi 3 secondi",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": false,
+      "text": "A\n“Ciao ragazzi! Allora, oggi vi parlo di una crema che mi hanno mandato…”"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "true",
+      "checked": null,
+      "disabled": false,
+      "text": "B\nCrema già in mano: “Se d'inverno anche le tue mani sembrano carta vetrata, guarda qui.”"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "task-option",
+      "option": null,
+      "order": null,
+      "correct": "false",
+      "checked": null,
+      "disabled": false,
+      "text": "C\n“La crema mani più rivoluzionaria di sempre: risultati garantiti in 24 ore!”"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n0 €\n?"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 5,
+    "maxIndex": 5,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "mio"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "30min"
+      ]
+    },
+    "wallet": {
+      "total": 0,
+      "items": []
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phases": {
+      "brief-crema": "hook"
+    },
+    "confetti": 0,
+    "startedAt": 1794418874487
+  },
+  "textSha256": "63144f640104af2726532261bb5ba8ebe406792ecd69e472a2b15b7df2a08ebe"
+}

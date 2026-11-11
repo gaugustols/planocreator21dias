@@ -1,0 +1,568 @@
+{
+  "sequence": 62,
+  "id": "062_risultato_result",
+  "url": "http://127.0.0.1:4173/",
+  "step": "risultato",
+  "phase": "",
+  "kind": "result",
+  "title": "Recuperacao, ecco il tuo piano UGC di 21 giorni",
+  "options": [
+    {
+      "index": 0,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 1,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": ""
+    },
+    {
+      "index": 2,
+      "tag": "SPAN",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "→"
+    },
+    {
+      "index": 3,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "OGGI\n\n✓ 3 brief di prova superati"
+    },
+    {
+      "index": 4,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "TRA 21 GIORNI\n\nobiettivi del piano"
+    },
+    {
+      "index": 5,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "PORTFOLIO\n\nda costruire"
+    },
+    {
+      "index": 6,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "PORTFOLIO\n\n5 video"
+    },
+    {
+      "index": 7,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "LISTINO PREZZI\n\nda fare"
+    },
+    {
+      "index": 8,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "LISTINO PREZZI\n\npronto"
+    },
+    {
+      "index": 9,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "CANDIDATURE INVIATE\n\n0"
+    },
+    {
+      "index": 10,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "CANDIDATURE INVIATE\n\n10"
+    },
+    {
+      "index": 11,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "LIVELLO\n\nPrincipiante"
+    },
+    {
+      "index": 12,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "LIVELLO\n\nPronta per i brief veri"
+    },
+    {
+      "index": 13,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "No. Nell'UGC la marca paga il video, non il tuo pubblico: è lei a pubblicarlo, sui suoi canali e nelle sue inserzioni. Ti serve un portfolio con qualche video di prova, e nel piano ti mostriamo come costruirlo partendo da zero."
+    },
+    {
+      "index": 14,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "No. Ci sono formati con solo mani, solo voce o unboxing, e molte marche li usano proprio così. Nel piano c'è un modulo intero dedicato ai video senza volto."
+    },
+    {
+      "index": 15,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Nel piano impari a costruire proposte da 200 a 600 € per video, secondo il brief, l'esperienza e i diritti d'uso. A queste tariffe, 2 video venduti al mese valgono 400–1.200 € lordi; 4 video valgono 800–2.400 €. Sono scenari prima di costi, imposte ed eventuali commissioni: il risultato dipende dagli incarichi che ottieni, e all'inizio può essere zero. Nessun guadagno è garantito."
+    },
+    {
+      "index": 16,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Per collaborazioni occasionali di solito no: si usa la prestazione occasionale e il compenso va indicato nella dichiarazione dei redditi. Se l'attività diventa abituale e continuativa, la partita IVA serve a prescindere dall'importo. E occhio al mito dei 5.000 € “esentasse”: è solo la soglia oltre la quale scattano i contributi INPS. Nel piano trovi tutto spiegato in parole semplici; per il tuo caso specifico chiedi conferma a un CAF o a un commercialista."
+    },
+    {
+      "index": 17,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Domanda giustissima, di questi tempi. Ecco cosa non faremo mai: chiederti soldi per farti lavorare, chiederti codici, documenti o l'IBAN, aggiungerti a gruppi WhatsApp o Telegram. Il Piano UGC è una guida formativa a pagamento unico, con garanzia di rimborso. Le piattaforme serie non ti chiedono soldi per iscriverti o per ricevere i compensi: al massimo trattengono una commissione sul compenso (su Upwork i crediti per candidarti sono a pagamento, ma è facoltativo)."
+    },
+    {
+      "index": 18,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "No. Il piano è tutto in italiano e i video li giri in italiano, per marche che vendono in Italia. Se una piattaforma ha l'iscrizione in inglese, ti guidiamo schermata per schermata."
+    },
+    {
+      "index": 19,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Il piano è pensato per 15-60 minuti al giorno, per 21 giorni. Un video da 15 secondi si gira in pochi minuti; all'inizio il montaggio richiede un po' di più, poi si va spediti. Se hai tempo solo nel weekend, ti mostriamo come girare più video in una sola sessione."
+    },
+    {
+      "index": 20,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Subito dopo il pagamento ricevi un'email da Hotmart con l'accesso alla tua area riservata. Lì trovi il Piano, i modelli e i bonus, tutto in digitale: li apri da telefono, tablet o computer. Niente spedizioni e niente abbonamenti."
+    },
+    {
+      "index": 21,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Sì. Il piano parte proprio dalle basi: dove appoggiare il telefono, come sfruttare la luce di una finestra, quale app gratuita usare per montare. E alle marche servono persone vere di tutte le età."
+    },
+    {
+      "index": 22,
+      "tag": "DIV",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Perché le piattaforme ti mostrano le campagne, ma non ti insegnano a farti scegliere. Il Piano UGC ti fa risparmiare settimane di tentativi: come costruire il portfolio, cosa scrivere, quanto chiedere, come evitare le truffe e come mettere in regola i compensi. Non compri l'accesso a nessuna piattaforma. Le piattaforme serie non ti chiedono soldi per iscriverti o per ricevere i compensi: al massimo trattengono una commissione sul compenso (su Upwork i crediti per candidarti sono a pagamento, ma è facoltativo)."
+    },
+    {
+      "index": 23,
+      "tag": "BUTTON",
+      "testid": "top-cta",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Ottieni il mio piano"
+    },
+    {
+      "index": 24,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Sì, voglio il mio Piano UGC"
+    },
+    {
+      "index": 25,
+      "tag": "BUTTON",
+      "testid": "primary-2",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Sì, voglio il mio Piano UGC"
+    },
+    {
+      "index": 26,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voglio il Piano UGC"
+    },
+    {
+      "index": 27,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voglio il Piano UGC"
+    },
+    {
+      "index": 28,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voglio il Piano UGC"
+    },
+    {
+      "index": 29,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Servono tanti follower?"
+    },
+    {
+      "index": 30,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Devo per forza metterci la faccia?"
+    },
+    {
+      "index": 31,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quanto si guadagna davvero?"
+    },
+    {
+      "index": 32,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Serve la partita IVA? E le tasse?"
+    },
+    {
+      "index": 33,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "È una truffa?"
+    },
+    {
+      "index": 34,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Serve sapere l'inglese?"
+    },
+    {
+      "index": 35,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Quanto tempo ci vuole?"
+    },
+    {
+      "index": 36,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Come ricevo il materiale?"
+    },
+    {
+      "index": 37,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Non me la cavo con la tecnologia: posso farlo lo stesso?"
+    },
+    {
+      "index": 38,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Perché pagare, se iscriversi alle piattaforme è gratis?"
+    },
+    {
+      "index": 39,
+      "tag": "A",
+      "testid": "checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voglio il Piano UGC"
+    },
+    {
+      "index": 40,
+      "tag": "A",
+      "testid": "withdrawal",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Recedi dal contratto qui"
+    },
+    {
+      "index": 41,
+      "tag": "BUTTON",
+      "testid": "restart",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Rifai il quiz da capo"
+    },
+    {
+      "index": 42,
+      "tag": "A",
+      "testid": "sticky-checkout",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Voglio il Piano UGC"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 18,
+    "maxIndex": 18,
+    "answers": {
+      "eta": [
+        "18-29"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "natale"
+      ],
+      "tempo": [
+        "moka"
+      ],
+      "camera": [
+        "volto"
+      ],
+      "categorie": [
+        "bellezza",
+        "casa"
+      ],
+      "primo-video": [
+        "oggi"
+      ],
+      "analisi.mid": [
+        "si"
+      ],
+      "sconto.reveal": [
+        "pulsante"
+      ]
+    },
+    "wallet": {
+      "total": 1150,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        },
+        {
+          "id": "brief-pasta",
+          "label": "Unboxing pasta · Bronzetto",
+          "amount": 600
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery",
+      "brief-pasta": "delivery"
+    },
+    "confetti": 2,
+    "startedAt": 1794418740706
+  },
+  "textSha256": "08caa49577d72223ee98d2c935770aee6d6e4ef08d40ff4218e1afc087fc67c5"
+}

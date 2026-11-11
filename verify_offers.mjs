@@ -1,0 +1,41 @@
+import { chromium } from 'playwright';
+import { writeFile } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+
+const base='http://127.0.0.1:4173';
+const browser=await chromium.launch({headless:true});
+const errors=[],external=[],cases=[];
+try{
+  const context=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
+  await context.route('**/*',r=>{const u=new URL(r.request().url());if(['http:','https:'].includes(u.protocol)&&u.origin!==base){external.push(u.href);return r.abort();}return r.continue();});
+  const page=await context.newPage();
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(`${base}/?ver=oferta`,{waitUntil:'networkidle'});
+  await page.evaluate(()=>sessionStorage.setItem('ugc-back-v1',JSON.stringify(Date.now()-1000)));
+  await page.reload({waitUntil:'networkidle'});
+  const sheet=page.getByTestId('downsell-sheet');
+  await sheet.waitFor({timeout:6000});
+  const href=await page.getByTestId('downsell-checkout').getAttribute('href');
+  assert.equal(new URL(href).searchParams.get('off'),'aibqj33v');
+  const text=await sheet.innerText();
+  assert(text.includes('19'));
+  await page.screenshot({path:'reports/local-downsell.png',fullPage:false});
+  cases.push({name:'return-from-checkout',simulatedLocalSession:true,text,href,checkoutClicked:false});
+  await page.getByTestId('downsell-no').click();
+  await sheet.waitFor({state:'hidden'});
+  await page.reload({waitUntil:'networkidle'});
+  assert.equal(await sheet.count(),0);
+  cases.push({name:'downsell-shown-once',passed:true});
+  await page.goto(`${base}/?ver=oferta&scaduta=${Math.floor(Date.now()/1000)-3600}`,{waitUntil:'networkidle'});
+  const expired=page.getByTestId('promo-expired');
+  assert.equal(await expired.count(),1);
+  cases.push({name:'expired-email-promo',simulatedLocalQuery:true,text:await expired.innerText()});
+  await writeFile('reports/local-promo-expired.html',await page.content());
+  await page.screenshot({path:'reports/local-promo-expired.png',fullPage:false});
+  await context.close();
+}finally{await browser.close();}
+assert.equal(errors.length,0,JSON.stringify(errors));
+assert.equal(external.length,0,JSON.stringify(external));
+const report={checkedAt:new Date().toISOString(),cases,errors,externalRequests:external,purchasesSubmitted:0};
+await writeFile('reports/offer-variants.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify(report,null,2));

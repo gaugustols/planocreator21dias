@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-11T17:48:46.879Z",
+  "cases": [
+    {
+      "name": "return-from-checkout",
+      "simulatedLocalSession": true,
+      "text": "✋\nAspetta! Non vogliamo che sia il prezzo a fermarti.\n\nSolo per te, adesso: il Piano UGC a 19 € invece di 27 €.\n\n27 €\n19 €\nIVA inclusa\n\nSì, lo prendo a 19 €\nNo, grazie",
+      "href": "https://pay.hotmart.com/S108075670L?off=aibqj33v&checkoutMode=10",
+      "checkoutClicked": false
+    },
+    {
+      "name": "downsell-shown-once",
+      "passed": true
+    },
+    {
+      "name": "expired-email-promo",
+      "simulatedLocalQuery": true,
+      "text": "⌛\nIl prezzo di 14,90 € valeva fino a oggi alle 17:48."
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "purchasesSubmitted": 0
+}

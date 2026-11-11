@@ -1,0 +1,117 @@
+{
+  "sequence": 40,
+  "id": "040_brief-pasta_notification",
+  "url": "http://127.0.0.1:4173/",
+  "step": "brief-pasta",
+  "phase": "notification",
+  "kind": "brief",
+  "title": "",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "📦\nBRIEF UGC\nora\nBrief da Bronzetto: unboxing senza volto\nCompenso proposto: 600 € · Video da 30 secondi, solo mani e uso nelle inserzioni per 3 mesi."
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n550 €\n?"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 11,
+    "maxIndex": 11,
+    "answers": {
+      "eta": [
+        "30-39"
+      ],
+      "obiettivo": [
+        "arrotondare"
+      ],
+      "spesa": [
+        "niente"
+      ],
+      "tempo": [
+        "moka"
+      ],
+      "camera": [
+        "mani_voce"
+      ],
+      "categorie": [
+        "famiglia",
+        "animali"
+      ]
+    },
+    "wallet": {
+      "total": 550,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        },
+        {
+          "id": "brief-moka",
+          "label": "Video moka · Gorgoglio",
+          "amount": 350
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "phases": {
+      "brief-crema": "delivery",
+      "brief-moka": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794418874501
+  },
+  "textSha256": "5dbfbab58e8ed487bb69f08993153f383d42c336ea644cff289426d6077f64bf"
+}

@@ -1,0 +1,232 @@
+{
+  "branch": {
+    "index": 8,
+    "name": "40-49_senza_volto",
+    "age": "40-49",
+    "camera": "senza_volto",
+    "landing": "b",
+    "result": "a"
+  },
+  "success": true,
+  "funnelReachedOffer": true,
+  "failure": null,
+  "captures": 64,
+  "steps": [
+    "landing",
+    "obiettivo",
+    "spesa",
+    "tempo",
+    "cos-e-ugc",
+    "brief-crema",
+    "camera",
+    "niente-follower",
+    "categorie",
+    "brief-moka",
+    "regola-d-oro",
+    "brief-pasta",
+    "primo-video",
+    "analisi",
+    "email",
+    "optin",
+    "nome",
+    "sconto",
+    "risultato"
+  ],
+  "phases": [
+    "brief-crema:notification",
+    "brief-crema:brief",
+    "brief-crema:hook",
+    "brief-crema:storyboard",
+    "brief-crema:record",
+    "brief-crema:closing",
+    "brief-crema:delivery",
+    "brief-moka:notification",
+    "brief-moka:brief",
+    "brief-moka:hook",
+    "brief-moka:record",
+    "brief-moka:delivery",
+    "brief-pasta:notification",
+    "brief-pasta:brief",
+    "brief-pasta:hook",
+    "brief-pasta:record",
+    "brief-pasta:delivery",
+    "analisi:loading",
+    "analisi:question",
+    "analisi:done",
+    "sconto:cover",
+    "sconto:revealed"
+  ],
+  "choices": {
+    "eta": [
+      "40-49"
+    ],
+    "obiettivo": [
+      "arrotondare"
+    ],
+    "spesa": [
+      "parte"
+    ],
+    "tempo": [
+      "moka"
+    ],
+    "camera": [
+      "senza_volto"
+    ],
+    "categorie": [
+      "bellezza",
+      "casa"
+    ],
+    "primo-video": [
+      "oggi"
+    ],
+    "analisi:midQuestion": [
+      "si"
+    ]
+  },
+  "errors": [],
+  "blocked": [],
+  "requests": [
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "http://127.0.0.1:4173/"
+    },
+    {
+      "method": "GET",
+      "type": "font",
+      "url": "http://127.0.0.1:4173/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/assets/index-By7_X_Iq.js"
+    },
+    {
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "http://127.0.0.1:4173/assets/index-DRbyHCeb.css"
+    },
+    {
+      "method": "GET",
+      "type": "image",
+      "url": "http://127.0.0.1:4173/ab/landing1/18-29.webp"
+    },
+    {
+      "method": "GET",
+      "type": "image",
+      "url": "http://127.0.0.1:4173/ab/landing1/30-39.webp"
+    },
+    {
+      "method": "GET",
+      "type": "image",
+      "url": "http://127.0.0.1:4173/ab/landing1/40-49.webp"
+    },
+    {
+      "method": "GET",
+      "type": "image",
+      "url": "http://127.0.0.1:4173/ab/landing1/50.webp"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/assets/ResultScreen-D42Z-iof.js"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "http://127.0.0.1:4173/assets/confetti-NYcgYTrC.js"
+    }
+  ],
+  "actions": [
+    {
+      "step": "analisi",
+      "phase": "done",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continua"
+      }
+    },
+    {
+      "step": "email",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Mandami il piano"
+      }
+    },
+    {
+      "step": "optin",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Sì, iscrivimi!"
+      }
+    },
+    {
+      "step": "nome",
+      "phase": "",
+      "target": {
+        "index": 1,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continua"
+      }
+    },
+    {
+      "step": "sconto",
+      "phase": "cover",
+      "target": {
+        "index": 0,
+        "tag": "BUTTON",
+        "testid": "scratch-reveal",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Rivela lo sconto"
+      }
+    },
+    {
+      "step": "sconto",
+      "phase": "revealed",
+      "target": {
+        "index": 3,
+        "tag": "BUTTON",
+        "testid": "primary",
+        "option": null,
+        "order": null,
+        "correct": null,
+        "checked": null,
+        "disabled": false,
+        "text": "Continua"
+      }
+    }
+  ]
+}

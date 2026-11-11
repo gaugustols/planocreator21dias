@@ -1,0 +1,192 @@
+{
+  "sequence": 27,
+  "id": "027_categorie_question",
+  "url": "http://127.0.0.1:4173/",
+  "step": "categorie",
+  "phase": "",
+  "kind": "question",
+  "title": "Quali categorie ti ispirano di più?",
+  "options": [
+    {
+      "index": 0,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "bellezza",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🧴\nBellezza e skincare"
+    },
+    {
+      "index": 1,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "casa",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🧼\nCasa e pulizie"
+    },
+    {
+      "index": 2,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "cucina",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🍳\nCucina e caffè"
+    },
+    {
+      "index": 3,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "moda",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "👗\nModa e accessori"
+    },
+    {
+      "index": 4,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "famiglia",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🍼\nBimbi e famiglia"
+    },
+    {
+      "index": 5,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "animali",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "🐶\nAnimali"
+    },
+    {
+      "index": 6,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "benessere",
+      "order": null,
+      "correct": null,
+      "checked": "true",
+      "disabled": false,
+      "text": "🏋️\nSport e benessere"
+    },
+    {
+      "index": 7,
+      "tag": "BUTTON",
+      "testid": "option",
+      "option": "tech",
+      "order": null,
+      "correct": null,
+      "checked": "false",
+      "disabled": false,
+      "text": "💻\nTech e gadget"
+    },
+    {
+      "index": 8,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Indietro"
+    },
+    {
+      "index": 9,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "💶\n200 €\n?"
+    },
+    {
+      "index": 10,
+      "tag": "BUTTON",
+      "testid": null,
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": false,
+      "text": "Attiva l'audio"
+    },
+    {
+      "index": 11,
+      "tag": "BUTTON",
+      "testid": "primary",
+      "option": null,
+      "order": null,
+      "correct": null,
+      "checked": null,
+      "disabled": true,
+      "text": "Scegline ancora una"
+    }
+  ],
+  "state": {
+    "v": 1,
+    "sig": "eta|question:obiettivo|question:spesa|question:tempo|interstitial:cos-e-ugc|brief:brief-crema|question:camera|interstitial:niente-follower|question:categorie|brief:brief-moka|interstitial:regola-d-oro|brief:brief-pasta|question:primo-video|analysis:analisi|email:email|optin:optin|name:nome|scratch:sconto|result:risultato",
+    "stepIndex": 8,
+    "maxIndex": 8,
+    "answers": {
+      "eta": [
+        "40-49"
+      ],
+      "obiettivo": [
+        "creativa"
+      ],
+      "spesa": [
+        "vacanza"
+      ],
+      "tempo": [
+        "1ora"
+      ],
+      "camera": [
+        "volto"
+      ]
+    },
+    "wallet": {
+      "total": 200,
+      "items": [
+        {
+          "id": "brief-crema",
+          "label": "Video crema mani · Velù",
+          "amount": 200
+        }
+      ]
+    },
+    "history": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "phases": {
+      "brief-crema": "delivery"
+    },
+    "confetti": 1,
+    "startedAt": 1794418981898
+  },
+  "textSha256": "b5aee3afefa8b7c372bd7d9f75dc5351fe266db1b000b00609666e52351db4c6"
+}

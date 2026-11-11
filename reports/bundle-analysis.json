@@ -1,0 +1,145 @@
+[
+  {
+    "file": "site/assets/BriefScreen-CrHq_bvB.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  },
+  {
+    "file": "site/assets/confetti-NYcgYTrC.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  },
+  {
+    "file": "site/assets/confetti.module-CIeKi3E8.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  },
+  {
+    "file": "site/assets/index-By7_X_Iq.js",
+    "endpoints": [
+      "/api/lead/checkout",
+      "/api/lead/nome",
+      "/api/lead/optin",
+      "/api/lead",
+      "/api/q"
+    ],
+    "externalUrls": [
+      "https://cdn.utmify.com.br/scripts/utms/latest.js",
+      "https://cdn.utmify.com.br/scripts/pixel/pixel.js",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://pay.hotmart.com/S108075670L?checkoutMode=10",
+      "http://www.w3.org/2000/svg",
+      "http://www.w3.org/1998/Math/MathML",
+      "http://www.w3.org/XML/1998/namespace",
+      "http://www.w3.org/1999/xlink",
+      "https://react.dev/errors/"
+    ],
+    "routes": [
+      "/recesso/"
+    ],
+    "templates": [
+      "`${nt.dir}/${rt(e)}.webp`",
+      "`${ne}emoji/${e}.webp`"
+    ],
+    "evidence": [
+      {
+        "term": "/api/lead/checkout",
+        "characterOffset": 328151,
+        "snippet": "JSON.stringify({id:t.id,text:e})),Gn(t))}function Zn(e){let t=Kn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Hn()&&Dt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Gn(t))}function Qn(){if(!S.emailGate)return;let e=Kn();e?.sent&&Hn()&&Dt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function $n(e){if(!S.emailGate)return e;let t=Kn();if(!t||!Nn(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}catch{return e}}var er=!1,tr=!1,nr=[],rr,ir=!1,ar=[],or=30;function sr(){if(er||!S.metaPixelId)return;er=!0;let e=function(...t){e.callMethod?e.callMethod(...t):e.queue.push(t)};window._fbq||(window._fbq=e),e.push=e,e.loaded=!0,e.version=`2.0`,e.queue=[],window.fbq=e;let t=document.createElement(`script`);t.async=!0,t.src=`https://connect.facebook.net/en_US/fbevents.js`,document.head.appendChild(t),e(`consent`,`revoke`),e(`set`,`autoConfig`,!"
+      },
+      {
+        "term": "/api/lead/nome",
+        "characterOffset": 328027,
+        "snippet": "file:qn(e.answers),u:St()}))),Gn(n),n}function Xn(e){let t=Kn();t&&!t.optin&&(t.optin=!0,t.sent&&Hn()&&Dt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Gn(t))}function Zn(e){let t=Kn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Hn()&&Dt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Gn(t))}function Qn(){if(!S.emailGate)return;let e=Kn();e?.sent&&Hn()&&Dt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function $n(e){if(!S.emailGate)return e;let t=Kn();if(!t||!Nn(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}catch{return e}}var er=!1,tr=!1,nr=[],rr,ir=!1,ar=[],or=30;function sr(){if(er||!S.metaPixelId)return;er=!0;let e=function(...t){e.callMethod?e.callMethod(...t):e.queue.push(t)};window._fbq||(window._fbq=e),e.push=e,e.loaded=!0,e.version=`2.0`,e.queue=[],window.fbq=e;let t=document.createElement(`script`);t.async=!0,t.sr"
+      },
+      {
+        "term": "/api/lead/optin",
+        "characterOffset": 327894,
+        "snippet": ".email,optin:!1};return!n.sent&&Hn()&&(n.sent=!0,Dt(`/api/lead`,JSON.stringify({id:n.id,s:Jn(),email:n.email,optin:!1,v:`031803d`,profile:qn(e.answers),u:St()}))),Gn(n),n}function Xn(e){let t=Kn();t&&!t.optin&&(t.optin=!0,t.sent&&Hn()&&Dt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Gn(t))}function Zn(e){let t=Kn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Hn()&&Dt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Gn(t))}function Qn(){if(!S.emailGate)return;let e=Kn();e?.sent&&Hn()&&Dt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function $n(e){if(!S.emailGate)return e;let t=Kn();if(!t||!Nn(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}catch{return e}}var er=!1,tr=!1,nr=[],rr,ir=!1,ar=[],or=30;function sr(){if(er||!S.metaPixelId)return;er=!0;let e=function(...t){e.callMethod?e.callMethod(...t):e.queue.push(t)};window._fbq"
+      },
+      {
+        "term": "/api/lead",
+        "characterOffset": 327707,
+        "snippet": "gorie=n),t}function Jn(){let e=Le(`session`,j.metrics)?.sid;return typeof e==`string`&&/^[a-z0-9]{16,40}$/.test(e)?e:``}function Yn(e){let t=Kn(),n=t&&t.email===e.email?t:{id:Un(),email:e.email,optin:!1};return!n.sent&&Hn()&&(n.sent=!0,Dt(`/api/lead`,JSON.stringify({id:n.id,s:Jn(),email:n.email,optin:!1,v:`031803d`,profile:qn(e.answers),u:St()}))),Gn(n),n}function Xn(e){let t=Kn();t&&!t.optin&&(t.optin=!0,t.sent&&Hn()&&Dt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Gn(t))}function Zn(e){let t=Kn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Hn()&&Dt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Gn(t))}function Qn(){if(!S.emailGate)return;let e=Kn();e?.sent&&Hn()&&Dt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}function $n(e){if(!S.emailGate)return e;let t=Kn();if(!t||!Nn(t.email))return e;try{let n=new URL(e);return n.searchParams.set(`email`,t.email),n.toString()}ca"
+      },
+      {
+        "term": "/api/q",
+        "characterOffset": 302624,
+        "snippet": "r`)===`oferta`}catch{return!1}})();function ft(){ze(`session`,j.funnel);let e=`/`;try{let t=new URL(window.location.href);t.searchParams.delete(`ver`),t.searchParams.delete(`scaduta`),e=`/`+t.search}catch{}window.location.assign(e)}var pt=`/api/q`,mt=1200,ht=40,gt=36e5,_t,vt=[],yt;function bt(){try{if(window.localStorage.getItem(`ugc-m-off`)===`1`)return!1;if(window.localStorage.getItem(`ugc-m-force`)===`1`)return!0}catch{}return!navigator.webdriver&&!/^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname)}function xt(){let e=new Uint8Array(12);return crypto.getRandomValues(e),Array.from(e,e=>e.toString(16).padStart(2,`0`)).join(``)}function St(){let e={...Le(`session`,j.utm)??{}};try{new URLSearchParams(window.location.search).forEach((t,n)=>{/^utm_/.test(n)&&t&&(e[n]=t)})}catch{}let t=(t,n)=>(e[t]??``).slice(0,n);return{src:t(`utm_source`,60),camp:t(`utm_campaign`,160),ad"
+      },
+      {
+        "term": "hotmart",
+        "characterOffset": 221098,
+        "snippet": "eState)(!1);return(0,l.useEffect)(()=>t(!0),[]),e}function x(){try{return window.matchMedia(`(prefers-reduced-motion: reduce)`).matches}catch{return!1}}var S={brandName:`Piano UGC`,productName:`Piano UGC 21 Giorni`,checkoutUrl:`https://pay.hotmart.com/S108075670L?checkoutMode=10`,price:27,vatIncluded:!0,anchorPrice:97,showAnchor:!0,showBonusValues:!0,urgencyBar:{enabled:!0},countdown:{enabled:!0,mode:`endOfDay`,minutes:10,deadlineISO:``},guaranteeDays:15,paymentMethods:[`visa`,`mastercard`,`paypal`,`applepay`,`googlepay`,`klarna`],funnel:{offers:[`y1gwfwn1`,`aibqj33v`,`2roohjnz`],steps:[{id:`kit`,label:`Kit Proposte`,productId:`8768460`},{id:`marche`,label:`Lista das 67 marcas`,productId:`8755932`}]},testimonials:[{name:`Alessia`,status:`Torino`,messages:[{from:`customer`,text:`Volevo dirti che finalmente ho registrato il mio primo video! Non è perfetto, ma almeno ho iniziato \ud83d"
+      },
+      {
+        "term": "pay.hotmart",
+        "characterOffset": 221094,
+        "snippet": "l.useState)(!1);return(0,l.useEffect)(()=>t(!0),[]),e}function x(){try{return window.matchMedia(`(prefers-reduced-motion: reduce)`).matches}catch{return!1}}var S={brandName:`Piano UGC`,productName:`Piano UGC 21 Giorni`,checkoutUrl:`https://pay.hotmart.com/S108075670L?checkoutMode=10`,price:27,vatIncluded:!0,anchorPrice:97,showAnchor:!0,showBonusValues:!0,urgencyBar:{enabled:!0},countdown:{enabled:!0,mode:`endOfDay`,minutes:10,deadlineISO:``},guaranteeDays:15,paymentMethods:[`visa`,`mastercard`,`paypal`,`applepay`,`googlepay`,`klarna`],funnel:{offers:[`y1gwfwn1`,`aibqj33v`,`2roohjnz`],steps:[{id:`kit`,label:`Kit Proposte`,productId:`8768460`},{id:`marche`,label:`Lista das 67 marcas`,productId:`8755932`}]},testimonials:[{name:`Alessia`,status:`Torino`,messages:[{from:`customer`,text:`Volevo dirti che finalmente ho registrato il mio primo video! Non è perfetto, ma almeno ho inizia"
+      },
+      {
+        "term": "ugc-m-off",
+        "characterOffset": 302716,
+        "snippet": "new URL(window.location.href);t.searchParams.delete(`ver`),t.searchParams.delete(`scaduta`),e=`/`+t.search}catch{}window.location.assign(e)}var pt=`/api/q`,mt=1200,ht=40,gt=36e5,_t,vt=[],yt;function bt(){try{if(window.localStorage.getItem(`ugc-m-off`)===`1`)return!1;if(window.localStorage.getItem(`ugc-m-force`)===`1`)return!0}catch{}return!navigator.webdriver&&!/^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname)}function xt(){let e=new Uint8Array(12);return crypto.getRandomValues(e),Array.from(e,e=>e.toString(16).padStart(2,`0`)).join(``)}function St(){let e={...Le(`session`,j.utm)??{}};try{new URLSearchParams(window.location.search).forEach((t,n)=>{/^utm_/.test(n)&&t&&(e[n]=t)})}catch{}let t=(t,n)=>(e[t]??``).slice(0,n);return{src:t(`utm_source`,60),camp:t(`utm_campaign`,160),adset:t(`utm_medium`,160),ad:t(`utm_content`,160),place:t(`utm_term`,60)}}function Ct(){let e="
+      },
+      {
+        "term": "localhost",
+        "characterOffset": 302843,
+        "snippet": "on.assign(e)}var pt=`/api/q`,mt=1200,ht=40,gt=36e5,_t,vt=[],yt;function bt(){try{if(window.localStorage.getItem(`ugc-m-off`)===`1`)return!1;if(window.localStorage.getItem(`ugc-m-force`)===`1`)return!0}catch{}return!navigator.webdriver&&!/^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname)}function xt(){let e=new Uint8Array(12);return crypto.getRandomValues(e),Array.from(e,e=>e.toString(16).padStart(2,`0`)).join(``)}function St(){let e={...Le(`session`,j.utm)??{}};try{new URLSearchParams(window.location.search).forEach((t,n)=>{/^utm_/.test(n)&&t&&(e[n]=t)})}catch{}let t=(t,n)=>(e[t]??``).slice(0,n);return{src:t(`utm_source`,60),camp:t(`utm_campaign`,160),adset:t(`utm_medium`,160),ad:t(`utm_content`,160),place:t(`utm_term`,60)}}function Ct(){let e=navigator.userAgent,t=/iPhone|iPad|iPod/.test(e)||/Macintosh/.test(e)&&navigator.maxTouchPoints>1?`ios`:/Android/.test(e)?`andr"
+      }
+    ],
+    "requestFunctions": [
+      {
+        "name": "Qn",
+        "start": 328084,
+        "source": "function Qn(){if(!S.emailGate)return;let e=Kn();e?.sent&&Hn()&&Dt(`/api/lead/checkout`,JSON.stringify({id:e.id}))}"
+      },
+      {
+        "name": "Zn",
+        "start": 327952,
+        "source": "function Zn(e){let t=Kn();t&&(t.nome??``)!==e&&(t.nome=e,t.sent&&Hn()&&Dt(`/api/lead/nome`,JSON.stringify({id:t.id,nome:e})),Gn(t))}"
+      },
+      {
+        "name": "Xn",
+        "start": 327825,
+        "source": "function Xn(e){let t=Kn();t&&!t.optin&&(t.optin=!0,t.sent&&Hn()&&Dt(`/api/lead/optin`,JSON.stringify({id:t.id,text:e})),Gn(t))}"
+      },
+      {
+        "name": "Yn",
+        "start": 327587,
+        "source": "function Yn(e){let t=Kn(),n=t&&t.email===e.email?t:{id:Un(),email:e.email,optin:!1};return!n.sent&&Hn()&&(n.sent=!0,Dt(`/api/lead`,JSON.stringify({id:n.id,s:Jn(),email:n.email,optin:!1,v:`031803d`,profile:qn(e.answers),u:St()}))),Gn(n),n}"
+      },
+      {
+        "name": "Dt",
+        "start": 304429,
+        "source": "function Dt(e,t){try{if(navigator.sendBeacon?.(e,t))return}catch{}try{fetch(e,{method:`POST`,body:t,keepalive:!0,credentials:`omit`}).catch(()=>void 0)}catch{}}"
+      },
+      {
+        "name": "n",
+        "start": 842,
+        "source": "function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}"
+      }
+    ]
+  },
+  {
+    "file": "site/assets/ResultScreen-D42Z-iof.js",
+    "endpoints": [],
+    "externalUrls": [],
+    "routes": [],
+    "templates": [],
+    "evidence": [],
+    "requestFunctions": []
+  }
+]

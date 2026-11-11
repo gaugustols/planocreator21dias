@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-11T17:43:40.025Z",
+  "originalFilesVerified": 182,
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "fallback": null,
+      "characters": 1064,
+      "reloadResumeAndBack": true
+    },
+    {
+      "route": "/0/0",
+      "status": 200,
+      "fallback": "index.html",
+      "characters": 1050
+    },
+    {
+      "route": "/paywall/",
+      "status": 200,
+      "fallback": "index.html",
+      "characters": 1064
+    },
+    {
+      "route": "/recesso/",
+      "status": 200,
+      "fallback": null,
+      "characters": 1012
+    },
+    {
+      "route": "/?ver=oferta",
+      "status": 200,
+      "fallback": null,
+      "characters": 14006
+    }
+  ],
+  "missingAssetStatus": 404,
+  "missingBackendStatus": 503,
+  "errors": [],
+  "externalRequests": []
+}

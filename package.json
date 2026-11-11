@@ -1,0 +1,25 @@
+{
+  "name": "planocreator21dias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plano Creator 21 Dias",
+  "scripts": {
+    "start": "node serve.mjs",
+    "recon": "node reconnaissance.mjs",
+    "mirror": "node mirror.mjs",
+    "audit": "node audit_assets.mjs",
+    "inspect": "node inspect_bundle.mjs",
+    "crawl": "node crawl.mjs",
+    "verify": "node verify_local.mjs",
+    "verify:offers": "node verify_offers.mjs",
+    "build": "node prepare_deploy.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaugustols/planocreator21dias.git"
+  },
+  "devDependencies": {
+    "acorn": "^8.19.0",
+    "playwright": "^1.65.0"
+  }
+}

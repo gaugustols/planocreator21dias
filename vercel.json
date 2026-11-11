@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node prepare_deploy.mjs",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/recesso", "destination": "/recesso/index.html" },
+    { "source": "/recesso/", "destination": "/recesso/index.html" },
+    { "source": "/((?!api(?:/|$)|.*\\.).*)", "destination": "/index.html" }
+  ]
+}
