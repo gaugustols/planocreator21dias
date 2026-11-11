@@ -21,7 +21,8 @@
     "crawl:br": "node crawl.mjs --locale=br",
     "verify:locales": "node verify_locales.mjs",
     "verify:offers:br": "node verify_offers.mjs --locale=br",
-    "summarize:br": "node summarize_br.mjs"
+    "summarize:br": "node summarize_br.mjs",
+    "verify:original:br": "node verify_br_original.mjs"
   },
   "repository": {
     "type": "git",

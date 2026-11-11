@@ -29,6 +29,7 @@ Abra **http://127.0.0.1:4173/br/** para português ou **http://127.0.0.1:4173/**
 | `npm run crawl:br` | Percorre 12 combinações locais; para antes de qualquer compra e bloqueia saídas de `/br/` e rede externa. |
 | `npm run verify:locales` | Verifica integridade, larguras, rotas profundas, imagens, links internos e independência dos idiomas na mesma aba. |
 | `npm run verify:offers:br` | Confere destino dos links brasileiros e simula a segunda proposta e a mensagem de promoção expirada, sem visitar o checkout. |
+| `npm run verify:original:br` | Confere os arquivos atuais da oferta original e compara textos, imagens e SVGs em 44 telas locais; requer internet e `npm start` ativo. |
 | `npm run build` | Regera a adaptação e prepara as duas versões em `dist/`. Não publica e não cria APIs. |
 
 Todos os comandos de reconhecimento/espelho/auditoria/inspeção também aceitam `--locale=br` diretamente. Sem a opção, esses scripts continuam usando a versão italiana. Exemplos: `node audit_assets.mjs --locale=br --verify-remote`, `node crawl.mjs --locale=br --resume` e `node crawl.mjs --locale=br --browser=webkit --pilot`. Requer servidor local ativo para os testes. Os scripts usam Node.js/Playwright/Acorn; não dependem de Python.
@@ -50,6 +51,8 @@ Não edite somente a cópia gerada se quiser manter uma alteração: `npm run mo
 São **19 etapas principais** e **17 fases internas** dos três briefings de simulação, totalizando **33 posições de fluxo** ao expandir os briefings. A idade oferece quatro opções; a preferência de câmera oferece três. Não há pergunta de gênero no conteúdo encontrado. Os testes exercitam as 12 combinações de idade/câmera e distribuem as demais respostas para cobrir todas as opções individuais e as seis combinações A/B de landing/resultado. Isso não enumera todas as combinações possíveis de todas as perguntas.
 
 Consulte **[VALIDACAO-BR.md](VALIDACAO-BR.md)** para o resultado consolidado e os relatórios JSON associados. As capturas incluem as opções encontradas, estado do quiz e títulos extraídos da área principal. O teste usa `recuperacao.teste@example.com`, sem dados reais e sem cartão.
+
+A comparação atual de conteúdo com a oferta original está em **[COMPARACAO-BR.md](COMPARACAO-BR.md)**: 182 arquivos conferidos contra o site no ar e 44 comparações renderizadas aprovadas, preservando a headline e a subheadline autorizadas.
 
 A auditoria encontra **182 referências**, sendo **181 presentes, zero pendências recuperáveis e um rótulo de vídeo fictício**: `video_final.mp4`. O candidato `/assets/video_final.mp4` foi confirmado como 404 no servidor original; a simulação só exibe esse nome, não carrega um vídeo com ele. A semente extra `sitemap.xml` também retornou 404. As duas expressões dinâmicas de imagens foram resolvidas pelas quatro idades e pelas 162 chaves de emoji, incluindo imagens que não aparecem no primeiro percurso.
 

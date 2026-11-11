@@ -1,0 +1,882 @@
+{
+  "checkedAt": "2026-11-11T20:25:35.652Z",
+  "reference": "https://trilha-ugc.pages.dev/",
+  "referenceMethod": "Fresh HTTP file hashes plus the verified original served locally without tracking; only local pages were rendered, with matching state, A/B variant, random seed, time and viewport.",
+  "liveOriginalFiles": 182,
+  "liveFilesIdentical": 182,
+  "moduleChecks": [
+    {
+      "file": "/assets/index-CsqgZ4_P.js",
+      "semanticallyIdenticalExceptApprovedCopyAndMount": true
+    },
+    {
+      "file": "/assets/confetti-DgEV_XmA.js",
+      "semanticallyIdenticalExceptApprovedCopyAndMount": true
+    },
+    {
+      "file": "/assets/ResultScreen-CbSB5OWy.js",
+      "semanticallyIdenticalExceptApprovedCopyAndMount": true
+    },
+    {
+      "file": "/assets/BriefScreen-Ca-IHevk.js",
+      "semanticallyIdenticalExceptApprovedCopyAndMount": true
+    },
+    {
+      "file": "/assets/confetti.module-CIeKi3E8.js",
+      "semanticallyIdenticalExceptApprovedCopyAndMount": true
+    }
+  ],
+  "unchangedAssets": 175,
+  "contentStrings": 731,
+  "approvedCopyExceptions": [
+    "landing.variants.c.headline",
+    "landing.variants.c.subheadline"
+  ],
+  "renderedScreens": 44,
+  "branches": 12,
+  "retriedScenarios": 0,
+  "errors": [],
+  "checks": [
+    {
+      "scenario": "18-29_volto_obiettivo_",
+      "branch": "18-29_volto",
+      "step": "obiettivo",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 439,
+      "visibleImages": 0,
+      "visibleSvg": 4,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_spesa_",
+      "branch": "18-29_volto",
+      "step": "spesa",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 294,
+      "visibleImages": 0,
+      "visibleSvg": 5,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_tempo_",
+      "branch": "18-29_volto",
+      "step": "tempo",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 366,
+      "visibleImages": 0,
+      "visibleSvg": 4,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_cos-e-ugc_",
+      "branch": "18-29_volto",
+      "step": "cos-e-ugc",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 680,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-crema_notification",
+      "branch": "18-29_volto",
+      "step": "brief-crema",
+      "phase": "notification",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "notification",
+      "localPhase": "notification",
+      "characters": 295,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-crema_brief",
+      "branch": "18-29_volto",
+      "step": "brief-crema",
+      "phase": "brief",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "brief",
+      "localPhase": "brief",
+      "characters": 484,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-crema_hook",
+      "branch": "18-29_volto",
+      "step": "brief-crema",
+      "phase": "hook",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "hook",
+      "localPhase": "hook",
+      "characters": 482,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-crema_storyboard",
+      "branch": "18-29_volto",
+      "step": "brief-crema",
+      "phase": "storyboard",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "storyboard",
+      "localPhase": "storyboard",
+      "characters": 308,
+      "visibleImages": 0,
+      "visibleSvg": 0,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-crema_record",
+      "branch": "18-29_volto",
+      "step": "brief-crema",
+      "phase": "record",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "record",
+      "localPhase": "record",
+      "characters": 207,
+      "visibleImages": 0,
+      "visibleSvg": 4,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-crema_closing",
+      "branch": "18-29_volto",
+      "step": "brief-crema",
+      "phase": "closing",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "closing",
+      "localPhase": "closing",
+      "characters": 326,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-crema_delivery",
+      "branch": "18-29_volto",
+      "step": "brief-crema",
+      "phase": "delivery",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "delivery",
+      "localPhase": "delivery",
+      "characters": 408,
+      "visibleImages": 0,
+      "visibleSvg": 5,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_camera_",
+      "branch": "18-29_volto",
+      "step": "camera",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 314,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_niente-follower_",
+      "branch": "18-29_volto",
+      "step": "niente-follower",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 586,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_categorie_",
+      "branch": "18-29_volto",
+      "step": "categorie",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 343,
+      "visibleImages": 0,
+      "visibleSvg": 8,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-moka_notification",
+      "branch": "18-29_volto",
+      "step": "brief-moka",
+      "phase": "notification",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "notification",
+      "localPhase": "notification",
+      "characters": 283,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-moka_brief",
+      "branch": "18-29_volto",
+      "step": "brief-moka",
+      "phase": "brief",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "brief",
+      "localPhase": "brief",
+      "characters": 520,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-moka_hook",
+      "branch": "18-29_volto",
+      "step": "brief-moka",
+      "phase": "hook",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "hook",
+      "localPhase": "hook",
+      "characters": 492,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-moka_record",
+      "branch": "18-29_volto",
+      "step": "brief-moka",
+      "phase": "record",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "record",
+      "localPhase": "record",
+      "characters": 221,
+      "visibleImages": 0,
+      "visibleSvg": 4,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-moka_delivery",
+      "branch": "18-29_volto",
+      "step": "brief-moka",
+      "phase": "delivery",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "delivery",
+      "localPhase": "delivery",
+      "characters": 424,
+      "visibleImages": 0,
+      "visibleSvg": 6,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_regola-d-oro_",
+      "branch": "18-29_volto",
+      "step": "regola-d-oro",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 956,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-pasta_notification",
+      "branch": "18-29_volto",
+      "step": "brief-pasta",
+      "phase": "notification",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "notification",
+      "localPhase": "notification",
+      "characters": 336,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-pasta_brief",
+      "branch": "18-29_volto",
+      "step": "brief-pasta",
+      "phase": "brief",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "brief",
+      "localPhase": "brief",
+      "characters": 501,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-pasta_hook",
+      "branch": "18-29_volto",
+      "step": "brief-pasta",
+      "phase": "hook",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "hook",
+      "localPhase": "hook",
+      "characters": 380,
+      "visibleImages": 0,
+      "visibleSvg": 3,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-pasta_record",
+      "branch": "18-29_volto",
+      "step": "brief-pasta",
+      "phase": "record",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "record",
+      "localPhase": "record",
+      "characters": 226,
+      "visibleImages": 0,
+      "visibleSvg": 4,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_brief-pasta_delivery",
+      "branch": "18-29_volto",
+      "step": "brief-pasta",
+      "phase": "delivery",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "delivery",
+      "localPhase": "delivery",
+      "characters": 447,
+      "visibleImages": 0,
+      "visibleSvg": 7,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_primo-video_",
+      "branch": "18-29_volto",
+      "step": "primo-video",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 277,
+      "visibleImages": 0,
+      "visibleSvg": 4,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_analisi_",
+      "branch": "18-29_volto",
+      "step": "analisi",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "question",
+      "localPhase": "question",
+      "characters": 495,
+      "visibleImages": 0,
+      "visibleSvg": 4,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_email_",
+      "branch": "18-29_volto",
+      "step": "email",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 440,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_optin_",
+      "branch": "18-29_volto",
+      "step": "optin",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 546,
+      "visibleImages": 0,
+      "visibleSvg": 0,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_nome_",
+      "branch": "18-29_volto",
+      "step": "nome",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 228,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_sconto_",
+      "branch": "18-29_volto",
+      "step": "sconto",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "cover",
+      "localPhase": "cover",
+      "characters": 231,
+      "visibleImages": 0,
+      "visibleSvg": 1,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_volto_risultato_",
+      "branch": "18-29_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14214,
+      "visibleImages": 0,
+      "visibleSvg": 27,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_mani_voce_risultato_",
+      "branch": "18-29_mani_voce",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14614,
+      "visibleImages": 0,
+      "visibleSvg": 33,
+      "contentEqual": true
+    },
+    {
+      "scenario": "18-29_senza_volto_risultato_",
+      "branch": "18-29_senza_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14193,
+      "visibleImages": 0,
+      "visibleSvg": 28,
+      "contentEqual": true
+    },
+    {
+      "scenario": "30-39_volto_risultato_",
+      "branch": "30-39_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14710,
+      "visibleImages": 0,
+      "visibleSvg": 32,
+      "contentEqual": true
+    },
+    {
+      "scenario": "30-39_mani_voce_risultato_",
+      "branch": "30-39_mani_voce",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14175,
+      "visibleImages": 0,
+      "visibleSvg": 28,
+      "contentEqual": true
+    },
+    {
+      "scenario": "30-39_senza_volto_risultato_",
+      "branch": "30-39_senza_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14587,
+      "visibleImages": 0,
+      "visibleSvg": 33,
+      "contentEqual": true
+    },
+    {
+      "scenario": "40-49_volto_risultato_",
+      "branch": "40-49_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14247,
+      "visibleImages": 0,
+      "visibleSvg": 27,
+      "contentEqual": true
+    },
+    {
+      "scenario": "40-49_mani_voce_risultato_",
+      "branch": "40-49_mani_voce",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14687,
+      "visibleImages": 0,
+      "visibleSvg": 33,
+      "contentEqual": true
+    },
+    {
+      "scenario": "40-49_senza_volto_risultato_",
+      "branch": "40-49_senza_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14178,
+      "visibleImages": 0,
+      "visibleSvg": 28,
+      "contentEqual": true
+    },
+    {
+      "scenario": "50plus_volto_risultato_",
+      "branch": "50plus_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14643,
+      "visibleImages": 0,
+      "visibleSvg": 32,
+      "contentEqual": true
+    },
+    {
+      "scenario": "50plus_mani_voce_risultato_",
+      "branch": "50plus_mani_voce",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14208,
+      "visibleImages": 0,
+      "visibleSvg": 28,
+      "contentEqual": true
+    },
+    {
+      "scenario": "50plus_senza_volto_risultato_",
+      "branch": "50plus_senza_volto",
+      "step": "risultato",
+      "phase": "",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 14668,
+      "visibleImages": 0,
+      "visibleSvg": 33,
+      "contentEqual": true
+    },
+    {
+      "scenario": "legal_arrependimento",
+      "branch": "18-29_volto",
+      "step": null,
+      "phase": "",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "textEqual": true,
+      "imagesEqual": true,
+      "svgEqual": true,
+      "referencePhase": "",
+      "localPhase": "",
+      "characters": 1042,
+      "visibleImages": 0,
+      "visibleSvg": 0,
+      "contentEqual": true
+    }
+  ],
+  "rawExactMatchingScreens": 44,
+  "matchingScreens": 44,
+  "dynamicVariations": 0,
+  "normalization": "Only HH:mm clock displays and permutations of the same four original storyboard cards are normalized. All other text, image references and inline SVGs must match.",
+  "mismatches": []
+}

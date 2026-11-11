@@ -8,3 +8,4 @@ dist/
 .env
 .env.*
 !.env.example
+reports/br/original-parity/debug-attempts/
