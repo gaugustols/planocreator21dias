@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node serve.mjs",
     "painel": "node serve_analytics.mjs",
-    "test:analytics": "node --test tests/analytics.test.mjs",
+    "test:analytics": "node --test tests/analytics.test.mjs tests/analytics-installations.test.mjs",
     "test:analytics:browser": "node tests/analytics-browser.mjs",
     "recon": "node reconnaissance.mjs",
     "mirror": "node mirror.mjs",

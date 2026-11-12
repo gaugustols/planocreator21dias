@@ -1,0 +1,183 @@
+{
+  "panelOrigin": "https://planocreator21dias.vercel.app",
+  "installations": [
+    {
+      "path": "/",
+      "offer": {
+        "id": "81c0788c-da94-40e5-818d-6d5b496bc74a",
+        "name": "Plano Creator 21 Dias · Italiano",
+        "publicKey": "fWCiiLnYc16QrBor_pG8HP7ccsx8-GM-",
+        "origins": [
+          "https://planocreator21dias.vercel.app"
+        ],
+        "steps": [
+          {
+            "id": "landing",
+            "label": "Entrada e idade"
+          },
+          {
+            "id": "obiettivo",
+            "label": "Objetivo"
+          },
+          {
+            "id": "spesa",
+            "label": "Primeira conquista"
+          },
+          {
+            "id": "tempo",
+            "label": "Disponibilidade"
+          },
+          {
+            "id": "cos-e-ugc",
+            "label": "Entenda o UGC"
+          },
+          {
+            "id": "brief-crema",
+            "label": "Simulação 1"
+          },
+          {
+            "id": "camera",
+            "label": "Preferência de câmera"
+          },
+          {
+            "id": "niente-follower",
+            "label": "Seguidores e exposição"
+          },
+          {
+            "id": "categorie",
+            "label": "Categorias de produtos"
+          },
+          {
+            "id": "brief-moka",
+            "label": "Simulação 2"
+          },
+          {
+            "id": "regola-d-oro",
+            "label": "Regra de segurança"
+          },
+          {
+            "id": "brief-pasta",
+            "label": "Simulação 3"
+          },
+          {
+            "id": "primo-video",
+            "label": "Primeiro vídeo"
+          },
+          {
+            "id": "analisi",
+            "label": "Análise do perfil"
+          },
+          {
+            "id": "email",
+            "label": "Email"
+          },
+          {
+            "id": "optin",
+            "label": "Consentimento"
+          },
+          {
+            "id": "nome",
+            "label": "Nome"
+          },
+          {
+            "id": "sconto",
+            "label": "Raspadinha"
+          },
+          {
+            "id": "risultato",
+            "label": "Resultado e oferta"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/br/",
+      "offer": {
+        "id": "eadac57a-f391-4956-9f72-681a7c3633e6",
+        "name": "Plano Creator 21 Dias · Português",
+        "publicKey": "c_K8bQCf7-gHjsYoKCCJOoQS3kTgznHV",
+        "origins": [
+          "https://planocreator21dias.vercel.app"
+        ],
+        "steps": [
+          {
+            "id": "landing",
+            "label": "Entrada e idade"
+          },
+          {
+            "id": "obiettivo",
+            "label": "Objetivo"
+          },
+          {
+            "id": "spesa",
+            "label": "Primeira conquista"
+          },
+          {
+            "id": "tempo",
+            "label": "Disponibilidade"
+          },
+          {
+            "id": "cos-e-ugc",
+            "label": "Entenda o UGC"
+          },
+          {
+            "id": "brief-crema",
+            "label": "Simulação 1"
+          },
+          {
+            "id": "camera",
+            "label": "Preferência de câmera"
+          },
+          {
+            "id": "niente-follower",
+            "label": "Seguidores e exposição"
+          },
+          {
+            "id": "categorie",
+            "label": "Categorias de produtos"
+          },
+          {
+            "id": "brief-moka",
+            "label": "Simulação 2"
+          },
+          {
+            "id": "regola-d-oro",
+            "label": "Regra de segurança"
+          },
+          {
+            "id": "brief-pasta",
+            "label": "Simulação 3"
+          },
+          {
+            "id": "primo-video",
+            "label": "Primeiro vídeo"
+          },
+          {
+            "id": "analisi",
+            "label": "Análise do perfil"
+          },
+          {
+            "id": "email",
+            "label": "Email"
+          },
+          {
+            "id": "optin",
+            "label": "Consentimento"
+          },
+          {
+            "id": "nome",
+            "label": "Nome"
+          },
+          {
+            "id": "sconto",
+            "label": "Raspadinha"
+          },
+          {
+            "id": "risultato",
+            "label": "Resultado e oferta"
+          }
+        ]
+      }
+    }
+  ]
+}

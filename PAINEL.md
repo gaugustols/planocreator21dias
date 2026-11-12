@@ -2,6 +2,14 @@
 
 Um único painel em português, com cadastro de várias ofertas, domínios e fluxos. O idioma do quiz não muda o idioma da interface. Cada oferta tem seu próprio ID; não existe divisão fixa entre Brasil e Itália.
 
+## Instalações deste projeto
+
+O arquivo `content/analytics-sites.json` configura as duas instalações atuais, na raiz `/` e em `/br/`, com IDs estáveis, 19 etapas e o painel central em **https://planocreator21dias.vercel.app/painel/**. São duas ofertas dentro do mesmo painel, que continua aceitando qualquer oferta adicional.
+
+O build injeta o script apenas no HTML gerado de `dist/`; os HTMLs originais de `site/` e `recovered/` permanecem preservados. Na primeira conexão de produção, as ofertas são cadastradas automaticamente no Postgres. Novas conexões/deploys não sobrescrevem nomes, domínios, etapas ou histórico editados pelo proprietário. Não troque IDs/chaves deste arquivo depois de começar a coleta sem uma migração explícita.
+
+Para um domínio novo de quiz, autorize a origem na oferta pelo painel e mantenha o endpoint apontando ao painel central. As instalações da configuração são carregadas somente em produção; `ANALYTICS_LOAD_INSTALLATIONS=1` permite reproduzi-las conscientemente num banco local de teste.
+
 ## Prévia e estado atual
 
 ```powershell

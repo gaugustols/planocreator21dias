@@ -1,5 +1,6 @@
 import { mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { seedInstalledOffers } from './installations.mjs';
 
 let storePromise;
 const schema = [
@@ -44,6 +45,7 @@ async function openStore() {
   await db.transaction(async query=>{
     if(db.kind==='postgres')await query('SELECT pg_advisory_xact_lock(218937420)');
     for(const sql of schema)await query(sql);
+    await seedInstalledOffers(query,{enabled:!localMode()||process.env.ANALYTICS_LOAD_INSTALLATIONS==='1'});
   });
   return db;
 }

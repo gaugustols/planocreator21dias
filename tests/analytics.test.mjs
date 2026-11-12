@@ -79,3 +79,14 @@ test('cohort counts follow-through after the selected session-start interval',as
   const result=await request('overview',{params:{offer:second.id,from:at-1000,to:at+1000}});
   assert.equal(result.data.summary.sessions,1);assert.equal(result.data.summary.completed,1);assert.equal(result.data.steps[0].advanced,1);
 });
+
+test('deployment bootstrap creates actual configured offers once and preserves later owner changes',async()=>{
+  const db=await (await import('../analytics/store.mjs')).store();
+  const {seedInstalledOffers,analyticsSetup}=await import('../analytics/installations.mjs');
+  await seedInstalledOffers(db.query);
+  const installed=analyticsSetup.installations[0].offer;
+  assert.equal((await db.query('SELECT id FROM qa_offers WHERE id=$1',[installed.id])).length,1);
+  await db.query('UPDATE qa_offers SET name=$1 WHERE id=$2',['Nome editado pelo proprietário',installed.id]);
+  await seedInstalledOffers(db.query);
+  assert.equal((await db.query('SELECT name FROM qa_offers WHERE id=$1',[installed.id]))[0].name,'Nome editado pelo proprietário');
+});

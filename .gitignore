@@ -12,3 +12,5 @@ reports/br/original-parity/debug-attempts/
 .data/
 .vercel/
 reports/analytics/painel-test-*.png
+reports/analytics/neon-terms.png
+reports/analytics/vercel-setup-secrets.png
