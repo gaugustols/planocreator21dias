@@ -45,6 +45,11 @@ async function request(action,{method='GET',body,params={},auth=true,requestOrig
 }
 
 test('owner auth, CSRF, offer isolation and collector origin validation',async()=>{
+  const secret=process.env.PAINEL_SESSION_SECRET;
+  process.env.PAINEL_SESSION_SECRET='short';
+  const readiness=await request('session',{auth:false});assert.equal(readiness.data.configured,false);assert.equal(readiness.data.setup.passwordReady,true);assert.equal(readiness.data.setup.sessionSecretReady,false);
+  assert.ok(!JSON.stringify(readiness.data).includes(secret));
+  process.env.PAINEL_SESSION_SECRET=secret;
   const unauthorized=await request('offers',{auth:false});assert.equal(unauthorized.status,401);
   assert.equal((await request('login',{method:'POST',body:{password:'wrong'}})).status,401);
   const login=await request('login',{method:'POST',body:{password:process.env.PAINEL_PASSWORD}});assert.equal(login.status,200);cookie=login.headers.get('set-cookie').split(';')[0];

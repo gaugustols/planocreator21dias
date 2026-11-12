@@ -105,7 +105,12 @@
   async function boot(){
     try{
       const session=await api('session');
-      if(!session.authenticated){showLogin(session.configured?'':'Configure a senha, o segredo de sessão e o banco na Vercel para ativar o painel.');return;}
+      if(!session.authenticated){
+        const missing=[];
+        if(!session.configured){if(!session.setup?.passwordReady)missing.push('PAINEL_PASSWORD precisa ter pelo menos 12 caracteres');if(!session.setup?.sessionSecretReady)missing.push('PAINEL_SESSION_SECRET precisa ter pelo menos 32 caracteres');}
+        if(!session.database)missing.push('conecte o banco Postgres');
+        showLogin(missing.length?missing.join('. ')+'.':'');return;
+      }
       $('login').hidden=true;$('app').hidden=false;$('environment').textContent=session.local?'Prévia local':'Proprietário';$('logout').hidden=session.local;
       const day=new Date().toISOString().slice(0,10);$('date-to').value=day;$('date-from').value=new Date(Date.now()-6*86400000).toISOString().slice(0,10);
       await loadOffers();
