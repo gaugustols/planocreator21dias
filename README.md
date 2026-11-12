@@ -1,6 +1,6 @@
 # Piano UGC 21 Giorni — recuperação da oferta
 
-O projeto inclui o **Ponto**, painel privado em português para analisar qualquer oferta/idioma, ativo com Postgres na Vercel: **https://planocreator21dias.vercel.app/painel/**. Os quizzes atuais já têm o coletor instalado. A prévia `npm run painel` fica em **http://127.0.0.1:4174/painel/** e tem uma oferta com dados fictícios. Consulte **[PAINEL.md](PAINEL.md)**.
+O projeto inclui o **GAL Pulse — Analytics de quizzes e funis**, painel privado da GAL NEGOCIOS DIGITAIS LTDA: **Inteligência de dados para funis de alta conversão.** Ativo com Postgres na Vercel em **https://planocreator21dias.vercel.app/painel/**, permite analisar qualquer oferta/idioma. Os quizzes atuais já têm o coletor instalado. A prévia `npm run painel` fica em **http://127.0.0.1:4174/painel/** e tem uma oferta com dados fictícios. Consulte **[PAINEL.md](PAINEL.md)**.
 
 O projeto também contém a versão brasileira **Trilha UGC 21 Dias** em **`/br/`**. A italiana permanece em **`/`**. Consulte [README-BR.md](README-BR.md) para a recuperação brasileira, os scripts com `--locale=br`, a separação de dados no navegador e as validações entre idiomas. A documentação abaixo descreve a recuperação italiana.
 

@@ -1,4 +1,6 @@
-# Ponto — painel privado para qualquer oferta
+# GAL Pulse — Analytics de quizzes e funis
+
+**Inteligência de dados para funis de alta conversão.** Painel da GAL NEGOCIOS DIGITAIS LTDA.
 
 Um único painel em português, com cadastro de várias ofertas, domínios e fluxos. O idioma do quiz não muda o idioma da interface. Cada oferta tem seu próprio ID; não existe divisão fixa entre Brasil e Itália.
 
