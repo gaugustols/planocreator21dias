@@ -6,12 +6,15 @@
   <title>GAL Pulse — Analytics de quizzes e funis</title>
   <meta name="application-name" content="GAL Pulse">
   <meta name="description" content="GAL Pulse — Analytics de quizzes e funis. Inteligência de dados para funis de alta conversão.">
+  <meta name="color-scheme" content="light dark">
   <link rel="icon" type="image/svg+xml" href="/painel/gal-pulse.svg">
-  <link rel="stylesheet" href="/painel/painel.css"><script defer src="/painel/painel.js"></script>
+  <script src="/painel/theme.js"></script>
+  <link rel="stylesheet" href="/painel/painel.css"><link rel="stylesheet" href="/painel/themes.css"><script defer src="/painel/painel.js"></script>
 </head>
 <body>
   <div id="login" class="login-screen" hidden>
     <form id="login-form" class="login-card">
+      <div class="login-theme"><div class="theme-switch" role="group" aria-label="Tema do painel"><button type="button" data-theme-value="light" aria-label="Modo claro" aria-pressed="true" title="Modo claro"><span aria-hidden="true">☀</span><span class="theme-label">Claro</span></button><button type="button" data-theme-value="dark" aria-label="Modo escuro" aria-pressed="false" title="Modo escuro"><span aria-hidden="true">☾</span><span class="theme-label">Escuro</span></button></div></div>
       <div class="brand-lockup"><div class="brand"><span class="brand-mark" aria-hidden="true">G<span>•</span></span><span class="brand-wordmark"><strong>GAL</strong> <span>Pulse</span></span></div><p class="brand-subtitle">Analytics de quizzes e funis</p></div>
       <p class="eyebrow">GAL NEGOCIOS DIGITAIS LTDA</p><h1>Inteligência de dados para funis de alta conversão.</h1>
       <p class="muted">Acesse seu painel privado de ofertas.</p>
@@ -31,7 +34,7 @@
       <div class="owner"><span class="avatar owner-avatar">EU</span><div><strong>Meu acesso</strong><small id="environment">Proprietário</small></div><button id="logout" aria-label="Sair" title="Sair">↪</button></div>
     </aside>
     <main class="main">
-      <header class="topbar"><span>Workspace <span class="breadcrumb">/</span> <strong id="breadcrumb">Visão geral</strong></span><div class="top-actions"><span class="status-dot"></span><span id="connection">Conectando</span><span class="avatar mini">G</span></div></header>
+      <header class="topbar"><span><span class="workspace-label">Workspace</span> <span class="breadcrumb">/</span> <strong id="breadcrumb">Visão geral</strong></span><div class="top-actions"><span class="status-dot"></span><span id="connection">Conectando</span><div class="theme-switch" role="group" aria-label="Tema do painel"><button type="button" data-theme-value="light" aria-label="Modo claro" aria-pressed="true" title="Modo claro"><span aria-hidden="true">☀</span><span class="theme-label">Claro</span></button><button type="button" data-theme-value="dark" aria-label="Modo escuro" aria-pressed="false" title="Modo escuro"><span aria-hidden="true">☾</span><span class="theme-label">Escuro</span></button></div><span class="avatar mini">G</span></div></header>
       <div class="page">
         <div id="demo-banner" class="demo-banner" hidden><span>✧ <strong>Modo de demonstração</strong> · Estes números são fictícios. Cadastre uma oferta para coletar dados reais.</span><button id="demo-create">Criar minha oferta ↗</button></div>
         <div class="page-heading"><div><p class="eyebrow">GAL PULSE · ANALYTICS DE QUIZZES E FUNIS</p><h1 id="page-title">Cada etapa conta.</h1><p id="page-description">Inteligência de dados para funis de alta conversão.</p></div><button id="new-offer" class="primary"><span>＋</span> Nova oferta</button></div>

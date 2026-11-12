@@ -2,6 +2,8 @@
 
 **Inteligência de dados para funis de alta conversão.** Painel da GAL NEGOCIOS DIGITAIS LTDA.
 
+O seletor **Claro / Escuro** fica no topo do painel e na tela de login. A preferência é salva neste navegador e aplicada antes da primeira exibição da página. Sem uma escolha salva, o painel acompanha o tema do dispositivo.
+
 Um único painel em português, com cadastro de várias ofertas, domínios e fluxos. O idioma do quiz não muda o idioma da interface. Cada oferta tem seu próprio ID; não existe divisão fixa entre Brasil e Itália.
 
 ## Instalações deste projeto
