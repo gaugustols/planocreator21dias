@@ -4,7 +4,7 @@
   const $=id=>document.getElementById(id), esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const integer=new Intl.NumberFormat('pt-BR'), percent=n=>Number(n).toLocaleString('pt-BR',{maximumFractionDigits:1})+'%', number=n=>integer.format(n||0);
   let offers=[],selected=null,data=null,tab='overview',editing=false,requestNumber=0,toastTimer;
-  const titles={overview:['Cada etapa conta.','Entenda o caminho das suas sessões, do primeiro clique até a oferta.','Visão geral'],clicks:['O próximo clique tem uma história.','Veja quais escolhas e botões recebem atenção no seu quiz.','Cliques e respostas'],sources:['O caminho começa antes do quiz.','Compare as origens e campanhas que trazem suas sessões.','Origens de tráfego'],installation:['Conecte sua próxima oferta.','Um painel em português. Quizzes em qualquer idioma.','Instalação']};
+  const titles={overview:['Cada etapa conta.','Inteligência de dados para funis de alta conversão.','Visão geral'],clicks:['O próximo clique tem uma história.','Veja quais escolhas e botões recebem atenção no seu quiz.','Cliques e respostas'],sources:['O caminho começa antes do quiz.','Compare as origens e campanhas que trazem suas sessões.','Origens de tráfego'],installation:['Conecte sua próxima oferta.','Um painel em português. Quizzes em qualquer idioma.','Instalação']};
   async function api(action,{method='GET',body,params={}}={}) {
     const url=new URL('/api/analytics/',location.origin);url.searchParams.set('action',action);
     for(const [key,value] of Object.entries(params))if(value!==undefined&&value!=='')url.searchParams.set(key,value);
