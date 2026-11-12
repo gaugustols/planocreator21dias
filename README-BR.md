@@ -1,5 +1,7 @@
 # Trilha UGC 21 Dias — versão brasileira em /br/
 
+O novo painel privado em português funciona para **qualquer oferta e idioma**, com cadastro de domínios e etapas. Está documentado em **[PAINEL.md](PAINEL.md)** e não depende da separação Brasil/Itália da recuperação descrita abaixo.
+
 Oferta recuperada de **https://trilha-ugc.pages.dev/** em **11/11/2026**. O frontend usa português brasileiro e valores em reais. A versão italiana continua na raiz `/`; a brasileira é servida em `/br/`. O caminho `/br` redireciona para `/br/` e preserva os parâmetros de campanha.
 
 ## Abrir e restaurar

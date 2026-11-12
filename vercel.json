@@ -5,11 +5,21 @@
   "outputDirectory": "dist",
   "trailingSlash": true,
   "rewrites": [
+    { "source": "/api/analytics/", "destination": "/api/analytics" },
+    { "source": "/painel", "destination": "/painel/index.html" },
+    { "source": "/painel/", "destination": "/painel/index.html" },
     { "source": "/br/arrependimento", "destination": "/br/arrependimento/index.html" },
     { "source": "/br/arrependimento/", "destination": "/br/arrependimento/index.html" },
     { "source": "/br/((?!api(?:/|$)|.*\\.).*)", "destination": "/br/index.html" },
     { "source": "/recesso", "destination": "/recesso/index.html" },
     { "source": "/recesso/", "destination": "/recesso/index.html" },
-    { "source": "/((?!api(?:/|$)|br(?:/|$)|.*\\.).*)", "destination": "/index.html" }
+    { "source": "/((?!api(?:/|$)|painel(?:/|$)|br(?:/|$)|.*\\.).*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    { "source": "/painel/(.*)", "headers": [
+      { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'" },
+      { "key": "Referrer-Policy", "value": "no-referrer" },
+      { "key": "X-Content-Type-Options", "value": "nosniff" }
+    ] }
   ]
 }

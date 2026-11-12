@@ -9,3 +9,6 @@ dist/
 .env.*
 !.env.example
 reports/br/original-parity/debug-attempts/
+.data/
+.vercel/
+reports/analytics/painel-test-*.png

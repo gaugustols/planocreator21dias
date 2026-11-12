@@ -1,5 +1,7 @@
 # Piano UGC 21 Giorni — recuperação da oferta
 
+O projeto inclui o **Ponto**, painel privado em português para analisar qualquer oferta/idioma, preparado para Vercel e Postgres. A prévia `npm run painel` fica em **http://127.0.0.1:4174/painel/** e tem uma oferta com dados fictícios. A coleta real depende de conectar o banco e instalar o script. Consulte **[PAINEL.md](PAINEL.md)**.
+
 O projeto também contém a versão brasileira **Trilha UGC 21 Dias** em **`/br/`**. A italiana permanece em **`/`**. Consulte [README-BR.md](README-BR.md) para a recuperação brasileira, os scripts com `--locale=br`, a separação de dados no navegador e as validações entre idiomas. A documentação abaixo descreve a recuperação italiana.
 
 Cópia dos arquivos públicos de **https://piano-ugc.pages.dev/** recuperada em **11/11/2026**. O domínio canônico declarado no HTML é `https://piano-ugc.com/`. O remoto Git desta pasta é `https://github.com/gaugustols/planocreator21dias.git`.
@@ -12,7 +14,7 @@ O frontend publicado foi recuperado em `site/`, mantendo os nomes, diretórios e
 
 ## Abrir no computador
 
-Node.js 22 ou superior. Neste computador foi validado Node.js 24.21.0, Playwright 1.65.0 e Chromium 158.0.8127.18.
+Node.js 24. Neste computador foi validado Node.js 24.21.0, Playwright 1.65.0 e Chromium 158.0.8127.18.
 
 ```powershell
 npm ci
@@ -22,7 +24,7 @@ npm start
 
 Abra **http://127.0.0.1:4173/**. O Playwright e o Chromium já foram instalados neste computador; os dois primeiros comandos são para restaurar o ambiente em outro computador. Para outro terminal/porta: `$env:PORT=4174; npm start`.
 
-O servidor serve arquivos existentes e aplica fallback de SPA nas rotas sem extensão. Um arquivo `.js` inexistente retorna 404; `/api/*` retorna 503 explícito, pois o backend não foi recuperado. O cabeçalho `X-Recovery-Server: planocreator21dias-v1` identifica este processo. `GET /__recovery/status` informa a pasta e o modo do servidor. Encerre com Ctrl+C.
+O servidor serve arquivos existentes e aplica fallback de SPA nas rotas sem extensão. Um arquivo `.js` inexistente retorna 404; `/api/*`, exceto a nova API `/api/analytics/`, retorna 503 explícito, pois o backend original não foi recuperado. O cabeçalho `X-Recovery-Server: planocreator21dias-v1` identifica este processo. `GET /__recovery/status` informa a pasta e o modo do servidor. Encerre com Ctrl+C.
 
 Por padrão, **somente na resposta do servidor local**, a configuração de Meta/Utmify é desativada. Nenhum arquivo de `site/` é reescrito. O próprio código original desativa métricas e envio de leads em localhost/127.0.0.1 e em navegadores automatizados. Para reproduzir os pixels originais conscientemente, há `node serve.mjs --original-integrations`; isso volta a carregar serviços externos. Os links de pagamento mantêm o destino original.
 

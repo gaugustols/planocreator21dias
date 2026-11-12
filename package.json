@@ -5,6 +5,9 @@
   "description": "Plano Creator 21 Dias",
   "scripts": {
     "start": "node serve.mjs",
+    "painel": "node serve_analytics.mjs",
+    "test:analytics": "node --test tests/analytics.test.mjs",
+    "test:analytics:browser": "node tests/analytics-browser.mjs",
     "recon": "node reconnaissance.mjs",
     "mirror": "node mirror.mjs",
     "audit": "node audit_assets.mjs",
@@ -31,5 +34,9 @@
   "devDependencies": {
     "acorn": "^8.19.0",
     "playwright": "^1.65.0"
-  }
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  },
+  "engines": { "node": "24.x" }
 }

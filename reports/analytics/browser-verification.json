@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-12T19:01:00.252Z",
+  "checks": [
+    {
+      "name": "empty workspace and a new non-Portuguese offer through the UI",
+      "passed": true
+    },
+    {
+      "name": "real collector: French UI, Portuguese button labels, steps, completion and checkout",
+      "passed": true
+    },
+    {
+      "name": "all dashboard reports, device filters and CSV export",
+      "passed": true
+    },
+    {
+      "name": "responsive layout at 390px and 320px, no uncaught browser errors",
+      "passed": true
+    },
+    {
+      "name": "existing recovered quiz markers are recognized without changing its copy",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -3,6 +3,7 @@ import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { analyzeJavaScript } from './lib/assets.mjs';
 import { profiles } from './lib/profiles.mjs';
+import { analyticsHandler } from './analytics/handler.mjs';
 
 const root = path.resolve('site');
 const port = Number(process.env.PORT || 4173);
@@ -14,6 +15,12 @@ async function serve(request, response) {
   response.setHeader('Cache-Control', 'no-store');
   response.setHeader('X-Content-Type-Options', 'nosniff');
   const url = new URL(request.url, 'http://127.0.0.1');
+  if (/^\/api\/analytics\/?$/.test(url.pathname)) { await analyticsHandler(request, response); return; }
+  if (url.pathname === '/painel') { response.writeHead(308,{Location:'/painel/'}); response.end(); return; }
+  if (url.pathname.startsWith('/painel/')) {
+    response.setHeader('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
+    response.setHeader('Referrer-Policy', 'no-referrer');
+  }
   if (url.pathname === '/__recovery/status') {
     response.setHeader('Content-Type', 'application/json');
     response.end(JSON.stringify({ root, port, pid:process.pid, originalIntegrations, backendRecovered: false, locales:{it:'/',br:'/br/'} })); return;

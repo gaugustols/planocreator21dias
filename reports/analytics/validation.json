@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-12T19:01:28.925Z",
+  "unitAndApiTests": 3,
+  "unitAndApiTestsPassed": 3,
+  "browserChecks": 5,
+  "browserChecksPassed": 5,
+  "browserErrors": 0,
+  "buildPassed": true,
+  "unchangedRecoveredFiles": 364,
+  "storageTested": "SQLite; PostgreSQL not connected yet",
+  "productionDeploymentVerified": false,
+  "liveQuizCollectionEnabled": false,
+  "backgroundDomUpdatesDoNotExtendSession": true,
+  "collectorUsesCredentiallessKeepalive": true
+}
