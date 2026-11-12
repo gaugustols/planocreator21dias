@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-12T19:41:29.818Z",
+  "origin": "https://planocreator21dias.vercel.app",
+  "checks": [
+    {
+      "name": "Public session status",
+      "passed": true
+    },
+    {
+      "name": "Production Postgres is configured",
+      "passed": true
+    },
+    {
+      "name": "Owner login configuration is ready",
+      "passed": true,
+      "setup": {
+        "passwordPresent": true,
+        "sessionSecretPresent": true,
+        "passwordReady": true,
+        "sessionSecretReady": true
+      }
+    },
+    {
+      "name": "Anonymous report access denied",
+      "passed": true
+    },
+    {
+      "name": "Collector installed once: /",
+      "passed": true
+    },
+    {
+      "name": "Collector installed once: /br/",
+      "passed": true
+    },
+    {
+      "name": "Published collector matches source",
+      "passed": true
+    }
+  ],
+  "testCollections": [],
+  "errors": [],
+  "session": {
+    "authenticated": false,
+    "configured": true,
+    "local": false,
+    "database": true,
+    "setup": {
+      "passwordPresent": true,
+      "sessionSecretPresent": true,
+      "passwordReady": true,
+      "sessionSecretReady": true
+    }
+  }
+}

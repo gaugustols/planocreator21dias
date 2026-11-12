@@ -19,7 +19,11 @@ npm run painel
 
 Abra **http://127.0.0.1:4174/painel/**. O servidor escuta somente em `127.0.0.1`. Nesta prévia, o acesso não pede senha e o SQLite persiste em `.data/analytics.sqlite`, ignorado pelo Git. A oferta de demonstração contém **864 sessões fictícias**, está sinalizada e só é criada no modo local. As ofertas locais não são transferidas automaticamente para a produção.
 
-Em produção, o acesso exige senha, segredo de sessão e Postgres. Não há fallback para um banco descartável na Vercel. Aplicação e coleta foram verificadas localmente; **a conexão com Postgres real e o deployment na conta ainda precisam ser configurados e validados**.
+**Produção ativada e verificada em 12/11/2026:** [abrir painel](https://planocreator21dias.vercel.app/painel/). O banco Neon `ponto-analytics`, plano Free, está conectado ao ambiente Production da Vercel. O login foi conferido após o proprietário preencher os segredos diretamente na plataforma. Os relatórios usam Postgres real, sem fallback para um banco descartável.
+
+O redeploy `7kiGvoTaPV9pPDk9g46Hz6ZKg4jj` ficou Ready com os segredos atualizados. As verificações públicas passaram e as sessões de teste persistiram no banco após a implantação. No navegador, um percurso identificado pela origem `ponto_validacao` e campanha `teste_navegador` registrou uma sessão, três etapas e dois cliques, cada botão com uma sessão única. O avanço nas duas transições percorridas foi 100% ao filtrar essa campanha. Isso valida a coleta inicial; não é uma compra ou uma execução completa de todas as etapas em produção.
+
+As primeiras sessões de validação usam a origem `ponto_validacao`; a campanha `ativacao_painel` identifica os dois eventos iniciais da API. Esses registros de teste foram preservados e podem ser distinguidos pelos filtros. As saídas continuam estimadas após 30 minutos sem atividade, conforme a regra documentada abaixo.
 
 ## Ativar na Vercel
 
@@ -107,9 +111,9 @@ Interface: `site/painel/`; script: `site/quiz-analytics.js`; função Vercel: `a
 
 Validação local em **12/11/2026**:
 
-- `npm run test:analytics`: três testes com autenticação, bloqueio de origem, isolamento de ofertas, repetição de eventos, coortes, cálculos, query não coletada e preservação de IDs/ordem.
+- `npm run test:analytics`: seis testes com autenticação, bloqueio de origem, isolamento de ofertas, repetição de eventos, coortes, cálculos, query não coletada, cadastro inicial e preservação de IDs/ordem.
 - `npm run test:analytics:browser`: cinco verificações Chromium com cadastro pelo painel, quiz de teste em francês, coleta real no banco de teste, objetivos, filtros, CSV, telas de 320/390 px e adaptação ao quiz recuperado. Rede externa bloqueada; nenhuma compra realizada.
 - `npm run build`: preparação das duas ofertas e dos arquivos do painel. Os arquivos originais recuperados e sua copy permanecem preservados.
 - [Relatório de navegador](reports/analytics/browser-verification.json).
 
-Os testes usam banco temporário e não contaminam ofertas do proprietário. Postgres e roteamento de um deployment real ainda precisam ser testados após configuração na conta Vercel.
+Os testes locais usam banco temporário e não contaminam ofertas do proprietário. A validação adicional em produção usa somente sessões anônimas identificadas como teste. Evidências: [API e instalação publicadas](reports/analytics/production-verification.json), [gravação inicial no Postgres](reports/analytics/production-collection-test.json) e [conferência no painel autenticado](reports/analytics/production-ui-verification.json). Senhas, cookies de login e imagens da área autenticada não são incluídos nesses relatórios públicos.

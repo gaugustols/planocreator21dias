@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-12T19:44:22.056Z",
+  "origin": "https://planocreator21dias.vercel.app",
+  "authenticatedOwnerAccessVerified": true,
+  "productionStorage": "PostgreSQL",
+  "browserCampaign": "teste_navegador",
+  "browserSource": "ponto_validacao",
+  "browserTest": {
+    "sessions": 1,
+    "stepsVisited": 3,
+    "clicks": 2,
+    "uniqueSessionsPerButton": 1,
+    "advanceRates": [
+      100,
+      100
+    ]
+  },
+  "offerIsolationVerified": true,
+  "preRedeployEventsStillVisible": true,
+  "checkoutOrEmailSubmitted": false,
+  "privateScreenshotsIncluded": false,
+  "deploymentId": "7kiGvoTaPV9pPDk9g46Hz6ZKg4jj"
+}

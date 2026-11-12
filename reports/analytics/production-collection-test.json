@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-11-12T19:29:38.982Z",
+  "origin": "https://planocreator21dias.vercel.app",
+  "testCollections": [
+    {
+      "path": "/",
+      "offerId": "81c0788c-da94-40e5-818d-6d5b496bc74a",
+      "status": 202,
+      "eventId": "54b87f0d-9ef2-4b76-9617-dce49416b285",
+      "source": "ponto_validacao",
+      "body": "{\"accepted\":1}"
+    },
+    {
+      "path": "/br/",
+      "offerId": "eadac57a-f391-4956-9f72-681a7c3633e6",
+      "status": 202,
+      "eventId": "d482daaf-0561-41da-8e94-fb7178251615",
+      "source": "ponto_validacao",
+      "body": "{\"accepted\":1}"
+    }
+  ]
+}
