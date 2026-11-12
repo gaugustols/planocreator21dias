@@ -81,7 +81,7 @@ export async function analyticsHandler(req,res) {
     if(action==='collect')return await collect(req,res,url);
     if(!['GET','POST'].includes(req.method))throw fail(405,'Método não permitido.');
     if(req.method==='POST'&&req.headers.origin!==ownerOrigin(req))throw fail(403,'Origem não autorizada.');
-    if(action==='session'&&req.method==='GET')return json(res,200,{authenticated:authenticated(req),configured:configured(),local:localMode(),database:!!(localMode()||process.env.DATABASE_URL||process.env.POSTGRES_URL),setup:{passwordReady:process.env.PAINEL_PASSWORD?.length>=12,sessionSecretReady:process.env.PAINEL_SESSION_SECRET?.length>=32}});
+    if(action==='session'&&req.method==='GET')return json(res,200,{authenticated:authenticated(req),configured:configured(),local:localMode(),database:!!(localMode()||process.env.DATABASE_URL||process.env.POSTGRES_URL),setup:{passwordPresent:!!process.env.PAINEL_PASSWORD,sessionSecretPresent:!!process.env.PAINEL_SESSION_SECRET,passwordReady:process.env.PAINEL_PASSWORD?.length>=12,sessionSecretReady:process.env.PAINEL_SESSION_SECRET?.length>=32}});
     if(action==='login'&&req.method==='POST') {
       if(!configured())throw fail(503,'Configure PAINEL_PASSWORD (12+ caracteres) e PAINEL_SESSION_SECRET (32+) na Vercel.');
       const db=await store(),now=Date.now();

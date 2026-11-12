@@ -107,7 +107,10 @@
       const session=await api('session');
       if(!session.authenticated){
         const missing=[];
-        if(!session.configured){if(!session.setup?.passwordReady)missing.push('PAINEL_PASSWORD precisa ter pelo menos 12 caracteres');if(!session.setup?.sessionSecretReady)missing.push('PAINEL_SESSION_SECRET precisa ter pelo menos 32 caracteres');}
+        if(!session.configured){
+          if(!session.setup?.passwordReady)missing.push(session.setup?.passwordPresent===false?'PAINEL_PASSWORD não está disponível neste deploy': 'PAINEL_PASSWORD precisa ter pelo menos 12 caracteres');
+          if(!session.setup?.sessionSecretReady)missing.push(session.setup?.sessionSecretPresent===false?'PAINEL_SESSION_SECRET não está disponível neste deploy':'PAINEL_SESSION_SECRET precisa ter pelo menos 32 caracteres');
+        }
         if(!session.database)missing.push('conecte o banco Postgres');
         showLogin(missing.length?missing.join('. ')+'.':'');return;
       }
