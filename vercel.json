@@ -5,6 +5,9 @@
   "outputDirectory": "dist",
   "trailingSlash": true,
   "rewrites": [
+    { "source": "/api/q/", "destination": "/api/q" },
+    { "source": "/br/api/q", "destination": "/api/q" },
+    { "source": "/br/api/q/", "destination": "/api/q" },
     { "source": "/api/analytics/", "destination": "/api/analytics" },
     { "source": "/painel", "destination": "/painel/index.html" },
     { "source": "/painel/", "destination": "/painel/index.html" },

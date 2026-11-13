@@ -46,7 +46,7 @@ try {
     await quiz.click('#next');await quiz.click('#result');await quiz.locator('[data-quiz-result]').waitFor();await quiz.click('[data-quiz-checkout]');await quiz.evaluate(()=>QuizAnalytics.flush());
     let result;
     for(let i=0;i<60;i++){
-      result=await (await fetch(origin+'/api/analytics/?action=overview&offer='+offer.id+'&from='+(Date.now()-86400000)+'&to='+(Date.now()+86400000))).json();
+      result=await (await fetch(origin+'/api/analytics/?action=overview&offer='+offer.id+'&traffic=test&from='+(Date.now()-86400000)+'&to='+(Date.now()+86400000))).json();
       if(result.summary?.checkout===1)break;await new Promise(r=>setTimeout(r,100));
     }
     assert.equal(result.summary.sessions,1);assert.equal(result.summary.completed,1);assert.equal(result.summary.checkout,1);
@@ -54,9 +54,10 @@ try {
     assert.equal(result.clicks.reduce((n,c)=>n+c.clicks,0),3);assert.ok(result.clicks.some(c=>c.label==='Sim'));
     assert.equal(result.sources[0].source,'instagram');assert.equal(result.sources[0].campaign,'teste');
     assert.ok(!JSON.stringify(events).includes('nao-coletar@example.com'));assert.ok(!JSON.stringify(events).includes('utm_source='));
+    assert.equal(await quiz.evaluate(()=>QuizAnalytics.identify({email:'qa.leads@example.com',name:'=Teste CSV',marketingConsent:true})),true);
   });
   await check('all dashboard reports, device filters and CSV export',async()=>{
-    await page.click('[data-tab=overview]');await page.click('#refresh');await page.waitForFunction(()=>document.querySelector('#metrics strong')?.textContent==='1');
+    await page.click('[data-tab=overview]');await page.locator('.advanced-filters summary').click();await page.selectOption('#traffic','test');await page.click('#refresh');await page.waitForFunction(()=>document.querySelector('#metrics strong')?.textContent==='1');
     assert.equal(await page.locator('#funnel .funnel-row').count(),3);
     await page.click('[data-tab=clicks]');await page.locator('#tab-clicks').waitFor({state:'visible'});assert.match(await page.locator('#clicks-body').innerText(),/Continuar/);
     await page.click('[data-tab=sources]');await page.locator('#tab-sources').waitFor({state:'visible'});assert.match(await page.locator('#sources-body').innerText(),/instagram/);
@@ -64,13 +65,19 @@ try {
     await page.selectOption('#device','');await page.waitForFunction(()=>document.querySelector('#metrics strong')?.textContent==='1');
     await page.click('[data-tab=overview]');const downloadPromise=page.waitForEvent('download');await page.click('#export');const download=await downloadPromise;
     const csv=await readFile(await download.path(),'utf8');assert.match(csv,/Retenção/);assert.match(csv,/Resultado e oferta/);
+    await page.click('[data-tab=compare]');await page.selectOption('#compare-dimension','app');assert.match(await page.locator('#compare-content').innerText(),/navegador/);
+    await page.click('[data-tab=leads]');await page.locator('#leads-body').getByText('qa.leads@example.com').waitFor();assert.match(await page.locator('#leads-body').innerText(),/Resultado e oferta/);
+    await page.fill('#lead-query','qa.leads');await page.locator('#leads-search button').click();await page.waitForFunction(()=>document.querySelector('#leads-count')?.textContent.includes('1 leads'));
+    const leadsDownload=page.waitForEvent('download');await page.click('#export-leads');const leadsCsv=await readFile(await (await leadsDownload).path(),'utf8');assert.match(leadsCsv,/qa.leads@example.com/);assert.match(leadsCsv,/"'=Teste CSV"/);
+    await page.click('[data-tab=overview]');
   });
   await check('responsive layout at 390px and 320px, no uncaught browser errors',async()=>{
-    for(const width of [390,320]){
+    for(const width of [390,320,304]){
       await page.setViewportSize({width,height:844});
-      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Horizontal overflow at '+width);
+      for(const tab of ['compare','leads','installation','clicks','overview']){await page.click('[data-tab='+tab+']');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Horizontal overflow at '+width+' on '+tab);}
       await page.screenshot({path:`reports/analytics/painel-test-${width}.png`,fullPage:true});
     }
+    await page.locator('#app [data-theme-value=dark]').click();assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');await page.reload();await page.locator('#app').waitFor({state:'visible'});assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');await page.locator('#app [data-theme-value=light]').click();
     assert.deepEqual(report.errors,[]);
   });
   // Verify the SDK against the real recovered quiz's existing markers, without altering its files.
@@ -85,7 +92,7 @@ try {
     await current.goto(origin+'/br/');await current.locator('main [data-step="camera"]').waitFor();
     await current.evaluate(({offer,key})=>{const s=document.createElement('script');s.src='/quiz-analytics.js';s.dataset.test='1';s.dataset.offer=offer;s.dataset.key=key;document.body.append(s);},{offer:adapted.id,key:adapted.publicKey});
     await current.waitForFunction(()=>!!window.QuizAnalytics);await current.evaluate(()=>QuizAnalytics.flush());
-    const response=await fetch(origin+'/api/analytics/?action=overview&offer='+adapted.id+'&from='+(Date.now()-86400000)+'&to='+(Date.now()+86400000));const result=await response.json();
+    const response=await fetch(origin+'/api/analytics/?action=overview&offer='+adapted.id+'&traffic=test&from='+(Date.now()-86400000)+'&to='+(Date.now()+86400000));const result=await response.json();
     assert.equal(result.steps.find(s=>s.id==='camera').reached,1);assert.deepEqual(report.errors,[]);await current.close();
   });
 }catch(error){report.errors.push(error.stack);process.exitCode=1;console.error(error);}

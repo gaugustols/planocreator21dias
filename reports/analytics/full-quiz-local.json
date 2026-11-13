@@ -1,0 +1,419 @@
+{
+  "checkedAt": "2026-11-13T20:34:02.064Z",
+  "live": false,
+  "journeys": [
+    {
+      "path": "/",
+      "offer": "81c0788c-da94-40e5-818d-6d5b496bc74a",
+      "visit": "d627385a-5e2e-493d-a4db-070cdfe0803b",
+      "screens": 19,
+      "states": 37,
+      "events": 175,
+      "answers": 8,
+      "price": true,
+      "scroll100": true,
+      "checkout": true,
+      "leadName": true,
+      "beaconUsed": true,
+      "responses": [
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        }
+      ],
+      "errors": [],
+      "databaseViews": [
+        {
+          "step_id": "analisi",
+          "n": 1
+        },
+        {
+          "step_id": "brief-crema",
+          "n": 1
+        },
+        {
+          "step_id": "brief-moka",
+          "n": 1
+        },
+        {
+          "step_id": "brief-pasta",
+          "n": 1
+        },
+        {
+          "step_id": "camera",
+          "n": 1
+        },
+        {
+          "step_id": "categorie",
+          "n": 1
+        },
+        {
+          "step_id": "cos-e-ugc",
+          "n": 1
+        },
+        {
+          "step_id": "email",
+          "n": 1
+        },
+        {
+          "step_id": "landing",
+          "n": 1
+        },
+        {
+          "step_id": "niente-follower",
+          "n": 1
+        },
+        {
+          "step_id": "nome",
+          "n": 1
+        },
+        {
+          "step_id": "obiettivo",
+          "n": 1
+        },
+        {
+          "step_id": "optin",
+          "n": 1
+        },
+        {
+          "step_id": "primo-video",
+          "n": 1
+        },
+        {
+          "step_id": "regola-d-oro",
+          "n": 1
+        },
+        {
+          "step_id": "risultato",
+          "n": 1
+        },
+        {
+          "step_id": "sconto",
+          "n": 1
+        },
+        {
+          "step_id": "spesa",
+          "n": 1
+        },
+        {
+          "step_id": "tempo",
+          "n": 1
+        }
+      ],
+      "deleted": true
+    },
+    {
+      "path": "/br/",
+      "offer": "eadac57a-f391-4956-9f72-681a7c3633e6",
+      "visit": "e2d0e32a-2f39-4f4b-8d88-3c37873abc38",
+      "screens": 19,
+      "states": 37,
+      "events": 177,
+      "answers": 8,
+      "price": true,
+      "scroll100": true,
+      "checkout": true,
+      "leadName": true,
+      "beaconUsed": true,
+      "responses": [
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        }
+      ],
+      "errors": [],
+      "databaseViews": [
+        {
+          "step_id": "analisi",
+          "n": 1
+        },
+        {
+          "step_id": "brief-crema",
+          "n": 1
+        },
+        {
+          "step_id": "brief-moka",
+          "n": 1
+        },
+        {
+          "step_id": "brief-pasta",
+          "n": 1
+        },
+        {
+          "step_id": "camera",
+          "n": 1
+        },
+        {
+          "step_id": "categorie",
+          "n": 1
+        },
+        {
+          "step_id": "cos-e-ugc",
+          "n": 1
+        },
+        {
+          "step_id": "email",
+          "n": 1
+        },
+        {
+          "step_id": "landing",
+          "n": 1
+        },
+        {
+          "step_id": "niente-follower",
+          "n": 1
+        },
+        {
+          "step_id": "nome",
+          "n": 1
+        },
+        {
+          "step_id": "obiettivo",
+          "n": 1
+        },
+        {
+          "step_id": "optin",
+          "n": 1
+        },
+        {
+          "step_id": "primo-video",
+          "n": 1
+        },
+        {
+          "step_id": "regola-d-oro",
+          "n": 1
+        },
+        {
+          "step_id": "risultato",
+          "n": 1
+        },
+        {
+          "step_id": "sconto",
+          "n": 1
+        },
+        {
+          "step_id": "spesa",
+          "n": 1
+        },
+        {
+          "step_id": "tempo",
+          "n": 1
+        }
+      ],
+      "deleted": true
+    }
+  ],
+  "errors": []
+}

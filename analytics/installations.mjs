@@ -20,7 +20,8 @@ export const analyticsSetup=validate(config);
 export function injectCollector(html,installation) {
   if(/data-ponto-installation/.test(html))throw Error('Collector already installed; build from the preserved source HTML.');
   const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const script=`<script defer src="${escape(analyticsSetup.panelOrigin)}/quiz-analytics.js" data-ponto-installation="${escape(installation.offer.id)}" data-offer="${escape(installation.offer.id)}" data-key="${escape(installation.offer.publicKey)}" data-endpoint="${escape(analyticsSetup.panelOrigin)}/api/analytics/"></script>`;
+  const attrs=installation.flow?` data-flow="${escape(JSON.stringify(installation.flow))}" data-version="${escape(installation.version)}" data-lead-storage="${escape(installation.leadStorageKey)}" data-funnel-storage="${escape(installation.funnelStorageKey)}" data-ab-storage="${escape(installation.abStorageKey)}"`:'';
+  const script=`<script defer src="${escape(analyticsSetup.panelOrigin)}/quiz-analytics.js" data-ponto-installation="${escape(installation.offer.id)}" data-offer="${escape(installation.offer.id)}" data-key="${escape(installation.offer.publicKey)}" data-endpoint="${escape(analyticsSetup.panelOrigin)}/api/q/"${attrs}></script>`;
   if(!/<\/body>/i.test(html))throw Error('Quiz HTML has no closing body.');
   return html.replace(/<\/body>/i,script+'\n</body>');
 }

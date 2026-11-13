@@ -1,22 +1,32 @@
 {
-  "checkedAt": "2026-11-12T19:47:25.857Z",
-  "unitAndApiTests": 6,
-  "unitAndApiTestsPassed": 6,
+  "checkedAt": "2026-11-13T20:37:40.255Z",
+  "unitAndApiTests": 14,
+  "unitAndApiTestsPassed": 14,
   "browserChecks": 5,
   "browserChecksPassed": 5,
   "browserErrors": 0,
   "buildPassed": true,
   "unchangedRecoveredFiles": 364,
-  "storageTested": "SQLite locally and Neon PostgreSQL in production",
-  "productionDeploymentVerified": true,
-  "liveQuizCollectionEnabled": true,
-  "backgroundDomUpdatesDoNotExtendSession": true,
-  "collectorUsesCredentiallessKeepalive": true,
-  "productionApiChecksPassed": 7,
-  "authenticatedProductionUiVerified": true,
-  "productionBrowserTest": {
-    "sessions": 1,
-    "stepsVisited": 3,
-    "clicks": 2
-  }
+  "localCompleteMobileJourneys": [
+    {
+      "path": "/",
+      "screens": 19,
+      "states": 37,
+      "databaseViews": 19,
+      "oneViewPerScreen": true,
+      "beaconUsed": true,
+      "deleted": true
+    },
+    {
+      "path": "/br/",
+      "screens": 19,
+      "states": 37,
+      "databaseViews": 19,
+      "oneViewPerScreen": true,
+      "beaconUsed": true,
+      "deleted": true
+    }
+  ],
+  "purchaseIntegration": "not connected",
+  "productionVerification": "pending publication"
 }

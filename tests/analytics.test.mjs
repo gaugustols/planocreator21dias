@@ -52,7 +52,7 @@ test('owner auth, CSRF, offer isolation and collector origin validation',async()
   process.env.PAINEL_SESSION_SECRET=secret;
   const unauthorized=await request('offers',{auth:false});assert.equal(unauthorized.status,401);
   assert.equal((await request('login',{method:'POST',body:{password:'wrong'}})).status,401);
-  const login=await request('login',{method:'POST',body:{password:process.env.PAINEL_PASSWORD}});assert.equal(login.status,200);cookie=login.headers.get('set-cookie').split(';')[0];
+  const login=await request('login',{method:'POST',body:{password:process.env.PAINEL_PASSWORD}});assert.equal(login.status,200);cookie=login.headers.getSetCookie().find(c=>c.includes('Max-Age=28800')).split(';')[0];
   assert.match(login.headers.get('set-cookie'),/HttpOnly/);assert.match(login.headers.get('set-cookie'),/SameSite=Lax/);
   assert.equal((await request('offers',{method:'POST',body:{},requestOrigin:'https://attacker.example'})).status,403);
   const input={name:'Quiz em francês',origins:['https://quiz.example'],steps:[{id:'entrada',label:'Entrada'},{id:'resultado',label:'Resultado'}]};

@@ -15,6 +15,7 @@ async function serve(request, response) {
   response.setHeader('Cache-Control', 'no-store');
   response.setHeader('X-Content-Type-Options', 'nosniff');
   const url = new URL(request.url, 'http://127.0.0.1');
+  if (/^\/(?:br\/)?api\/q\/?$/.test(url.pathname)) { if(!url.searchParams.has('action'))url.searchParams.set('action','collect');request.url=url.pathname+url.search;await analyticsHandler(request,response);return; }
   if (/^\/api\/analytics\/?$/.test(url.pathname)) { await analyticsHandler(request, response); return; }
   if (url.pathname === '/painel') { response.writeHead(308,{Location:'/painel/'}); response.end(); return; }
   if (url.pathname.startsWith('/painel/')) {
