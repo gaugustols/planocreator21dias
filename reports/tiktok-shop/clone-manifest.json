@@ -83,7 +83,7 @@
       "source": "site/br/assets/index-CsqgZ4_P.js",
       "file": "site/tiktok-shop/assets/index-CsqgZ4_P.js",
       "originalSha256": "7d36889d65da3bcd318f78b04dca3c4d61e8c9dfaefc0a142abe28365dbaea1b",
-      "sha256": "55616dc79a54c1b458e5451107f3962daa48fc74771f8dc27e456b4a4e294ad9",
+      "sha256": "5e294209ab71679bda5c10e062958404255fb6d525877208b4c43946e32a9d2a",
       "bytes": 362933,
       "rendererUnchanged": true,
       "kind": "existing renderer and adapted data"
@@ -1445,7 +1445,7 @@
       "source": "site/br/index.html",
       "file": "site/tiktok-shop/index.html",
       "originalSha256": "f85765fb500268957ceaac21a96fb95028b74a432378c8a3f6c60677c3633cf1",
-      "sha256": "bd2c95d7c265c647bd703c296b99df260534578a135788e2cc2215e7dd11aefa",
+      "sha256": "36bd691e7046ab6d85ce0da00f2c7f11cb64cd3a0e69b8fa1dcf16e0b3791b37",
       "bytes": 18200,
       "kind": "existing markup and adapted text"
     },

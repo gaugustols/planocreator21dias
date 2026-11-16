@@ -89,7 +89,7 @@
     "landing": {
       "badge": "Quiz grátis · 4 minutos",
       "headline": "Seu celular pode render **de R$ 800 a R$ 4.000 por mês**",
-      "subheadline": "Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA.",
+      "subheadline": "Uma renda sua com vídeos para o Tiktok Shop, aparecendo ou sem aparecer.",
       "firstQuestion": {
         "kind": "question",
         "id": "eta",
@@ -131,11 +131,11 @@
         "b": {
           "footerNote": "Fotos geradas por inteligência artificial: não mostram pessoas reais.",
           "headline": "Seu celular pode render **de R$ 800 a R$ 4.000 por mês**",
-          "subheadline": "Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA."
+          "subheadline": "Uma renda sua com vídeos para o Tiktok Shop, aparecendo ou sem aparecer."
         },
         "c": {
           "headline": "Seu celular pode render **de R$ 800 a R$ 4.000 por mês**",
-          "subheadline": "Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA."
+          "subheadline": "Uma renda sua com vídeos para o Tiktok Shop, aparecendo ou sem aparecer."
         }
       }
     },
