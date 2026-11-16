@@ -291,91 +291,91 @@
         },
         "notification": {
           "app": "Missão TikTok Shop",
-          "title": "Sua primeira missão: um vídeo de produto",
-          "body": "Exemplo: R$ 9 de comissão em 1 venda elegível simulada."
+          "title": "Sua primeira missão foi liberada!",
+          "body": "Descubra como transformar um produto da rotina em uma ideia de vídeo."
         },
         "briefCard": {
-          "title": "Missão 1 · Um benefício que dá para mostrar",
-          "format": "Vertical 9:16 · 15 segundos",
+          "title": "Missão 1 · Sua primeira ideia de vídeo começa aqui",
+          "format": "Você não precisa começar com uma ideia genial. Comece com um produto que consegue explicar. Nesta missão, você vai escolher uma abertura, organizar quatro cenas e encontrar um jeito simples de apresentar este finalizador. Uma decisão de cada vez. Vamos montar sua primeira sequência?",
           "deliverables": [
-            "Apresente uma situação cotidiana e o produto logo no começo",
-            "Mostre o uso com fidelidade às instruções do produto",
-            "Use uma abertura clara e um convite para conferir os detalhes",
-            "Aparecendo ou com apoio de IA: não invente resultados nem propriedades"
+            "Comece por uma situação que a pessoa reconheça.",
+            "Apresente o produto e mostre como ele é usado.",
+            "Deixe o benefício claro na demonstração.",
+            "Termine convidando a pessoa a conferir os detalhes."
           ],
           "fee": 9,
           "deadline": "Uma etapa por vez",
-          "accept": "Começar esta missão"
+          "accept": "Quero montar meu primeiro vídeo"
         },
         "hook": {
-          "title": "Escolha o gancho: **os primeiros segundos do seu vídeo**",
-          "subtitle": "Qual abertura apresenta uma situação concreta e prepara uma demonstração do produto?",
+          "title": "Seu vídeo começa **antes de você explicar o produto.**",
+          "subtitle": "Qual abertura dá um motivo para continuar assistindo?",
           "options": [
             {
               "id": "saluto",
-              "text": "“Oi, gente! Então, hoje eu vou falar de um produto que encontrei…”",
+              "text": "“Oi, gente! Hoje eu vim falar de um produto que encontrei…”",
               "correct": false,
-              "feedback": "A situação ainda não apareceu. Experimente começar por algo que a pessoa reconheça e que você consiga demonstrar."
+              "feedback": "A pessoa ainda não sabe por que continuar. Experimente conectar uma situação real ao uso do produto."
             },
             {
               "id": "problema",
-              "text": "Produto na mão: “Seu cabelo também fica assim depois de sair de casa? Olha como eu uso este finalizador.”",
+              "text": "“Seu cabelo também fica assim depois de sair de casa? Olha como eu uso este finalizador.”",
               "correct": true,
-              "feedback": "Você conectou uma situação à demonstração. Mostre o uso real e siga o rótulo, sem prometer um resultado igual para todas as pessoas."
+              "feedback": "Boa! Você encontrou uma abertura com uma situação reconhecível. Agora existe um motivo para acompanhar a demonstração. Seu roteiro já tem uma primeira frase."
             },
             {
               "id": "spot",
-              "text": "“O creme que acaba com todo o frizz e muda seu cabelo para sempre!”",
+              "text": "“Este creme resolve qualquer problema do seu cabelo!”",
               "correct": false,
-              "feedback": "A promessa é maior do que a demonstração. Prefira explicar o uso e as características reais do produto, sem garantir resultados."
+              "feedback": "A promessa vai além do que você consegue demonstrar. Experimente conectar uma situação real ao uso do produto."
             }
           ]
         },
         "storyboard": {
-          "title": "Organize **as quatro cenas**",
-          "subtitle": "Toque nas cenas na ordem em que você apresentaria o produto.",
+          "title": "Agora, dê uma sequência **à sua ideia.**",
+          "subtitle": "Toque nas quatro cenas na ordem em que você mostraria o produto.",
           "scenes": [
             {
               "id": "aggancio",
-              "label": "Uma situação cotidiana com o cabelo",
+              "label": "Apresento uma situação cotidiana com o cabelo.",
               "emoji": "sun"
             },
             {
               "id": "prodotto",
-              "label": "Mostro o produto e sua embalagem",
+              "label": "Mostro o produto e sua embalagem.",
               "emoji": "lotion_bottle"
             },
             {
               "id": "prova",
-              "label": "Demonstro o uso conforme o rótulo",
+              "label": "Demonstro o uso conforme o rótulo.",
               "emoji": "sparkles"
             },
             {
               "id": "chiusura",
-              "label": "Convido a conferir os detalhes",
+              "label": "Convido a conferir os detalhes.",
               "emoji": "thumbs_up"
             }
           ],
-          "success": "Sequência pronta: situação, produto, demonstração e convite para conferir. Você já montou a lógica de um vídeo."
+          "success": "Você conseguiu: sua ideia agora tem começo, demonstração e próximo passo. Uma sequência simples, que você pode usar como referência para outros produtos."
         },
         "record": {
-          "title": "Monte sua prévia: toque no botão vermelho",
+          "title": "Veja sua sequência ganhar forma.",
           "tips": [
-            "Mantenha o formato vertical e o produto bem visível",
-            "Use luz e enquadramento que deixem os detalhes claros",
-            "A IA pode ajudar no roteiro, na narração e na edição",
-            "Esta etapa simula a criação: não grava nem publica um vídeo real"
+            "Toque no botão vermelho para montar a prévia desta missão.",
+            "Mantenha o formato vertical e o produto bem visível.",
+            "A IA pode ajudar no roteiro, na narração e na edição.",
+            "Esta etapa simula a criação: não grava nem publica um vídeo real."
           ],
-          "button": "Criar prévia",
+          "button": "Montar minha prévia",
           "seconds": 4
         },
         "closing": {
-          "title": "Como você encerra **seu vídeo de produto?**",
-          "subtitle": "Um fechamento coerente explica qual é o próximo passo.",
+          "title": "Você mostrou o produto. **Como convida a pessoa a dar o próximo passo?**",
+          "subtitle": "",
           "options": [
             {
               "id": "link",
-              "text": "“É o melhor do mundo. Pode comprar sem nem olhar os detalhes!”",
+              "text": "“É o melhor do mundo. Pode comprar sem olhar os detalhes!”",
               "correct": false,
               "feedback": "Ajude a pessoa a decidir com informação. Convide para conferir o produto, sem uma promessa absoluta."
             },
@@ -389,14 +389,14 @@
               "id": "consiglio",
               "text": "“Veja os detalhes do produto e confira se combina com a sua rotina.”",
               "correct": true,
-              "feedback": "Você fez um convite claro para a pessoa avaliar o produto. O recurso de vincular produtos depende da elegibilidade da conta."
+              "feedback": "Seu roteiro ficou completo. Você apresentou uma situação, mostrou o produto e fez um convite claro para a pessoa avaliar a compra."
             }
           ]
         },
         "delivery": {
           "sending": "Concluindo sua primeira missão…",
-          "approvedTitle": "Primeira missão **concluída!**",
-          "brandMessage": "Você montou uma demonstração. Agora, visualize um cenário fictício: 1 venda elegível com R$ 9 de comissão. Não houve venda nem crédito real.",
+          "approvedTitle": "Primeira conquista **desbloqueada!**",
+          "brandMessage": "Você acabou de montar a estrutura da sua primeira ideia de vídeo de produto. Já existe uma abertura, uma sequência de cenas e um fechamento. Guarde essa lógica: ela será útil nas próximas missões. Neste exemplo, uma venda elegível com comissão de R$ 9 representaria R$ 9. O valor é simulado; nenhuma venda aconteceu.",
           "walletLabel": "Missão 1 · 1 venda simulada"
         }
       },
@@ -531,60 +531,60 @@
         },
         "notification": {
           "app": "Missão TikTok Shop",
-          "title": "Sua segunda missão: café em vídeo",
-          "body": "Exemplo: 2 vendas simuladas × R$ 9 = R$ 18 de comissão fictícia."
+          "title": "Próxima missão liberada!",
+          "body": "Agora, experimente criar com o produto em destaque e a câmera longe do seu rosto."
         },
         "briefCard": {
-          "title": "Missão 2 · Um vídeo que explica sem depender do rosto",
-          "format": "Vertical 9:16 · 30 segundos · narração",
+          "title": "Missão 2 · Descubra seu caminho sem precisar aparecer",
+          "format": "Seu rosto é uma escolha. Mostrar o produto com clareza é o próximo aprendizado. Um café passando, uma embalagem reconhecível e uma narração podem formar uma ideia de conteúdo. Nesta missão, você vai experimentar esse formato usando sua voz ou uma narração com apoio de IA.",
           "deliverables": [
-            "Mostre o preparo: água, coador e café na xícara",
-            "A narração pode ser sua ou produzida com apoio de IA",
-            "Deixe a embalagem e o produto reconhecíveis",
-            "Use imagens autorizadas e represente o produto real com fidelidade"
+            "Mostre o preparo e os detalhes do produto.",
+            "Deixe as imagens conduzirem a demonstração.",
+            "Use sua voz ou apoio de IA para explicar o que aparece.",
+            "Trabalhe com imagens autorizadas e informações verdadeiras."
           ],
           "fee": 18,
           "deadline": "No seu ritmo",
-          "accept": "Começar esta missão"
+          "accept": "Quero experimentar sem aparecer"
         },
         "hook": {
-          "title": "Qual abertura você escolhe **para esse café?**",
-          "subtitle": "A ideia também funciona sem mostrar o rosto: uma situação, uma demonstração e uma narração clara.",
+          "title": "Qual destas aberturas faz você querer **acompanhar o preparo?**",
+          "subtitle": "",
           "options": [
             {
               "id": "borbottio",
-              "text": "Close no café passando, depois a narração: “Enquanto o café fica pronto, olha os detalhes deste preparo.”",
+              "text": "Close no café passando: “Antes de preparar seu próximo café, olha esses detalhes aqui.”",
               "correct": true,
-              "feedback": "Você começou com uma cena concreta e preparou a explicação. Com voz própria ou IA, confira se a narração descreve exatamente o que aparece."
+              "feedback": "Você encontrou mais um jeito de criar. A cena desperta curiosidade e a narração prepara a explicação. O produto aparece, a ideia fica clara e você pode manter o rosto fora da câmera."
             },
             {
               "id": "nonna",
               "text": "“Vou contar toda a história da minha família antes de mostrar o café…”",
               "correct": false,
-              "feedback": "A história pode fazer parte do conteúdo, mas aqui a missão é apresentar a situação e o produto logo no começo."
+              "feedback": "A história pode entrar depois. Para esta abertura, experimente mostrar logo a cena que será explicada."
             },
             {
               "id": "fermo",
               "text": "O pacote parado por vários segundos, sem som nem contexto.",
               "correct": false,
-              "feedback": "A embalagem sozinha não explica a situação. Adicione uma cena de uso ou uma narração que ajude a entender o vídeo."
+              "feedback": "A embalagem apresenta o produto. Uma cena de uso e uma narração ajudam a dar um motivo para acompanhar."
             }
           ]
         },
         "record": {
-          "title": "Monte a prévia do café: toque no botão vermelho",
+          "title": "Agora, monte sua prévia sem depender do rosto.",
           "tips": [
-            "Mostre o preparo com enquadramento claro",
-            "Narre com sua voz ou com apoio de IA, mantendo as informações verdadeiras",
-            "A prévia desta atividade não é gravada nem publicada no TikTok"
+            "Produto em destaque, uma cena simples e uma narração que acompanha o que está sendo mostrado.",
+            "Narre com sua voz ou com apoio de IA, mantendo as informações verdadeiras.",
+            "A prévia desta atividade não é gravada nem publicada no TikTok."
           ],
-          "button": "Criar prévia",
+          "button": "Montar minha prévia",
           "seconds": 4
         },
         "delivery": {
           "sending": "Concluindo sua segunda missão…",
-          "approvedTitle": "Segunda missão **concluída!**",
-          "brandMessage": "Você montou uma ideia sem depender do rosto. No cenário fictício desta etapa, 2 vendas elegíveis de R$ 9 somariam R$ 18. Não houve venda real.",
+          "approvedTitle": "Segunda conquista **desbloqueada!**",
+          "brandMessage": "Você experimentou um formato que pode combinar com a sua rotina: mostrar o produto e conduzir a explicação com a voz. Sua voz ou apoio de IA — você escolhe o caminho que quer desenvolver. Neste exemplo, duas vendas elegíveis de R$ 9 somariam R$ 18 em comissões. É uma simulação, sem vendas ou crédito real.",
           "walletLabel": "Missão 2 · 2 vendas simuladas"
         }
       },
@@ -625,60 +625,60 @@
         },
         "notification": {
           "app": "Missão TikTok Shop",
-          "title": "Sua terceira missão: um produto em detalhes",
-          "body": "Exemplo: 3 vendas simuladas × R$ 9 = R$ 27 de comissão fictícia."
+          "title": "Sua terceira missão está pronta!",
+          "body": "Você já montou uma sequência e experimentou um formato. Agora, encontre uma abertura em um produto da rotina."
         },
         "briefCard": {
-          "title": "Missão 3 · Transforme detalhes em uma ideia de vídeo",
-          "format": "Vertical 9:16 · 30 segundos · produto em destaque",
+          "title": "Missão 3 · Transforme um detalhe em curiosidade",
+          "format": "Uma embalagem, uma pergunta, um detalhe para mostrar. Sua próxima ideia pode começar assim. Nesta missão, você vai escolher uma abertura para apresentar o que vem dentro desta lata de biscoitos. Use o que aprendeu: dê um motivo para assistir e entregue uma demonstração coerente.",
           "deliverables": [
-            "Mostre a embalagem e os biscoitos com clareza",
-            "Use uma abertura conectada à experiência que será mostrada",
-            "Textos e narração podem ter apoio de IA, com revisão humana",
-            "Finalize convidando a pessoa a conferir as informações do produto"
+            "Mostre a embalagem e o conteúdo com clareza.",
+            "Abra com uma pergunta conectada ao produto.",
+            "Use texto ou narração para conduzir a demonstração.",
+            "Termine convidando a pessoa a conferir as informações."
           ],
           "fee": 27,
           "deadline": "Uma etapa por vez",
-          "accept": "Começar esta missão"
+          "accept": "Quero completar minha terceira missão"
         },
         "hook": {
-          "title": "Qual texto abre **seu vídeo de produto?**",
-          "subtitle": "Uma frase simples pode dar contexto para o que será demonstrado.",
+          "title": "Qual abertura cria curiosidade **sobre o que você vai mostrar?**",
+          "subtitle": "",
           "options": [
             {
               "id": "maiuscolo",
               "text": "“O MELHOR BISCOITO DO MUNDO, PERFEITO PARA TODO MUNDO!”",
               "correct": false,
-              "feedback": "É uma promessa ampla e difícil de sustentar. Explique o que você consegue mostrar, com informações concretas."
+              "feedback": "Uma promessa tão ampla não ajuda a mostrar o que torna esse produto interessante. Experimente partir de um detalhe concreto."
             },
             {
               "id": "etichetta",
               "text": "“Peso, validade e ingredientes, sem mostrar o produto.”",
               "correct": false,
-              "feedback": "Essas informações importam, mas a missão também pede uma cena que apresente o produto e dê contexto à explicação."
+              "feedback": "Essas informações ajudam na decisão. Primeiro, dê contexto mostrando o produto que será explicado."
             },
             {
               "id": "carbonara",
               "text": "“Biscoito ou bolacha? Abre comigo e olha o que vem nesta lata.”",
               "correct": true,
-              "feedback": "A abertura prepara uma demonstração concreta. Mostre o conteúdo real da embalagem e confira todas as informações antes de publicar."
+              "feedback": "Você conectou curiosidade e demonstração. A pergunta abre a conversa. A lata sendo aberta entrega o que foi prometido. Você já tem mais uma ideia para desenvolver."
             }
           ]
         },
         "record": {
-          "title": "Monte a prévia do produto: toque no botão vermelho",
+          "title": "Mais uma ideia pronta para ganhar forma.",
           "tips": [
-            "Use detalhes reais da embalagem e do produto",
-            "Mostre o que a pessoa vai receber, sem alterações enganosas por IA",
-            "Esta é uma simulação visual: nenhum vídeo é publicado"
+            "Monte a prévia e veja como uma pergunta simples pode conduzir sua sequência.",
+            "Mostre o que a pessoa vai receber, sem alterações enganosas por IA.",
+            "Esta é uma simulação visual: nenhum vídeo é publicado."
           ],
-          "button": "Criar prévia",
+          "button": "Montar minha terceira prévia",
           "seconds": 4
         },
         "delivery": {
           "sending": "Concluindo sua terceira missão…",
-          "approvedTitle": "Terceira missão **concluída!**",
-          "brandMessage": "Você completou os três exemplos. Nesta etapa, 3 vendas elegíveis de R$ 9 representariam R$ 27. Todos os números são fictícios; não há dinheiro recebido.",
+          "approvedTitle": "Três missões concluídas. **Você construiu seu ponto de partida.**",
+          "brandMessage": "Você escolheu aberturas, organizou uma sequência e experimentou maneiras de apresentar produtos. Agora você tem três exemplos para usar como referência na criação das suas próprias ideias. Nesta missão, três vendas elegíveis de R$ 9 representariam R$ 27. Todos os valores desta experiência são simulados.",
           "walletLabel": "Missão 3 · 3 vendas simuladas"
         }
       },
@@ -885,32 +885,32 @@
       "plan": [
         {
           "week": "Semana 1",
-          "title": "Prepare a conta e seu ponto de partida",
+          "title": "Construa seu ponto de partida",
           "items": [
-            "Confira os critérios de acesso ao programa de criadores",
-            "Organize o perfil e escolha categorias para estudar",
-            "Aprenda a observar o produto, as informações e a comissão",
-            "Prepare as primeiras ideias de conteúdo"
+            "Prepare a conta e confira os requisitos de acesso.",
+            "Organize as categorias que quer estudar.",
+            "Escolha os produtos para conhecer melhor.",
+            "Sua conquista desta fase: uma direção para começar."
           ]
         },
         {
           "week": "Semana 2",
-          "title": "Crie vídeos no seu formato",
+          "title": "Dê forma às suas ideias",
           "items": [
-            "Trabalhe uma abertura, uma demonstração e um convite claro",
-            "Escolha a rota com rosto, mãos e voz ou apoio de IA",
-            "Monte e revise suas primeiras versões pelo celular",
-            "Reserve um bloco de execução e ajuste-o à sua rotina"
+            "Trabalhe aberturas, cenas e demonstrações.",
+            "Desenvolva vídeos no formato que combina com você.",
+            "Use o celular e as ferramentas que escolher.",
+            "Sua conquista desta fase: suas primeiras versões de conteúdo."
           ]
         },
         {
           "week": "Semana 3",
-          "title": "Publique, observe e ajuste",
+          "title": "Observe e melhore o próximo vídeo",
           "items": [
-            "Com acesso habilitado, confira como vincular produtos",
-            "Observe o desempenho dos vídeos e as vendas elegíveis",
-            "Revise o que pode ficar mais claro no próximo conteúdo",
-            "Planeje o próximo ciclo, respeitando o estágio da conta"
+            "Com acesso habilitado, trabalhe a publicação e a vinculação dos produtos.",
+            "Aprenda a acompanhar o desempenho.",
+            "Identifique o que ajustar no próximo conteúdo.",
+            "Sua conquista desta fase: critérios para decidir seu próximo teste."
           ]
         }
       ],
@@ -946,7 +946,7 @@
         }
       },
       "simulationRecap": "**{count} missões concluídas. {total} na simulação.** Você experimentou três ideias de vídeo. Os valores são cenários fictícios, não comissões recebidas.",
-      "bridge": "Você concluiu três missões e visualizou **{total} em cenários simulados**. Agora, conheça o plano que organiza seus próximos passos: preparar a conta, escolher produtos, criar conteúdo e acompanhar o que acontece.",
+      "bridge": "**Você já tomou as primeiras decisões. Agora, tenha clareza sobre as próximas.** Nas três missões, você experimentou como apresentar um produto, despertar curiosidade e conduzir uma demonstração. O próximo passo é aprender a aplicar essa lógica aos seus produtos, ao seu formato e ao estágio da sua conta. É para organizar esse começo que existe o **Plano TikTok Shop 21 Dias**.",
       "cta": "Quero meu plano de 21 dias",
       "personal": {
         "timeQuestionId": "tempo",
@@ -1044,38 +1044,38 @@
       },
       "hero": {
         "eyebrow": "Seu próximo passo no TikTok Shop",
-        "title": "Você já tem o celular. **Conheça o caminho para começar no TikTok Shop.**",
-        "subtitle": "Um plano digital de 21 dias com passo a passo para preparar a conta, escolher produtos e criar vídeos aparecendo ou com apoio de IA. Comece pelo seu momento e aprenda a observar os resultados.",
+        "title": "Você já tem o celular. **Agora, tenha um passo a passo para começar a vender no TikTok Shop.**",
+        "subtitle": "Um plano de 21 dias para preparar sua conta, escolher produtos e criar seus primeiros vídeos — aparecendo, usando mãos e voz ou com apoio de IA. Saiba qual próximo passo trabalhar a cada dia, com tarefas para encaixar na sua rotina.",
         "bullets": [
-          "**Seu ponto de partida:** preparação da conta e critérios de acesso",
-          "**Seu formato:** aparecendo, mãos e voz ou apoio de IA",
-          "**Sua criação:** produto, abertura, demonstração e convite",
-          "**Um passo por dia:** organize seus primeiros 21 dias"
+          "**Comece pelo seu momento:** organize a conta e confira os requisitos de acesso.",
+          "**Escolha seu formato:** com rosto, mãos e voz ou apoio de IA.",
+          "**Tenha uma direção para criar:** produto, abertura, demonstração e convite.",
+          "**Avance um passo por dia:** prepare, crie, observe e ajuste."
         ],
-        "cta": "Quero meu plano de 21 dias"
+        "cta": "Quero começar meu plano de 21 dias"
       },
       "problem": {
-        "title": "Você até quer começar. **Mas trava nessas perguntas?**",
+        "title": "Você quer começar. **O que falta é saber qual passo dar agora.**",
         "items": [
           {
             "emoji": "thinking_face",
-            "title": "O que eu mostro?",
-            "text": "Aprenda a escolher uma situação e um produto que consiga explicar com clareza."
+            "title": "Minha conta está começando do zero.",
+            "text": "Comece pela preparação do perfil e pela conferência dos critérios de acesso. Organize o que depende de você enquanto acompanha a elegibilidade da conta."
           },
           {
             "emoji": "woman_shrugging",
-            "title": "E se minha conta for do zero?",
-            "text": "O plano começa pela preparação e pela checagem dos requisitos. A aprovação depende do TikTok Shop."
+            "title": "Não sei quais produtos escolher.",
+            "text": "Aprenda a observar situações de uso, informações do produto e condições de comissão antes de planejar o conteúdo."
           },
           {
             "emoji": "warning",
-            "title": "Preciso aparecer?",
-            "text": "Você pode estudar a rota com rosto, mãos e voz ou apoio de IA, com material autorizado e fiel ao produto."
+            "title": "Não quero mostrar meu rosto.",
+            "text": "Explore a criação com mãos e voz ou apoio de IA, mantendo o produto em destaque e as informações fiéis."
           },
           {
             "emoji": "receipt",
-            "title": "Como entra a comissão?",
-            "text": "Entenda a diferença entre criar conteúdo, gerar uma venda elegível e receber a comissão conforme as regras."
+            "title": "Tenho medo de ficar sem ideias.",
+            "text": "Trabalhe uma estrutura para desenvolver: situação, abertura, demonstração e próximo passo."
           }
         ]
       },
@@ -1194,10 +1194,10 @@
         ]
       },
       "price": {
-        "title": "Seu plano de 21 dias",
+        "title": "Seu próximo passo tem um plano.",
         "productName": "Plano TikTok Shop 21 Dias",
         "lines": [
-          "Passo a passo digital de 21 dias",
+          "Passo a passo para preparar sua conta, escolher produtos e desenvolver vídeos aparecendo ou com apoio de IA",
           "Preparação da conta e critérios de acesso",
           "Criação aparecendo ou com apoio de IA",
           "Produto, roteiro e leitura dos resultados",
@@ -1206,7 +1206,7 @@
         "anchorLabel": "Preço original",
         "priceLabel": "Valor do plano",
         "saveLabel": "Você economiza",
-        "cta": "Quero meu plano de 21 dias",
+        "cta": "Quero meu plano por R$ 29,90",
         "secure": "Inscrições ainda não abertas nesta prévia",
         "countdownLabel": "Seu próximo passo",
         "intro": "Comece pelo seu estilo: “{profilo}”",
@@ -1224,7 +1224,7 @@
       "promoExpired": "O preço de {promo} valia até {quando}.",
       "guarantee": {
         "title": "21 dias com um próximo passo",
-        "text": "A proposta é um plano digital para organizar seu começo no TikTok Shop. A preparação e o aprendizado podem exigir mais tempo que o bloco sugerido de 20 minutos. Antes de comprar, confira as condições de entrega e contratação. Nenhum ganho ou acesso à plataforma é garantido."
+        "text": "Tenha uma sequência para preparar sua conta, desenvolver suas ideias e aprender com cada novo conteúdo. Reserve um bloco sugerido de 20 minutos para trabalhar uma tarefa do plano. A preparação da conta, o aprendizado e algumas atividades podem exigir mais tempo. O acesso ao programa depende dos critérios da plataforma; o plano não garante vendas ou renda."
       },
       "testimonialsTitle": "Experiências de quem está começando",
       "faq": [
@@ -1270,8 +1270,8 @@
         }
       ],
       "finalCta": {
-        "title": "Você já deu o primeiro passo. **Continue com seu plano de 21 dias.**",
-        "cta": "Quero meu plano TikTok Shop"
+        "title": "Você acabou de experimentar os primeiros passos. **Agora, dê continuidade ao que começou.**",
+        "cta": "Quero começar meus 21 dias"
       }
     },
     "legal": {

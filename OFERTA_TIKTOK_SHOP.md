@@ -12,13 +12,17 @@ Mantém idade, objetivo, conquista desejada, disponibilidade, explicação, miss
 
 ## As três missões existentes
 
-1. **Caracolê — um benefício que dá para mostrar.** A mesma atividade de gancho, quatro cenas, prévia e fechamento passa a ensinar uma demonstração de produto para TikTok Shop. A conquista conclui o primeiro roteiro e mostra R$ 9 de comissão fictícia em uma venda hipotética.
-2. **Pingô — explicar sem depender do rosto.** A mesma missão do café ensina abertura, narração própria ou com IA e demonstração fiel. A conquista mostra o cenário de duas vendas hipotéticas de R$ 9, totalizando R$ 18.
-3. **Lata Cheia — transformar detalhes em uma ideia.** O mesmo produto e a mesma atividade ensinam texto de abertura e apresentação dos detalhes. A conquista mostra três vendas hipotéticas de R$ 9, totalizando R$ 27.
+1. **Caracolê — sua primeira ideia de vídeo começa aqui.** A mesma atividade de gancho, quatro cenas, prévia e fechamento passa a ensinar uma demonstração de produto para TikTok Shop. A conquista conclui o primeiro roteiro e mostra R$ 9 de comissão fictícia em uma venda hipotética.
+2. **Pingô — descubra seu caminho sem precisar aparecer.** A mesma missão do café ensina abertura, narração própria ou com IA e demonstração fiel. A conquista mostra o cenário de duas vendas hipotéticas de R$ 9, totalizando R$ 18.
+3. **Lata Cheia — transforme um detalhe em curiosidade.** O mesmo produto e a mesma atividade ensinam texto de abertura e apresentação dos detalhes. A conquista mostra três vendas hipotéticas de R$ 9, totalizando R$ 27.
+
+As mensagens de conclusão destacam as conquistas do percurso: a estrutura de um roteiro, um formato sem aparecer e três exemplos como ponto de partida. A introdução de cada missão utiliza o campo de texto já existente no cartão, identificado como “Seu desafio”.
 
 A carteira conserva o mecanismo de recompensa e fica identificada como **Comissões da simulação**. O total R$ 54 é fictício. Criar ou concluir a atividade não gera comissão real. A raspadinha conserva seu canvas e interação para revelar o plano; uma pequena condição de seleção de etapas permite exibi-la sem inventar desconto ou preço anterior.
 
 ## Oferta final
+
+Headline: “Você já tem o celular. **Agora, tenha um passo a passo para começar a vender no TikTok Shop.**”
 
 **Plano TikTok Shop 21 Dias — R$ 29,90.** Entrega confirmada: plano digital com passo a passo para começar a vender no TikTok Shop.
 
