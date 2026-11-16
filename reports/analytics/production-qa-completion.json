@@ -28,5 +28,8 @@
   ],
   "productionLeadsCsvDownloadVerified": true,
   "realTrafficExcludedFromQaCleanup": true,
-  "checkoutConnected": false
+  "checkoutConnected": false,
+  "finalVerificationAt": "2026-11-16T14:50:25.401Z",
+  "verifiedAfterDeployCommit": "3ba5854",
+  "qaVisitsAndContactsStillEmptyAfterRedeploy": true
 }

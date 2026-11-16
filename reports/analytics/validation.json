@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T14:42:36.742Z",
+  "checkedAt": "2026-11-16T14:50:25.394Z",
   "unitAndApiTests": 16,
   "unitAndApiTestsPassed": 16,
   "browserChecks": 5,
@@ -32,5 +32,11 @@
   "productionQaTestedCommit": "7b433c5",
   "productionQaCleanupVerified": true,
   "productionCsvDownloadVerified": true,
-  "structureSelectionAndLongPeriodRegressionTestsPassed": true
+  "structureSelectionAndLongPeriodRegressionTestsPassed": true,
+  "productionDeploymentVerified": true,
+  "latestApplicationCommit": "3ba5854",
+  "authenticatedProductionUiVerified": true,
+  "productionApiChecksPassed": 7,
+  "productionQaCleanupStillEmptyAfterRedeploy": true,
+  "originalsPreservedAfterFinalBuild": 364
 }
