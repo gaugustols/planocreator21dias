@@ -5,6 +5,12 @@
   "outputDirectory": "dist",
   "trailingSlash": true,
   "rewrites": [
+    { "source": "/tiktok-shop/inscricoes", "destination": "/tiktok-shop/inscricoes/index.html" },
+    { "source": "/tiktok-shop/inscricoes/", "destination": "/tiktok-shop/inscricoes/index.html" },
+    { "source": "/tiktok-shop/arrependimento", "destination": "/tiktok-shop/arrependimento/index.html" },
+    { "source": "/tiktok-shop/arrependimento/", "destination": "/tiktok-shop/arrependimento/index.html" },
+    { "source": "/tiktok-shop", "destination": "/tiktok-shop/index.html" },
+    { "source": "/tiktok-shop/", "destination": "/tiktok-shop/index.html" },
     { "source": "/api/q/", "destination": "/api/q" },
     { "source": "/br/api/q", "destination": "/api/q" },
     { "source": "/br/api/q/", "destination": "/api/q" },
@@ -16,7 +22,7 @@
     { "source": "/br/((?!api(?:/|$)|.*\\.).*)", "destination": "/br/index.html" },
     { "source": "/recesso", "destination": "/recesso/index.html" },
     { "source": "/recesso/", "destination": "/recesso/index.html" },
-    { "source": "/((?!api(?:/|$)|painel(?:/|$)|br(?:/|$)|.*\\.).*)", "destination": "/index.html" }
+    { "source": "/((?!api(?:/|$)|painel(?:/|$)|br(?:/|$)|tiktok-shop(?:/|$)|.*\\.).*)", "destination": "/index.html" }
   ],
   "headers": [
     { "source": "/painel/(.*)", "headers": [

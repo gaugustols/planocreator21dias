@@ -6,6 +6,8 @@ Painel: https://planocreator21dias.vercel.app/painel/ . A senha continua sendo a
 
 Um único painel em português recebe várias ofertas, domínios e idiomas. As instalações atuais são `/` (italiano) e `/br/` (português), cada uma com 19 etapas principais e suas subfases. O build injeta o coletor apenas em `dist/`. Os arquivos recuperados, textos e design do quiz permanecem preservados.
 
+A cópia adaptada **Trilha Shop · TikTok Shop** fica em `/tiktok-shop/`, com oferta e armazenamento `ugc-shop-` próprios, mantendo as 19 etapas, imagens e componentes do brasileiro. O build extrai a estrutura do mesmo bundle e injeta o coletor. Captura nome e e-mail fornecidos, campanha e última etapa, com consentimento separado. A entrega é um plano de 21 dias por R$ 29,90; o checkout ainda não foi configurado. Validação: `npm run test:shop`.
+
 ## Como usar
 
 1. Escolha oferta, período de início das visitas, origem/campanha e aparelho. As datas são em **UTC**; a coorte inclui o avanço posterior das visitas que começaram no período.

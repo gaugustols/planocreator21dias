@@ -25,7 +25,8 @@
     "verify:locales": "node verify_locales.mjs",
     "verify:offers:br": "node verify_offers.mjs --locale=br",
     "summarize:br": "node summarize_br.mjs",
-    "verify:original:br": "node verify_br_original.mjs"
+    "verify:original:br": "node verify_br_original.mjs",
+    "test:shop": "node tests/tiktok-shop-browser.mjs"
   },
   "repository": {
     "type": "git",

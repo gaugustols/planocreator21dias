@@ -1,0 +1,1327 @@
+{
+  "config": {
+    "brandName": "Trilha Shop",
+    "productName": "Plano TikTok Shop 21 Dias",
+    "company": {
+      "name": "GAL NEGOCIOS DIGITAIS LTDA",
+      "vat": "",
+      "taxIdLabel": "CNPJ",
+      "address": "",
+      "email": ""
+    },
+    "checkoutUrl": "/tiktok-shop/inscricoes/",
+    "funnel": {
+      "offers": [],
+      "steps": []
+    },
+    "downsell": {
+      "enabled": false,
+      "offerCode": "z752258y",
+      "base": 24.9
+    },
+    "promo": {
+      "enabled": false,
+      "offerCode": "9mz7egf0",
+      "base": 19.9,
+      "hours": 48,
+      "layout": "first"
+    },
+    "price": 29.9,
+    "anchorPrice": 97,
+    "vatIncluded": true,
+    "guaranteeDays": 21,
+    "paymentMethods": [
+      "visa",
+      "mastercard",
+      "pix",
+      "boleto",
+      "applepay"
+    ],
+    "testimonials": [],
+    "metricsCountries": [
+      "BR"
+    ],
+    "withdrawalUrl": "/tiktok-shop/arrependimento/",
+    "backfillFrom": 0,
+    "showAnchor": false,
+    "showBonusValues": false,
+    "metaPixelId": "",
+    "utmify": {
+      "pixelId": "",
+      "utmsScript": false,
+      "metaPixelIds": []
+    },
+    "urgencyBar": {
+      "enabled": true
+    },
+    "countdown": {
+      "enabled": false,
+      "mode": "endOfDay",
+      "minutes": 10,
+      "deadlineISO": ""
+    },
+    "scratch": {
+      "enabled": true,
+      "revealPlan": true
+    }
+  },
+  "content": {
+    "locale": "pt-BR",
+    "currency": "BRL",
+    "chapters": [
+      {
+        "id": 1,
+        "label": "Perfil"
+      },
+      {
+        "id": 2,
+        "label": "Na prática"
+      },
+      {
+        "id": 3,
+        "label": "Estilo"
+      },
+      {
+        "id": 4,
+        "label": "Trilha"
+      }
+    ],
+    "landing": {
+      "badge": "Quiz grátis · 4 minutos",
+      "headline": "Seu celular pode render **comissões no TikTok Shop**",
+      "subheadline": "Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA.",
+      "firstQuestion": {
+        "kind": "question",
+        "id": "eta",
+        "chapter": 1,
+        "title": "Escolha a sua idade e comece",
+        "layout": "grid",
+        "options": [
+          {
+            "id": "18-29",
+            "label": "18–29",
+            "emoji": "woman_raising_hand"
+          },
+          {
+            "id": "30-39",
+            "label": "30–39",
+            "emoji": "woman_tipping_hand"
+          },
+          {
+            "id": "40-49",
+            "label": "40–49",
+            "emoji": "woman_office_worker"
+          },
+          {
+            "id": "50+",
+            "label": "50+",
+            "emoji": "woman_artist"
+          }
+        ],
+        "reaction": {
+          "18-29": "O celular você já usa. Agora, descubra como começar a criar vídeos de produtos para o TikTok Shop.",
+          "30-39": "Um produto da rotina pode virar uma ideia de vídeo. Vamos descobrir o seu jeito de começar.",
+          "40-49": "Sua experiência com produtos pode ajudar a explicar o que eles fazem. Vamos montar seu primeiro passo.",
+          "50+": "Uma nova atividade começa com um primeiro passo. Você pode aprender no seu ritmo, aparecendo ou com apoio de IA."
+        }
+      },
+      "trustLine": "Sem app para baixar e sem número de celular.",
+      "disclaimer": "Quiz gratuito para maiores de 18 anos. Esta é uma simulação educativa: as marcas são fictícias, os vídeos e as vendas não são reais, e os valores mostrados são exemplos hipotéticos de comissão. Nenhum valor é dinheiro recebido ou disponível para saque. Para atuar como afiliado, sua conta precisa atender aos critérios e obter acesso do TikTok Shop. No final, apresentamos o Plano TikTok Shop 21 Dias por R$ 29,90. Não é oferta de emprego e nenhum ganho é garantido.",
+      "variants": {
+        "b": {
+          "footerNote": "Fotos geradas por inteligência artificial: não mostram pessoas reais.",
+          "headline": "Seu celular pode render **comissões no TikTok Shop**",
+          "subheadline": "Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA."
+        },
+        "c": {
+          "headline": "Seu celular pode render **comissões no TikTok Shop**",
+          "subheadline": "Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA."
+        }
+      }
+    },
+    "steps": [
+      {
+        "kind": "question",
+        "id": "obiettivo",
+        "chapter": 1,
+        "title": "O que mudaria na sua vida com **uma renda a mais pela internet?**",
+        "subtitle": "Pense no que você gostaria de fazer por você.",
+        "options": [
+          {
+            "id": "arrotondare",
+            "label": "Ter um dinheiro meu",
+            "hint": "Mais folga no mês, sem largar o emprego",
+            "emoji": "money_bag"
+          },
+          {
+            "id": "mio",
+            "label": "Construir algo só meu",
+            "hint": "Escolher meus horários e crescer no meu ritmo",
+            "emoji": "seedling"
+          },
+          {
+            "id": "creativa",
+            "label": "Ganhar com o que gosto",
+            "hint": "Aprender a criar vídeos de produtos",
+            "emoji": "artist_palette"
+          },
+          {
+            "id": "prodotti",
+            "label": "Trabalhar com produtos que conheço",
+            "hint": "Mostrar produtos e entender como funcionam as comissões",
+            "emoji": "gift"
+          }
+        ],
+        "reaction": {
+          "arrotondare": "Ter uma renda sua faz diferença. Vamos começar entendendo como um vídeo de produto funciona.",
+          "mio": "Um projeto seu, começando com o celular que já tem. Vamos colocar o primeiro passo na sua frente.",
+          "creativa": "Sua criatividade pode ajudar a mostrar uma situação e explicar um produto com clareza.",
+          "prodotti": "Você já conhece produtos da sua rotina. Agora, experimente transformar isso em uma demonstração."
+        }
+      },
+      {
+        "kind": "question",
+        "id": "spesa",
+        "chapter": 1,
+        "title": "Se os seus vídeos virassem renda, **qual seria a primeira conquista?**",
+        "subtitle": "Vale uma conquista grande ou aquela compra que você vem adiando.",
+        "options": [
+          {
+            "id": "natale",
+            "label": "Os presentes de Natal",
+            "emoji": "gift"
+          },
+          {
+            "id": "vacanza",
+            "label": "Uma viagem",
+            "emoji": "beach_with_umbrella"
+          },
+          {
+            "id": "corso",
+            "label": "Um curso ou um hobby",
+            "emoji": "graduation_cap"
+          },
+          {
+            "id": "parte",
+            "label": "Guardar um dinheiro",
+            "emoji": "bank"
+          },
+          {
+            "id": "niente",
+            "label": "Nada em especial",
+            "emoji": "woman_shrugging"
+          }
+        ],
+        "reaction": {
+          "natale": "Já imaginou escolher os presentes com um dinheiro que você mesma fez? Vamos começar pelo primeiro vídeo.",
+          "vacanza": "Tirar essa viagem do papel pode começar por algo menor: um produto de casa e o seu primeiro vídeo.",
+          "corso": "Ter um dinheiro para investir em você. Esse pode ser o motivo para começar.",
+          "parte": "Guardar um pouco e ter mais escolhas. Vamos começar pelas ideias de conteúdo que você pode criar.",
+          "niente": "Então comece descobrindo o que você pode criar com o celular que já tem."
+        }
+      },
+      {
+        "kind": "question",
+        "id": "tempo",
+        "chapter": 1,
+        "title": "Onde uma rotina de criação **cabe no seu dia?**",
+        "subtitle": "O plano propõe um bloco de 20 minutos para executar um próximo passo. A preparação e o aprendizado podem exigir mais tempo.",
+        "options": [
+          {
+            "id": "moka",
+            "label": "Um bloco curto por dia",
+            "hint": "Cerca de 20 minutos para uma tarefa",
+            "emoji": "hot_beverage"
+          },
+          {
+            "id": "30min",
+            "label": "Meia hora por dia",
+            "hint": "No almoço ou à noite",
+            "emoji": "stopwatch"
+          },
+          {
+            "id": "1ora",
+            "label": "Uma hora por dia",
+            "hint": "Quando a casa finalmente fica em silêncio",
+            "emoji": "crescent_moon"
+          },
+          {
+            "id": "weekend",
+            "label": "Só no fim de semana",
+            "hint": "Umas horinhas entre sábado e domingo",
+            "emoji": "spiral_calendar"
+          }
+        ],
+        "reaction": {
+          "moka": "Dá para começar aos poucos: hoje um roteiro, depois a gravação. A trilha mostra a ordem.",
+          "30min": "Meia hora para aprender, planejar ou criar. Um passo concreto por dia.",
+          "1ora": "Uma hora por dia para tirar os vídeos da ideia e começar a mostrar o seu trabalho.",
+          "weekend": "Você pode separar um período para organizar as ideias e criar seus vídeos."
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "cos-e-ugc",
+        "chapter": 1,
+        "eyebrow": "Como funciona o TikTok Shop",
+        "title": "Você mostra o produto. **Uma venda elegível pode gerar comissão.**",
+        "body": [
+          "No TikTok Shop, criadores elegíveis podem divulgar produtos em seus vídeos. Quando uma venda atende às regras do programa, ela pode gerar uma comissão. Você precisa preparar a conta e conferir se tem acesso aos recursos.",
+          "Experimente agora **três missões com produtos da rotina**. Você vai escolher uma abertura, organizar cenas e visualizar exemplos de comissão. As vendas e os valores desta atividade são simulados."
+        ],
+        "visual": "rates",
+        "stat": {
+          "value": "R$ 9",
+          "label": "comissão fictícia por venda nos exemplos desta atividade",
+          "source": ""
+        },
+        "cta": "Quero experimentar as missões"
+      },
+      {
+        "kind": "brief",
+        "id": "brief-crema",
+        "chapter": 2,
+        "index": 1,
+        "brand": {
+          "name": "Caracolê",
+          "product": "Creme finalizador para cachos · 300 g",
+          "emoji": "lotion_bottle",
+          "tagline": "Cuidado para cachos",
+          "accent": "#c2577a"
+        },
+        "notification": {
+          "app": "Missão TikTok Shop",
+          "title": "Sua primeira missão: um vídeo de produto",
+          "body": "Exemplo: R$ 9 de comissão em 1 venda elegível simulada."
+        },
+        "briefCard": {
+          "title": "Missão 1 · Um benefício que dá para mostrar",
+          "format": "Vertical 9:16 · 15 segundos",
+          "deliverables": [
+            "Apresente uma situação cotidiana e o produto logo no começo",
+            "Mostre o uso com fidelidade às instruções do produto",
+            "Use uma abertura clara e um convite para conferir os detalhes",
+            "Aparecendo ou com apoio de IA: não invente resultados nem propriedades"
+          ],
+          "fee": 9,
+          "deadline": "Uma etapa por vez",
+          "accept": "Começar esta missão"
+        },
+        "hook": {
+          "title": "Escolha o gancho: **os primeiros segundos do seu vídeo**",
+          "subtitle": "Qual abertura apresenta uma situação concreta e prepara uma demonstração do produto?",
+          "options": [
+            {
+              "id": "saluto",
+              "text": "“Oi, gente! Então, hoje eu vou falar de um produto que encontrei…”",
+              "correct": false,
+              "feedback": "A situação ainda não apareceu. Experimente começar por algo que a pessoa reconheça e que você consiga demonstrar."
+            },
+            {
+              "id": "problema",
+              "text": "Produto na mão: “Seu cabelo também fica assim depois de sair de casa? Olha como eu uso este finalizador.”",
+              "correct": true,
+              "feedback": "Você conectou uma situação à demonstração. Mostre o uso real e siga o rótulo, sem prometer um resultado igual para todas as pessoas."
+            },
+            {
+              "id": "spot",
+              "text": "“O creme que acaba com todo o frizz e muda seu cabelo para sempre!”",
+              "correct": false,
+              "feedback": "A promessa é maior do que a demonstração. Prefira explicar o uso e as características reais do produto, sem garantir resultados."
+            }
+          ]
+        },
+        "storyboard": {
+          "title": "Organize **as quatro cenas**",
+          "subtitle": "Toque nas cenas na ordem em que você apresentaria o produto.",
+          "scenes": [
+            {
+              "id": "aggancio",
+              "label": "Uma situação cotidiana com o cabelo",
+              "emoji": "sun"
+            },
+            {
+              "id": "prodotto",
+              "label": "Mostro o produto e sua embalagem",
+              "emoji": "lotion_bottle"
+            },
+            {
+              "id": "prova",
+              "label": "Demonstro o uso conforme o rótulo",
+              "emoji": "sparkles"
+            },
+            {
+              "id": "chiusura",
+              "label": "Convido a conferir os detalhes",
+              "emoji": "thumbs_up"
+            }
+          ],
+          "success": "Sequência pronta: situação, produto, demonstração e convite para conferir. Você já montou a lógica de um vídeo."
+        },
+        "record": {
+          "title": "Monte sua prévia: toque no botão vermelho",
+          "tips": [
+            "Mantenha o formato vertical e o produto bem visível",
+            "Use luz e enquadramento que deixem os detalhes claros",
+            "A IA pode ajudar no roteiro, na narração e na edição",
+            "Esta etapa simula a criação: não grava nem publica um vídeo real"
+          ],
+          "button": "Criar prévia",
+          "seconds": 4
+        },
+        "closing": {
+          "title": "Como você encerra **seu vídeo de produto?**",
+          "subtitle": "Um fechamento coerente explica qual é o próximo passo.",
+          "options": [
+            {
+              "id": "link",
+              "text": "“É o melhor do mundo. Pode comprar sem nem olhar os detalhes!”",
+              "correct": false,
+              "feedback": "Ajude a pessoa a decidir com informação. Convide para conferir o produto, sem uma promessa absoluta."
+            },
+            {
+              "id": "sconto",
+              "text": "“Corre que só hoje tem 50% de desconto!”",
+              "correct": false,
+              "feedback": "Não invente preço, desconto ou prazo. Confira as condições reais do produto antes de divulgar."
+            },
+            {
+              "id": "consiglio",
+              "text": "“Veja os detalhes do produto e confira se combina com a sua rotina.”",
+              "correct": true,
+              "feedback": "Você fez um convite claro para a pessoa avaliar o produto. O recurso de vincular produtos depende da elegibilidade da conta."
+            }
+          ]
+        },
+        "delivery": {
+          "sending": "Concluindo sua primeira missão…",
+          "approvedTitle": "Primeira missão **concluída!**",
+          "brandMessage": "Você montou uma demonstração. Agora, visualize um cenário fictício: 1 venda elegível com R$ 9 de comissão. Não houve venda nem crédito real.",
+          "walletLabel": "Missão 1 · 1 venda simulada"
+        }
+      },
+      {
+        "kind": "question",
+        "id": "camera",
+        "chapter": 3,
+        "title": "Você prefere criar **aparecendo ou com apoio de IA?**",
+        "subtitle": "Escolha o formato que deixa você mais à vontade.",
+        "options": [
+          {
+            "id": "volto",
+            "label": "Eu apareço",
+            "hint": "Apresento o produto com meu rosto e minha voz",
+            "emoji": "grinning_face_with_smiling_eyes"
+          },
+          {
+            "id": "mani_voce",
+            "label": "Só mãos e voz",
+            "hint": "Demonstro o produto sem mostrar o rosto",
+            "emoji": "palms_up_together"
+          },
+          {
+            "id": "senza_volto",
+            "label": "Sem aparecer, com IA",
+            "hint": "Uso apoio em roteiro, narração e edição",
+            "emoji": "package"
+          }
+        ],
+        "reaction": {
+          "volto": "Sua imagem e sua voz podem fazer parte da demonstração. O foco continua sendo explicar o produto.",
+          "mani_voce": "Você pode mostrar o produto de perto e narrar, mantendo o rosto fora da câmera.",
+          "senza_volto": "A IA pode apoiar a produção. Use imagens autorizadas, represente o produto com fidelidade e sinalize o uso de IA conforme as regras da plataforma."
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "niente-follower",
+        "chapter": 3,
+        "eyebrow": "Encontre o seu formato",
+        "title": "Você escolhe como criar. **O produto continua em destaque.**",
+        "body": [
+          "Você pode aparecer, usar mãos e voz ou contar com apoio de IA na produção. Em todas as rotas, o vídeo precisa mostrar o produto de forma clara e verdadeira.",
+          "Quem começa do zero também precisa preparar a conta e conferir os critérios de acesso ao TikTok Shop. O plano organiza esse começo; a aprovação depende da plataforma."
+        ],
+        "visual": "faceless",
+        "bullets": [
+          {
+            "emoji": "megaphone",
+            "text": "Apareça com **sua imagem e sua voz**"
+          },
+          {
+            "emoji": "money_bag",
+            "text": "Mostre o produto **sem exibir seu rosto**"
+          },
+          {
+            "emoji": "house",
+            "text": "Use IA com **material autorizado e revisão humana**"
+          }
+        ],
+        "cta": "Quero continuar no meu formato"
+      },
+      {
+        "kind": "question",
+        "id": "categorie",
+        "chapter": 3,
+        "title": "Quais produtos da sua rotina **você gostaria de apresentar?**",
+        "subtitle": "Escolha pelo menos 2 categorias para explorar seus primeiros vídeos.",
+        "multi": true,
+        "minSelect": 2,
+        "layout": "grid",
+        "cta": "Continuar",
+        "options": [
+          {
+            "id": "bellezza",
+            "label": "Beleza e skincare",
+            "emoji": "lotion_bottle"
+          },
+          {
+            "id": "casa",
+            "label": "Casa e limpeza",
+            "emoji": "soap"
+          },
+          {
+            "id": "cucina",
+            "label": "Cozinha e café",
+            "emoji": "cooking"
+          },
+          {
+            "id": "moda",
+            "label": "Moda e acessórios",
+            "emoji": "dress"
+          },
+          {
+            "id": "famiglia",
+            "label": "Crianças e família",
+            "emoji": "baby_bottle"
+          },
+          {
+            "id": "animali",
+            "label": "Pets",
+            "emoji": "dog_face"
+          },
+          {
+            "id": "benessere",
+            "label": "Esporte e bem-estar",
+            "emoji": "dumbbell"
+          },
+          {
+            "id": "tech",
+            "label": "Tecnologia e gadgets",
+            "emoji": "laptop"
+          }
+        ],
+        "reaction": {
+          "cucina": "Ótima escolha: de comida, todo brasileiro entende um pouco.",
+          "animali": "Pet prende a atenção na hora, e as marcas sabem disso.",
+          "tech": "Boa: quem vende tecnologia sempre precisa de vídeos de “como usar”."
+        }
+      },
+      {
+        "kind": "brief",
+        "id": "brief-moka",
+        "chapter": 3,
+        "index": 2,
+        "brand": {
+          "name": "Pingô",
+          "product": "Café torrado e moído “Despertar” · 500 g",
+          "emoji": "hot_beverage",
+          "tagline": "Café para passar no coador",
+          "accent": "#8a4b2a"
+        },
+        "notification": {
+          "app": "Missão TikTok Shop",
+          "title": "Sua segunda missão: café em vídeo",
+          "body": "Exemplo: 2 vendas simuladas × R$ 9 = R$ 18 de comissão fictícia."
+        },
+        "briefCard": {
+          "title": "Missão 2 · Um vídeo que explica sem depender do rosto",
+          "format": "Vertical 9:16 · 30 segundos · narração",
+          "deliverables": [
+            "Mostre o preparo: água, coador e café na xícara",
+            "A narração pode ser sua ou produzida com apoio de IA",
+            "Deixe a embalagem e o produto reconhecíveis",
+            "Use imagens autorizadas e represente o produto real com fidelidade"
+          ],
+          "fee": 18,
+          "deadline": "No seu ritmo",
+          "accept": "Começar esta missão"
+        },
+        "hook": {
+          "title": "Qual abertura você escolhe **para esse café?**",
+          "subtitle": "A ideia também funciona sem mostrar o rosto: uma situação, uma demonstração e uma narração clara.",
+          "options": [
+            {
+              "id": "borbottio",
+              "text": "Close no café passando, depois a narração: “Enquanto o café fica pronto, olha os detalhes deste preparo.”",
+              "correct": true,
+              "feedback": "Você começou com uma cena concreta e preparou a explicação. Com voz própria ou IA, confira se a narração descreve exatamente o que aparece."
+            },
+            {
+              "id": "nonna",
+              "text": "“Vou contar toda a história da minha família antes de mostrar o café…”",
+              "correct": false,
+              "feedback": "A história pode fazer parte do conteúdo, mas aqui a missão é apresentar a situação e o produto logo no começo."
+            },
+            {
+              "id": "fermo",
+              "text": "O pacote parado por vários segundos, sem som nem contexto.",
+              "correct": false,
+              "feedback": "A embalagem sozinha não explica a situação. Adicione uma cena de uso ou uma narração que ajude a entender o vídeo."
+            }
+          ]
+        },
+        "record": {
+          "title": "Monte a prévia do café: toque no botão vermelho",
+          "tips": [
+            "Mostre o preparo com enquadramento claro",
+            "Narre com sua voz ou com apoio de IA, mantendo as informações verdadeiras",
+            "A prévia desta atividade não é gravada nem publicada no TikTok"
+          ],
+          "button": "Criar prévia",
+          "seconds": 4
+        },
+        "delivery": {
+          "sending": "Concluindo sua segunda missão…",
+          "approvedTitle": "Segunda missão **concluída!**",
+          "brandMessage": "Você montou uma ideia sem depender do rosto. No cenário fictício desta etapa, 2 vendas elegíveis de R$ 9 somariam R$ 18. Não houve venda real.",
+          "walletLabel": "Missão 2 · 2 vendas simuladas"
+        }
+      },
+      {
+        "kind": "interstitial",
+        "id": "regola-d-oro",
+        "chapter": 3,
+        "eyebrow": "Entenda de onde vem a comissão",
+        "title": "A comissão depende da venda. **Ela não vem de concluir uma tarefa.**",
+        "body": [
+          "Você está experimentando como apresentar produtos. Na atividade, o valor aparece depois da missão apenas para visualizar um cenário hipotético. Na vida real, postar um vídeo não garante venda ou comissão.",
+          "Para atuar como afiliado, confira o acesso da conta, os produtos disponíveis e as regras atuais. Comissões dependem de vendas elegíveis e podem mudar com cancelamentos e devoluções."
+        ],
+        "visual": "safety",
+        "bullets": [
+          {
+            "emoji": "prohibited",
+            "text": "Não existe saldo desta simulação para **pagar uma taxa e sacar**"
+          },
+          {
+            "emoji": "check_mark_button",
+            "text": "O plano é **conteúdo educativo**, separado do programa de afiliados"
+          }
+        ],
+        "cta": "Entendi, próxima missão"
+      },
+      {
+        "kind": "brief",
+        "id": "brief-pasta",
+        "chapter": 3,
+        "index": 3,
+        "brand": {
+          "name": "Lata Cheia",
+          "product": "Biscoitos amanteigados · lata de 400 g",
+          "emoji": "cookie",
+          "tagline": "Biscoitaria artesanal",
+          "accent": "#b06a12"
+        },
+        "notification": {
+          "app": "Missão TikTok Shop",
+          "title": "Sua terceira missão: um produto em detalhes",
+          "body": "Exemplo: 3 vendas simuladas × R$ 9 = R$ 27 de comissão fictícia."
+        },
+        "briefCard": {
+          "title": "Missão 3 · Transforme detalhes em uma ideia de vídeo",
+          "format": "Vertical 9:16 · 30 segundos · produto em destaque",
+          "deliverables": [
+            "Mostre a embalagem e os biscoitos com clareza",
+            "Use uma abertura conectada à experiência que será mostrada",
+            "Textos e narração podem ter apoio de IA, com revisão humana",
+            "Finalize convidando a pessoa a conferir as informações do produto"
+          ],
+          "fee": 27,
+          "deadline": "Uma etapa por vez",
+          "accept": "Começar esta missão"
+        },
+        "hook": {
+          "title": "Qual texto abre **seu vídeo de produto?**",
+          "subtitle": "Uma frase simples pode dar contexto para o que será demonstrado.",
+          "options": [
+            {
+              "id": "maiuscolo",
+              "text": "“O MELHOR BISCOITO DO MUNDO, PERFEITO PARA TODO MUNDO!”",
+              "correct": false,
+              "feedback": "É uma promessa ampla e difícil de sustentar. Explique o que você consegue mostrar, com informações concretas."
+            },
+            {
+              "id": "etichetta",
+              "text": "“Peso, validade e ingredientes, sem mostrar o produto.”",
+              "correct": false,
+              "feedback": "Essas informações importam, mas a missão também pede uma cena que apresente o produto e dê contexto à explicação."
+            },
+            {
+              "id": "carbonara",
+              "text": "“Biscoito ou bolacha? Abre comigo e olha o que vem nesta lata.”",
+              "correct": true,
+              "feedback": "A abertura prepara uma demonstração concreta. Mostre o conteúdo real da embalagem e confira todas as informações antes de publicar."
+            }
+          ]
+        },
+        "record": {
+          "title": "Monte a prévia do produto: toque no botão vermelho",
+          "tips": [
+            "Use detalhes reais da embalagem e do produto",
+            "Mostre o que a pessoa vai receber, sem alterações enganosas por IA",
+            "Esta é uma simulação visual: nenhum vídeo é publicado"
+          ],
+          "button": "Criar prévia",
+          "seconds": 4
+        },
+        "delivery": {
+          "sending": "Concluindo sua terceira missão…",
+          "approvedTitle": "Terceira missão **concluída!**",
+          "brandMessage": "Você completou os três exemplos. Nesta etapa, 3 vendas elegíveis de R$ 9 representariam R$ 27. Todos os números são fictícios; não há dinheiro recebido.",
+          "walletLabel": "Missão 3 · 3 vendas simuladas"
+        }
+      },
+      {
+        "kind": "question",
+        "id": "primo-video",
+        "chapter": 4,
+        "title": "Quando você quer dar o primeiro passo **no TikTok Shop?**",
+        "subtitle": "Você pode começar preparando a conta, escolhendo uma categoria e planejando o conteúdo.",
+        "options": [
+          {
+            "id": "oggi",
+            "label": "Hoje, começando pelo que preciso preparar",
+            "emoji": "clapper_board"
+          },
+          {
+            "id": "domani",
+            "label": "Amanhã",
+            "emoji": "sun"
+          },
+          {
+            "id": "weekend",
+            "label": "Neste fim de semana",
+            "emoji": "calendar"
+          },
+          {
+            "id": "non-ancora",
+            "label": "Ainda não me sinto pronta",
+            "emoji": "hugging_face"
+          }
+        ],
+        "reaction": {
+          "oggi": "Hoje você separa um produto e começa pelo primeiro roteiro. O próximo passo vai estar na sua frente.",
+          "domani": "Amanhã você pode começar pela preparação da conta e pela primeira ideia de vídeo.",
+          "weekend": "Ótimo: no fim de semana você grava vários vídeos de uma vez só.",
+          "non-ancora": "Comece pelo básico, no seu ritmo."
+        }
+      },
+      {
+        "kind": "analysis",
+        "id": "analisi",
+        "chapter": 4,
+        "title": "Estamos organizando seu **plano para começar no TikTok Shop**",
+        "doneTitle": "Pronto: **seu caminho de 21 dias está organizado**",
+        "lines": [
+          "Reunindo suas escolhas",
+          "Separando a rota com rosto, mãos e voz ou apoio de IA",
+          "Revisando as três missões da simulação",
+          "Organizando os exemplos de comissão, sem garantia de ganhos",
+          "Preparando os próximos passos de conta, produto e vídeo",
+          "Seu plano de 21 dias está pronto para conhecer"
+        ],
+        "midQuestion": {
+          "title": "Quer um passo a passo para **preparar a conta e criar seus vídeos?**",
+          "layout": "buttons",
+          "options": [
+            {
+              "id": "si",
+              "label": "Sim, quero o passo a passo"
+            },
+            {
+              "id": "no",
+              "label": "Não, obrigada"
+            }
+          ]
+        },
+        "facts": [
+          {
+            "emoji": "locked",
+            "text": "Oferta independente do TikTok"
+          },
+          {
+            "emoji": "shield",
+            "text": "Plano digital de 21 dias"
+          },
+          {
+            "emoji": "mobile_phone",
+            "text": "Em português, pelo celular"
+          }
+        ]
+      },
+      {
+        "kind": "email",
+        "id": "email",
+        "chapter": 4,
+        "title": "Seu próximo passo está pronto. **Qual e-mail você quer registrar?**",
+        "subtitle": "Veja o resultado agora e registre seu interesse nesta oferta. Nenhum e-mail automático é enviado nesta prévia.",
+        "label": "O seu e-mail",
+        "placeholder": "nome@exemplo.com",
+        "cta": "Registrar e ver meu resultado",
+        "privacy": {
+          "text": "Registramos seu interesse e a última etapa nesta oferta. A autorização para contato sobre novidades é solicitada separadamente. Controladora: {company}",
+          "link": "Política de privacidade"
+        },
+        "invalid": "Confira o endereço: tem que ser algo como nome.sobrenome@gmail.com, sem espaços nem acentos (no Gmail, pelo menos 6 letras ou números antes do @).",
+        "suggest": "Você quis dizer {email}?"
+      },
+      {
+        "kind": "optin",
+        "id": "optin",
+        "chapter": 4,
+        "title": "Quer receber **novidades deste plano?**",
+        "text": "Você pode autorizar contato por e-mail sobre a abertura e as novidades do Plano TikTok Shop 21 Dias.",
+        "yes": "Sim, quero receber!",
+        "no": "Não, obrigada",
+        "note": "Sua escolha fica registrada. Nenhum e-mail automático é enviado nesta prévia.",
+        "noteSingle": "Sua escolha fica registrada. Nenhum e-mail automático é enviado nesta prévia.",
+        "privacyLink": "Política de privacidade",
+        "preview": [
+          {
+            "emoji": "thinking_face",
+            "title": "Aparecendo ou com IA?",
+            "text": "Conheça os caminhos para criar vídeos de produtos."
+          },
+          {
+            "emoji": "stopwatch",
+            "title": "Pouco tempo?",
+            "text": "Organize um próximo passo em um bloco sugerido de 20 minutos."
+          },
+          {
+            "emoji": "package",
+            "title": "O que tem no plano?",
+            "text": "21 dias para preparar, criar, observar e ajustar."
+          }
+        ]
+      },
+      {
+        "kind": "name",
+        "id": "nome",
+        "chapter": 4,
+        "eyebrow": "A sua trilha está pronta!",
+        "title": "Como você se chama?",
+        "label": "Nome",
+        "placeholder": "Ex.: Juliana",
+        "cta": "Continuar",
+        "skip": "Prefiro não dizer",
+        "invalid": "Escreva só o nome: letras, espaços ou apóstrofos, de 2 a 30 caracteres.",
+        "privacy": {
+          "text": "Opcional: usamos seu nome para personalizar esta experiência e identificar seu interesse no painel privado.",
+          "link": "Política de privacidade"
+        }
+      },
+      {
+        "kind": "scratch",
+        "id": "sconto",
+        "chapter": 4,
+        "title": "Raspe para revelar **seu próximo passo!**",
+        "subtitle": "Sua experiência continua com um plano de 21 dias para começar no TikTok Shop.",
+        "badge": "Seu plano de 21 dias",
+        "foil": "Raspe aqui",
+        "reveal": "Revelar meu plano",
+        "sheetTitle": "Seu próximo passo está pronto!",
+        "sheetTitleName": "{nome}, seu próximo passo está pronto!",
+        "sheetText": "Plano TikTok Shop 21 Dias por R$ 29,90.",
+        "cta": "Conhecer meu plano",
+        "note": "Inscrições ainda não abertas. Esta prévia não solicita pagamento."
+      },
+      {
+        "kind": "result",
+        "id": "risultato",
+        "chapter": 4
+      }
+    ],
+    "wallet": {
+      "label": "Comissões da simulação",
+      "tooltip": "Os valores deste quiz são fictícios. Cada missão ilustra um cenário com comissão de R$ 9 por venda elegível: 1, 2 e 3 vendas hipotéticas, respectivamente. Não houve vendas, crédito ou saldo para saque. Criar ou publicar um vídeo não garante comissão. Resultados reais dependem das vendas elegíveis e das regras do TikTok Shop."
+    },
+    "result": {
+      "title": "Seu plano para **começar no TikTok Shop**",
+      "titleName": "{nome}, seu plano para **começar no TikTok Shop**",
+      "profileLabel": "Seu estilo de criação",
+      "profileQuestionId": "camera",
+      "goalQuestionId": "obiettivo",
+      "profiles": {
+        "volto": {
+          "name": "Aparecendo",
+          "description": "Você escolheu apresentar produtos com sua imagem e sua voz. Seu plano começa pela preparação da conta e pela criação de demonstrações claras, respeitando os critérios do TikTok Shop.",
+          "strengths": [
+            "Apresentação para a câmera",
+            "Demonstração de uso",
+            "Explicação com sua voz"
+          ]
+        },
+        "mani_voce": {
+          "name": "Mãos e voz",
+          "description": "Você escolheu mostrar o produto de perto e narrar sem exibir o rosto. Seu plano organiza as cenas, a explicação e os próximos passos da conta.",
+          "strengths": [
+            "Detalhes do produto",
+            "Narração própria",
+            "Sequência de demonstração"
+          ]
+        },
+        "senza_volto": {
+          "name": "Sem aparecer, com apoio de IA",
+          "description": "Você escolheu apoio de IA para roteiro, narração e edição. Use imagens ou gravações autorizadas e fiéis ao produto, revise as informações e sinalize a IA conforme as regras da plataforma.",
+          "strengths": [
+            "Roteiro com apoio de IA",
+            "Narração e edição com revisão",
+            "Imagens autorizadas do produto"
+          ]
+        }
+      },
+      "planTitle": "Da preparação da conta **aos seus primeiros vídeos de produtos**",
+      "plan": [
+        {
+          "week": "Semana 1",
+          "title": "Prepare a conta e seu ponto de partida",
+          "items": [
+            "Confira os critérios de acesso ao programa de criadores",
+            "Organize o perfil e escolha categorias para estudar",
+            "Aprenda a observar o produto, as informações e a comissão",
+            "Prepare as primeiras ideias de conteúdo"
+          ]
+        },
+        {
+          "week": "Semana 2",
+          "title": "Crie vídeos no seu formato",
+          "items": [
+            "Trabalhe uma abertura, uma demonstração e um convite claro",
+            "Escolha a rota com rosto, mãos e voz ou apoio de IA",
+            "Monte e revise suas primeiras versões pelo celular",
+            "Reserve um bloco de execução e ajuste-o à sua rotina"
+          ]
+        },
+        {
+          "week": "Semana 3",
+          "title": "Publique, observe e ajuste",
+          "items": [
+            "Com acesso habilitado, confira como vincular produtos",
+            "Observe o desempenho dos vídeos e as vendas elegíveis",
+            "Revise o que pode ficar mais claro no próximo conteúdo",
+            "Planeje o próximo ciclo, respeitando o estágio da conta"
+          ]
+        }
+      ],
+      "projection": {
+        "title": "Exemplo de comissão por venda elegível",
+        "rows": [
+          {
+            "label": "1 venda hipotética",
+            "range": "R$ 9"
+          },
+          {
+            "label": "5 vendas hipotéticas",
+            "range": "R$ 45"
+          },
+          {
+            "label": "10 vendas hipotéticas",
+            "range": "R$ 90"
+          },
+          {
+            "label": "20 vendas hipotéticas",
+            "range": "R$ 180"
+          }
+        ],
+        "note": "Exemplo fictício de R$ 9 por venda elegível, sem previsão de prazo ou garantia de vendas. Não é saldo disponível. Cancelamentos, devoluções e regras da plataforma podem alterar comissões reais.",
+        "highlight": {
+          "questionId": "tempo",
+          "rowByOption": {
+            "moka": 1,
+            "30min": 1,
+            "weekend": 1,
+            "1ora": 1
+          }
+        }
+      },
+      "simulationRecap": "**{count} missões concluídas. {total} na simulação.** Você experimentou três ideias de vídeo. Os valores são cenários fictícios, não comissões recebidas.",
+      "bridge": "Você concluiu três missões e visualizou **{total} em cenários simulados**. Agora, conheça o plano que organiza seus próximos passos: preparar a conta, escolher produtos, criar conteúdo e acompanhar o que acontece.",
+      "cta": "Quero meu plano de 21 dias",
+      "personal": {
+        "timeQuestionId": "tempo",
+        "time": {
+          "moka": {
+            "chip": "20 min sugeridos",
+            "phrase": "em blocos sugeridos de 20 minutos"
+          },
+          "30min": {
+            "chip": "30 min por dia",
+            "phrase": "com meia hora por dia"
+          },
+          "1ora": {
+            "chip": "1 hora por dia",
+            "phrase": "com uma hora por dia"
+          },
+          "weekend": {
+            "chip": "Só no fim de semana",
+            "phrase": "mesmo só no fim de semana"
+          }
+        },
+        "format": {
+          "volto": "Aparecendo",
+          "mani_voce": "Mãos e voz",
+          "senza_volto": "Com apoio de IA"
+        }
+      },
+      "today": {
+        "subtitle": "Da preparação aos primeiros vídeos de produtos, {tempo}.",
+        "subtitleNoTime": "Da preparação aos primeiros vídeos de produtos.",
+        "levelLabel": "Nível",
+        "now": {
+          "title": "Hoje",
+          "badge": "{count} missões de demonstração concluídas",
+          "rows": [
+            {
+              "label": "Conta",
+              "value": "a conferir"
+            },
+            {
+              "label": "Roteiros",
+              "value": "a organizar"
+            },
+            {
+              "label": "Vendas reais",
+              "value": "nenhuma na simulação"
+            }
+          ],
+          "level": "Primeiro passo"
+        },
+        "goal": {
+          "title": "Em 21 dias",
+          "badge": "objetivos do plano",
+          "rows": [
+            {
+              "label": "Conta",
+              "value": "requisitos verificados"
+            },
+            {
+              "label": "Roteiros",
+              "value": "sequência organizada"
+            },
+            {
+              "label": "Conteúdo",
+              "value": "rotina de execução"
+            }
+          ],
+          "level": "Próximos passos organizados"
+        }
+      },
+      "dates": {
+        "week": "{week} · {range}",
+        "finish": "Seu ciclo de 21 dias vai até {data}",
+        "startQuestionId": "primo-video",
+        "startLabel": "Seu primeiro passo",
+        "start": {
+          "oggi": "hoje",
+          "domani": "amanhã",
+          "weekend": "neste fim de semana",
+          "non-ancora": "quando se sentir pronta"
+        },
+        "startToday": [
+          "oggi"
+        ],
+        "goalQuestionId": "spesa",
+        "goals": {}
+      }
+    },
+    "offer": {
+      "urgencyBar": "Plano TikTok Shop 21 Dias · R$ 29,90",
+      "topBar": {
+        "label": "Seu próximo passo",
+        "cta": "Quero meu plano",
+        "ready": "Seu plano de 21 dias está pronto"
+      },
+      "hero": {
+        "eyebrow": "Seu próximo passo no TikTok Shop",
+        "title": "Você já tem o celular. **Conheça o caminho para começar no TikTok Shop.**",
+        "subtitle": "Um plano digital de 21 dias com passo a passo para preparar a conta, escolher produtos e criar vídeos aparecendo ou com apoio de IA. Comece pelo seu momento e aprenda a observar os resultados.",
+        "bullets": [
+          "**Seu ponto de partida:** preparação da conta e critérios de acesso",
+          "**Seu formato:** aparecendo, mãos e voz ou apoio de IA",
+          "**Sua criação:** produto, abertura, demonstração e convite",
+          "**Um passo por dia:** organize seus primeiros 21 dias"
+        ],
+        "cta": "Quero meu plano de 21 dias"
+      },
+      "problem": {
+        "title": "Você até quer começar. **Mas trava nessas perguntas?**",
+        "items": [
+          {
+            "emoji": "thinking_face",
+            "title": "O que eu mostro?",
+            "text": "Aprenda a escolher uma situação e um produto que consiga explicar com clareza."
+          },
+          {
+            "emoji": "woman_shrugging",
+            "title": "E se minha conta for do zero?",
+            "text": "O plano começa pela preparação e pela checagem dos requisitos. A aprovação depende do TikTok Shop."
+          },
+          {
+            "emoji": "warning",
+            "title": "Preciso aparecer?",
+            "text": "Você pode estudar a rota com rosto, mãos e voz ou apoio de IA, com material autorizado e fiel ao produto."
+          },
+          {
+            "emoji": "receipt",
+            "title": "Como entra a comissão?",
+            "text": "Entenda a diferença entre criar conteúdo, gerar uma venda elegível e receber a comissão conforme as regras."
+          }
+        ]
+      },
+      "includes": {
+        "title": "O passo a passo para **organizar seu começo no TikTok Shop**",
+        "items": [
+          {
+            "emoji": "spiral_calendar",
+            "title": "O plano de 21 dias",
+            "text": "Uma sequência diária para preparar, criar, observar e ajustar seus próximos passos."
+          },
+          {
+            "emoji": "framed_picture",
+            "title": "Conta e elegibilidade",
+            "text": "Confira o estágio da conta e os critérios do programa antes de divulgar produtos como afiliado."
+          },
+          {
+            "emoji": "palms_up_together",
+            "title": "Aparecendo ou com IA",
+            "text": "Escolha uma rota de criação compatível com seu estilo e com as regras de conteúdo."
+          },
+          {
+            "emoji": "clapper_board",
+            "title": "Produto e roteiro",
+            "text": "Organize uma situação, um benefício demonstrável, as cenas e um convite para conferir os detalhes."
+          },
+          {
+            "emoji": "mobile_phone",
+            "title": "Criação pelo celular",
+            "text": "Trabalhe enquadramento, clareza, narração e montagem na ferramenta que fizer sentido para sua rotina."
+          },
+          {
+            "emoji": "magnifying_glass",
+            "title": "Escolha de produtos",
+            "text": "Observe informações, disponibilidade e condições reais do produto antes de planejar a divulgação."
+          },
+          {
+            "emoji": "receipt",
+            "title": "Comissões e vendas elegíveis",
+            "text": "Aprenda a conferir a taxa e a distinguir estimativas, valores confirmados e possíveis ajustes."
+          },
+          {
+            "emoji": "balance_scale",
+            "title": "Leitura de resultados",
+            "text": "Observe os dados disponíveis e escolha o que testar no seu próximo vídeo."
+          }
+        ]
+      },
+      "bonuses": {
+        "title": "Cinco pontos do plano para **colocar em prática**",
+        "items": [
+          {
+            "emoji": "shield",
+            "title": "Confira antes de começar",
+            "text": "Verifique conta, produto, informações e requisitos antes de criar.",
+            "value": ""
+          },
+          {
+            "emoji": "love_letter",
+            "title": "Prepare o que dizer",
+            "text": "Organize uma abertura conectada ao que será mostrado.",
+            "value": ""
+          },
+          {
+            "emoji": "calendar",
+            "title": "Encontre uma ideia na rotina",
+            "text": "Observe situações e produtos que você consegue explicar.",
+            "value": ""
+          },
+          {
+            "emoji": "scissors",
+            "title": "Revise a montagem",
+            "text": "Confira imagem, narração, texto e fidelidade ao produto.",
+            "value": ""
+          },
+          {
+            "emoji": "clipboard",
+            "title": "Cheque antes de publicar",
+            "text": "Revise a versão final e as regras aplicáveis à sua conta.",
+            "value": ""
+          }
+        ]
+      },
+      "forWho": {
+        "yesTitle": "É para você se…",
+        "yes": [
+          "Quer aprender uma nova atividade com vídeos de produtos",
+          "Tem um celular e disposição para preparar seu começo",
+          "Prefere aparecer, usar mãos e voz ou contar com apoio de IA",
+          "Entende que a conta precisa atender aos critérios da plataforma",
+          "Quer uma sequência de próximos passos para executar"
+        ],
+        "noTitle": "Não é para você se…",
+        "no": [
+          "Procura renda garantida ou dinheiro sem aplicação",
+          "Espera pagamento apenas por concluir tarefas",
+          "Não pretende reservar tempo para aprender e executar",
+          "Espera aprovação automática da conta ou vendas garantidas"
+        ]
+      },
+      "howItWorks": {
+        "title": "Como funciona",
+        "steps": [
+          {
+            "title": "Conheça o plano",
+            "text": "A entrega proposta é um plano digital de 21 dias por R$ 29,90. Nesta prévia, as inscrições ainda não estão abertas."
+          },
+          {
+            "title": "Confira a contratação",
+            "text": "Quando as inscrições abrirem, confira as condições de pagamento, acesso e entrega antes de concluir a compra."
+          },
+          {
+            "title": "Siga o próximo passo",
+            "text": "Prepare a conta, trabalhe sua rota de criação e acompanhe os resultados conforme o seu estágio."
+          }
+        ]
+      },
+      "price": {
+        "title": "Seu plano de 21 dias",
+        "productName": "Plano TikTok Shop 21 Dias",
+        "lines": [
+          "Passo a passo digital de 21 dias",
+          "Preparação da conta e critérios de acesso",
+          "Criação aparecendo ou com apoio de IA",
+          "Produto, roteiro e leitura dos resultados",
+          "Rotina sugerida de execução pelo celular"
+        ],
+        "anchorLabel": "Preço original",
+        "priceLabel": "Valor do plano",
+        "saveLabel": "Você economiza",
+        "cta": "Quero meu plano de 21 dias",
+        "secure": "Inscrições ainda não abertas nesta prévia",
+        "countdownLabel": "Seu próximo passo",
+        "intro": "Comece pelo seu estilo: “{profilo}”",
+        "introName": "{nome}, comece pelo seu estilo: “{profilo}”",
+        "perDay": "cerca de {perDay} por dia nos {days} dias do plano",
+        "coupon": "Seu plano de 21 dias"
+      },
+      "downsell": {
+        "title": "Espera! A gente não quer que o preço te impeça.",
+        "titleName": "Espera, {nome}! A gente não quer que o preço te impeça.",
+        "text": "Conheça o Plano TikTok Shop 21 Dias por {price}.",
+        "cta": "Sim, quero por {downsell}",
+        "no": "Não, obrigada"
+      },
+      "promoExpired": "O preço de {promo} valia até {quando}.",
+      "guarantee": {
+        "title": "21 dias com um próximo passo",
+        "text": "A proposta é um plano digital para organizar seu começo no TikTok Shop. A preparação e o aprendizado podem exigir mais tempo que o bloco sugerido de 20 minutos. Antes de comprar, confira as condições de entrega e contratação. Nenhum ganho ou acesso à plataforma é garantido."
+      },
+      "testimonialsTitle": "Experiências de quem está começando",
+      "faq": [
+        {
+          "q": "Preciso ter seguidores?",
+          "a": "Para atuar como afiliado, é necessário atender aos critérios e obter acesso do TikTok Shop. O plano começa com a preparação da conta; não garante aprovação nem dispensa os requisitos."
+        },
+        {
+          "q": "Preciso mostrar o rosto?",
+          "a": "Você pode escolher aparecer, usar mãos e voz ou contar com apoio de IA no roteiro, na narração e na edição. Use imagens autorizadas e represente o produto com fidelidade."
+        },
+        {
+          "q": "Quanto posso ganhar?",
+          "a": "Não existe renda garantida. Criar ou publicar vídeos não garante vendas. Comissões dependem dos produtos, das vendas elegíveis e das regras aplicáveis. Os valores deste quiz são fictícios."
+        },
+        {
+          "q": "A IA faz tudo sozinha?",
+          "a": "A IA pode apoiar a criação. Você continua responsável por conferir informações, revisar o material e seguir as regras da plataforma, inclusive de identificação do conteúdo gerado ou alterado por IA."
+        },
+        {
+          "q": "Isso é uma vaga de trabalho?",
+          "a": "Não. A oferta é um plano educacional digital. Concluir as missões não dá direito a pagamento, não cria saldo real e não exige pagar para liberar saque."
+        },
+        {
+          "q": "Preciso saber inglês?",
+          "a": "O plano e esta experiência são em português. As ferramentas que você escolher podem ter configurações e custos próprios, que não estão incluídos no valor do plano."
+        },
+        {
+          "q": "Os 20 minutos incluem tudo?",
+          "a": "O bloco de 20 minutos é uma sugestão para uma tarefa de execução. Preparar a conta, aprender ferramentas e realizar algumas etapas pode exigir mais tempo."
+        },
+        {
+          "q": "Como recebo o plano?",
+          "a": "As inscrições ainda não estão abertas nesta prévia. As condições de acesso e entrega serão apresentadas antes da contratação."
+        },
+        {
+          "q": "O que está incluído nos R$ 29,90?",
+          "a": "A entrega é um plano digital de 21 dias com passo a passo para começar no TikTok Shop. Produtos físicos e assinaturas de ferramentas, se utilizados, ficam à parte."
+        },
+        {
+          "q": "Preciso ter seguidores?",
+          "a": "Para atuar como afiliado, é necessário atender aos critérios e obter acesso do TikTok Shop. O plano começa com a preparação da conta; não garante aprovação nem dispensa os requisitos."
+        }
+      ],
+      "finalCta": {
+        "title": "Você já deu o primeiro passo. **Continue com seu plano de 21 dias.**",
+        "cta": "Quero meu plano TikTok Shop"
+      }
+    },
+    "legal": {
+      "simulationDisclaimer": "Quiz gratuito para maiores de 18 anos. Esta é uma simulação educativa: as marcas são fictícias, os vídeos e as vendas não são reais, e os valores mostrados são exemplos hipotéticos de comissão. Nenhum valor é dinheiro recebido ou disponível para saque. Para atuar como afiliado, sua conta precisa atender aos critérios e obter acesso do TikTok Shop. No final, apresentamos o Plano TikTok Shop 21 Dias por R$ 29,90. Não é oferta de emprego e nenhum ganho é garantido.",
+      "earningsDisclaimer": "O Plano TikTok Shop 21 Dias é educativo. Não oferece emprego, pagamento por tarefa ou renda garantida. As comissões mostradas são exemplos fictícios. Resultados reais dependem da conta elegível, dos produtos, do conteúdo, das vendas e das regras da plataforma.",
+      "notAffiliated": "Este site é um projeto independente da GAL NEGOCIOS DIGITAIS LTDA. Não possui vínculo oficial com TikTok, Meta, Google ou com as marcas fictícias da simulação.",
+      "privacyTitle": "Política de privacidade",
+      "privacyBody": [
+        "Esta experiência pertence à {company}. O progresso, as respostas e os dados digitados ficam no navegador para permitir a continuidade da visita.",
+        "Se você informar e-mail e nome, eles podem ser registrados no painel privado da oferta, junto com a campanha e a última etapa. A autorização para contato promocional é solicitada separadamente. Nenhum e-mail automático é enviado nesta prévia.",
+        "O GAL Pulse pode registrar telas, duração visível, escolhas, cliques, blocos da oferta, aparelho, aplicativo, país e parâmetros de campanha, ligados a um identificador aleatório de visita. O rastreador próprio não cria cookies de rastreamento e não armazena IP nos eventos.",
+        "Os dados são tratados na infraestrutura de hospedagem Vercel e no banco conectado ao painel privado. A infraestrutura pode manter registros técnicos próprios.",
+        "Para questões sobre os dados, utilize o canal de contato pelo qual recebeu esta experiência. As informações de atendimento e contratação devem ser conferidas antes da abertura comercial da oferta."
+      ],
+      "privacyEmail": "E-mail e nome: registro de interesse nesta oferta, com acompanhamento da última etapa no painel privado. O nome é opcional. A autorização para contato sobre novidades é solicitada na tela seguinte; não há envio automático de mensagens nesta prévia.",
+      "privacyEmailSingle": "E-mail e nome: registro de interesse nesta oferta, com acompanhamento da última etapa no painel privado. O nome é opcional. A autorização para contato sobre novidades é solicitada na tela seguinte; não há envio automático de mensagens nesta prévia.",
+      "privacyMeasurement": "Medimos a passagem pelas etapas e as interações para entender onde esta experiência pode melhorar. Não utilizamos cookies de rastreamento no coletor próprio.",
+      "privacyMeasurementNoBanner": "Medimos a passagem pelas etapas e as interações para entender onde esta experiência pode melhorar. Não utilizamos cookies de rastreamento no coletor próprio.",
+      "cookieTitle": "Política de cookies",
+      "cookieBody": [
+        "O progresso e as preferências desta experiência ficam no armazenamento do navegador. O rastreador próprio não cria cookies de rastreamento."
+      ],
+      "termsTitle": "Termos e condições de venda",
+      "termsBody": [
+        "Esta é uma prévia do Plano TikTok Shop 21 Dias, da {company}. O valor proposto é {price}. Nenhum pagamento é solicitado nesta página.",
+        "A entrega proposta é um plano digital de 21 dias com passo a passo para começar. As condições definitivas de acesso, entrega, atendimento e contratação serão apresentadas antes da compra.",
+        "O material é educativo, não representa emprego, não garante renda, vendas ou aprovação no TikTok Shop e não inclui produtos físicos nem assinaturas de ferramentas de terceiros.",
+        "As marcas e os valores das missões são fictícios. Não houve venda, crédito ou saldo para saque.",
+        "O roteiro e o conteúdo devem respeitar as regras atuais da plataforma, inclusive acesso de criadores, representação de produtos e uso de IA."
+      ],
+      "termsSecondChance": "Esta prévia não oferece descontos adicionais nem envia promoções por e-mail.",
+      "termsPromo": "Esta prévia não oferece descontos adicionais nem envia promoções por e-mail.",
+      "termsPromoSingle": "Esta prévia não oferece descontos adicionais nem envia promoções por e-mail.",
+      "withdrawalLink": "Sobre as inscrições",
+      "disclaimer": "Experiência educativa com marcas fictícias, vídeos e vendas simulados. Nenhum valor é recebido ou disponível para saque. A comissão real depende de vendas elegíveis e das regras do TikTok Shop. O plano não garante renda, aprovação de conta ou resultados."
+    },
+    "cookieBanner": {
+      "text": "Se você aceitar, o Pixel da Meta e a Utmify medem as visitas que chegam pelos anúncios (nunca as suas respostas). O X é o mesmo que recusar.",
+      "accept": "Aceitar",
+      "reject": "Recusar",
+      "policyLink": "Política de cookies"
+    },
+    "ui": {
+      "next": "Avançar",
+      "back": "Voltar",
+      "continue": "Continuar",
+      "soundOn": "Ligar o som",
+      "soundOff": "Desligar o som",
+      "restart": "Refazer o quiz do zero",
+      "stepOf": "{current} de {total}"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-// One complete mobile journey per current offer. Live mode writes only isolated QA traffic.
+// One complete mobile journey per recovered UGC offer. Live mode writes only isolated QA traffic.
 import assert from 'node:assert/strict';
 import { chromium,devices } from 'playwright';
 import { spawn } from 'node:child_process';
@@ -17,10 +17,11 @@ if(!live){const net=createServer();await new Promise(r=>net.listen(0,'127.0.0.1'
 async function waitServer(){for(let i=0;i<200;i++){try{if((await fetch(origin+'/api/analytics/?action=session')).ok)return;}catch{}await new Promise(r=>setTimeout(r,100));}throw Error('Preview did not start');}
 try{
   await waitServer();browser=await chromium.launch();
-  for(const base of analyticsSetup.installations){
-    const installation=await runtimeInstallation(base),br=base.path==='/br/',prefix=br?'ugc-br-':'ugc-',content=JSON.parse(await readFile(br?'reports/br/recovered-data.json':'reports/recovered-data.json','utf8')).content;
+  const scenarios=analyticsSetup.installations.filter(i=>process.argv.includes('--shop-only')?!!i.cloneOf:!i.cloneOf).flatMap(base=>base.cloneOf?['volto','mani_voce','senza_volto'].map(profile=>({base,profile})): [{base,profile:'volto'}]);
+  for(const {base,profile} of scenarios){
+    const installation=await runtimeInstallation(base),br=base.path==='/br/',shop=!!base.cloneOf,prefix=base.storagePrefix||(br?'ugc-br-':'ugc-'),content=JSON.parse(await readFile(shop?'reports/tiktok-shop/adapted-data.json':br?'reports/br/recovered-data.json':'reports/recovered-data.json','utf8')).content;
     if(!live){const r=await fetch(origin+'/api/analytics/?action=update-offer&offer='+base.offer.id,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({name:base.offer.name,origins:[origin],steps:base.offer.steps})});assert.equal(r.status,200);}
-    const context=await browser.newContext({...devices['Pixel 7'],viewport:{width:390,height:844},reducedMotion:'reduce'}),page=await context.newPage();page.setDefaultTimeout(8000);
+    const context=await browser.newContext({...devices['Pixel 7'],viewport:{width:profile==='mani_voce'?1440:profile==='senza_volto'?320:390,height:844},reducedMotion:'reduce'}),page=await context.newPage();page.setDefaultTimeout(8000);
     const errors=[],responses=[],requests=[],screens=[],states=[],beacons=[];let visit;
     page.on('pageerror',e=>errors.push(e.message));
     page.on('response',r=>{if(new URL(r.url()).pathname==='/api/q/'&&r.request().postData()?.includes('"meta"'))responses.push({status:r.status(),action:new URL(r.url()).searchParams.get('action')});});
@@ -36,18 +37,19 @@ try{
     for(let iteration=0;iteration<700;iteration++){
       await page.waitForTimeout(260);
       const root=page.locator('main [data-step]').first(),id=await root.getAttribute('data-step'),kind=await root.getAttribute('data-kind'),phase=await root.getAttribute('data-phase')||'';
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Horizontal overflow at '+id+':'+phase);
       const sig=id+':'+phase;if(sig!==last){states.push(sig);last=sig;idle=Date.now();console.log(base.path,sig);}if(!screens.includes(id))screens.push(id);if(Date.now()-idle>30000)throw Error('No progress at '+sig);
       if(kind==='result'){reached=true;break;}
       const entry=id==='landing'?content.landing.firstQuestion:content.steps.find(s=>s.id===id);
       const primary=page.getByTestId('primary').filter({visible:true});
       const click=async locator=>{try{if(await locator.count()&&await locator.first().isEnabled({timeout:500})){await locator.first().click({timeout:1500});return true;}}catch(e){if(!/Timeout|detached|not attached/.test(e.message))throw e;}return false;};
-      if(kind==='email'){await page.locator('main input[type=email],main input[inputmode=email]').first().fill('qa.percurso.'+(br?'br':'it')+'@example.com');await click(primary);continue;}
+      if(kind==='email'){await page.locator('main input[type=email],main input[inputmode=email]').first().fill('qa.percurso.'+(shop?'shop':br?'br':'it')+'@example.com');await click(primary);continue;}
       if(kind==='name'){await page.getByTestId('name-input').fill('Teste GAL');await click(primary);continue;}
       if(kind==='optin'){await click(page.getByTestId('optin-no'));continue;}
       if(kind==='scratch'){if(!await click(page.getByTestId('scratch-reveal')))await click(primary);continue;}
       if(kind==='analysis'&&phase==='question'){await click(page.locator('[data-testid=option][data-option-id="'+entry.midQuestion.options[0].id+'"]'));continue;}
       if(kind==='question'||id==='landing'){
-        const options=page.getByTestId('option');if(entry.multi){let selected=true;for(let i=0;i<Math.min(2,await options.count());i++){if(await options.nth(i).getAttribute('aria-checked')!=='true'){await click(options.nth(i));selected=false;break;}}if(selected)await click(primary);}else await click(options.first());continue;
+        const options=page.getByTestId('option');if(entry.multi){let selected=true;for(let i=0;i<Math.min(2,await options.count());i++){if(await options.nth(i).getAttribute('aria-checked')!=='true'){await click(options.nth(i));selected=false;break;}}if(selected)await click(primary);}else await click(id==='camera'?page.locator('[data-testid=option][data-option-id="'+profile+'"]'):options.first());continue;
       }
       if(kind==='brief'){
         if(await click(primary))continue;
@@ -65,15 +67,15 @@ try{
     await page.getByTestId('checkout').first().click();await page.waitForTimeout(500);await page.evaluate(()=>QuizAnalytics.flush());await page.waitForTimeout(800);
     const sid=await page.evaluate(id=>JSON.parse(sessionStorage.getItem('qa-session:'+id)).id,base.offer.id);visit=sid;
     const events=requests.flatMap(r=>r.events||[]),views=events.filter(e=>e.type==='view');
-    assert.equal(views.length,19);assert.equal(new Set(views.map(e=>e.step)).size,19);assert.ok(events.some(e=>e.type==='answer'));assert.ok(events.some(e=>e.type==='section'&&e.section==='price'));assert.ok(events.some(e=>e.type==='scroll'&&e.depth===100));assert.ok(events.some(e=>e.type==='checkout'));assert.ok(requests.some(r=>r.name==='Teste GAL'));assert.ok(!JSON.stringify(events).includes('@example.com'));assert.ok(responses.length&&responses.every(r=>r.status===202),JSON.stringify(responses));
+    assert.equal(views.length,19);assert.equal(new Set(views.map(e=>e.step)).size,19);assert.ok(events.some(e=>e.type==='answer'));assert.ok(events.some(e=>e.type==='section'&&e.section==='price'));assert.ok(events.some(e=>e.type==='scroll'&&e.depth===100));assert.equal(events.some(e=>e.type==='checkout'),!shop);assert.ok(requests.some(r=>r.name==='Teste GAL'));assert.ok(!JSON.stringify(events).includes('@example.com'));assert.ok(responses.length&&responses.every(r=>r.status===202),JSON.stringify(responses));
     await page.goto('about:blank');await page.waitForTimeout(800);await context.close();
-    const journey={path:base.path,offer:base.offer.id,visit,screens:screens.length,states:states.length,events:events.length,answers:events.filter(e=>e.type==='answer').length,price:true,scroll100:true,checkout:true,leadName:true,beaconUsed:beacons.includes('ping'),responses,errors};
+    const journey={path:base.path,profile,offer:base.offer.id,visit,screens:screens.length,states:states.length,events:events.length,answers:events.filter(e=>e.type==='answer').length,price:true,scroll100:true,checkout:!shop,leadName:true,beaconUsed:beacons.includes('ping'),responses,errors};
     if(!live){
       const db=new DatabaseSync(path.join(tmp,'test.sqlite'));const rows=db.prepare("SELECT step_id,COUNT(*) AS n FROM qa_events WHERE offer_id=? AND session_id=? AND type='view' GROUP BY step_id").all(base.offer.id,sid);assert.equal(rows.length,19);assert.ok(rows.every(r=>r.n===1));assert.equal(db.prepare('SELECT name FROM qa_leads WHERE offer_id=?').get(base.offer.id).name,'Teste GAL');assert.ok(db.prepare("SELECT COUNT(*) AS n FROM qa_events WHERE session_id=? AND type='exit'").get(sid).n>=1);db.close();journey.databaseViews=rows;
-      const url=origin+'/api/analytics/?action=overview&offer='+base.offer.id+'&traffic=test&from='+(Date.now()-86400000)+'&to='+(Date.now()+86400000),result=await (await fetch(url)).json();assert.equal(result.summary.sessions,1);assert.equal(result.top[3].count,1);assert.equal(result.summary.checkout,1);
+      const url=origin+'/api/analytics/?action=overview&offer='+base.offer.id+'&traffic=test&from='+(Date.now()-86400000)+'&to='+(Date.now()+86400000),result=await (await fetch(url)).json();assert.equal(result.summary.sessions,1);assert.equal(result.top[3].count,1);assert.equal(result.summary.checkout,shop?0:1);
       await fetch(origin+'/api/analytics/?action=purge-tests&offer='+base.offer.id,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:'{}'});const clean=await (await fetch(url)).json();assert.equal(clean.summary.sessions,0);journey.deleted=true;
     }
     assert.deepEqual(errors,[]);report.journeys.push(journey);console.log('PASS complete mobile journey',base.path);
   }
 }catch(e){report.errors.push(e.stack);console.error(e);process.exitCode=1;}
-finally{if(browser)await browser.close();if(child&&child.exitCode===null){child.kill();await new Promise(r=>child.once('exit',r));}await mkdir('reports/analytics',{recursive:true});await writeFile('reports/analytics/full-quiz-'+(live?'production':'local')+'.json',JSON.stringify(report,null,2));if(tmp){const target=path.resolve(tmp);assert.ok(target.startsWith(path.resolve(os.tmpdir())+path.sep)&&path.basename(target).startsWith('quiz-full-'));await rm(target,{recursive:true,force:true});}}
+finally{if(browser)await browser.close();if(child&&child.exitCode===null){child.kill();await new Promise(r=>child.once('exit',r));}await mkdir('reports/analytics',{recursive:true});await writeFile((process.argv.includes('--shop-only')?'reports/tiktok-shop/full-quiz-':'reports/analytics/full-quiz-')+(live?'production':'local')+'.json',JSON.stringify(report,null,2));if(tmp){const target=path.resolve(tmp);assert.ok(target.startsWith(path.resolve(os.tmpdir())+path.sep)&&path.basename(target).startsWith('quiz-full-'));await rm(target,{recursive:true,force:true});}}

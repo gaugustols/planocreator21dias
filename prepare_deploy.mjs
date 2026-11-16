@@ -4,6 +4,7 @@ import { analyticsSetup, injectCollector } from './analytics/installations.mjs';
 import { runtimeInstallation } from './analytics/build-installations.mjs';
 
 if (await access('recovered/br/index.html').then(()=>true).catch(()=>false)) await import('./mount_br.mjs');
+await import('./mount_tiktok_shop.mjs');
 await mkdir('dist',{recursive:true});
 await cp('site','dist',{recursive:true});
 const original=await readFile('site/index.html','utf8');

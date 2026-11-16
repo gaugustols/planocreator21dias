@@ -178,6 +178,97 @@
           }
         ]
       }
+    },
+    {
+      "path": "/tiktok-shop/",
+      "offer": {
+        "id": "c74e279f-f7b5-4380-8e2b-9a7610f2905b",
+        "name": "Trilha Shop · TikTok Shop",
+        "publicKey": "T411N1J_jDSymymOSUE-4fUDLgNfp5Y3",
+        "origins": [
+          "https://planocreator21dias.vercel.app"
+        ],
+        "steps": [
+          {
+            "id": "landing",
+            "label": "Entrada e idade"
+          },
+          {
+            "id": "obiettivo",
+            "label": "Objetivo"
+          },
+          {
+            "id": "spesa",
+            "label": "Primeira conquista"
+          },
+          {
+            "id": "tempo",
+            "label": "Disponibilidade"
+          },
+          {
+            "id": "cos-e-ugc",
+            "label": "Como funciona o TikTok Shop"
+          },
+          {
+            "id": "brief-crema",
+            "label": "Simulação 1"
+          },
+          {
+            "id": "camera",
+            "label": "Preferência de câmera"
+          },
+          {
+            "id": "niente-follower",
+            "label": "Formato e elegibilidade"
+          },
+          {
+            "id": "categorie",
+            "label": "Categorias de produtos"
+          },
+          {
+            "id": "brief-moka",
+            "label": "Simulação 2"
+          },
+          {
+            "id": "regola-d-oro",
+            "label": "Comissões por venda elegível"
+          },
+          {
+            "id": "brief-pasta",
+            "label": "Simulação 3"
+          },
+          {
+            "id": "primo-video",
+            "label": "Primeiro vídeo"
+          },
+          {
+            "id": "analisi",
+            "label": "Análise do perfil"
+          },
+          {
+            "id": "email",
+            "label": "Email"
+          },
+          {
+            "id": "optin",
+            "label": "Consentimento"
+          },
+          {
+            "id": "nome",
+            "label": "Nome"
+          },
+          {
+            "id": "sconto",
+            "label": "Raspadinha"
+          },
+          {
+            "id": "risultato",
+            "label": "Resultado e oferta"
+          }
+        ]
+      },
+      "cloneOf": "/br/",
+      "storagePrefix": "ugc-shop-"
     }
   ]
 }

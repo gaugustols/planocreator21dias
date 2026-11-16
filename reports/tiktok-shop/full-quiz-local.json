@@ -1,0 +1,618 @@
+{
+  "checkedAt": "2026-11-16T18:40:55.756Z",
+  "live": false,
+  "journeys": [
+    {
+      "path": "/tiktok-shop/",
+      "profile": "volto",
+      "offer": "c74e279f-f7b5-4380-8e2b-9a7610f2905b",
+      "visit": "8f2c1b0d-c29a-420f-a444-73af0c562bd7",
+      "screens": 19,
+      "states": 37,
+      "events": 179,
+      "answers": 8,
+      "price": true,
+      "scroll100": true,
+      "checkout": false,
+      "leadName": true,
+      "beaconUsed": true,
+      "responses": [
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        }
+      ],
+      "errors": [],
+      "databaseViews": [
+        {
+          "step_id": "analisi",
+          "n": 1
+        },
+        {
+          "step_id": "brief-crema",
+          "n": 1
+        },
+        {
+          "step_id": "brief-moka",
+          "n": 1
+        },
+        {
+          "step_id": "brief-pasta",
+          "n": 1
+        },
+        {
+          "step_id": "camera",
+          "n": 1
+        },
+        {
+          "step_id": "categorie",
+          "n": 1
+        },
+        {
+          "step_id": "cos-e-ugc",
+          "n": 1
+        },
+        {
+          "step_id": "email",
+          "n": 1
+        },
+        {
+          "step_id": "landing",
+          "n": 1
+        },
+        {
+          "step_id": "niente-follower",
+          "n": 1
+        },
+        {
+          "step_id": "nome",
+          "n": 1
+        },
+        {
+          "step_id": "obiettivo",
+          "n": 1
+        },
+        {
+          "step_id": "optin",
+          "n": 1
+        },
+        {
+          "step_id": "primo-video",
+          "n": 1
+        },
+        {
+          "step_id": "regola-d-oro",
+          "n": 1
+        },
+        {
+          "step_id": "risultato",
+          "n": 1
+        },
+        {
+          "step_id": "sconto",
+          "n": 1
+        },
+        {
+          "step_id": "spesa",
+          "n": 1
+        },
+        {
+          "step_id": "tempo",
+          "n": 1
+        }
+      ],
+      "deleted": true
+    },
+    {
+      "path": "/tiktok-shop/",
+      "profile": "mani_voce",
+      "offer": "c74e279f-f7b5-4380-8e2b-9a7610f2905b",
+      "visit": "056b377f-6aef-4129-a215-9d1acea3eb45",
+      "screens": 19,
+      "states": 37,
+      "events": 177,
+      "answers": 8,
+      "price": true,
+      "scroll100": true,
+      "checkout": false,
+      "leadName": true,
+      "beaconUsed": true,
+      "responses": [
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        }
+      ],
+      "errors": [],
+      "databaseViews": [
+        {
+          "step_id": "analisi",
+          "n": 1
+        },
+        {
+          "step_id": "brief-crema",
+          "n": 1
+        },
+        {
+          "step_id": "brief-moka",
+          "n": 1
+        },
+        {
+          "step_id": "brief-pasta",
+          "n": 1
+        },
+        {
+          "step_id": "camera",
+          "n": 1
+        },
+        {
+          "step_id": "categorie",
+          "n": 1
+        },
+        {
+          "step_id": "cos-e-ugc",
+          "n": 1
+        },
+        {
+          "step_id": "email",
+          "n": 1
+        },
+        {
+          "step_id": "landing",
+          "n": 1
+        },
+        {
+          "step_id": "niente-follower",
+          "n": 1
+        },
+        {
+          "step_id": "nome",
+          "n": 1
+        },
+        {
+          "step_id": "obiettivo",
+          "n": 1
+        },
+        {
+          "step_id": "optin",
+          "n": 1
+        },
+        {
+          "step_id": "primo-video",
+          "n": 1
+        },
+        {
+          "step_id": "regola-d-oro",
+          "n": 1
+        },
+        {
+          "step_id": "risultato",
+          "n": 1
+        },
+        {
+          "step_id": "sconto",
+          "n": 1
+        },
+        {
+          "step_id": "spesa",
+          "n": 1
+        },
+        {
+          "step_id": "tempo",
+          "n": 1
+        }
+      ],
+      "deleted": true
+    },
+    {
+      "path": "/tiktok-shop/",
+      "profile": "senza_volto",
+      "offer": "c74e279f-f7b5-4380-8e2b-9a7610f2905b",
+      "visit": "98f8c6f4-9882-485d-aff7-c7aca1ba6c8d",
+      "screens": 19,
+      "states": 37,
+      "events": 168,
+      "answers": 8,
+      "price": true,
+      "scroll100": true,
+      "checkout": false,
+      "leadName": true,
+      "beaconUsed": true,
+      "responses": [
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        }
+      ],
+      "errors": [],
+      "databaseViews": [
+        {
+          "step_id": "analisi",
+          "n": 1
+        },
+        {
+          "step_id": "brief-crema",
+          "n": 1
+        },
+        {
+          "step_id": "brief-moka",
+          "n": 1
+        },
+        {
+          "step_id": "brief-pasta",
+          "n": 1
+        },
+        {
+          "step_id": "camera",
+          "n": 1
+        },
+        {
+          "step_id": "categorie",
+          "n": 1
+        },
+        {
+          "step_id": "cos-e-ugc",
+          "n": 1
+        },
+        {
+          "step_id": "email",
+          "n": 1
+        },
+        {
+          "step_id": "landing",
+          "n": 1
+        },
+        {
+          "step_id": "niente-follower",
+          "n": 1
+        },
+        {
+          "step_id": "nome",
+          "n": 1
+        },
+        {
+          "step_id": "obiettivo",
+          "n": 1
+        },
+        {
+          "step_id": "optin",
+          "n": 1
+        },
+        {
+          "step_id": "primo-video",
+          "n": 1
+        },
+        {
+          "step_id": "regola-d-oro",
+          "n": 1
+        },
+        {
+          "step_id": "risultato",
+          "n": 1
+        },
+        {
+          "step_id": "sconto",
+          "n": 1
+        },
+        {
+          "step_id": "spesa",
+          "n": 1
+        },
+        {
+          "step_id": "tempo",
+          "n": 1
+        }
+      ],
+      "deleted": true
+    }
+  ],
+  "errors": []
+}

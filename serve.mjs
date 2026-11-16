@@ -27,6 +27,7 @@ async function serve(request, response) {
     response.end(JSON.stringify({ root, port, pid:process.pid, originalIntegrations, backendRecovered: false, locales:{it:'/',br:'/br/'} })); return;
   }
   if (url.pathname === '/br') { response.writeHead(308,{Location:'/br/'+url.search}); response.end(); return; }
+  if (url.pathname === '/tiktok-shop') { response.writeHead(308,{Location:'/tiktok-shop/'+url.search}); response.end(); return; }
   const profile = url.pathname.startsWith('/br/') ? profiles.br : profiles.it;
   if (url.pathname.startsWith(profile.basePath+'api/')) {
     response.writeHead(503, { 'Content-Type': 'application/json' });
@@ -41,6 +42,7 @@ async function serve(request, response) {
   if (info?.isDirectory()) { file = path.join(file, 'index.html'); info = await stat(file).catch(() => null); }
   let fallback = false;
   if (!info?.isFile()) {
+    if(pathname.startsWith('/tiktok-shop/')){response.writeHead(404);response.end('Página não encontrada');return;}
     if (path.extname(pathname)) { response.writeHead(404); response.end('Asset not found'); return; }
     file = path.join(root, profile.basePath.slice(1), 'index.html'); fallback = true;
   }

@@ -1,0 +1,1473 @@
+{
+  "source": "site/br",
+  "destination": "site/tiktok-shop",
+  "basePath": "/tiktok-shop/",
+  "storagePrefix": "ugc-shop-",
+  "files": [
+    {
+      "source": "site/br/ab/landing1/18-29.webp",
+      "file": "site/tiktok-shop/ab/landing1/18-29.webp",
+      "originalSha256": "4df1a172e67bef65dbdc4373c7636b9b7da8a304249241e9403b37bf0ea95fc8",
+      "sha256": "4df1a172e67bef65dbdc4373c7636b9b7da8a304249241e9403b37bf0ea95fc8",
+      "bytes": 4738,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/ab/landing1/30-39.webp",
+      "file": "site/tiktok-shop/ab/landing1/30-39.webp",
+      "originalSha256": "bc129a765159b72fb4763858618d2c0e063906b48bc22fd7390117f8981d44c6",
+      "sha256": "bc129a765159b72fb4763858618d2c0e063906b48bc22fd7390117f8981d44c6",
+      "bytes": 4796,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/ab/landing1/40-49.webp",
+      "file": "site/tiktok-shop/ab/landing1/40-49.webp",
+      "originalSha256": "f57c2178d9087ecf08d44927794ae6ca34dc2619a75bba11eb4f1fcac3b0844b",
+      "sha256": "f57c2178d9087ecf08d44927794ae6ca34dc2619a75bba11eb4f1fcac3b0844b",
+      "bytes": 7410,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/ab/landing1/50.webp",
+      "file": "site/tiktok-shop/ab/landing1/50.webp",
+      "originalSha256": "3dc848c75358aafb3e3a40c6a051ad6251beb8985f72a3d3ed0f9f6e1cafc998",
+      "sha256": "3dc848c75358aafb3e3a40c6a051ad6251beb8985f72a3d3ed0f9f6e1cafc998",
+      "bytes": 5206,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/apple-touch-icon.png",
+      "file": "site/tiktok-shop/apple-touch-icon.png",
+      "originalSha256": "062f5ffd9b5012c92a3982451b95a326ff850bebd42e518a2f3d0514147505ed",
+      "sha256": "062f5ffd9b5012c92a3982451b95a326ff850bebd42e518a2f3d0514147505ed",
+      "bytes": 10049,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/arrependimento/index.html",
+      "file": "site/tiktok-shop/arrependimento/index.html",
+      "originalSha256": "896ecf6fb3b4b761fdc08aee5dbd74f715dbe4db175fbefc7d3ceb94fdc2a2ea",
+      "sha256": "f4a2f2af602898163bb64c1ec024f39ecda5ccb57b6cfeaa83ee7742a42fae1c",
+      "bytes": 3376,
+      "kind": "existing markup and adapted text"
+    },
+    {
+      "source": "site/br/assets/BriefScreen-Ca-IHevk.js",
+      "file": "site/tiktok-shop/assets/BriefScreen-Ca-IHevk.js",
+      "originalSha256": "08eaa4c4d995a23fe00f97767b0abeb01cafe4510cb0566ddd8b43ff65c34ad5",
+      "sha256": "08eaa4c4d995a23fe00f97767b0abeb01cafe4510cb0566ddd8b43ff65c34ad5",
+      "bytes": 39404,
+      "rendererUnchanged": true,
+      "kind": "existing renderer and adapted data"
+    },
+    {
+      "source": "site/br/assets/confetti-DgEV_XmA.js",
+      "file": "site/tiktok-shop/assets/confetti-DgEV_XmA.js",
+      "originalSha256": "01c1d9754de7b6ca447e9d6b0666c2348dd798839fc7201dae08d73f901a00f3",
+      "sha256": "01c1d9754de7b6ca447e9d6b0666c2348dd798839fc7201dae08d73f901a00f3",
+      "bytes": 580,
+      "rendererUnchanged": true,
+      "kind": "existing renderer and adapted data"
+    },
+    {
+      "source": "site/br/assets/confetti.module-CIeKi3E8.js",
+      "file": "site/tiktok-shop/assets/confetti.module-CIeKi3E8.js",
+      "originalSha256": "2685677d59d0e2b2e605100ce19cd282286c75eafcd621d0633e658740506bf3",
+      "sha256": "2685677d59d0e2b2e605100ce19cd282286c75eafcd621d0633e658740506bf3",
+      "bytes": 10576,
+      "rendererUnchanged": true,
+      "kind": "existing renderer and adapted data"
+    },
+    {
+      "source": "site/br/assets/index-CsqgZ4_P.js",
+      "file": "site/tiktok-shop/assets/index-CsqgZ4_P.js",
+      "originalSha256": "7d36889d65da3bcd318f78b04dca3c4d61e8c9dfaefc0a142abe28365dbaea1b",
+      "sha256": "7f52ec7e48dbef73dd8a518400087ab5860a1050e728a51823a66bda27c2279e",
+      "bytes": 361090,
+      "rendererUnchanged": true,
+      "kind": "existing renderer and adapted data"
+    },
+    {
+      "source": "site/br/assets/index-DRbyHCeb.css",
+      "file": "site/tiktok-shop/assets/index-DRbyHCeb.css",
+      "originalSha256": "9f38d2b1b43a9289c8513821e7d843b8033f85aa44b722c5928f4dd503ad7858",
+      "sha256": "9f38d2b1b43a9289c8513821e7d843b8033f85aa44b722c5928f4dd503ad7858",
+      "bytes": 96425,
+      "kind": "existing styles with relocated paths"
+    },
+    {
+      "source": "site/br/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+      "file": "site/tiktok-shop/assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+      "originalSha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f",
+      "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f",
+      "bytes": 21728,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+      "file": "site/tiktok-shop/assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+      "originalSha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+      "bytes": 27348,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/assets/ResultScreen-CbSB5OWy.js",
+      "file": "site/tiktok-shop/assets/ResultScreen-CbSB5OWy.js",
+      "originalSha256": "37ad737c517d948e83bba02c28a83a81a3cc00a1e677155e3fea03ba17454aaf",
+      "sha256": "6191366ac6e5083e6196b2ee7a8338385a0c9e8ea5b927273659dba28ee3a9ae",
+      "bytes": 80858,
+      "rendererUnchanged": true,
+      "kind": "existing renderer and adapted data"
+    },
+    {
+      "source": "site/br/emoji/airplane.webp",
+      "file": "site/tiktok-shop/emoji/airplane.webp",
+      "originalSha256": "9820472cc31cbc42364772e54381573aca5b93e9c3ff16f7868bdba8a5deb535",
+      "sha256": "9820472cc31cbc42364772e54381573aca5b93e9c3ff16f7868bdba8a5deb535",
+      "bytes": 5784,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/alarm_clock.webp",
+      "file": "site/tiktok-shop/emoji/alarm_clock.webp",
+      "originalSha256": "0e5154cb34694e8444f584adf6eab98c2cf8085b8c78b386bcaeda2c65a3c8a9",
+      "sha256": "0e5154cb34694e8444f584adf6eab98c2cf8085b8c78b386bcaeda2c65a3c8a9",
+      "bytes": 5798,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/artist_palette.webp",
+      "file": "site/tiktok-shop/emoji/artist_palette.webp",
+      "originalSha256": "665c704b435e65a032ade1733f6e585b5724f6887fc9591d08114cd99e96f3f1",
+      "sha256": "665c704b435e65a032ade1733f6e585b5724f6887fc9591d08114cd99e96f3f1",
+      "bytes": 4844,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/baby_bottle.webp",
+      "file": "site/tiktok-shop/emoji/baby_bottle.webp",
+      "originalSha256": "3230d5e1d77a5087207c881d623143c80c7eb96b338a79ed6d4801f2deca6989",
+      "sha256": "3230d5e1d77a5087207c881d623143c80c7eb96b338a79ed6d4801f2deca6989",
+      "bytes": 4554,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/backhand_index_pointing_down.webp",
+      "file": "site/tiktok-shop/emoji/backhand_index_pointing_down.webp",
+      "originalSha256": "316f4193f11645e3a0256cae89471eced967425ec0eb65f2202de2b75014deea",
+      "sha256": "316f4193f11645e3a0256cae89471eced967425ec0eb65f2202de2b75014deea",
+      "bytes": 3840,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/backhand_index_pointing_right.webp",
+      "file": "site/tiktok-shop/emoji/backhand_index_pointing_right.webp",
+      "originalSha256": "d7e1fc03c2fa81dd53886db77aff7d9f45d0a40e8bead4c1de89cfd4f637c2cd",
+      "sha256": "d7e1fc03c2fa81dd53886db77aff7d9f45d0a40e8bead4c1de89cfd4f637c2cd",
+      "bytes": 3938,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/balance_scale.webp",
+      "file": "site/tiktok-shop/emoji/balance_scale.webp",
+      "originalSha256": "7f172ddc69b9a790ec329e9e6258885a9078fde14ace5dd70acd763eeefa8251",
+      "sha256": "7f172ddc69b9a790ec329e9e6258885a9078fde14ace5dd70acd763eeefa8251",
+      "bytes": 6802,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/bank.webp",
+      "file": "site/tiktok-shop/emoji/bank.webp",
+      "originalSha256": "e1847a653213f087eb2c25a6ab6a786875eca11e6ab4f511e2169271f1c17507",
+      "sha256": "e1847a653213f087eb2c25a6ab6a786875eca11e6ab4f511e2169271f1c17507",
+      "bytes": 3278,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/bar_chart.webp",
+      "file": "site/tiktok-shop/emoji/bar_chart.webp",
+      "originalSha256": "07cf66994ccdd29b7884f710e598a59696900c79427293786b58d5262b6bab30",
+      "sha256": "07cf66994ccdd29b7884f710e598a59696900c79427293786b58d5262b6bab30",
+      "bytes": 2438,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/beach_with_umbrella.webp",
+      "file": "site/tiktok-shop/emoji/beach_with_umbrella.webp",
+      "originalSha256": "117f215a16c865596477fc2888c88c28d1936325297d1534053e16c1ad7f96b7",
+      "sha256": "117f215a16c865596477fc2888c88c28d1936325297d1534053e16c1ad7f96b7",
+      "bytes": 5308,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/bell.webp",
+      "file": "site/tiktok-shop/emoji/bell.webp",
+      "originalSha256": "1782fce5dc6b0bfaad12daba972b5deafcdd9c9a14d6cd96c27deb3ce707fc9b",
+      "sha256": "1782fce5dc6b0bfaad12daba972b5deafcdd9c9a14d6cd96c27deb3ce707fc9b",
+      "bytes": 3200,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/bookmark_tabs.webp",
+      "file": "site/tiktok-shop/emoji/bookmark_tabs.webp",
+      "originalSha256": "820bc8ba7e471c6de992f27544634ac58d68cb4c14874b84bcdbfd28c3403640",
+      "sha256": "820bc8ba7e471c6de992f27544634ac58d68cb4c14874b84bcdbfd28c3403640",
+      "bytes": 1890,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/books.webp",
+      "file": "site/tiktok-shop/emoji/books.webp",
+      "originalSha256": "88e0808601ef7b60773aab7b849279e8813bc9cf7c91323ca0079cdddc5fb00e",
+      "sha256": "88e0808601ef7b60773aab7b849279e8813bc9cf7c91323ca0079cdddc5fb00e",
+      "bytes": 2006,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/brain.webp",
+      "file": "site/tiktok-shop/emoji/brain.webp",
+      "originalSha256": "647cea11f8898ba88c4ff879cf3b5e892665726836b5794984619a7b66a23e3a",
+      "sha256": "647cea11f8898ba88c4ff879cf3b5e892665726836b5794984619a7b66a23e3a",
+      "bytes": 3948,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/bubbles.webp",
+      "file": "site/tiktok-shop/emoji/bubbles.webp",
+      "originalSha256": "90d847efde3bcf060f9454cfcd400b93d6eed87a07cc68bb15a254958f5d4218",
+      "sha256": "90d847efde3bcf060f9454cfcd400b93d6eed87a07cc68bb15a254958f5d4218",
+      "bytes": 5506,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/busts_in_silhouette.webp",
+      "file": "site/tiktok-shop/emoji/busts_in_silhouette.webp",
+      "originalSha256": "78cb10ee0f76de922b1995ec4a114a160f962fb000e120033bf0348a7a2056b1",
+      "sha256": "78cb10ee0f76de922b1995ec4a114a160f962fb000e120033bf0348a7a2056b1",
+      "bytes": 4924,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/calendar.webp",
+      "file": "site/tiktok-shop/emoji/calendar.webp",
+      "originalSha256": "e78a33dcb3eec38bb815a541abd4205603a36545101cc3424cfde88eda26cfc7",
+      "sha256": "e78a33dcb3eec38bb815a541abd4205603a36545101cc3424cfde88eda26cfc7",
+      "bytes": 2714,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/camera.webp",
+      "file": "site/tiktok-shop/emoji/camera.webp",
+      "originalSha256": "777e4197379e8ce294bbfe1f91fba6492592c84cbc61a77f06203ca3f4000f6d",
+      "sha256": "777e4197379e8ce294bbfe1f91fba6492592c84cbc61a77f06203ca3f4000f6d",
+      "bytes": 2190,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/camera_with_flash.webp",
+      "file": "site/tiktok-shop/emoji/camera_with_flash.webp",
+      "originalSha256": "5e919a5c60aaa9b5bbf2b868382aff12c489730b02ebf5951a62948353724b6c",
+      "sha256": "5e919a5c60aaa9b5bbf2b868382aff12c489730b02ebf5951a62948353724b6c",
+      "bytes": 3014,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/candle.webp",
+      "file": "site/tiktok-shop/emoji/candle.webp",
+      "originalSha256": "5b23ee66b9a0388a999905b0a039df9e49ba74e609adbee10a15f6fe7016b932",
+      "sha256": "5b23ee66b9a0388a999905b0a039df9e49ba74e609adbee10a15f6fe7016b932",
+      "bytes": 2634,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/cat_face.webp",
+      "file": "site/tiktok-shop/emoji/cat_face.webp",
+      "originalSha256": "8db7a6e91a2dd9dc9662b8ad4d1754c44bb3e20fe9c90dfd3421ea7cb5f74dd1",
+      "sha256": "8db7a6e91a2dd9dc9662b8ad4d1754c44bb3e20fe9c90dfd3421ea7cb5f74dd1",
+      "bytes": 4812,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/chart_increasing.webp",
+      "file": "site/tiktok-shop/emoji/chart_increasing.webp",
+      "originalSha256": "ae763ce596f0f4fa1d8752a116856a35dd31ae3d8ecaa1334683b666b89ee05a",
+      "sha256": "ae763ce596f0f4fa1d8752a116856a35dd31ae3d8ecaa1334683b666b89ee05a",
+      "bytes": 3154,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/check_mark.webp",
+      "file": "site/tiktok-shop/emoji/check_mark.webp",
+      "originalSha256": "452b71a2e9603d28ffd5133db8515cb0abdca53e04f139f5704d4640a080ac0d",
+      "sha256": "452b71a2e9603d28ffd5133db8515cb0abdca53e04f139f5704d4640a080ac0d",
+      "bytes": 3406,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/check_mark_button.webp",
+      "file": "site/tiktok-shop/emoji/check_mark_button.webp",
+      "originalSha256": "ecd891e7010de15a6082b883fdd5a60cf927c5a0a85617c805b6dd538854bd88",
+      "sha256": "ecd891e7010de15a6082b883fdd5a60cf927c5a0a85617c805b6dd538854bd88",
+      "bytes": 2758,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/cherry_blossom.webp",
+      "file": "site/tiktok-shop/emoji/cherry_blossom.webp",
+      "originalSha256": "5ab46e94bc1be7aa98e75fa05fa62b1fe72d91347494939aa6f3fbe80e5d0a2a",
+      "sha256": "5ab46e94bc1be7aa98e75fa05fa62b1fe72d91347494939aa6f3fbe80e5d0a2a",
+      "bytes": 5134,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/clapper_board.webp",
+      "file": "site/tiktok-shop/emoji/clapper_board.webp",
+      "originalSha256": "5e952ba649239b98ff79564b3fa72eab23d8f7cfc114ce2539fb5c3ef660313e",
+      "sha256": "5e952ba649239b98ff79564b3fa72eab23d8f7cfc114ce2539fb5c3ef660313e",
+      "bytes": 3566,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/clapping_hands.webp",
+      "file": "site/tiktok-shop/emoji/clapping_hands.webp",
+      "originalSha256": "c7ca58ce86b788dbcb3faf8c5fbf971622b8c5ded02e6f27b20a55a2b9491914",
+      "sha256": "c7ca58ce86b788dbcb3faf8c5fbf971622b8c5ded02e6f27b20a55a2b9491914",
+      "bytes": 5290,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/clipboard.webp",
+      "file": "site/tiktok-shop/emoji/clipboard.webp",
+      "originalSha256": "4a2b924da72f70cf81d4cc3bedbaf9ea066b66d6a437b6dcb901883ab7131606",
+      "sha256": "4a2b924da72f70cf81d4cc3bedbaf9ea066b66d6a437b6dcb901883ab7131606",
+      "bytes": 1786,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/coin.webp",
+      "file": "site/tiktok-shop/emoji/coin.webp",
+      "originalSha256": "9264df344e0ba6ebb4e6fa2220b0e7a8c5848b5a28553ae119564d05e28b7a25",
+      "sha256": "9264df344e0ba6ebb4e6fa2220b0e7a8c5848b5a28553ae119564d05e28b7a25",
+      "bytes": 4776,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/cookie.webp",
+      "file": "site/tiktok-shop/emoji/cookie.webp",
+      "originalSha256": "02cb96205dfb7fd6af79422bdd75836a36881f6bc2891a435cdafbbb7f99c9cd",
+      "sha256": "02cb96205dfb7fd6af79422bdd75836a36881f6bc2891a435cdafbbb7f99c9cd",
+      "bytes": 4924,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/cooking.webp",
+      "file": "site/tiktok-shop/emoji/cooking.webp",
+      "originalSha256": "ceec5613368f9438bd2060cbe63134d3ebfbef77d929efb4bc91c3e008597331",
+      "sha256": "ceec5613368f9438bd2060cbe63134d3ebfbef77d929efb4bc91c3e008597331",
+      "bytes": 4274,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/credit_card.webp",
+      "file": "site/tiktok-shop/emoji/credit_card.webp",
+      "originalSha256": "f0e8c3358cfb89841529485197b1bd3bdfff74166b9ef9522ad664678bf52222",
+      "sha256": "f0e8c3358cfb89841529485197b1bd3bdfff74166b9ef9522ad664678bf52222",
+      "bytes": 1916,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/crescent_moon.webp",
+      "file": "site/tiktok-shop/emoji/crescent_moon.webp",
+      "originalSha256": "6e91f1aa9e1abca332d4720213e45adb9a904036f7aed7376af0f5c70c05d974",
+      "sha256": "6e91f1aa9e1abca332d4720213e45adb9a904036f7aed7376af0f5c70c05d974",
+      "bytes": 3644,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/croissant.webp",
+      "file": "site/tiktok-shop/emoji/croissant.webp",
+      "originalSha256": "388beee0e45307f75ed9e3e199f8402536956840b5b6bcccde96761f1acf9cbf",
+      "sha256": "388beee0e45307f75ed9e3e199f8402536956840b5b6bcccde96761f1acf9cbf",
+      "bytes": 5692,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/cross_mark.webp",
+      "file": "site/tiktok-shop/emoji/cross_mark.webp",
+      "originalSha256": "cdb88a0bb60b35e08288ca68a8754714e5888c696700005c0666f983281e619e",
+      "sha256": "cdb88a0bb60b35e08288ca68a8754714e5888c696700005c0666f983281e619e",
+      "bytes": 4916,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/crown.webp",
+      "file": "site/tiktok-shop/emoji/crown.webp",
+      "originalSha256": "e8d8d78436af1e898b4e01304b2adfbc0cd543e483f8834e790c61871d4db4c6",
+      "sha256": "e8d8d78436af1e898b4e01304b2adfbc0cd543e483f8834e790c61871d4db4c6",
+      "bytes": 5658,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/dog_face.webp",
+      "file": "site/tiktok-shop/emoji/dog_face.webp",
+      "originalSha256": "cf76a05ee8fa5395a102e3dcd9bcf0983b17d0487d0b2aa9bacee0025f246d44",
+      "sha256": "cf76a05ee8fa5395a102e3dcd9bcf0983b17d0487d0b2aa9bacee0025f246d44",
+      "bytes": 4002,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/dress.webp",
+      "file": "site/tiktok-shop/emoji/dress.webp",
+      "originalSha256": "8beb1139fedcf8fa6e8f9058e3252a351a8c4ad2b604f01b504a7c05ebd9628b",
+      "sha256": "8beb1139fedcf8fa6e8f9058e3252a351a8c4ad2b604f01b504a7c05ebd9628b",
+      "bytes": 4450,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/dumbbell.webp",
+      "file": "site/tiktok-shop/emoji/dumbbell.webp",
+      "originalSha256": "6b51ecf1ae8a3e995febc5d89c8fcff1eb95b96bde9446b04dab7b148ea96313",
+      "sha256": "6b51ecf1ae8a3e995febc5d89c8fcff1eb95b96bde9446b04dab7b148ea96313",
+      "bytes": 6678,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/envelope.webp",
+      "file": "site/tiktok-shop/emoji/envelope.webp",
+      "originalSha256": "d4c53d269490c987dac4c2626acd90b177f7112a6b21dec61c4963aedc4da515",
+      "sha256": "d4c53d269490c987dac4c2626acd90b177f7112a6b21dec61c4963aedc4da515",
+      "bytes": 1914,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/euro_banknote.webp",
+      "file": "site/tiktok-shop/emoji/euro_banknote.webp",
+      "originalSha256": "979886397f73e48634fbdadf5820475d7babeff4e41b286c7204a32b077b1624",
+      "sha256": "979886397f73e48634fbdadf5820475d7babeff4e41b286c7204a32b077b1624",
+      "bytes": 3076,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/eyes.webp",
+      "file": "site/tiktok-shop/emoji/eyes.webp",
+      "originalSha256": "5b1ddfdf610d924a3a3674eb5cffc182807182a1b8b909dc30388b7abdf830cb",
+      "sha256": "5b1ddfdf610d924a3a3674eb5cffc182807182a1b8b909dc30388b7abdf830cb",
+      "bytes": 3564,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/face_with_monocle.webp",
+      "file": "site/tiktok-shop/emoji/face_with_monocle.webp",
+      "originalSha256": "93fb1eaa2647d9645dccf3e1d718ce5a2827aab29fe2867f8c09c2084f843561",
+      "sha256": "93fb1eaa2647d9645dccf3e1d718ce5a2827aab29fe2867f8c09c2084f843561",
+      "bytes": 6350,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/film_frames.webp",
+      "file": "site/tiktok-shop/emoji/film_frames.webp",
+      "originalSha256": "b5c27da967bc8bb17df4f9f2041fe5cf4080722c8a44ed4ab9450d64956d39ee",
+      "sha256": "b5c27da967bc8bb17df4f9f2041fe5cf4080722c8a44ed4ab9450d64956d39ee",
+      "bytes": 2792,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/fire.webp",
+      "file": "site/tiktok-shop/emoji/fire.webp",
+      "originalSha256": "25065887fdcd4b7764f98ed73845b04b48a97e036c28d5977a4890097cf65a65",
+      "sha256": "25065887fdcd4b7764f98ed73845b04b48a97e036c28d5977a4890097cf65a65",
+      "bytes": 4046,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/first_place_medal.webp",
+      "file": "site/tiktok-shop/emoji/first_place_medal.webp",
+      "originalSha256": "515e209a280f442f3c0de7722066dc2ba585d72900d30fb83ee999ff4171fcf6",
+      "sha256": "515e209a280f442f3c0de7722066dc2ba585d72900d30fb83ee999ff4171fcf6",
+      "bytes": 5218,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/flexed_biceps.webp",
+      "file": "site/tiktok-shop/emoji/flexed_biceps.webp",
+      "originalSha256": "233dd21a2a1bda79e3ef6c8799f0129f26261be64ce27a33af5a07aa86f12e5d",
+      "sha256": "233dd21a2a1bda79e3ef6c8799f0129f26261be64ce27a33af5a07aa86f12e5d",
+      "bytes": 4144,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/folded_hands.webp",
+      "file": "site/tiktok-shop/emoji/folded_hands.webp",
+      "originalSha256": "f5f4da75e33adc747e938016ff1e8d3d60d7fb98b675643bcef6a94b9164e455",
+      "sha256": "f5f4da75e33adc747e938016ff1e8d3d60d7fb98b675643bcef6a94b9164e455",
+      "bytes": 3422,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/fountain_pen.webp",
+      "file": "site/tiktok-shop/emoji/fountain_pen.webp",
+      "originalSha256": "81698b78531c5aa0f99f0bc9031579ed450f2f8eadc6cba92378818de5833399",
+      "sha256": "81698b78531c5aa0f99f0bc9031579ed450f2f8eadc6cba92378818de5833399",
+      "bytes": 3304,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/framed_picture.webp",
+      "file": "site/tiktok-shop/emoji/framed_picture.webp",
+      "originalSha256": "36671a0de83b966b7a21f815d59f7067745359880539a43d3cb4474a2685ee7e",
+      "sha256": "36671a0de83b966b7a21f815d59f7067745359880539a43d3cb4474a2685ee7e",
+      "bytes": 2936,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/gear.webp",
+      "file": "site/tiktok-shop/emoji/gear.webp",
+      "originalSha256": "733bec5a309d220a14103c6550c864bbac35485ba710cbdbfbfbf6f683a04931",
+      "sha256": "733bec5a309d220a14103c6550c864bbac35485ba710cbdbfbfbf6f683a04931",
+      "bytes": 4972,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/gem_stone.webp",
+      "file": "site/tiktok-shop/emoji/gem_stone.webp",
+      "originalSha256": "354e2bca83f9e65ca126e167c04e66a7869828bafff6e726b82688449b39122a",
+      "sha256": "354e2bca83f9e65ca126e167c04e66a7869828bafff6e726b82688449b39122a",
+      "bytes": 3572,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/gift.webp",
+      "file": "site/tiktok-shop/emoji/gift.webp",
+      "originalSha256": "d85e42deec791403d33657585a7a6e266205a988343fa57c132be6ed0a698bc1",
+      "sha256": "d85e42deec791403d33657585a7a6e266205a988343fa57c132be6ed0a698bc1",
+      "bytes": 3308,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/globe_europe_africa.webp",
+      "file": "site/tiktok-shop/emoji/globe_europe_africa.webp",
+      "originalSha256": "5adf05b300d8b1470c0630be6a7f7da101c4b73f61631813a1188eccee2b953e",
+      "sha256": "5adf05b300d8b1470c0630be6a7f7da101c4b73f61631813a1188eccee2b953e",
+      "bytes": 4556,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/glowing_star.webp",
+      "file": "site/tiktok-shop/emoji/glowing_star.webp",
+      "originalSha256": "fbc65cfbb06dd51a6d613b02b1e9a20cf31e7d3e330219e387329c9b49a2f866",
+      "sha256": "fbc65cfbb06dd51a6d613b02b1e9a20cf31e7d3e330219e387329c9b49a2f866",
+      "bytes": 5764,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/graduation_cap.webp",
+      "file": "site/tiktok-shop/emoji/graduation_cap.webp",
+      "originalSha256": "78a57ccd2729219d197dd71d26376cb6af6ae8445887a6a4581168eeb335a240",
+      "sha256": "78a57ccd2729219d197dd71d26376cb6af6ae8445887a6a4581168eeb335a240",
+      "bytes": 3684,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/grinning_face_with_smiling_eyes.webp",
+      "file": "site/tiktok-shop/emoji/grinning_face_with_smiling_eyes.webp",
+      "originalSha256": "1de78d73ed2a6342b7467d578ca230c357c0c1e2b95bdde4a688cf29806ec0c8",
+      "sha256": "1de78d73ed2a6342b7467d578ca230c357c0c1e2b95bdde4a688cf29806ec0c8",
+      "bytes": 4906,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/hammer_and_wrench.webp",
+      "file": "site/tiktok-shop/emoji/hammer_and_wrench.webp",
+      "originalSha256": "10c900ba92949b5f44c615344d47610ce52967a99c6afbb06420167b77c7fe7f",
+      "sha256": "10c900ba92949b5f44c615344d47610ce52967a99c6afbb06420167b77c7fe7f",
+      "bytes": 5600,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/handbag.webp",
+      "file": "site/tiktok-shop/emoji/handbag.webp",
+      "originalSha256": "6a831658a2df777b03aadcde171e29fc9d55bac59477ec1558e10c0edef72f17",
+      "sha256": "6a831658a2df777b03aadcde171e29fc9d55bac59477ec1558e10c0edef72f17",
+      "bytes": 4030,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/handshake.webp",
+      "file": "site/tiktok-shop/emoji/handshake.webp",
+      "originalSha256": "653f11d8355b585d11a46fa8bf5e6c5aadc637e704c7580ec2ea393de3341822",
+      "sha256": "653f11d8355b585d11a46fa8bf5e6c5aadc637e704c7580ec2ea393de3341822",
+      "bytes": 4462,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/headphone.webp",
+      "file": "site/tiktok-shop/emoji/headphone.webp",
+      "originalSha256": "c6ee25385eb8833f4f5e15171717bfe478a02aa7dce9e42e07528c0ff99f75a7",
+      "sha256": "c6ee25385eb8833f4f5e15171717bfe478a02aa7dce9e42e07528c0ff99f75a7",
+      "bytes": 5694,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/heart_with_ribbon.webp",
+      "file": "site/tiktok-shop/emoji/heart_with_ribbon.webp",
+      "originalSha256": "093590b8542256e05caee312b01955f81ce5e8be8d1195af4281eeff9ad74e86",
+      "sha256": "093590b8542256e05caee312b01955f81ce5e8be8d1195af4281eeff9ad74e86",
+      "bytes": 5352,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/herb.webp",
+      "file": "site/tiktok-shop/emoji/herb.webp",
+      "originalSha256": "a8dcf6d61a605733d93f22e1a6b8beafb79b2870b6217ad4508e1f9d0faefd41",
+      "sha256": "a8dcf6d61a605733d93f22e1a6b8beafb79b2870b6217ad4508e1f9d0faefd41",
+      "bytes": 5998,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/hot_beverage.webp",
+      "file": "site/tiktok-shop/emoji/hot_beverage.webp",
+      "originalSha256": "9f0bf9f73bd676e489655b915cf2e8fd5122c1be46ddae8bd7343bc945866806",
+      "sha256": "9f0bf9f73bd676e489655b915cf2e8fd5122c1be46ddae8bd7343bc945866806",
+      "bytes": 4350,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/hourglass.webp",
+      "file": "site/tiktok-shop/emoji/hourglass.webp",
+      "originalSha256": "8ea290751b46acfb70e631870c33921b1dc1533023e2ec68cacbd60945176c4c",
+      "sha256": "8ea290751b46acfb70e631870c33921b1dc1533023e2ec68cacbd60945176c4c",
+      "bytes": 4074,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/hourglass_done.webp",
+      "file": "site/tiktok-shop/emoji/hourglass_done.webp",
+      "originalSha256": "a3a44231708261f904c7a0e29bd32bba29f6a58da08aa4380f1c289654c328d8",
+      "sha256": "a3a44231708261f904c7a0e29bd32bba29f6a58da08aa4380f1c289654c328d8",
+      "bytes": 3972,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/house.webp",
+      "file": "site/tiktok-shop/emoji/house.webp",
+      "originalSha256": "50edbcedc96c56f2e77bca003d0be376c9ec9fae73e8c1be1cf8fad36d0879fd",
+      "sha256": "50edbcedc96c56f2e77bca003d0be376c9ec9fae73e8c1be1cf8fad36d0879fd",
+      "bytes": 3732,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/house_with_garden.webp",
+      "file": "site/tiktok-shop/emoji/house_with_garden.webp",
+      "originalSha256": "c1707faac32b81fe251419c21c1661c451e3a3c24b29a9dba6cccc2b1f482c87",
+      "sha256": "c1707faac32b81fe251419c21c1661c451e3a3c24b29a9dba6cccc2b1f482c87",
+      "bytes": 4140,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/hugging_face.webp",
+      "file": "site/tiktok-shop/emoji/hugging_face.webp",
+      "originalSha256": "a8a1df527bb17d284198ddd14ef7c1bccd5039268de98275d6f6d4e3c4c19a3e",
+      "sha256": "a8a1df527bb17d284198ddd14ef7c1bccd5039268de98275d6f6d4e3c4c19a3e",
+      "bytes": 6166,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/hundred_points.webp",
+      "file": "site/tiktok-shop/emoji/hundred_points.webp",
+      "originalSha256": "124d527b719c04b273b5e0f1502f2000b42511c986125bfef669edd72a5f7349",
+      "sha256": "124d527b719c04b273b5e0f1502f2000b42511c986125bfef669edd72a5f7349",
+      "bytes": 9040,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/incoming_envelope.webp",
+      "file": "site/tiktok-shop/emoji/incoming_envelope.webp",
+      "originalSha256": "649d6606e5b7020533b6a1dfcd5c84689d760516b4b99a7c3d21329a8a765bc1",
+      "sha256": "649d6606e5b7020533b6a1dfcd5c84689d760516b4b99a7c3d21329a8a765bc1",
+      "bytes": 2452,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/key.webp",
+      "file": "site/tiktok-shop/emoji/key.webp",
+      "originalSha256": "2642b05035fbcb9c97da9770de2b359e34a52516a9b26371df361db2e65a3044",
+      "sha256": "2642b05035fbcb9c97da9770de2b359e34a52516a9b26371df361db2e65a3044",
+      "bytes": 3666,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/laptop.webp",
+      "file": "site/tiktok-shop/emoji/laptop.webp",
+      "originalSha256": "1566b92ffb5c4ec2813515741f3aa83d8eb7c0b6c07aebb29139f22d556ea9a1",
+      "sha256": "1566b92ffb5c4ec2813515741f3aa83d8eb7c0b6c07aebb29139f22d556ea9a1",
+      "bytes": 2520,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/leaf.webp",
+      "file": "site/tiktok-shop/emoji/leaf.webp",
+      "originalSha256": "0e700773666f1189bff3f205e4463327c9a862a36a73a69ae4731d0415348f7c",
+      "sha256": "0e700773666f1189bff3f205e4463327c9a862a36a73a69ae4731d0415348f7c",
+      "bytes": 6130,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/lemon.webp",
+      "file": "site/tiktok-shop/emoji/lemon.webp",
+      "originalSha256": "d6b714b9371387892b50e5a84b69601b00e41665fefeba4800ac5aaf44b655fb",
+      "sha256": "d6b714b9371387892b50e5a84b69601b00e41665fefeba4800ac5aaf44b655fb",
+      "bytes": 4200,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/light_bulb.webp",
+      "file": "site/tiktok-shop/emoji/light_bulb.webp",
+      "originalSha256": "b103123ee43323f1a6225a3063f868ed7dc057aa43a61238b6ed340ac15225bd",
+      "sha256": "b103123ee43323f1a6225a3063f868ed7dc057aa43a61238b6ed340ac15225bd",
+      "bytes": 3778,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/link.webp",
+      "file": "site/tiktok-shop/emoji/link.webp",
+      "originalSha256": "3f4e137b8c43379f0a4b193aec23c2262efa2486719c7f43253486e49595d38c",
+      "sha256": "3f4e137b8c43379f0a4b193aec23c2262efa2486719c7f43253486e49595d38c",
+      "bytes": 5236,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/lipstick.webp",
+      "file": "site/tiktok-shop/emoji/lipstick.webp",
+      "originalSha256": "b8a34f49dcb236d2e4d448566395978c608489e5c33d984f9de3b01ea50067ee",
+      "sha256": "b8a34f49dcb236d2e4d448566395978c608489e5c33d984f9de3b01ea50067ee",
+      "bytes": 2378,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/locked.webp",
+      "file": "site/tiktok-shop/emoji/locked.webp",
+      "originalSha256": "d2c0b4f55456f3bcc095acbbed40e0eacf68aef46492718b3faecb3085589dac",
+      "sha256": "d2c0b4f55456f3bcc095acbbed40e0eacf68aef46492718b3faecb3085589dac",
+      "bytes": 3130,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/lotion_bottle.webp",
+      "file": "site/tiktok-shop/emoji/lotion_bottle.webp",
+      "originalSha256": "c41d143183baf82027786dcce735676acf98e0e7bf6234e47c5d689944877f74",
+      "sha256": "c41d143183baf82027786dcce735676acf98e0e7bf6234e47c5d689944877f74",
+      "bytes": 2292,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/loudspeaker.webp",
+      "file": "site/tiktok-shop/emoji/loudspeaker.webp",
+      "originalSha256": "588be365058cb103ebe2f3cc884fb6a7c2fbb14274c9883a6971ea47e6205499",
+      "sha256": "588be365058cb103ebe2f3cc884fb6a7c2fbb14274c9883a6971ea47e6205499",
+      "bytes": 3568,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/love_letter.webp",
+      "file": "site/tiktok-shop/emoji/love_letter.webp",
+      "originalSha256": "252fca78bb6adeded092ad0a003d07be285f218c4640ec608d9d278b9cf64f5e",
+      "sha256": "252fca78bb6adeded092ad0a003d07be285f218c4640ec608d9d278b9cf64f5e",
+      "bytes": 2734,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/magnifying_glass.webp",
+      "file": "site/tiktok-shop/emoji/magnifying_glass.webp",
+      "originalSha256": "9823f753f2512789f09252b1fe666856113a5612cc9988462d375e92fa0b4bcf",
+      "sha256": "9823f753f2512789f09252b1fe666856113a5612cc9988462d375e92fa0b4bcf",
+      "bytes": 4582,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/man.webp",
+      "file": "site/tiktok-shop/emoji/man.webp",
+      "originalSha256": "7cf5642aa4ae892b3be903cd4026295288baa30ff456a829438dc2e8a8f121d8",
+      "sha256": "7cf5642aa4ae892b3be903cd4026295288baa30ff456a829438dc2e8a8f121d8",
+      "bytes": 5400,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/megaphone.webp",
+      "file": "site/tiktok-shop/emoji/megaphone.webp",
+      "originalSha256": "f7a01d4cb18a3b098d3ac414899b305671261209214cd986151f0e1790147ae7",
+      "sha256": "f7a01d4cb18a3b098d3ac414899b305671261209214cd986151f0e1790147ae7",
+      "bytes": 5256,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/memo.webp",
+      "file": "site/tiktok-shop/emoji/memo.webp",
+      "originalSha256": "568051d97561b166760b82d29462721beeb97beb870ed6a15a3c23ad9c60e5db",
+      "sha256": "568051d97561b166760b82d29462721beeb97beb870ed6a15a3c23ad9c60e5db",
+      "bytes": 3354,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/microphone.webp",
+      "file": "site/tiktok-shop/emoji/microphone.webp",
+      "originalSha256": "a477cb14adb28ffef61036d5493089549853f2ded9ba02cb9dea3c3f8df57da4",
+      "sha256": "a477cb14adb28ffef61036d5493089549853f2ded9ba02cb9dea3c3f8df57da4",
+      "bytes": 3624,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/mobile_phone.webp",
+      "file": "site/tiktok-shop/emoji/mobile_phone.webp",
+      "originalSha256": "f5adfef9e0edfc1c35c74419feddcde74e7c731ff38fe434754e95a0c11b991b",
+      "sha256": "f5adfef9e0edfc1c35c74419feddcde74e7c731ff38fe434754e95a0c11b991b",
+      "bytes": 2886,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/mobile_phone_with_arrow.webp",
+      "file": "site/tiktok-shop/emoji/mobile_phone_with_arrow.webp",
+      "originalSha256": "1af65a34ecdf8d2fdaa8729d7dcab3cfcac12bd96898c0beaa2a0ccbc0baf584",
+      "sha256": "1af65a34ecdf8d2fdaa8729d7dcab3cfcac12bd96898c0beaa2a0ccbc0baf584",
+      "bytes": 4100,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/money_bag.webp",
+      "file": "site/tiktok-shop/emoji/money_bag.webp",
+      "originalSha256": "24ac69bdf2fa4b98f130f92e3fd9722b7d6e00c80aa1bf13d25cffafb13e6523",
+      "sha256": "24ac69bdf2fa4b98f130f92e3fd9722b7d6e00c80aa1bf13d25cffafb13e6523",
+      "bytes": 4568,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/money_with_wings.webp",
+      "file": "site/tiktok-shop/emoji/money_with_wings.webp",
+      "originalSha256": "70ffeaaa583b0baf469bd219f4168871dd86a37f1ce47ef4eee492edf489a895",
+      "sha256": "70ffeaaa583b0baf469bd219f4168871dd86a37f1ce47ef4eee492edf489a895",
+      "bytes": 4938,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/movie_camera.webp",
+      "file": "site/tiktok-shop/emoji/movie_camera.webp",
+      "originalSha256": "1a3bdff4031a70b0b5e160ff9d5c5bb25a3241ab4d02eb94ee973be131d4a4f9",
+      "sha256": "1a3bdff4031a70b0b5e160ff9d5c5bb25a3241ab4d02eb94ee973be131d4a4f9",
+      "bytes": 3964,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/nail_polish.webp",
+      "file": "site/tiktok-shop/emoji/nail_polish.webp",
+      "originalSha256": "5099bc3cd21d7342069ca8db04e1f70f093f0a33b3d15a7ee1325c22c3956389",
+      "sha256": "5099bc3cd21d7342069ca8db04e1f70f093f0a33b3d15a7ee1325c22c3956389",
+      "bytes": 4838,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/ok_hand.webp",
+      "file": "site/tiktok-shop/emoji/ok_hand.webp",
+      "originalSha256": "657836f3cbcc09bc1792cc150dff251a1e9e034a6947049fb52d670edaf8c21a",
+      "sha256": "657836f3cbcc09bc1792cc150dff251a1e9e034a6947049fb52d670edaf8c21a",
+      "bytes": 5202,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/open_book.webp",
+      "file": "site/tiktok-shop/emoji/open_book.webp",
+      "originalSha256": "ccd5ee6c7dee47500fcaf9608aa78be94a4aa745141f90a497e234370e3a0cf6",
+      "sha256": "ccd5ee6c7dee47500fcaf9608aa78be94a4aa745141f90a497e234370e3a0cf6",
+      "bytes": 2028,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/package.webp",
+      "file": "site/tiktok-shop/emoji/package.webp",
+      "originalSha256": "345f239612fbb81423a6681cb5d01b4eb424514c12a2b8cc15f3ce2c2e56ff8d",
+      "sha256": "345f239612fbb81423a6681cb5d01b4eb424514c12a2b8cc15f3ce2c2e56ff8d",
+      "bytes": 3664,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/page_facing_up.webp",
+      "file": "site/tiktok-shop/emoji/page_facing_up.webp",
+      "originalSha256": "692ea7df66d034ddfe1e26b9d9b808a892cbfed3950286853c88a829e2543dd1",
+      "sha256": "692ea7df66d034ddfe1e26b9d9b808a892cbfed3950286853c88a829e2543dd1",
+      "bytes": 1330,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/palms_up_together.webp",
+      "file": "site/tiktok-shop/emoji/palms_up_together.webp",
+      "originalSha256": "8a76d8eb2a1b60fb038f538252b5d93e9bf3608f8269292ef598aa3652900d52",
+      "sha256": "8a76d8eb2a1b60fb038f538252b5d93e9bf3608f8269292ef598aa3652900d52",
+      "bytes": 4876,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/paperclip.webp",
+      "file": "site/tiktok-shop/emoji/paperclip.webp",
+      "originalSha256": "62bb007cb9402202885f669ac0f9065b79f4832df266d06103c276c23ad10cd8",
+      "sha256": "62bb007cb9402202885f669ac0f9065b79f4832df266d06103c276c23ad10cd8",
+      "bytes": 7102,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/partying_face.webp",
+      "file": "site/tiktok-shop/emoji/partying_face.webp",
+      "originalSha256": "237ff628556f78320c592dbfd9ded33957969b2f5ebd39a51cc92b74f7279e42",
+      "sha256": "237ff628556f78320c592dbfd9ded33957969b2f5ebd39a51cc92b74f7279e42",
+      "bytes": 6966,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/party_popper.webp",
+      "file": "site/tiktok-shop/emoji/party_popper.webp",
+      "originalSha256": "005bbf012f14c6c5798e0ed909a4758c77aa8cd4d44bf28927c27cccf8257dba",
+      "sha256": "005bbf012f14c6c5798e0ed909a4758c77aa8cd4d44bf28927c27cccf8257dba",
+      "bytes": 8908,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/pencil.webp",
+      "file": "site/tiktok-shop/emoji/pencil.webp",
+      "originalSha256": "ecc6f297439fb4946e36c8eb2d1138a5f8e2815e4461cf89cc9c77bc60e8c7cc",
+      "sha256": "ecc6f297439fb4946e36c8eb2d1138a5f8e2815e4461cf89cc9c77bc60e8c7cc",
+      "bytes": 3834,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/pizza.webp",
+      "file": "site/tiktok-shop/emoji/pizza.webp",
+      "originalSha256": "4bc95eb4a67ddd95f3b9618cc28cabadf98dcebcc4321e00d92920408bb671cd",
+      "sha256": "4bc95eb4a67ddd95f3b9618cc28cabadf98dcebcc4321e00d92920408bb671cd",
+      "bytes": 4136,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/potted_plant.webp",
+      "file": "site/tiktok-shop/emoji/potted_plant.webp",
+      "originalSha256": "8e8fe9cb88576240bd1ecec66a6da106f83ed0a5797e50834c3bd5ee5b687b70",
+      "sha256": "8e8fe9cb88576240bd1ecec66a6da106f83ed0a5797e50834c3bd5ee5b687b70",
+      "bytes": 7088,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/prohibited.webp",
+      "file": "site/tiktok-shop/emoji/prohibited.webp",
+      "originalSha256": "7589769f8e895ce333a9cab246405e1613b572dd16c457a36a158a2f50cde03f",
+      "sha256": "7589769f8e895ce333a9cab246405e1613b572dd16c457a36a158a2f50cde03f",
+      "bytes": 6004,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/pushpin.webp",
+      "file": "site/tiktok-shop/emoji/pushpin.webp",
+      "originalSha256": "f8814e2c80b01438d9d6558cbcb2f7e5c1166eca0df90209e312b165634859f8",
+      "sha256": "f8814e2c80b01438d9d6558cbcb2f7e5c1166eca0df90209e312b165634859f8",
+      "bytes": 3362,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/puzzle_piece.webp",
+      "file": "site/tiktok-shop/emoji/puzzle_piece.webp",
+      "originalSha256": "c94a6c8156c0bc947d9df76d028e1f58ad3d867a77ff845e6e50cd142fdbc668",
+      "sha256": "c94a6c8156c0bc947d9df76d028e1f58ad3d867a77ff845e6e50cd142fdbc668",
+      "bytes": 6026,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/rainbow.webp",
+      "file": "site/tiktok-shop/emoji/rainbow.webp",
+      "originalSha256": "474f2ed94f9e46653166a76b16f5ec717f146a83d81dd2f00f5cd8be6b5e3ebc",
+      "sha256": "474f2ed94f9e46653166a76b16f5ec717f146a83d81dd2f00f5cd8be6b5e3ebc",
+      "bytes": 5116,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/raised_hand.webp",
+      "file": "site/tiktok-shop/emoji/raised_hand.webp",
+      "originalSha256": "135a5cc335f9e36a9f6a7643a253db074fdd3bd53da8a2b853cdad0fc57854f7",
+      "sha256": "135a5cc335f9e36a9f6a7643a253db074fdd3bd53da8a2b853cdad0fc57854f7",
+      "bytes": 4134,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/receipt.webp",
+      "file": "site/tiktok-shop/emoji/receipt.webp",
+      "originalSha256": "a20be018bf415cc271cd7f16ee643153b7be6cb3d04e772f2400f35cc6ee2da4",
+      "sha256": "a20be018bf415cc271cd7f16ee643153b7be6cb3d04e772f2400f35cc6ee2da4",
+      "bytes": 2636,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/red_heart.webp",
+      "file": "site/tiktok-shop/emoji/red_heart.webp",
+      "originalSha256": "10677c1ee70f4434f9bff287d9168dec0a79616f2da99ab6f88f3e646fc48953",
+      "sha256": "10677c1ee70f4434f9bff287d9168dec0a79616f2da99ab6f88f3e646fc48953",
+      "bytes": 4010,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/ribbon.webp",
+      "file": "site/tiktok-shop/emoji/ribbon.webp",
+      "originalSha256": "51e49f667c863e42f008d6ffb335485823164c3e44996173d930ae21ba4f79a5",
+      "sha256": "51e49f667c863e42f008d6ffb335485823164c3e44996173d930ae21ba4f79a5",
+      "bytes": 4874,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/robot.webp",
+      "file": "site/tiktok-shop/emoji/robot.webp",
+      "originalSha256": "177585c37c3d766c60f9a419ce57687e8df530677ab48d2c10369bdacc7ee239",
+      "sha256": "177585c37c3d766c60f9a419ce57687e8df530677ab48d2c10369bdacc7ee239",
+      "bytes": 4792,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/rocket.webp",
+      "file": "site/tiktok-shop/emoji/rocket.webp",
+      "originalSha256": "a82966e2540c969839644026038a5f458b6daf57e2dbcd3fcc42ddc353a04bc0",
+      "sha256": "a82966e2540c969839644026038a5f458b6daf57e2dbcd3fcc42ddc353a04bc0",
+      "bytes": 5186,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/round_pushpin.webp",
+      "file": "site/tiktok-shop/emoji/round_pushpin.webp",
+      "originalSha256": "8185dae24e7222e48d159f4da96e56e722893df3f2d3b0f578d3b4e29c207b5e",
+      "sha256": "8185dae24e7222e48d159f4da96e56e722893df3f2d3b0f578d3b4e29c207b5e",
+      "bytes": 3018,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/running_shoe.webp",
+      "file": "site/tiktok-shop/emoji/running_shoe.webp",
+      "originalSha256": "5f8e9b5ff639dd8a275694f4783b5bca8a99efe40f23511dc587f55e452071ff",
+      "sha256": "5f8e9b5ff639dd8a275694f4783b5bca8a99efe40f23511dc587f55e452071ff",
+      "bytes": 3982,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/scissors.webp",
+      "file": "site/tiktok-shop/emoji/scissors.webp",
+      "originalSha256": "1b55320b23d1d80cddb24f3c4cbae55efa7ead39bd1c73ec0ca09680a25186bc",
+      "sha256": "1b55320b23d1d80cddb24f3c4cbae55efa7ead39bd1c73ec0ca09680a25186bc",
+      "bytes": 7432,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/seedling.webp",
+      "file": "site/tiktok-shop/emoji/seedling.webp",
+      "originalSha256": "d9cfc1a513da99a608cd5b2b05590da63778d3e7f2a6a156299d8a8bc0a4d7ca",
+      "sha256": "d9cfc1a513da99a608cd5b2b05590da63778d3e7f2a6a156299d8a8bc0a4d7ca",
+      "bytes": 3420,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/selfie.webp",
+      "file": "site/tiktok-shop/emoji/selfie.webp",
+      "originalSha256": "902eda5a19f52a621b9db514ed1e36ce5068868dc69c87256e5f9978ddb26738",
+      "sha256": "902eda5a19f52a621b9db514ed1e36ce5068868dc69c87256e5f9978ddb26738",
+      "bytes": 3386,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/shield.webp",
+      "file": "site/tiktok-shop/emoji/shield.webp",
+      "originalSha256": "feff95ea6fa7ab8c0dcdda1c6d750d545ec07173f4a9ee1fc3135d75cc656aed",
+      "sha256": "feff95ea6fa7ab8c0dcdda1c6d750d545ec07173f4a9ee1fc3135d75cc656aed",
+      "bytes": 3644,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/shopping_bags.webp",
+      "file": "site/tiktok-shop/emoji/shopping_bags.webp",
+      "originalSha256": "e61c05bf45c9d6db16805a21f8daee1c249e2cd1b09556b6e2395ad901322614",
+      "sha256": "e61c05bf45c9d6db16805a21f8daee1c249e2cd1b09556b6e2395ad901322614",
+      "bytes": 3168,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/shopping_cart.webp",
+      "file": "site/tiktok-shop/emoji/shopping_cart.webp",
+      "originalSha256": "82b4278bb37f1e0b733c023def23b31da804ef8a2c6540134add0e9b6ee53fda",
+      "sha256": "82b4278bb37f1e0b733c023def23b31da804ef8a2c6540134add0e9b6ee53fda",
+      "bytes": 5620,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/smiling_face_with_hearts.webp",
+      "file": "site/tiktok-shop/emoji/smiling_face_with_hearts.webp",
+      "originalSha256": "69b421b430beec4195cce04c124b2cee95a032a9cd5cfec9758b5888789836fc",
+      "sha256": "69b421b430beec4195cce04c124b2cee95a032a9cd5cfec9758b5888789836fc",
+      "bytes": 6370,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/smiling_face_with_heart_eyes.webp",
+      "file": "site/tiktok-shop/emoji/smiling_face_with_heart_eyes.webp",
+      "originalSha256": "8ffaf32e90ead45c0c3621ce7def3476683b94ea1caa5d684594e61d277b696b",
+      "sha256": "8ffaf32e90ead45c0c3621ce7def3476683b94ea1caa5d684594e61d277b696b",
+      "bytes": 5198,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/smiling_face_with_sunglasses.webp",
+      "file": "site/tiktok-shop/emoji/smiling_face_with_sunglasses.webp",
+      "originalSha256": "89647f1d0e11c641153c4d08c6911738b51a9053af1a9ea8aae5e09666d2b25b",
+      "sha256": "89647f1d0e11c641153c4d08c6911738b51a9053af1a9ea8aae5e09666d2b25b",
+      "bytes": 5838,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/soap.webp",
+      "file": "site/tiktok-shop/emoji/soap.webp",
+      "originalSha256": "809a5c834ec25265391f2f262c8f7afc93fc6ddf9fbba625dfe26c34d8ba6e43",
+      "sha256": "809a5c834ec25265391f2f262c8f7afc93fc6ddf9fbba625dfe26c34d8ba6e43",
+      "bytes": 4456,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/spaghetti.webp",
+      "file": "site/tiktok-shop/emoji/spaghetti.webp",
+      "originalSha256": "35e3b1eb42af1fb68c0ac9384760b40e44c808114c6b1e70ee32f99c39d75be0",
+      "sha256": "35e3b1eb42af1fb68c0ac9384760b40e44c808114c6b1e70ee32f99c39d75be0",
+      "bytes": 5152,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/sparkles.webp",
+      "file": "site/tiktok-shop/emoji/sparkles.webp",
+      "originalSha256": "df14e1b28c3f87e3601ae4cdfe5cec05ef529e3c47c313fd52673a946c7f6132",
+      "sha256": "df14e1b28c3f87e3601ae4cdfe5cec05ef529e3c47c313fd52673a946c7f6132",
+      "bytes": 5952,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/sparkling_heart.webp",
+      "file": "site/tiktok-shop/emoji/sparkling_heart.webp",
+      "originalSha256": "613eeac0ffd3708e9704a62d91d373a967f6ed1faaa1ad15d7c5652ed07f5735",
+      "sha256": "613eeac0ffd3708e9704a62d91d373a967f6ed1faaa1ad15d7c5652ed07f5735",
+      "bytes": 5220,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/speech_balloon.webp",
+      "file": "site/tiktok-shop/emoji/speech_balloon.webp",
+      "originalSha256": "53a786f0934e3ca7a812cfa4b88851e29ddc71398ae2e4662c3f135c7a3c86af",
+      "sha256": "53a786f0934e3ca7a812cfa4b88851e29ddc71398ae2e4662c3f135c7a3c86af",
+      "bytes": 3090,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/spiral_calendar.webp",
+      "file": "site/tiktok-shop/emoji/spiral_calendar.webp",
+      "originalSha256": "cae34b93532d5b520de3f9cf4a20dd621d086cc49d484558fc7a13be4625768d",
+      "sha256": "cae34b93532d5b520de3f9cf4a20dd621d086cc49d484558fc7a13be4625768d",
+      "bytes": 4290,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/star.webp",
+      "file": "site/tiktok-shop/emoji/star.webp",
+      "originalSha256": "0469281045157e02e6c6c024f7149251ce689c3a8622f803a90f00683df16165",
+      "sha256": "0469281045157e02e6c6c024f7149251ce689c3a8622f803a90f00683df16165",
+      "bytes": 3822,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/star_struck.webp",
+      "file": "site/tiktok-shop/emoji/star_struck.webp",
+      "originalSha256": "0564fd2ac8c4071398b033dc46915c9422572764d2317b79e80ee4e0948795bb",
+      "sha256": "0564fd2ac8c4071398b033dc46915c9422572764d2317b79e80ee4e0948795bb",
+      "bytes": 5776,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/stopwatch.webp",
+      "file": "site/tiktok-shop/emoji/stopwatch.webp",
+      "originalSha256": "7941dca8ab5d90802a65298ab8099e2ab1f5cdc442bae4bbf2f26a6bccc90f3b",
+      "sha256": "7941dca8ab5d90802a65298ab8099e2ab1f5cdc442bae4bbf2f26a6bccc90f3b",
+      "bytes": 5554,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/studio_microphone.webp",
+      "file": "site/tiktok-shop/emoji/studio_microphone.webp",
+      "originalSha256": "92a6a81664d9c46364c855d9b44cef6733cb01e77c14c7f2ca0c49a6380930a1",
+      "sha256": "92a6a81664d9c46364c855d9b44cef6733cb01e77c14c7f2ca0c49a6380930a1",
+      "bytes": 3654,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/sun.webp",
+      "file": "site/tiktok-shop/emoji/sun.webp",
+      "originalSha256": "c328e3fe4627b45e8ae40ec61e7a599dc0049957a85f4e67ac4e384ef85f71f2",
+      "sha256": "c328e3fe4627b45e8ae40ec61e7a599dc0049957a85f4e67ac4e384ef85f71f2",
+      "bytes": 4490,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/sunflower.webp",
+      "file": "site/tiktok-shop/emoji/sunflower.webp",
+      "originalSha256": "24c08b98946dd9dd88ba5dd352dd787ea45620a84a5952767a04b327d911d931",
+      "sha256": "24c08b98946dd9dd88ba5dd352dd787ea45620a84a5952767a04b327d911d931",
+      "bytes": 5510,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/target.webp",
+      "file": "site/tiktok-shop/emoji/target.webp",
+      "originalSha256": "ca436207676ac23fa8f639418e7ed74c1f71794167b42f0e17a14589c6a914a8",
+      "sha256": "ca436207676ac23fa8f639418e7ed74c1f71794167b42f0e17a14589c6a914a8",
+      "bytes": 5942,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/teacup_without_handle.webp",
+      "file": "site/tiktok-shop/emoji/teacup_without_handle.webp",
+      "originalSha256": "fd712a8684ddcc1937ece3c798aa3985fd1462fb2ba2f80367a61a47d511fe7b",
+      "sha256": "fd712a8684ddcc1937ece3c798aa3985fd1462fb2ba2f80367a61a47d511fe7b",
+      "bytes": 3870,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/teddy_bear.webp",
+      "file": "site/tiktok-shop/emoji/teddy_bear.webp",
+      "originalSha256": "eccccd6b744b934e14666ef0c3a09017b236ebc04934615bf48e75b0b16d26a9",
+      "sha256": "eccccd6b744b934e14666ef0c3a09017b236ebc04934615bf48e75b0b16d26a9",
+      "bytes": 6016,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/television.webp",
+      "file": "site/tiktok-shop/emoji/television.webp",
+      "originalSha256": "a3cd743516e02d1246fcad37d53aa0f52badce2c6c85fdce2966e9a7511c560d",
+      "sha256": "a3cd743516e02d1246fcad37d53aa0f52badce2c6c85fdce2966e9a7511c560d",
+      "bytes": 3798,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/thinking_face.webp",
+      "file": "site/tiktok-shop/emoji/thinking_face.webp",
+      "originalSha256": "a5b3ee8d832dd007ccebaf8c61965f7322b1adb8da11488bc473bd3bd8ec4516",
+      "sha256": "a5b3ee8d832dd007ccebaf8c61965f7322b1adb8da11488bc473bd3bd8ec4516",
+      "bytes": 6290,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/thumbs_up.webp",
+      "file": "site/tiktok-shop/emoji/thumbs_up.webp",
+      "originalSha256": "62a8f62604819f0f7f4168353501a04ad1e815932291405b22ceb234835e8516",
+      "sha256": "62a8f62604819f0f7f4168353501a04ad1e815932291405b22ceb234835e8516",
+      "bytes": 3770,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/trophy.webp",
+      "file": "site/tiktok-shop/emoji/trophy.webp",
+      "originalSha256": "a7c8f924cbaaa4af5fa44d42b1edcf2a47cb0f6263a5ad8f10597aee46b56f92",
+      "sha256": "a7c8f924cbaaa4af5fa44d42b1edcf2a47cb0f6263a5ad8f10597aee46b56f92",
+      "bytes": 4198,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/two_hearts.webp",
+      "file": "site/tiktok-shop/emoji/two_hearts.webp",
+      "originalSha256": "84f2d5331b5fbf261a950573c5a01e149069680da3b966d12beba1436e7649e5",
+      "sha256": "84f2d5331b5fbf261a950573c5a01e149069680da3b966d12beba1436e7649e5",
+      "bytes": 4740,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/t_shirt.webp",
+      "file": "site/tiktok-shop/emoji/t_shirt.webp",
+      "originalSha256": "b30194c145fc4fa41f63b2cc6616bde680d6c8f264ec2c86d3fb391768e1c801",
+      "sha256": "b30194c145fc4fa41f63b2cc6616bde680d6c8f264ec2c86d3fb391768e1c801",
+      "bytes": 3740,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/victory_hand.webp",
+      "file": "site/tiktok-shop/emoji/victory_hand.webp",
+      "originalSha256": "202309523e33f98da6cd00190aad174f867df68759647ba31d0905f62d4b9da0",
+      "sha256": "202309523e33f98da6cd00190aad174f867df68759647ba31d0905f62d4b9da0",
+      "bytes": 4334,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/video_camera.webp",
+      "file": "site/tiktok-shop/emoji/video_camera.webp",
+      "originalSha256": "cdc7520d0b1452be99baa6c5055e315766dc5a88679bc2e29337131efaae0c17",
+      "sha256": "cdc7520d0b1452be99baa6c5055e315766dc5a88679bc2e29337131efaae0c17",
+      "bytes": 2506,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/warning.webp",
+      "file": "site/tiktok-shop/emoji/warning.webp",
+      "originalSha256": "271803c90fab52c3ca7e4015d5e83a983e95c2ba031dfb2e99e0cf02c0cc3d29",
+      "sha256": "271803c90fab52c3ca7e4015d5e83a983e95c2ba031dfb2e99e0cf02c0cc3d29",
+      "bytes": 3432,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/waving_hand.webp",
+      "file": "site/tiktok-shop/emoji/waving_hand.webp",
+      "originalSha256": "c4a1526886c27648b6320bfb77f64369242e8c81ca8b20ced4e3d2c007d7c49b",
+      "sha256": "c4a1526886c27648b6320bfb77f64369242e8c81ca8b20ced4e3d2c007d7c49b",
+      "bytes": 6504,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/winking_face.webp",
+      "file": "site/tiktok-shop/emoji/winking_face.webp",
+      "originalSha256": "ea2207bd441ac2857fb3d4658e4d7231fa1d1d7eb97ed24ae87c54768dc80e1c",
+      "sha256": "ea2207bd441ac2857fb3d4658e4d7231fa1d1d7eb97ed24ae87c54768dc80e1c",
+      "bytes": 6192,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman.webp",
+      "file": "site/tiktok-shop/emoji/woman.webp",
+      "originalSha256": "2d9412d8518bc74bfa2cc36427e6bfa65601133d3f675349b4a02cb19664bfc4",
+      "sha256": "2d9412d8518bc74bfa2cc36427e6bfa65601133d3f675349b4a02cb19664bfc4",
+      "bytes": 5884,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_artist.webp",
+      "file": "site/tiktok-shop/emoji/woman_artist.webp",
+      "originalSha256": "ba69983196098445c5ed86f158ebe36d90a7cd41e2fab33cd8df2a68d01957f2",
+      "sha256": "ba69983196098445c5ed86f158ebe36d90a7cd41e2fab33cd8df2a68d01957f2",
+      "bytes": 6180,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_cook.webp",
+      "file": "site/tiktok-shop/emoji/woman_cook.webp",
+      "originalSha256": "d4de5148918b0a25055bedc1d6932f880d060b66504e008cb99f9fe7b228e7b1",
+      "sha256": "d4de5148918b0a25055bedc1d6932f880d060b66504e008cb99f9fe7b228e7b1",
+      "bytes": 5116,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_office_worker.webp",
+      "file": "site/tiktok-shop/emoji/woman_office_worker.webp",
+      "originalSha256": "2a7094354cbe76601919299b18d66fdafb4123f1d8f52e7f9deb7cc5988a2a41",
+      "sha256": "2a7094354cbe76601919299b18d66fdafb4123f1d8f52e7f9deb7cc5988a2a41",
+      "bytes": 4704,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_raising_hand.webp",
+      "file": "site/tiktok-shop/emoji/woman_raising_hand.webp",
+      "originalSha256": "c0e52dbeaf3c87f7ffac58552dbe47472a857bdd3f52e280c5abde7f5b9134d9",
+      "sha256": "c0e52dbeaf3c87f7ffac58552dbe47472a857bdd3f52e280c5abde7f5b9134d9",
+      "bytes": 6322,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_shrugging.webp",
+      "file": "site/tiktok-shop/emoji/woman_shrugging.webp",
+      "originalSha256": "b37a7613ac41448f557ecb474ec5dc4c69f1b15651b3d41c5f407b80d1f2cb0f",
+      "sha256": "b37a7613ac41448f557ecb474ec5dc4c69f1b15651b3d41c5f407b80d1f2cb0f",
+      "bytes": 5958,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_student.webp",
+      "file": "site/tiktok-shop/emoji/woman_student.webp",
+      "originalSha256": "0df8db9c2c79ee70e55ef7d4fed274bba47dcad949f0b0ea0dcb7eeec5f0d7c0",
+      "sha256": "0df8db9c2c79ee70e55ef7d4fed274bba47dcad949f0b0ea0dcb7eeec5f0d7c0",
+      "bytes": 4674,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_technologist.webp",
+      "file": "site/tiktok-shop/emoji/woman_technologist.webp",
+      "originalSha256": "bd959d55ad4b7ba421f695630bcd79b29844a6f5b5bed59114d0bcc94feed6e5",
+      "sha256": "bd959d55ad4b7ba421f695630bcd79b29844a6f5b5bed59114d0bcc94feed6e5",
+      "bytes": 4126,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/woman_tipping_hand.webp",
+      "file": "site/tiktok-shop/emoji/woman_tipping_hand.webp",
+      "originalSha256": "b39daec0effbda380137fa000b9908f7a225b888c38ffc09d42f5db6dab66998",
+      "sha256": "b39daec0effbda380137fa000b9908f7a225b888c38ffc09d42f5db6dab66998",
+      "bytes": 5324,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/world_map.webp",
+      "file": "site/tiktok-shop/emoji/world_map.webp",
+      "originalSha256": "c51a9e602a2627195d5e388c01fefb9e9b05bbc253a93c5b0d5fa7af3563d791",
+      "sha256": "c51a9e602a2627195d5e388c01fefb9e9b05bbc253a93c5b0d5fa7af3563d791",
+      "bytes": 3956,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/emoji/writing_hand.webp",
+      "file": "site/tiktok-shop/emoji/writing_hand.webp",
+      "originalSha256": "a0aea81cb924db460c64c1cffe149312bb4abfa1e6cea94f1547fdb668c3e2b3",
+      "sha256": "a0aea81cb924db460c64c1cffe149312bb4abfa1e6cea94f1547fdb668c3e2b3",
+      "bytes": 5370,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/favicon.svg",
+      "file": "site/tiktok-shop/favicon.svg",
+      "originalSha256": "9d04fbf734d7b452d303fd4e3c4a1aa5a278af5be9a8188620fce769b0c77dfd",
+      "sha256": "9d04fbf734d7b452d303fd4e3c4a1aa5a278af5be9a8188620fce769b0c77dfd",
+      "bytes": 464,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/fonts/plus-jakarta-sans-latin-ext-wght-normal.woff2",
+      "file": "site/tiktok-shop/fonts/plus-jakarta-sans-latin-ext-wght-normal.woff2",
+      "originalSha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f",
+      "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f",
+      "bytes": 21728,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/fonts/plus-jakarta-sans-latin-wght-normal.woff2",
+      "file": "site/tiktok-shop/fonts/plus-jakarta-sans-latin-wght-normal.woff2",
+      "originalSha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+      "bytes": 27348,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/index.html",
+      "file": "site/tiktok-shop/index.html",
+      "originalSha256": "f85765fb500268957ceaac21a96fb95028b74a432378c8a3f6c60677c3633cf1",
+      "sha256": "63a5eed738c59d153a6602a8298c2858aa8ae68a5459f5f2205e0c02286e3c5e",
+      "bytes": 18192,
+      "kind": "existing markup and adapted text"
+    },
+    {
+      "source": "site/br/og-image.png",
+      "file": "site/tiktok-shop/og-image.png",
+      "originalSha256": "1aaa94b92c992561a3bb126f1a68480300a1c82b654073e490bec3c1e9a9d183",
+      "sha256": "1aaa94b92c992561a3bb126f1a68480300a1c82b654073e490bec3c1e9a9d183",
+      "bytes": 180799,
+      "kind": "existing asset"
+    },
+    {
+      "source": "site/br/robots.txt",
+      "file": "site/tiktok-shop/robots.txt",
+      "originalSha256": "da2933d980ec912e7fceb67a779e582f0d9f1cdcf9bfa11ad5f3d3c867d9d89b",
+      "sha256": "da2933d980ec912e7fceb67a779e582f0d9f1cdcf9bfa11ad5f3d3c867d9d89b",
+      "bytes": 58,
+      "kind": "existing asset"
+    }
+  ],
+  "stages": 19,
+  "unchangedRenderers": 5,
+  "flowAdjustment": "Retain the existing scratch screen for a plan reveal without a discount or anchor price.",
+  "price": 29.9
+}
