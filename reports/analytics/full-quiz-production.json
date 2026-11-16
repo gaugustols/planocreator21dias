@@ -1,0 +1,253 @@
+{
+  "checkedAt": "2026-11-13T20:39:48.797Z",
+  "live": true,
+  "journeys": [
+    {
+      "path": "/",
+      "offer": "81c0788c-da94-40e5-818d-6d5b496bc74a",
+      "visit": "adcd8906-53d7-4225-8d92-87ac93d4e7c3",
+      "screens": 19,
+      "states": 37,
+      "events": 182,
+      "answers": 8,
+      "price": true,
+      "scroll100": true,
+      "checkout": true,
+      "leadName": true,
+      "beaconUsed": true,
+      "responses": [
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/br/",
+      "offer": "eadac57a-f391-4956-9f72-681a7c3633e6",
+      "visit": "001611e3-aeae-4bd5-a957-ce2338130e6d",
+      "screens": 19,
+      "states": 37,
+      "events": 183,
+      "answers": 8,
+      "price": true,
+      "scroll100": true,
+      "checkout": true,
+      "leadName": true,
+      "beaconUsed": true,
+      "responses": [
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "identify"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        },
+        {
+          "status": 202,
+          "action": "collect"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

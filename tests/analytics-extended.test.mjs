@@ -6,7 +6,7 @@ import { mkdtemp,rm } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { wilson,bottleneck } from '../analytics/statistics.mjs';
-import { structureId,normalizeFlow } from '../analytics/context.mjs';
+import { structureId,normalizeFlow,visitContext,saveVisit } from '../analytics/context.mjs';
 import { overviewReport } from '../analytics/report.mjs';
 import { leadsCsv } from '../analytics/leads.mjs';
 
@@ -92,4 +92,18 @@ test('A/B evidence stays inconclusive with small samples and uses conservative 9
   const sample=await create('A/B isolado');
   for(let i=0;i<40;i++){const events=[event('view','entrada'),event('view','pergunta',at+1000),event('view','resultado',at+2000)];if(i>=20)events.push(event('checkout','resultado',at+3000));await req('collect',{params:{offer:sample.id,key:sample.publicKey},body:payload(session(),events,{variant:i<20?'A':'B'})});if(i===20){const r=(await req('overview',{params:{offer:sample.id,...range}})).data;assert.equal(r.winner,null);}}
   const r=(await req('overview',{params:{offer:sample.id,...range}})).data;assert.equal(r.winner,'B');assert.equal(r.ab.length,2);
+});
+test('automatic structure selection follows the latest matching visit rather than first registration date',async()=>{
+  const sample=await create('Estruturas ativas'),params={offer:sample.id,key:sample.publicKey},changed=[flow[0],flow[2],flow[1]];
+  await req('collect',{params,body:payload(session(),[event('view','entrada',at)])});
+  await req('collect',{params,body:payload(session(),[event('view','entrada',at+100)],{flow:changed})});
+  await req('collect',{params,body:payload(session(),[event('view','entrada',Date.now())])});
+  await req('collect',{params,body:payload(session(),[event('view','entrada',Date.now()+1)],{flow:changed,qa:true})});
+  const real=(await req('overview',{params:{offer:sample.id,...range}})).data,qa=(await req('overview',{params:{offer:sample.id,...range,traffic:'test'}})).data;
+  assert.equal(real.structure,structureId(flow));assert.equal(real.summary.sessions,2);assert.equal(qa.structure,structureId(changed));assert.equal(qa.summary.sessions,1);
+});
+test('long custom periods retain every daily total instead of silently cutting the graph at 50 days',async()=>{
+  const sample=await create('Histórico longo isolado'),db=await store(),now=Date.now();
+  await db.transaction(async q=>{for(let i=0;i<61;i++){const sid=session(),time=now-i*86400000,body=payload(sid,[event('view','entrada',time)]),context=visitContext(sample,body);await saveVisit(q,sample,sid,context,body.events);await q("INSERT INTO qa_events(id,offer_id,session_id,type,step_id,phase,button_id,label,occurred_at,received_at,device,source,campaign,path,dwell_ms) VALUES($1,$2,$3,'view','entrada','','','',$4,$4,'mobile','meta','historico','/',0)",[randomUUID(),sample.id,sid,time]);}});
+  const r=await overviewReport(db,sample,{from:now-62*86400000,to:now+86400000});assert.equal(r.summary.sessions,61);assert.equal(r.days.length,61);assert.equal(r.days.reduce((sum,d)=>sum+d.sessions,0),61);assert.equal(r.comparison.day.length,61);
 });

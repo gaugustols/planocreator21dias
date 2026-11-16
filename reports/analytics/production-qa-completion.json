@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-11-16T14:42:36.737Z",
+  "testedApplicationCommit": "7b433c5",
+  "productionDatabase": "Neon PostgreSQL",
+  "offers": [
+    {
+      "path": "/",
+      "screens": 19,
+      "oneViewPerScreenInDatabase": true,
+      "leadCaptured": true,
+      "priceViewed": true,
+      "buyClicked": true,
+      "qaVisitsDeleted": 1,
+      "qaVisitsRemaining": 0,
+      "qaLeadsRemaining": 0
+    },
+    {
+      "path": "/br/",
+      "screens": 19,
+      "oneViewPerScreenInDatabase": true,
+      "leadCaptured": true,
+      "priceViewed": true,
+      "buyClicked": true,
+      "qaVisitsDeleted": 1,
+      "qaVisitsRemaining": 0,
+      "qaLeadsRemaining": 0
+    }
+  ],
+  "productionLeadsCsvDownloadVerified": true,
+  "realTrafficExcludedFromQaCleanup": true,
+  "checkoutConnected": false
+}

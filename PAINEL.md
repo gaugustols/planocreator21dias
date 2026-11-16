@@ -50,6 +50,8 @@ Um e-mail é deduplicado por oferta, preservando a primeira campanha. Atualizaç
 
 IDs são fixos. A estrutura é um hash da ordem dos IDs, tipos e subfases. Acrescentar, remover ou reordenar telas gera uma nova estrutura, nunca somada às anteriores. Alteração de texto sem trocar IDs mantém a estrutura e pode ser isolada por **Versão do código**. O histórico anterior à atualização aparece separado como “Histórico anterior · sem estrutura”; não inventamos respostas ou blocos que não foram coletados.
 
+Na seleção automática, o painel abre a estrutura com atividade mais recente entre as visitas que combinam com o período, filtros e tipo de tráfego selecionados. Uma estrutura antiga que voltou a receber visitas pode ser a atual; a data de seu primeiro cadastro não determina sozinha essa escolha. Nas comparações, são exibidos até 100 grupos com mais visitas, com aviso quando houver outros grupos. O gráfico diário conserva todos os dias do intervalo.
+
 O build extrai a sequência real dos bundles dos quizzes atuais com Acorn e injeta `data-flow`, versão e chaves dos adaptadores. Para outra oferta, cadastre domínios e etapas, copie o script da aba **Instalação** e mantenha `data-flow` atualizado com IDs, labels, `kind`, opções e subfases. Use um único marcador de tela ativa no DOM:
 
 ```html

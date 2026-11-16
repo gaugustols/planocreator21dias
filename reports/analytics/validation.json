@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-13T20:37:40.255Z",
-  "unitAndApiTests": 14,
-  "unitAndApiTestsPassed": 14,
+  "checkedAt": "2026-11-16T14:42:36.742Z",
+  "unitAndApiTests": 16,
+  "unitAndApiTestsPassed": 16,
   "browserChecks": 5,
   "browserChecksPassed": 5,
   "browserErrors": 0,
@@ -28,5 +28,9 @@
     }
   ],
   "purchaseIntegration": "not connected",
-  "productionVerification": "pending publication"
+  "productionVerification": "Complete mobile journeys and authenticated database audit passed; QA visits and contacts deleted.",
+  "productionQaTestedCommit": "7b433c5",
+  "productionQaCleanupVerified": true,
+  "productionCsvDownloadVerified": true,
+  "structureSelectionAndLongPeriodRegressionTestsPassed": true
 }
