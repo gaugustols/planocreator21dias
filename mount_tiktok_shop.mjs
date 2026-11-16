@@ -45,7 +45,7 @@ function javascript(source,name){
 function html(source,name){
   let output=relocate(source).replaceAll('Trilha UGC 21 Dias','Plano TikTok Shop 21 Dias').replaceAll('Trilha UGC','Trilha Shop').replaceAll('Desistir da compra','Sobre as inscrições');
   if(name==='index.html'){
-    output=output.replaceAll('de R$ 800 a R$ 4.000 por mês','comissões no TikTok Shop').replaceAll('Uma renda sua com vídeos para marcas','Um plano de 21 dias para começar do zero').replaceAll('sem seguidores e sem aparecer','aparecendo ou com apoio de IA').replaceAll('Teste como é fazer vídeos UGC para marcas: um quiz grátis de 4 minutos, pelo celular. Mesmo sem seguidores.','Experimente três missões para começar no TikTok Shop, com o mesmo quiz de 4 minutos, aparecendo ou com apoio de IA.');
+    output=output.replaceAll('Uma renda sua com vídeos para marcas','Um plano de 21 dias para começar do zero').replaceAll('sem seguidores e sem aparecer','aparecendo ou com apoio de IA').replaceAll('Teste como é fazer vídeos UGC para marcas: um quiz grátis de 4 minutos, pelo celular. Mesmo sem seguidores.','Experimente três missões para começar no TikTok Shop, com o mesmo quiz de 4 minutos, aparecendo ou com apoio de IA.');
     output=output.replace('// A returning visitor resumes mid-quiz:',"try { localStorage.setItem('ugc-shop-m-off','1'); } catch (e) {}\n      // A returning visitor resumes mid-quiz:");
     assert.ok(adapted,'Adapt content before mounting the HTML');
     const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');

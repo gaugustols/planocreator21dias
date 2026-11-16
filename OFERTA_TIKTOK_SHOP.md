@@ -6,7 +6,7 @@ Esta versão usa os 182 arquivos do brasileiro, com o mesmo CSS, fontes, imagens
 
 ## Entrada e percurso
 
-“Seu celular pode render **comissões no TikTok Shop**”. Subheadline: “Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA.”
+“Seu celular pode render **de R$ 800 a R$ 4.000 por mês**”. Subheadline: “Um plano de 21 dias para começar do zero, aparecendo ou com apoio de IA.”
 
 Mantém idade, objetivo, conquista desejada, disponibilidade, explicação, missão 1, preferência de câmera, explicação dos formatos, categorias, missão 2, regra sobre comissão, missão 3, primeiro passo, análise, e-mail, consentimento, nome, raspadinha e resultado. A escolha de formato oferece rosto, mãos e voz e apoio de IA. O resultado personaliza o perfil de acordo com essa escolha.
 
