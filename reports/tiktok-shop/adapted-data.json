@@ -1196,7 +1196,7 @@
         ]
       },
       "price": {
-        "title": "Seu próximo passo tem um plano.",
+        "title": "Oferta de hoje",
         "productName": "Plano TikTok Shop 21 Dias",
         "lines": [
           "Passo a passo para preparar sua conta, escolher produtos e desenvolver vídeos aparecendo ou com apoio de IA",
@@ -1206,15 +1206,18 @@
           "Rotina sugerida de execução pelo celular"
         ],
         "anchorLabel": "Preço original",
-        "priceLabel": "Valor do plano",
+        "priceLabel": "Só hoje",
         "saveLabel": "Você economiza",
         "cta": "Quero meu plano por R$ 29,90",
         "secure": "Inscrições ainda não abertas nesta prévia",
-        "countdownLabel": "Seu próximo passo",
+        "countdownLabel": "A oferta de hoje termina em",
         "intro": "Comece pelo seu estilo: “{profilo}”",
         "introName": "{nome}, comece pelo seu estilo: “{profilo}”",
-        "perDay": "cerca de {perDay} por dia nos {days} dias do plano",
-        "coupon": "Seu plano de 21 dias"
+        "perDay": "ou seja, cerca de {perDay} por dia nos {days} dias da trilha",
+        "coupon": "Desconto de {percent}% aplicado",
+        "referenceCard": true,
+        "discountPercent": 69,
+        "referenceSecure": "Pagamento protegido pela Hotmart"
       },
       "downsell": {
         "title": "Espera! A gente não quer que o preço te impeça.",

@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import {analyzeJavaScript,filesBelow,literal} from './lib/assets.mjs';
 import {adaptTikTokShop} from './content/tiktok-shop-adaptation.mjs';
 import {customizeStickyBar,stickyBarNode} from './lib/tiktok-shop-sticky-bar.mjs';
+import {customizePriceCard,priceCardNodes} from './lib/tiktok-shop-price-card.mjs';
 
 const sourceRoot='site/br',targetRoot='site/tiktok-shop',base='/tiktok-shop/';
 const sha=x=>createHash('sha256').update(x).digest('hex');
@@ -21,7 +22,7 @@ function normalizedRenderer(source){
   source=source.replace(planScratchGate,originalScratchGate);
   source=source.replace(perMissionFeeLabel,originalFeeLabel);
   source=source.replace(scopedScratchValue,originalScratchValue);
-  const info=analyzeJavaScript(source),{content,market}=nodesFor(info);const ranges=[content?.init,market?.init,stickyBarNode(info)].filter(Boolean);
+  const info=analyzeJavaScript(source),{content,market}=nodesFor(info);const ranges=[content?.init,market?.init,stickyBarNode(info),...priceCardNodes(info)].filter(Boolean);
   const inData=n=>ranges.some(r=>n.start>=r.start&&n.end<=r.end);
   function clean(node){
     if(!node||typeof node!=='object')return node;if(Array.isArray(node))return node.map(clean);
@@ -50,7 +51,7 @@ function javascript(source,name){
   if(/^assets\/BriefScreen-.*\.js$/.test(name)){assert.equal(output.split(originalFeeLabel).length,2);output=output.replace(originalFeeLabel,perMissionFeeLabel);}
   // Reuse the original scratch canvas and sheet with this offer's percentage.
   // Other price components keep their existing configuration and values.
-  if(/^assets\/ResultScreen-.*\.js$/.test(name)){assert.equal(output.split(originalScratchValue).length,2);output=output.replace(originalScratchValue,scopedScratchValue);output=customizeStickyBar(output);stickyBarCustomized=true;}
+  if(/^assets\/ResultScreen-.*\.js$/.test(name)){assert.equal(output.split(originalScratchValue).length,2);output=output.replace(originalScratchValue,scopedScratchValue);output=customizePriceCard(customizeStickyBar(output));stickyBarCustomized=true;}
   assert.equal(normalizedRenderer(output),normalizedRenderer(source),'Renderer changed: '+name);
   return {output,rendererUnchanged:!stickyBarCustomized};
 }

@@ -38,6 +38,8 @@ O checkout exclusivo ainda não foi informado. Os botões levam a **/tiktok-shop
 
 A barra fixa da oferta mostra “A oferta termina em”, contagem até o fim do dia no fuso do visitante e “Quero vender vídeos” com a seta original. A composição segue a referência enviada: fundo branco, contador à esquerda e botão rosa à direita. Mantém a regra de visibilidade e o destino do botão; os outros CTAs e temporizadores não mudam.
 
+Os dois cartões de preço usam a composição compacta da referência: “Oferta de hoje”, nome Plano TikTok Shop 21 Dias, cupom de 69% aplicado com o mesmo prazo da barra fixa, referência de R$ 97, preço de R$ 29,90 e economia de R$ 67,10. Conservam “Quero meu plano por R$ 29,90”, destino e registro de clique. O percentual vem do mesmo campo da raspadinha. O texto de proteção pela Hotmart segue a referência; o checkout continua aguardando configuração.
+
 ## GAL Pulse e verificação
 
 Oferta independente **Trilha Shop · TikTok Shop**, com suas 19 etapas e armazenamento próprio. Captura nome e e-mail informados no percurso, campanha e última etapa no painel privado. A escolha de consentimento fica registrada; não há envio automático de mensagens.
