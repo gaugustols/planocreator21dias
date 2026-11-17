@@ -272,7 +272,7 @@
         "visual": "rates",
         "stat": {
           "value": "R$ 9",
-          "label": "comissão fictícia por venda nos exemplos desta atividade",
+          "label": "por cada venda de um único produto",
           "source": ""
         },
         "cta": "Quero experimentar as missões"
