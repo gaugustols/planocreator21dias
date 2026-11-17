@@ -765,7 +765,7 @@
         "kind": "email",
         "id": "email",
         "chapter": 4,
-        "title": "Seu próximo passo está pronto. **Qual e-mail você quer registrar?**",
+        "title": "Seu próximo passo está pronto. **Onde você quer receber?**",
         "subtitle": "Veja o resultado agora e registre seu interesse nesta oferta. Nenhum e-mail automático é enviado nesta prévia.",
         "label": "O seu e-mail",
         "placeholder": "nome@exemplo.com",
