@@ -4,6 +4,7 @@ import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {analyzeJavaScript,filesBelow,literal} from './lib/assets.mjs';
 import {adaptTikTokShop} from './content/tiktok-shop-adaptation.mjs';
+import {customizeStickyBar,stickyBarNode} from './lib/tiktok-shop-sticky-bar.mjs';
 
 const sourceRoot='site/br',targetRoot='site/tiktok-shop',base='/tiktok-shop/';
 const sha=x=>createHash('sha256').update(x).digest('hex');
@@ -20,7 +21,7 @@ function normalizedRenderer(source){
   source=source.replace(planScratchGate,originalScratchGate);
   source=source.replace(perMissionFeeLabel,originalFeeLabel);
   source=source.replace(scopedScratchValue,originalScratchValue);
-  const info=analyzeJavaScript(source),{content,market}=nodesFor(info);const ranges=[content?.init,market?.init].filter(Boolean);
+  const info=analyzeJavaScript(source),{content,market}=nodesFor(info);const ranges=[content?.init,market?.init,stickyBarNode(info)].filter(Boolean);
   const inData=n=>ranges.some(r=>n.start>=r.start&&n.end<=r.end);
   function clean(node){
     if(!node||typeof node!=='object')return node;if(Array.isArray(node))return node.map(clean);
@@ -32,6 +33,7 @@ function normalizedRenderer(source){
   return sha(JSON.stringify(clean(info.ast)));
 }
 function javascript(source,name){
+  let stickyBarCustomized=false;
   const info=analyzeJavaScript(source),{content,market}=nodesFor(info),edits=[];
   if(content&&market){
     const marketConfig=market.init.properties.find(p=>key(p)==='config').value,marketStrings=market.init.properties.find(p=>key(p)==='strings').value;
@@ -48,9 +50,9 @@ function javascript(source,name){
   if(/^assets\/BriefScreen-.*\.js$/.test(name)){assert.equal(output.split(originalFeeLabel).length,2);output=output.replace(originalFeeLabel,perMissionFeeLabel);}
   // Reuse the original scratch canvas and sheet with this offer's percentage.
   // Other price components keep their existing configuration and values.
-  if(/^assets\/ResultScreen-.*\.js$/.test(name)){assert.equal(output.split(originalScratchValue).length,2);output=output.replace(originalScratchValue,scopedScratchValue);}
+  if(/^assets\/ResultScreen-.*\.js$/.test(name)){assert.equal(output.split(originalScratchValue).length,2);output=output.replace(originalScratchValue,scopedScratchValue);output=customizeStickyBar(output);stickyBarCustomized=true;}
   assert.equal(normalizedRenderer(output),normalizedRenderer(source),'Renderer changed: '+name);
-  return {output,rendererUnchanged:true};
+  return {output,rendererUnchanged:!stickyBarCustomized};
 }
 function html(source,name){
   let output=relocate(source).replaceAll('Trilha UGC 21 Dias','Plano TikTok Shop 21 Dias').replaceAll('Trilha UGC','Trilha Shop').replaceAll('Desistir da compra','Sobre as inscrições');
@@ -70,7 +72,7 @@ for(const sourceFile of await filesBelow(sourceRoot)){
   else if(/\.html$/i.test(relative))bytes=Buffer.from(html(original.toString('utf8'),relative));
   else if(/\.(?:css|svg|xml|json|txt)$/i.test(relative))bytes=Buffer.from(relocate(original.toString('utf8')));
   await mkdir(path.dirname(target),{recursive:true});await writeFile(target,bytes);
-  files.push({source:sourceFile.split(path.sep).join('/'),file:target.split(path.sep).join('/'),originalSha256:sha(original),sha256:sha(bytes),bytes:bytes.length,...(rendererUnchanged?{rendererUnchanged}:{}),kind:/\.m?js$/i.test(relative)?'existing renderer and adapted data':/\.html$/i.test(relative)?'existing markup and adapted text':/\.css$/i.test(relative)?'existing styles with relocated paths':'existing asset'});
+  files.push({source:sourceFile.split(path.sep).join('/'),file:target.split(path.sep).join('/'),originalSha256:sha(original),sha256:sha(bytes),bytes:bytes.length,...(rendererUnchanged!==undefined?{rendererUnchanged}:{}),kind:/\.m?js$/i.test(relative)?'existing renderer and adapted data':/\.html$/i.test(relative)?'existing markup and adapted text':/\.css$/i.test(relative)?'existing styles with relocated paths':'existing asset'});
 }
 assert.ok(adapted,'Brazilian content was not found');
 const legalTemplate=await readFile(path.join(targetRoot,'arrependimento/index.html'),'utf8');

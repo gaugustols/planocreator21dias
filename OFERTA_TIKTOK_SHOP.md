@@ -36,6 +36,8 @@ O bloco de 20 minutos é sugerido para executar uma tarefa; a preparação pode 
 
 O checkout exclusivo ainda não foi informado. Os botões levam a **/tiktok-shop/inscricoes/**, que informa inscrições ainda fechadas. Nunca direcionam ao pagamento do UGC.
 
+A barra fixa da oferta mostra “A oferta termina em”, contagem até o fim do dia no fuso do visitante e “Quero vender vídeos” com a seta original. A composição segue a referência enviada: fundo branco, contador à esquerda e botão rosa à direita. Mantém a regra de visibilidade e o destino do botão; os outros CTAs e temporizadores não mudam.
+
 ## GAL Pulse e verificação
 
 Oferta independente **Trilha Shop · TikTok Shop**, com suas 19 etapas e armazenamento próprio. Captura nome e e-mail informados no percurso, campanha e última etapa no painel privado. A escolha de consentimento fica registrada; não há envio automático de mensagens.

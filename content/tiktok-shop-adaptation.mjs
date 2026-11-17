@@ -1,5 +1,5 @@
-// Content-only adaptation of the recovered Brazilian quiz. IDs, component kinds,
-// choice counts, task correctness, phases, media and renderer code stay intact.
+// Copy and offer data over the recovered Brazilian quiz. IDs, component kinds,
+// choice counts, task correctness, phases and media stay intact.
 export function adaptTikTokShop(base,market,strings){
   const content=structuredClone(base),config=structuredClone(market),ui=structuredClone(strings);
   const step=id=>content.steps.find(s=>s.id===id);
@@ -88,6 +88,7 @@ export function adaptTikTokShop(base,market,strings){
   result.dates.finish='Seu ciclo de 21 dias vai até {data}';result.dates.startLabel='Seu primeiro passo';result.dates.goals={};
 
   const offer=content.offer;offer.urgencyBar='Plano TikTok Shop 21 Dias · R$ 29,90';put(offer.topBar,{label:'Seu próximo passo',cta:'Quero meu plano',ready:'Seu plano de 21 dias está pronto'});
+  offer.stickyBar={countdown:true,countdownLabel:'A oferta termina em',label:'Quero vender vídeos'};
   put(offer.finalCta,{title:'Você acabou de experimentar os primeiros passos. **Agora, dê continuidade ao que começou.**',cta:'Quero começar meus 21 dias'});
   offer.downsell.text='Conheça o Plano TikTok Shop 21 Dias por {price}.';
   put(offer.hero,{eyebrow:'Seu próximo passo no TikTok Shop',title:'Você já tem o celular. **Agora, tenha um passo a passo para começar a vender no TikTok Shop.**',subtitle:'Um plano de 21 dias para preparar sua conta, escolher produtos e criar seus primeiros vídeos — aparecendo, usando mãos e voz ou com apoio de IA. Saiba qual próximo passo trabalhar a cada dia, com tarefas para encaixar na sua rotina.',bullets:['**Comece pelo seu momento:** organize a conta e confira os requisitos de acesso.','**Escolha seu formato:** com rosto, mãos e voz ou apoio de IA.','**Tenha uma direção para criar:** produto, abertura, demonstração e convite.','**Avance um passo por dia:** prepare, crie, observe e ajuste.'],cta:'Quero começar meu plano de 21 dias'});

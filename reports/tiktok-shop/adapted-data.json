@@ -1274,6 +1274,11 @@
       "finalCta": {
         "title": "Você acabou de experimentar os primeiros passos. **Agora, dê continuidade ao que começou.**",
         "cta": "Quero começar meus 21 dias"
+      },
+      "stickyBar": {
+        "countdown": true,
+        "countdownLabel": "A oferta termina em",
+        "label": "Quero vender vídeos"
       }
     },
     "legal": {
