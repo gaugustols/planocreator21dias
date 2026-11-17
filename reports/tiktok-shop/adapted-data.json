@@ -766,10 +766,10 @@
         "id": "email",
         "chapter": 4,
         "title": "Seu próximo passo está pronto. **Onde você quer receber?**",
-        "subtitle": "Veja o resultado agora e registre seu interesse nesta oferta. Nenhum e-mail automático é enviado nesta prévia.",
+        "subtitle": "Veja o seu resultado agora e receba a trilha por e-mail para voltar a ela quando for começar.",
         "label": "O seu e-mail",
         "placeholder": "nome@exemplo.com",
-        "cta": "Registrar e ver meu resultado",
+        "cta": "Quero ver meu próximo passo ->",
         "privacy": {
           "text": "Registramos seu interesse e a última etapa nesta oferta. A autorização para contato sobre novidades é solicitada separadamente. Controladora: {company}",
           "link": "Política de privacidade"
