@@ -397,7 +397,7 @@
         "delivery": {
           "sending": "Concluindo sua primeira missão…",
           "approvedTitle": "Primeira conquista **desbloqueada!**",
-          "brandMessage": "Você acabou de montar a estrutura da sua primeira ideia de vídeo de produto. Já existe uma abertura, uma sequência de cenas e um fechamento. Guarde essa lógica: ela será útil nas próximas missões. Neste exemplo, uma venda elegível com comissão de R$ 9 representaria R$ 9. O valor é simulado; nenhuma venda aconteceu.",
+          "brandMessage": "Você acabou de montar a estrutura da sua primeira ideia de vídeo de produto. Já existe uma abertura, uma sequência de cenas e um fechamento. Guarde essa lógica: ela será útil nas próximas missões. Neste exemplo, uma venda elegível com comissão de R$ 9 representaria R$ 9.",
           "walletLabel": "Missão 1 · 1 venda simulada"
         }
       },
