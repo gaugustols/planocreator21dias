@@ -18,7 +18,7 @@ Mantém idade, objetivo, conquista desejada, disponibilidade, explicação, miss
 
 As mensagens de conclusão destacam as conquistas do percurso: a estrutura de um roteiro, um formato sem aparecer e três exemplos como ponto de partida. A introdução de cada missão utiliza o campo de texto já existente no cartão, identificado como “Seu desafio”.
 
-A carteira conserva o mecanismo de recompensa e fica identificada como **Comissões da simulação**. O total R$ 54 é fictício. Criar ou concluir a atividade não gera comissão real. A raspadinha conserva seu canvas e interação para revelar o plano; uma pequena condição de seleção de etapas permite exibi-la sem inventar desconto ou preço anterior.
+A carteira conserva o mecanismo de recompensa e fica identificada como **Comissões de vendas**. O total R$ 54 é fictício. Criar ou concluir a atividade não gera comissão real. A raspadinha conserva seu canvas e interação para revelar o plano; uma pequena condição de seleção de etapas permite exibi-la sem inventar desconto ou preço anterior.
 
 ## Oferta final
 

@@ -844,7 +844,7 @@
       }
     ],
     "wallet": {
-      "label": "Comissões da simulação",
+      "label": "Comissões de vendas",
       "tooltip": "Os valores deste quiz são fictícios. Cada missão ilustra um cenário com comissão de R$ 9 por venda elegível: 1, 2 e 3 vendas hipotéticas, respectivamente. Não houve vendas, crédito ou saldo para saque. Criar ou publicar um vídeo não garante comissão. Resultados reais dependem das vendas elegíveis e das regras do TikTok Shop."
     },
     "result": {
