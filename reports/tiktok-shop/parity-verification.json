@@ -9,5 +9,6 @@
   "stageOrderAndTaskCorrectnessPreserved": true,
   "stages": 19,
   "price": 29.9,
-  "scratchRevealWithoutInventedDiscount": true
+  "scratchRevealAvailable": true,
+  "scratchDiscountPercent": 69
 }

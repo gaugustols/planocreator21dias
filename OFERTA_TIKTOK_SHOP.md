@@ -18,7 +18,7 @@ Mantém idade, objetivo, conquista desejada, disponibilidade, explicação, miss
 
 As mensagens de conclusão destacam as conquistas do percurso: a estrutura de um roteiro, um formato sem aparecer e três exemplos como ponto de partida. A introdução de cada missão utiliza o campo de texto já existente no cartão, identificado como “Seu desafio”.
 
-A carteira conserva o mecanismo de recompensa e fica identificada como **Comissões de vendas**. O total R$ 54 é fictício. Criar ou concluir a atividade não gera comissão real. A raspadinha conserva seu canvas e interação para revelar o plano; uma pequena condição de seleção de etapas permite exibi-la sem inventar desconto ou preço anterior.
+A carteira conserva o mecanismo de recompensa e fica identificada como **Comissões de vendas**. O total R$ 54 é fictício. Criar ou concluir a atividade não gera comissão real. A raspadinha conserva o canvas e o aviso de revelação originais. Ao revelar, mostra 69%, “Parabéns, {nome}!” (ou “Parabéns!” sem nome), “Você conseguiu um desconto de”, o selo DESCONTO, o botão Continuar e “O desconto já entra automaticamente.” O percentual é calculado a partir da referência de R$ 97 e do preço atual de R$ 29,90, arredondado para 69%. O preço permanece R$ 29,90.
 
 ## Oferta final
 

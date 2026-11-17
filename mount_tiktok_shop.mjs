@@ -13,11 +13,13 @@ const files=[];let adapted;
 const originalScratchGate='e.kind!==`scratch`||w.scratch.enabled&&$e()>0';
 const planScratchGate='e.kind!==`scratch`||w.scratch.enabled&&(w.scratch.revealPlan||$e()>0)';
 const originalFeeLabel='children:i.fee',perMissionFeeLabel='children:o.feeLabel??i.fee';
+const originalScratchValue='l=n(r.id),d=p(),[m,h]',scopedScratchValue='l=n(r.id),d=r.discountPercent??p(),[m,h]';
 
 function nodesFor(info){const content=info.nodes.find(n=>n.type==='VariableDeclarator'&&n.init?.type==='ObjectExpression'&&n.init.properties.some(p=>key(p)==='landing'));const market=info.nodes.find(n=>n.type==='VariableDeclarator'&&n.init?.type==='ObjectExpression'&&n.init.properties.some(p=>key(p)==='siteUrl'));return {content,market};}
 function normalizedRenderer(source){
   source=source.replace(planScratchGate,originalScratchGate);
   source=source.replace(perMissionFeeLabel,originalFeeLabel);
+  source=source.replace(scopedScratchValue,originalScratchValue);
   const info=analyzeJavaScript(source),{content,market}=nodesFor(info);const ranges=[content?.init,market?.init].filter(Boolean);
   const inData=n=>ranges.some(r=>n.start>=r.start&&n.end<=r.end);
   function clean(node){
@@ -44,6 +46,9 @@ function javascript(source,name){
   // A mission may override this text without changing the shared fallback,
   // the card markup, commission amounts or the other missions.
   if(/^assets\/BriefScreen-.*\.js$/.test(name)){assert.equal(output.split(originalFeeLabel).length,2);output=output.replace(originalFeeLabel,perMissionFeeLabel);}
+  // Reuse the original scratch canvas and sheet with this offer's percentage.
+  // Other price components keep their existing configuration and values.
+  if(/^assets\/ResultScreen-.*\.js$/.test(name)){assert.equal(output.split(originalScratchValue).length,2);output=output.replace(originalScratchValue,scopedScratchValue);}
   assert.equal(normalizedRenderer(output),normalizedRenderer(source),'Renderer changed: '+name);
   return {output,rendererUnchanged:true};
 }
@@ -75,5 +80,5 @@ await mkdir(path.join(targetRoot,'inscricoes'),{recursive:true});await writeFile
 await mkdir('reports/tiktok-shop',{recursive:true});
 await writeFile('reports/tiktok-shop/adapted-data.json',JSON.stringify({config:adapted.config,content:adapted.content},null,2));
 const legalEntry=files.find(f=>f.file.endsWith('/arrependimento/index.html'));legalEntry.sha256=sha(Buffer.from(availability));legalEntry.bytes=Buffer.byteLength(availability);
-await writeFile('reports/tiktok-shop/clone-manifest.json',JSON.stringify({source:sourceRoot,destination:targetRoot,basePath:base,storagePrefix:'ugc-shop-',files,stages:adapted.content.steps.length+1,unchangedRenderers:files.filter(f=>f.rendererUnchanged).length,flowAdjustment:'Retain the existing scratch screen for a plan reveal without a discount or anchor price.',price:adapted.config.price},null,2));
+await writeFile('reports/tiktok-shop/clone-manifest.json',JSON.stringify({source:sourceRoot,destination:targetRoot,basePath:base,storagePrefix:'ugc-shop-',files,stages:adapted.content.steps.length+1,unchangedRenderers:files.filter(f=>f.rendererUnchanged).length,flowAdjustment:'Retain the original scratch canvas and reveal sheet with an offer-specific percentage.',price:adapted.config.price},null,2));
 console.log(JSON.stringify({copiedFiles:files.length,stages:adapted.content.steps.length+1,unchangedRenderers:files.filter(f=>f.rendererUnchanged).length,basePath:base}));
