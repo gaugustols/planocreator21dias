@@ -12,10 +12,12 @@ const relocate=s=>s.replaceAll('/br/',base).replaceAll('ugc-br-','ugc-shop-');
 const files=[];let adapted;
 const originalScratchGate='e.kind!==`scratch`||w.scratch.enabled&&$e()>0';
 const planScratchGate='e.kind!==`scratch`||w.scratch.enabled&&(w.scratch.revealPlan||$e()>0)';
+const originalFeeLabel='children:i.fee',perMissionFeeLabel='children:o.feeLabel??i.fee';
 
 function nodesFor(info){const content=info.nodes.find(n=>n.type==='VariableDeclarator'&&n.init?.type==='ObjectExpression'&&n.init.properties.some(p=>key(p)==='landing'));const market=info.nodes.find(n=>n.type==='VariableDeclarator'&&n.init?.type==='ObjectExpression'&&n.init.properties.some(p=>key(p)==='siteUrl'));return {content,market};}
 function normalizedRenderer(source){
   source=source.replace(planScratchGate,originalScratchGate);
+  source=source.replace(perMissionFeeLabel,originalFeeLabel);
   const info=analyzeJavaScript(source),{content,market}=nodesFor(info);const ranges=[content?.init,market?.init].filter(Boolean);
   const inData=n=>ranges.some(r=>n.start>=r.start&&n.end<=r.end);
   function clean(node){
@@ -39,6 +41,9 @@ function javascript(source,name){
   // Keep the original scratch activity when revealing a plan, without requiring
   // an invented crossed-out price or discount. Its canvas/component is untouched.
   if(content){assert.equal(output.split(originalScratchGate).length,2);output=output.replace(originalScratchGate,planScratchGate);}
+  // A mission may override this text without changing the shared fallback,
+  // the card markup, commission amounts or the other missions.
+  if(/^assets\/BriefScreen-.*\.js$/.test(name)){assert.equal(output.split(originalFeeLabel).length,2);output=output.replace(originalFeeLabel,perMissionFeeLabel);}
   assert.equal(normalizedRenderer(output),normalizedRenderer(source),'Renderer changed: '+name);
   return {output,rendererUnchanged:true};
 }

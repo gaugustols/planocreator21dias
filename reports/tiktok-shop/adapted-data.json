@@ -305,7 +305,8 @@
           ],
           "fee": 9,
           "deadline": "Uma etapa por vez",
-          "accept": "Quero montar meu primeiro vídeo"
+          "accept": "Quero montar meu primeiro vídeo",
+          "feeLabel": "Comissão por venda"
         },
         "hook": {
           "title": "Seu vídeo começa **antes de você explicar o produto.**",
