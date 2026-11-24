@@ -48,8 +48,8 @@
       "source": "site/br/arrependimento/index.html",
       "file": "site/tiktok-shop/arrependimento/index.html",
       "originalSha256": "896ecf6fb3b4b761fdc08aee5dbd74f715dbe4db175fbefc7d3ceb94fdc2a2ea",
-      "sha256": "f4a2f2af602898163bb64c1ec024f39ecda5ccb57b6cfeaa83ee7742a42fae1c",
-      "bytes": 3376,
+      "sha256": "ed492f515d444c93653052acc36e7d66758b142d2927fe95ad0b360781c52f32",
+      "bytes": 3690,
       "kind": "existing markup and adapted text"
     },
     {
@@ -1445,8 +1445,8 @@
       "source": "site/br/index.html",
       "file": "site/tiktok-shop/index.html",
       "originalSha256": "f85765fb500268957ceaac21a96fb95028b74a432378c8a3f6c60677c3633cf1",
-      "sha256": "36bd691e7046ab6d85ce0da00f2c7f11cb64cd3a0e69b8fa1dcf16e0b3791b37",
-      "bytes": 18200,
+      "sha256": "fa61b6d128310637068bb67a1cdc245371a819e81eff6af901a724e923e7eeff",
+      "bytes": 18514,
       "kind": "existing markup and adapted text"
     },
     {

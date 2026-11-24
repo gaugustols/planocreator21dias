@@ -11,6 +11,14 @@ const sourceRoot='site/br',targetRoot='site/tiktok-shop',base='/tiktok-shop/';
 const sha=x=>createHash('sha256').update(x).digest('hex');
 const key=p=>p.key?.name??p.key?.value;
 const relocate=s=>s.replaceAll('/br/',base).replaceAll('ugc-br-','ugc-shop-');
+// Paint only the existing brand mark; retain its SVG shapes and dimensions.
+const brandColors=`<style data-shop-brand-colors>
+svg:has(>defs>#bm) #bm stop{stop-color:#010101}
+svg:has(>defs>#bm)>rect[stroke]{stroke:#25f4ee}
+svg:has(>defs>#bm)>circle[r="6"]{fill:#fe2c55}
+[data-brand-text]{color:#010101}
+.brand>.logo{background:#010101}.brand>.logo i{border-color:#25f4ee;box-shadow:1px 1px 0 #fe2c55}
+</style>`;
 const files=[];let adapted;
 const originalScratchGate='e.kind!==`scratch`||w.scratch.enabled&&$e()>0';
 const planScratchGate='e.kind!==`scratch`||w.scratch.enabled&&(w.scratch.revealPlan||$e()>0)';
@@ -57,6 +65,7 @@ function javascript(source,name){
 }
 function html(source,name){
   let output=relocate(source).replaceAll('Trilha UGC 21 Dias','Plano TikTok Shop 21 Dias').replaceAll('Trilha UGC','Trilha Shop').replaceAll('Desistir da compra','Sobre as inscrições');
+  output=output.replace('</head>',brandColors+'\n</head>');
   if(name==='index.html'){
     output=output.replaceAll('Uma renda sua com vídeos para marcas','Uma renda sua com vídeos para o Tiktok Shop').replaceAll('sem seguidores e sem aparecer','aparecendo ou sem aparecer').replaceAll('Teste como é fazer vídeos UGC para marcas: um quiz grátis de 4 minutos, pelo celular. Mesmo sem seguidores.','Experimente três missões para começar no TikTok Shop, com o mesmo quiz de 4 minutos, aparecendo ou com apoio de IA.');
     output=output.replace('// A returning visitor resumes mid-quiz:',"try { localStorage.setItem('ugc-shop-m-off','1'); } catch (e) {}\n      // A returning visitor resumes mid-quiz:");
