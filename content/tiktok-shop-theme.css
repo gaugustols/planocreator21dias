@@ -95,8 +95,9 @@ body {background-color:#f8faf9;background-image:none}
   background-color:#010101!important;background-image:none!important;color:#fff!important;
   --tw-shadow-color:#10131438;
 }
-/* Only purchase actions use green; quiz actions keep their current colors. */
-:is(button,a):is([data-testid="checkout"],[data-testid="sticky-checkout"],[data-testid="downsell-checkout"],[data-testid="top-cta"]) {
+/* Offer actions use green, including the two result-to-offer buttons. */
+:is(button,a):is([data-testid="checkout"],[data-testid="sticky-checkout"],[data-testid="downsell-checkout"],[data-testid="top-cta"]),
+[data-kind="result"] :is(button,a):is([data-testid="primary"],[data-testid="primary-2"]) {
   background-color:#16a34a!important;background-image:none!important;color:#fff!important;
   --tw-shadow-color:#16a34a38;
 }
