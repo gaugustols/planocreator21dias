@@ -108,12 +108,11 @@ body {background-color:#f8faf9;background-image:none}
   background-image:radial-gradient(ellipse at top,#25f4ee18,transparent 70%);
 }
 
-/* Both the current chapter and completed chapters stay cyan. */
-[role="progressbar"] .h-full {
+/* Active chapters are cyan; completed chapters keep their original green. */
+[role="progressbar"] .h-full:not(.bg-mint-500) {
   background-color:#25f4ee;
   background-image:linear-gradient(90deg,#25f4ee,#12c9c4);
 }
-[role="progressbar"] .text-mint-700 {color:#007d82}
 #ag stop {stop-color:#12c9c4}
 #ag stop:last-child {stop-color:#007d82}
 [data-testid="option"][aria-checked="true"] {border-color:#12c9c4;--tw-shadow-color:#007d8230}
