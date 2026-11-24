@@ -161,6 +161,33 @@ body {background-color:#f8faf9;background-image:none}
   100% {box-shadow:0 0 0 14px #01010100}
 }
 
+/* Mission notification: a white phone screen and readable black message. */
+[data-phase="notification"] .phone-h {
+  background-color:#010101;background-image:none;--tw-shadow-color:#10131440;
+}
+[data-phase="notification"] .phone-h>span {background-color:#010101}
+[data-phase="notification"] .phone-h>div {
+  background-color:#fff;
+}
+[data-phase="notification"] .phone-h [style*="radial-gradient"] {
+  background:#fff!important;
+}
+[data-phase="notification"] .phone-h [class*="text-white"],
+[data-phase="notification"] .phone-h>div>div:first-child {
+  color:#101314;
+}
+[data-phase="notification"] .phone-h svg [fill="#ffffff"] {fill:#101314}
+[data-phase="notification"] .phone-h svg [stroke="#ffffff"] {stroke:#101314}
+[data-phase="notification"] .phone-h>div>span:last-child {background-color:#101314}
+[data-kind="brief"][data-phase="notification"] [data-testid="primary"] {
+  background:#fff!important;color:#101314!important;
+  --tw-ring-color:#25f4ee;--tw-shadow-color:#10131430;
+}
+[data-phase="notification"] [data-testid="primary"] [class*="text-ink"] {color:#101314}
+[data-phase="notification"] [data-testid="primary"]>span>span:first-child {
+  background:#25f4ee!important;box-shadow:inset 0 -2px 0 #fe2c55;
+}
+
 </style>
 </head>
   <body>
