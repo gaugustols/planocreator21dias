@@ -54,6 +54,115 @@ svg:has(>defs>#bm)>circle[r="6"]{fill:#fe2c55}
 [data-brand-text]{color:#010101}
 .brand>.logo{background:#010101}.brand>.logo i{border-color:#25f4ee;box-shadow:1px 1px 0 #fe2c55}
 </style>
+<style data-shop-theme>
+/* Shop-only paint overrides. No dimensions, spacing, content or behavior changes. */
+:root {
+  --color-ink:#101314;
+  --color-ink-2:#35464a;
+  --color-muted:#607276;
+  --color-line:#dce8e8;
+  --color-cream:#f8faf9;
+  --color-blush:#e9fbfa;
+  --color-coral-50:#effdfc;
+  --color-coral-100:#d6faf7;
+  --color-coral-200:#a7f4ef;
+  --color-coral-300:#6dece5;
+  --color-coral-400:#25f4ee;
+  --color-coral-500:#12c9c4;
+  --color-coral-600:#007d82;
+  --color-coral-700:#006065;
+  --color-sun-50:#f0fdfc;
+  --color-sun-100:#dffbf8;
+  --color-sun-200:#b3f7f1;
+  --color-sun-300:#6dece5;
+  --color-sun-400:#25f4ee;
+  --color-sun-500:#12c9c4;
+  --color-sun-700:#006065;
+  --color-grape-100:#e6f6f7;
+  --shadow-card:0 1px 2px #1013140d,0 14px 34px -18px #1013143d;
+}
+body {background-color:#f8faf9;background-image:none}
+.hl {background-image:linear-gradient(transparent 56%,#25f4ee8c 56% 90%,transparent 90%)}
+.on-dark .hl {color:#25f4ee;background-image:none}
+.bg-dots {background-image:radial-gradient(#007d821c 1.2px,transparent 1.2px)}
+.shadow-pop {--tw-shadow-color:#10131438}
+#prezzo,#prezzo-subito {--tw-shadow-color:#10131435}
+:focus-visible {outline-color:#007d82}
+
+/* Repaint recovered, literal-color gradients without changing their geometry. */
+[class*="bg-[linear-gradient("][class*="#db2763"],
+[class*="bg-[linear-gradient("][class*="#f0386b"],
+[class*="bg-[linear-gradient("][class*="#ff6088"] {
+  background-image:linear-gradient(135deg,#006b70,#007d82);
+}
+[class*="bg-[linear-gradient("][class*="#2a0e2f"],
+[class*="bg-[linear-gradient("][class*="#40163f"] {
+  background-image:linear-gradient(150deg,#101314,#18383b);
+}
+[class*="bg-[linear-gradient("][class*="#fff1f1"],
+[class*="bg-[linear-gradient("][class*="#fff7f9"],
+[class*="bg-[radial-gradient("][class*="#ffe1e8"] {
+  background-image:linear-gradient(180deg,#f5fffe,#eafbf8);
+}
+[data-step="landing"]>[aria-hidden="true"] {
+  background-image:radial-gradient(ellipse at top,#25f4ee18,transparent 70%);
+}
+
+/* Both the current chapter and completed chapters stay cyan. */
+[role="progressbar"] .h-full {
+  background-color:#25f4ee;
+  background-image:linear-gradient(90deg,#25f4ee,#12c9c4);
+}
+[role="progressbar"] .text-mint-700 {color:#007d82}
+#ag stop {stop-color:#12c9c4}
+#ag stop:last-child {stop-color:#007d82}
+[data-testid="option"][aria-checked="true"] {border-color:#12c9c4;--tw-shadow-color:#007d8230}
+[data-testid="option"]>span[class*="bg-coral-"] {background-color:#010101}
+[data-testid="option"][aria-checked="true"]>span[class*="bg-coral-"] {background-color:#006065}
+
+/* Pink belongs to rewards and the small discount ticket. */
+:is([data-phase="delivery"],[data-kind="scratch"],[data-testid="scratch-sheet"]) {
+  --color-coral-50:#fff1f5;
+  --color-coral-100:#ffe1e9;
+  --color-coral-200:#ffc4d3;
+  --color-coral-300:#ff96b1;
+  --color-coral-400:#ff608c;
+  --color-coral-500:#fe2c55;
+  --color-coral-600:#d71d55;
+  --color-coral-700:#ae1744;
+}
+:is([data-phase="delivery"],[data-kind="scratch"],[data-testid="scratch-sheet"]) [class*="bg-[linear-gradient("][class*="#db2763"],
+[data-testid="price-coupon"] {
+  background-image:linear-gradient(110deg,#ed2b60,#b51b4f);
+}
+[data-phase="delivery"] [class*="border-dashed"][class*="bg-sun-"] {
+  background-color:#fff1f5;border-color:#fe2c55;
+}
+[data-testid="price-coupon"] [class*="text-sun-"] {color:#fff}
+
+/* Main actions are black; answer cards and disabled secondary choices stay light. */
+:is(button,a)[class*="bg-[linear-gradient(180deg,#f2457a"],
+:is(button,a)[data-testid="primary"]:not([aria-disabled="true"]),
+:is(button,a)[data-testid="checkout"],
+:is(button,a)[data-testid="sticky-checkout"],
+:is(button,a)[data-testid="top-cta"],
+:is(button,a)[data-testid="scratch-reveal"],
+:is(button,a)[data-testid="downsell-checkout"],
+:is(button,a)[data-testid="cookie-accept"],
+.btn {
+  background-color:#010101!important;background-image:none!important;color:#fff!important;
+  --tw-shadow-color:#10131438;
+}
+[data-testid="sticky-offer-bar"] {
+  border-bottom-color:#25f4ee!important;
+  box-shadow:0 -8px 30px #10131414!important;
+}
+@keyframes pulse-ring {
+  0% {box-shadow:0 0 0 0 #01010140}
+  100% {box-shadow:0 0 0 14px #01010100}
+}
+
+</style>
 </head>
   <body>
     <noscript><p style="margin: 0; padding: 14px 16px; background: #2a0e2f; color: #fff; font: 600 15px/1.4 system-ui, sans-serif; text-align: center">Para fazer o quiz, ative o JavaScript no seu navegador.</p></noscript>
