@@ -95,6 +95,18 @@ body {background-color:#f8faf9;background-image:none}
   background-color:#010101!important;background-image:none!important;color:#fff!important;
   --tw-shadow-color:#10131438;
 }
+/* Only purchase actions use green; quiz actions keep their current colors. */
+:is(button,a):is([data-testid="checkout"],[data-testid="sticky-checkout"],[data-testid="downsell-checkout"],[data-testid="top-cta"]) {
+  background-color:#16a34a!important;background-image:none!important;color:#fff!important;
+  --tw-shadow-color:#16a34a38;
+}
+:is([data-testid="checkout"],[data-testid="sticky-checkout"],[data-testid="downsell-checkout"],[data-testid="top-cta"]).animate-pulse-ring {
+  animation-name:shop-purchase-pulse;
+}
+@keyframes shop-purchase-pulse {
+  0% {box-shadow:0 0 0 0 #16a34a40}
+  100% {box-shadow:0 0 0 14px #16a34a00}
+}
 [data-testid="sticky-offer-bar"] {
   border-bottom-color:#25f4ee!important;
   box-shadow:0 -8px 30px #10131414!important;
