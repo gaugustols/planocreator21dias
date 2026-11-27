@@ -9,7 +9,7 @@ await import('./mount_tiktok_shop.mjs');
 for (const name of (await readdir('site/br/assets')).filter(name => /^index-.*\.js$/.test(name))) {
   const file = path.join('site/br/assets', name);
   const source = await readFile(file, 'utf8');
-  await writeFile(file, source.replaceAll('https://pay.hotmart.com/K108118162G?checkoutMode=10', 'https://pay.cakto.com.br/3c54edj_1376461'));
+  await writeFile(file, source.replaceAll('https://pay.hotmart.com/K108118162G?checkoutMode=10', 'https://pay.cakto.com.br/3c54edj_1376461').replace('function Ar(e,t){', 'function Ar(e,t){if(t===`z752258y`)return `https://pay.cakto.com.br/37tqm8i`;'));
 }
 await (await import('./lib/remove-br-tracking.mjs')).removeBrTracking();
 await mkdir('dist',{recursive:true});
