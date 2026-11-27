@@ -22,7 +22,6 @@ const original=await readFile('site/index.html','utf8');
 const html=original.replace('<head>','<head><base href="/">');
 await writeFile('dist/index.html',html);
 for(const installation of analyticsSetup.installations) {
-  if (/^\/br\/?$/.test(installation.path)) continue;
   const file=path.join('dist',installation.path.slice(1),'index.html');
   await writeFile(file,injectCollector(await readFile(file,'utf8'),await runtimeInstallation(installation)));
 }
