@@ -11,6 +11,8 @@
     const r=await fetch(url,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined});
     const result=await r.json();
     if(!r.ok){if(r.status===401&&action!=='login')showLogin('Sua sessão terminou. Entre novamente.');throw Error(result.error||'Não foi possível carregar os dados.');}
+    // Temporary workspace focus: keep other offers and history stored.
+    if(action==='offers'&&Array.isArray(result.offers))result.offers=result.offers.filter(offer=>offer.id==='eadac57a-f391-4956-9f72-681a7c3633e6');
     return result;
   }
   function toast(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3500);}
@@ -124,3 +126,4 @@
   window.GalPulseAdvanced.init({api,range,selected:()=>selected,tab:()=>tab,loadReport,error,toast});
   boot();
 })();
+
