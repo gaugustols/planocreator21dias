@@ -72,7 +72,7 @@
     var identifier=node.dataset.trackId||node.dataset.optionId||node.dataset.option||node.dataset.testid||node.id||node.tagName.toLowerCase()+'-'+Array.from(root.querySelectorAll('button,a,[role="button"]')).indexOf(node);
     if(!node.dataset.trackId&&!node.dataset.optionId&&!node.dataset.option&&node.dataset.testid){var same=Array.from(root.querySelectorAll('[data-testid="'+node.dataset.testid.replace(/[^a-zA-Z0-9_-]/g,'')+'"]'));identifier=(phase?phase+':':'')+identifier+(same.length>1?':'+same.indexOf(node):'');}
     var label=node.dataset.trackLabel||node.getAttribute('aria-label')||node.textContent;if(node.querySelector('input,textarea,[contenteditable]'))label=node.dataset.trackLabel||identifier;
-    var href=node.getAttribute('href')||'',checkout=node.hasAttribute('data-quiz-checkout')||/^https:\/\/pay\.(?:hotmart|cakto)\.com\//.test(href);
+    var href=node.getAttribute('href')||'',checkout=node.hasAttribute('data-quiz-checkout')||/^https:\/\/pay\.(?:hotmart\.com|cakto\.com\.br)\//.test(href);
     if(checkout&&!node.dataset.trackId){var parent=section||root;identifier=(section?(section.dataset.section||section.dataset.quizSection):'result')+':'+identifier+':'+Array.from(parent.querySelectorAll('a,button')).indexOf(node);}
     action('click',identifier,label);if(checkout)action('checkout',identifier,label);if(node.hasAttribute('data-quiz-complete'))action('complete');setTimeout(scan,0);
   },true);
